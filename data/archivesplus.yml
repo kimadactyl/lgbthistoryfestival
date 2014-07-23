@@ -1,0 +1,38 @@
+-
+  start: 9.00
+  title: "Tea, Coffee, Mingling"
+  type: other
+-
+  start: 10.00
+  title: Community Paper 1
+  speaker: Speaker 1
+  type: talk
+-
+  start: 10.30
+  title: Why I am so fabulous?
+  speaker: Famous Queer 1
+  type: talk
+-
+  start: 11.00
+  title: My book is amazing!
+  speaker: Academic Queer 1
+  type: talk  
+-
+  start: 11.30
+  title: Why I am so fabulous?
+  speaker: Famous Queer 2
+  type: talk
+-
+  start: 12.00
+  title: My book is amazing
+  speaker: Academic Queer 1
+  type: talk
+-
+  start: 12.30
+  title: Hulme Fancy Dress Ball
+  speaker: Sylvia Jeff
+  type: keynote
+-
+  start: 13.30
+  title: Lunch
+  type: other

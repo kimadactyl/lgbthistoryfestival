@@ -1,0 +1,88 @@
+<!doctype html>
+<html class="no-js" lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- Use title if it's in the page YAML frontmatter -->
+  <title><%= data.page.title || "The First National Festival of LGBT History" %></title>
+
+  <link href='http://fonts.googleapis.com/css?family=Nunito:300,400,700' rel='stylesheet' type='text/css'>
+  <%= stylesheet_link_tag "app", "style" %>
+  <%= javascript_include_tag "modernizr" %></head>
+
+<body class="<%= page_classes %>
+  ">
+  <div class="sticky">
+    <nav class="top-bar" data-topbar data-options="sticky_on: large">
+      <ul class="title-area">
+        <li class="name">
+          <h1>
+            <a href="/">1st National Festival of LGBT History</a>
+          </h1>
+        </li>
+        <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
+        <li class="toggle-topbar menu-icon">
+          <a href="#">
+            <span>Menu</span>
+          </a>
+        </li>
+      </ul>
+
+      <section class="top-bar-section">
+        <!-- Left Nav Section -->
+        <ul class="left">
+          <li class="divider"></li>
+          <li class="has-dropdown">
+            <a href="programme.html">Programme</a>
+            <ul class="dropdown">
+              <li>
+                <a href="program.html#hub">Hub</a>
+                <li>
+                  <a href="program.html#academic">Academic</a>
+                  <li>
+                    <a href="program.html#films">Films</a>
+                  </ul>
+
+                </li>
+                <li class="divider"></li>
+                <li>
+                  <a href="conference.html">Conference</a>
+                </li>
+                <li class="divider"></li>
+                <li>
+                  <a href="contribute.html">Contribute!</a>
+                </li>
+                <li class="divider"></li>
+                <li>
+                  <a href="#">News</a>
+                </li>
+                <li class="divider"></li>
+                <li>
+                  <a href="#">About Us</a>
+                </li>
+                <li class="divider"></li>
+                <li>
+                  <a href="#">Contact</a>
+                </li>
+                <li class="divider"></li>
+              </ul>
+            </section>
+          </nav>
+        </div>
+
+        <section role="main" id="main">
+          <section role="main" id="s1" class="scroll-container">
+            <div class="row">
+              <h1>The First National Festival of LGBT History</h1>
+              <h3> <em>12th - 17th February 2015 &ndash; Hosted by the City of Manchester</em> 
+              </h3>
+            </div>
+          </section>
+
+          <%= yield %></section>
+
+        <section role="footer" id="footer"></section>
+
+        <%= javascript_include_tag  "all" %></section>
+</body>
+    </html>

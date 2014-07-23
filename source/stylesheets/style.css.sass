@@ -1,0 +1,63 @@
+$red: #ED1C24
+$orange: #F7941E
+$yellow: #FFF200
+$green: #8CC63F
+$blue: #0F75BC
+$violet: #92278F
+
+
+// Matching font from LGBT history month website
+h1, h2, h3, h4
+  font-family: "Nunito","Helvetica Neue",Helvetica,sans-serif
+
+// Too closed in
+section#main section
+  padding-top: 2em
+  padding-bottom: 1em
+
+// Background colours for stripy sections
+section#s1
+  background-color: lighten($red, 20%)
+section#s2
+  background-color: lighten($orange, 20%)
+section#s3
+  background-color: lighten($yellow, 20%)
+section#s4
+  background-color: lighten($green, 20%)
+section#s5
+  background-color: lighten($blue, 20%)
+section#s6
+  background-color: lighten($violet, 20%)
+
+
+// Program blocks
+
+#programme
+  ul
+    margin: 0
+    padding: 0
+    background-color: rgba(100,100,100,0.1)
+  li
+    list-style-type: none
+    padding: 1em 0.25em
+    border-bottom: 2px dotted white
+    &:last-child
+      border-bottom: none
+    h5
+      margin-top: 0
+      font-weight: bold
+      .date
+        color: #444
+        font-weight: normal
+        font-size: 80%
+    p:last-child
+      margin-bottom: 0
+    &.talk
+      background-color: rgba(128,0,0,0.2)
+    &.keynote
+      background-color: rgba(0,0,128,0.4)
+// Films
+
+span.details
+  font-weight: 300
+  font-size: 50%

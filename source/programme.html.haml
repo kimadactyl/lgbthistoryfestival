@@ -1,0 +1,71 @@
+---
+title: Programme of Events
+---
+
+#programme
+  %section#s2
+    .row
+      .large-12.columns
+        %h2 Friday
+      .large-4.columns.large-offset-4
+        %h3 Conference
+        %ul.hub
+          - data.archivesplus.each do |event|
+            %li
+              = event.title
+      .large-4.columns
+        %h3 Films
+        %ul.hub
+          - data.archivesplus.each do |event|
+            %li
+              = event.title       
+
+  %section#s3
+    .row
+      .large-12.columns
+        %h2 Saturday
+      .large-4.columns
+        %h3 Archives+
+        %ul.hub
+          - data.archivesplus.each do |event|
+            %li{:class => event.type}
+              %h6
+                %span.date= event.start
+                = event.title
+              %p
+                %strong= event.speaker
+      .large-4.columns
+        %h3 Conference
+        %ul.hub
+          - data.archivesplus.each do |event|
+            %li
+              = event.title
+      .large-4.columns
+        %h3 Films
+        %ul.hub
+          - data.archivesplus.each do |event|
+            %li
+              = event.title            
+
+  %section#s4
+    .row
+      .large-12.columns
+        %h2 Sunday
+      .large-4.columns
+        %h3 PHM
+        %ul.hub
+          - data.archivesplus.each do |event|
+            %li
+              = event.title
+      .large-4.columns
+        %h3 Conference
+        %ul.hub
+          - data.archivesplus.each do |event|
+            %li
+              = event.title
+      .large-4.columns
+        %h3 Films
+        %ul.hub
+          - data.archivesplus.each do |event|
+            %li
+              = event.title                   

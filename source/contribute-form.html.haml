@@ -1,0 +1,71 @@
+---
+title: Contribution Form
+---
+
+%section#s2
+  .row
+    %form
+      .large-6.columns
+        %h3 About you
+        %label 
+          %h5 Name
+          %input{:type => "text"}
+        %label 
+          %h5 Email
+          %input{:type => "text"}    
+        %label 
+          %h5 Telephone
+          %input{:type => "text"}                     
+
+        %label 
+          %h5 Address
+          %textarea{:rows => 6}     
+      .large-6.columns     
+        %h3 About your project
+
+        %label 
+          %h5 What will it be called?
+          %input{:type => "text"}
+
+        %label
+          %h5 Does it have a key event, or key figure?
+          %input{:type => "text"}
+
+        %label
+          %h5 What period does it cover?
+          %input{:type => "text", :placeholder => "If you're not sure, estimate to the nearest decade."}          
+
+        %label
+          %h5 What format will it be?
+        - ["Presentation", "Film", "Artwork", "Other"].each do |what|
+          %input{:type => "radio", :name => "type", :id => what, :value => what} 
+            %label{:for => what, :placeholder => "A temporary title is fine!"} #{what}
+
+        %label
+          %h5 Which of these topics will it cover?
+        - ["Lesbian", "Gay", "Bisexual", "Trans*", "Straight", "Reproductive", "Celibacy", "Medical", "Family"].each do |topic|
+          %input{:type => "checkbox", :name => "topic", :id => topic, :value => topic} 
+          %label{:for => topic} #{topic}
+
+%section#s3
+  .row
+    .large-12.columns
+      %label
+        %h3 Tell us about your talk!
+        %textarea{:rows => 7, :placeholder => "Aim for around 250-500 words. Remember to include something about how it might have changed attitudes to gender or sexual diversity."}
+
+      %label
+        %h5 Do you have any access requirements?
+        %textarea{:rows => 3}
+
+      %label
+        %h5 Is there anything else you want to know?
+        %textarea{:rows => 3}          
+
+%section#s4
+
+  .row
+    .large-12.columns
+      %input.large.button.expand.round{:type => "submit"}
+    %p
+      We will get back to you
