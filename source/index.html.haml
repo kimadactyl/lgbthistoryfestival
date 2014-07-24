@@ -2,45 +2,82 @@
 title: The First National LGBT History Festival
 ---
 
-%section#s2
-  .row{"data-equalizer" => true}
-    .large-7.columns{"data-equalizer-watch" => true}
-      %h3 What's this?
-      %p
-        <a href="http://lgbthistorymonth.org.uk/">LGBT History Month</a> is in its 10th year, is celebrating with the <em>First National Festival of LGBT History</em>. The Festival has two main components: "What Is & to Do LGBT History?", an academic conference hosted at the Lesbian & Gay Foundation, and a main festival hosted at Central Library, The People's History Museum, and other prestigious venues around Manchester City Center.
-      %p
-        %a.small.round.button{href: "#"} Find out more about the festival &hellip;
+%section#hero
+  %ul{"data-orbit" => true, "data-equalizer" => true}
+    %li.intro.slide{"data-equalizer-watch" => true}
+      .row
+        .large-8.columns
+          %h3 What's this?
+          %p
+            <a href="http://lgbthistorymonth.org.uk/">LGBT History Month</a> is in its 10th year, is celebrating with the <em>First National Festival of LGBT History</em>. The Festival has two main components: "What Is & to Do LGBT History?", an academic conference hosted at the Lesbian & Gay Foundation, and a main festival hosted at Central Library, The People's History Museum, and other prestigious venues around Manchester City Center.class_selector
+          = link_to "Find out more about the festival &hellip;", '/about-us.html', :class => "large round button"      
+      .orbit-caption
+        Map of Hulme Temperance Hall, courtesy 
+        %a{:href => "https://www.flickr.com/people/manchesterarchiveplus/"} Manchester Archives+ on Flickr
+    %li.who.slide{"data-equalizer-watch" => true}
+      .row
+        .large-8.columns
+          %h3 LGBT History Month
+          %p
+            Lesbian, Gay, Bisexual and Trans History Month celebrates the lives and achievements of the LGBT community. LGBT HM is celebrated in February in the UK but our work to challenge homophobia, biphobia and transphobia continues throughout the year. Education is especially important to achieving this so much of our work focuses on schools.
+          = link_to "Find out more about the organisers &hellip;", '/about-us.html', :class => "large round button" 
+      .orbit-caption
+        %a{:href => "https://flic.kr/p/fDDwMW"} Never Going Underground flyer
+        , courtesy 
+        %a{:href => "https://www.flickr.com/people/manchesterarchiveplus/"} Manchester Archives+ on Flickr
 
-    .large-5.columns{"data-equalizer-watch" => true}
+    %li.contribute.slide{"data-equalizer-watch" => true}
+      .row         
+        .large-8.columns
+          %h3 Contribute!
+          %p
+            We are pleased to invite members of the public, charities, NGOs and other LGBT and history organisations, to submit proposals for talks, films, and artworks, based on archival material. We seek to showcase and celebrate endeavours to illuminate the UK's LGBT past, and help write a richer and more inclusive history of Britain.
+          = link_to "Find out more about submitting your ideas to the festival &hellip;", '/contribute.html', :class => "large round button" 
+      .orbit-caption
+        %a{:href => "https://flic.kr/p/dSJQnN"} Mardis Gras 1999
+        , courtesy 
+        %a{:href => "https://www.flickr.com/people/manchesterarchiveplus/"} Manchester Archives+ on Flickr   
+
+
+%section#s3
+  .row
+    .large-6.columns
+      %h5 Guest Blog
+      %h3 Prof. Charles Upchurch
+      %p
+        Charles Upchurch received his Ph.D. in modern British history from Rutgers University (2003). Professor Upchurch’s research focuses on nineteenth-century British gender and social history, and his teaching fields include modern Britain, the British Empire, modern Europe, gender history, and the history of sexuality. 
+      %p
+        His book, Before Wilde: Sex Between Men in Britain’s Age of Reform (University of California Press, 2009), explores the ways in which class influenced the interpretation of same-sex desire in the period when the British state first began to police sex between men on a regular basis.
+      %p
+        Charles will be speaking at the academic conference at 6pm on Friday, and Archives+ at 4pm on Saturday.
+          
+    .large-6.columns
       %h3 Call for Contributions
       %p
         We are pleased to invite members of the public, charities, NGOs and other LGBT and history organisations, to submit proposals for talks, films, and artworks, based on archival material. We seek to showcase and celebrate endeavours to illuminate the UK's LGBT past, and help write a richer and more inclusive history of Britain.
-      %p
-        %a.small.round.button{href: "#"} Find out more submitting your idea to the festival &hellip;
+      = link_to "Find out more about contributing to the festival &hellip;", '/contribute.html', :class => "small round button" 
 
       %h4 Academic Contributors
       %p
         The call for academic papers is also still open.
-      %p
-        %a.small.round.button{:href => "#"} Academic call for papers &hellip;
+      = link_to "Academic call for papers &hellip;", '/conference.html', :class => "small round button"
 
-
-%section#s3
+%section#s4
   .row{"data-equalizer" => true}
     .large-4.columns.text-center
       %h4 Main Festival
       %p Want to know more about how gay people throught about themselves in the 1880s? Fancy talking to someone about being trans in the 1960s? Curious about what could be hidden in some of these archive boxes?
-      %a.button.round.small Find out more about the main festival
+      = link_to "Find out more about the main festival &hellip;", "/about-us.html", :class => "small round button"
     .large-4.columns.text-center
       %h4 Films 
       %p We are very excited to show a German retrospective to showcase the importance that german film had when it comes to exploring the changing attitudes to sex and gender diversity. 
-      %a.button.round.small Find out more about the film schedule
+      = link_to "See the film schedule &hellip;", "/film-programme.html", :class => "small round button"
     .large-4.columns.text-center
       %h4 Academic
       %p World-class scholars will present their reserach and discuss historical methods for studying gender and sexual diversity in the past. 
-      %a.button.round.small Find out more about the conference!
+      = link_to "Find out more about the conference &hellip;", "/conference.html", :class => "small round button"
 
-%section#s4
+%section#s5
   .row
     .large-12.columns
       %h3 Some of our speakers  

@@ -13,7 +13,7 @@
 <body class="<%= page_classes %>
   ">
   <div class="sticky">
-    <nav class="top-bar" data-topbar data-options="sticky_on: large">
+    <nav role="navigation" class="top-bar" data-topbar data-options="sticky_on: large">
       <ul class="title-area">
         <li class="name">
           <h1>
@@ -33,56 +33,76 @@
         <ul class="left">
           <li class="divider"></li>
           <li class="has-dropdown">
-            <a href="programme.html">Programme</a>
+            <%= link_to 'Programme', '/programme.html' %>
             <ul class="dropdown">
               <li>
-                <a href="program.html#hub">Hub</a>
-                <li>
-                  <a href="program.html#academic">Academic</a>
-                  <li>
-                    <a href="program.html#films">Films</a>
-                  </ul>
+                <%= link_to 'Overview', '/programme.html' %>
+              </li>            
+              <li>
+                <%= link_to 'Hub', '/hub-programme.html' %>
+              </li>
+              <li>
+                <%= link_to 'Academic', '/academic-programme.html' %>
+              </li>
+              <li>
+                <%= link_to 'Films', '/film-programme.html' %>
+              </li>
+            </ul>
 
-                </li>
-                <li class="divider"></li>
-                <li>
-                  <a href="conference.html">Conference</a>
-                </li>
-                <li class="divider"></li>
-                <li>
-                  <a href="contribute.html">Contribute!</a>
-                </li>
-                <li class="divider"></li>
-                <li>
-                  <a href="#">News</a>
-                </li>
-                <li class="divider"></li>
-                <li>
-                  <a href="#">About Us</a>
-                </li>
-                <li class="divider"></li>
-                <li>
-                  <a href="#">Contact</a>
-                </li>
-                <li class="divider"></li>
-              </ul>
-            </section>
-          </nav>
-        </div>
+          </li>
+          <li class="divider"></li>
+          <li>
+            <%= link_to 'Blog', '/blog.html' %></li>
+          <li class="divider"></li>
+          <li>
+            <%= link_to 'Contribute', '/contribute.html' %>
+          </li>
+          <li class="divider"></li>
+          <li>
+            <%= link_to 'Conference', '/conference.html' %>
+          </li>
+          <li class="divider"></li>
+          <li>
+            <%= link_to 'About Us', '/about-us.html' %>
+          </li>
+          <li class="divider"></li>
+          <li>
+            <%= link_to 'Contact', '/contact.html' %>
+          </li>
+          <li class="divider"></li>
+        </ul>
+      </section>
+    </nav>
+  </div>
 
-        <section role="main" id="main">
-          <section role="main" id="s1" class="scroll-container">
-            <div class="row">
-              <h1>The First National Festival of LGBT History</h1>
-              <h3> <em>12th - 17th February 2015 &ndash; Hosted by the City of Manchester</em> 
-              </h3>
-            </div>
-          </section>
+  <section role="main" id="main">
+    <section role="main" id="s1" class="scroll-container">
+      <div class="row">
+        <h1>The First National Festival of LGBT History</h1>
+        <h3> <em>12th - 17th February 2015 &ndash; Hosted by the City of Manchester</em> 
+        </h3>
+      </div>
+    </section>
 
-          <%= yield %></section>
+    <%= yield %></section>
 
-        <section role="footer" id="footer"></section>
+  <section role="footer" id="footer">
+    <div class="row">
+      <div class="large-12 column">
+        <ul>
+          <% data.partners.each do |partner| %>
+          <li class="large-3 columns">
+            <% link_to partner.url do %>
+            <%= image_tag partner.logo %>
+            <% end %>
+          </li>
+          <% end %>
+        </ul>
+      </div>
 
-        <%= javascript_include_tag  "all" %></section>
+    </div>
+  </section>
+
+  <%= javascript_include_tag  "all" %></section>
 </body>
-    </html>
+</html>

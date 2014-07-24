@@ -1,38 +1,73 @@
 -
   start: 9.00
-  title: "Tea, Coffee, Mingling"
+  title: "Registration, Tea, Coffee, Mingling"
   type: other
 -
   start: 10.00
-  title: Community Paper 1
-  speaker: Speaker 1
+  title: Being Gay in Manchester in a Mill in 1920
+  speaker: John Smith
   type: talk
 -
   start: 10.30
-  title: Why I am so fabulous?
-  speaker: Famous Queer 1
+  title: '"But she was my friend!" - Involuntary sectioning of women in 1950s Manchester'
+  speaker: Paul Adams
   type: talk
 -
   start: 11.00
-  title: My book is amazing!
-  speaker: Academic Queer 1
+  title: Police Raid on a Hulme Fancy Dress Ball in 1880
+  speaker: Sylvia Kölling
   type: talk  
 -
   start: 11.30
-  title: Why I am so fabulous?
-  speaker: Famous Queer 2
+  title: Lesbianism in the Suffragette movement
+  speaker: Sarah Logan
   type: talk
 -
   start: 12.00
-  title: My book is amazing
-  speaker: Academic Queer 1
+  title: Bisexual erasure in the biographies of the Bloomsbury Group 1912-1918
+  speaker: Maria Smith
   type: talk
 -
   start: 12.30
-  title: Hulme Fancy Dress Ball
-  speaker: Sylvia Jeff
-  type: keynote
+  title: Female Friendships in the 1890 -- Manchester's Mill girls
+  speaker: James Jones
+  type: talk
 -
   start: 13.30
   title: Lunch
   type: other
+-
+  start: 14.00
+  title: Transgender realities in Manchester in the 1970s
+  speaker: Anna Smith
+  type: talk
+-
+  start: 14.30
+  title: Allan Horsfall and the formation of the North West Campaign for Homosexual Law Reform
+  speaker: Sam Thomas
+  type: talk
+-
+  start: 15.00
+  title: '"But I have always been like this!" - Medical constructions of sexuality in 1950s Britain'
+  speaker: Richard Anderson
+  type: talk
+-
+  start: 15.30
+  title: Newspaper coverage of the formation of Manchester's Gay Village in the 1970s
+  speaker: Tom Jones
+  type: talk
+-
+  start: 16.00
+  title: "Women Take Over: The History of Flesh"
+  speaker: Phillipa Nash
+  type: talk
+-
+  start: 16.30
+  title: Personal Ads in Gay Times in the 1970s and what they tell us about being gay
+  speaker: Sally McLane
+  type: talk
+-
+  start: 17.00
+  title: Lesbian Sex Wars in the 1980s
+  speaker: Sam Stone
+  type: keynote
