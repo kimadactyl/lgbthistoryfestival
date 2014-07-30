@@ -6,3 +6,17 @@ $(document).foundation({
     animation_speed: 500,
   }
 });
+
+$("form#contribute").validate({
+    errorClass: 'error',
+    rules: {
+      about: {
+          required: true,
+          minlength: 50
+      },
+      email: {
+        required: true,
+        email: true
+      }
+    }
+});

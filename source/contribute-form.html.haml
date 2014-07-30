@@ -2,38 +2,39 @@
 title: Contribution Form
 ---
 
-%section#s2
-  .row
-    %form
+%form#contribute{:action => "http://getsimpleform.com/messages?form_api_token=f36e5b63ea85702440e00ea54e63c052", :method => "post"}
+  %section#s2
+    .row
+      %input{:type => "hidden", :name => "redirect_to", :value => "http://localhost:4567/thankyou.html"}
       .large-6.columns
         %h3 About you
         %label 
           %h5 Name
-          %input{:type => "text"}
+          %input{:type => "text", :name => "name", :required => true}
         %label 
           %h5 Email
-          %input{:type => "text"}    
+          %input{:type => "text", :name => "email", :required => true}    
         %label 
           %h5 Telephone
-          %input{:type => "text"}                     
+          %input{:type => "text", :name => "telephone"}                     
 
         %label 
           %h5 Address
-          %textarea{:rows => 6}     
+          %textarea{:rows => 6, :name => "address"}
       .large-6.columns     
         %h3 About your project
 
         %label 
           %h5 What will it be called?
-          %input{:type => "text"}
+          %input{:type => "text", :name => "title", :required => true}
 
         %label
           %h5 Does it have a key event, or key figure?
-          %input{:type => "text"}
+          %input{:type => "text", :name => "keyfigure"}
 
         %label
           %h5 What period does it cover?
-          %input{:type => "text", :placeholder => "If you're not sure, estimate to the nearest decade."}          
+          %input{:type => "text", :placeholder => "If you're not sure, estimate to the nearest decade.", :name => "period"}          
 
         %label
           %h5 What format will it be?
@@ -47,25 +48,25 @@ title: Contribution Form
           %input{:type => "checkbox", :name => "topic", :id => topic, :value => topic} 
           %label{:for => topic} #{topic}
 
-%section#s3
-  .row
-    .large-12.columns
-      %label
-        %h3 Tell us about your talk!
-        %textarea{:rows => 7, :placeholder => "Aim for around 250-500 words. Remember to include something about how it might have changed attitudes to gender or sexual diversity."}
+  %section#s3
+    .row
+      .large-12.columns
+        %label
+          %h3 Tell us about your talk!
+          %textarea{:rows => 7, :placeholder => "Aim for around 250-500 words. Remember to include something about how it might have changed attitudes to gender or sexual diversity.", :name => "about", :required => true }
 
-      %label
-        %h5 Do you have any access requirements?
-        %textarea{:rows => 3}
+        %label
+          %h5 Do you have any access requirements?
+          %textarea{:rows => 3, :name => "access"}
 
-      %label
-        %h5 Is there anything else you want to know?
-        %textarea{:rows => 3}          
+        %%label
+          %h5 Is there anything else you want to know?
+          %textarea{:rows => 3, :name => "other"}          
 
-%section#s4
+  %section#s4
 
-  .row
-    .large-12.columns
-      %input.large.button.expand.round{:type => "submit"}
-    %p
-      We will get back to you [when?]
+    .row
+      .large-12.columns
+        %input.large.button.expand.round{:type => "submit"}
+      %p
+        We will get back to you [when?]

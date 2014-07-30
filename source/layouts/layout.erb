@@ -7,19 +7,38 @@
   <title><%= data.page.title || "The First National Festival of LGBT History" %></title>
 
   <link href='http://fonts.googleapis.com/css?family=Nunito:300,400,700' rel='stylesheet' type='text/css'>
+
+  <script type="text/javascript" src="//use.typekit.net/cou1fvf.js"></script>
+  <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+
   <%= stylesheet_link_tag "app", "style" %>
   <%= javascript_include_tag "modernizr" %></head>
 
-<body class="<%= page_classes %>
-  ">
-  <div class="sticky">
-    <nav role="navigation" class="top-bar" data-topbar data-options="sticky_on: large">
-      <ul class="title-area">
-        <li class="name">
-          <h1>
-            <a href="/">1st National Festival of LGBT History</a>
-          </h1>
-        </li>
+<body class="<%= page_classes %>">
+  
+  <section id="branding">
+    <div class="row">
+      <div class="column large-12">
+        <% link_to "index.html" do %>
+        <h1>
+          <%= image_tag "logo.png", :alt => "The First National Festival of LGBT History" %>
+        </h1>
+        <% end %>
+
+      </div>
+    </div>
+  </section>
+  <section id="date">
+    <div class="row">
+      <div class="column large-12">
+        <h5>St Valentine's Weekend 14th &amp; 15th February 2015</h5>
+      </div>
+    </div>
+</section>
+
+  <div class="sticky contain-to-grid" id="nav-container">
+    <nav role="navigation" id="main-nav" class="top-bar" data-topbar data-options="sticky_on: large">
+      <ul class="title-area"> 
         <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
         <li class="toggle-topbar menu-icon">
           <a href="#">
@@ -29,62 +48,25 @@
       </ul>
 
       <section class="top-bar-section">
-        <!-- Left Nav Section -->
-        <ul class="left">
-          <li class="divider"></li>
-          <li class="has-dropdown">
-            <%= link_to 'Programme', '/programme.html' %>
-            <ul class="dropdown">
-              <li>
-                <%= link_to 'Overview', '/programme.html' %>
-              </li>            
-              <li>
-                <%= link_to 'Hub', '/hub-programme.html' %>
-              </li>
-              <li>
-                <%= link_to 'Academic', '/academic-programme.html' %>
-              </li>
-              <li>
-                <%= link_to 'Films', '/film-programme.html' %>
-              </li>
-            </ul>
-
-          </li>
-          <li class="divider"></li>
+        <ul class="center">
           <li>
-            <%= link_to 'Blog', '/blog.html' %></li>
-          <li class="divider"></li>
+            <%= link_to 'Programme', '/programme.html' %></li>
           <li>
-            <%= link_to 'Contribute', '/contribute.html' %>
-          </li>
-          <li class="divider"></li>
+            <%= link_to 'Contribute', '/contribute.html' %></li>
+          <li class="conference">
+            <%= link_to 'Conference', '/conference.html' %></li>
           <li>
-            <%= link_to 'Conference', '/conference.html' %>
-          </li>
-          <li class="divider"></li>
+            <%= link_to 'About Us', '/about-us.html' %></li>
           <li>
-            <%= link_to 'About Us', '/about-us.html' %>
-          </li>
-          <li class="divider"></li>
-          <li>
-            <%= link_to 'Contact', '/contact.html' %>
-          </li>
-          <li class="divider"></li>
+            <%= link_to 'Contact', '/contact.html' %></li>
         </ul>
       </section>
     </nav>
   </div>
 
-  <section role="main" id="main">
-    <section role="main" id="s1" class="scroll-container">
-      <div class="row">
-        <h1>The First National Festival of LGBT History</h1>
-        <h3> <em>12th - 17th February 2015 &ndash; Hosted by the City of Manchester</em> 
-        </h3>
-      </div>
-    </section>
-
-    <%= yield %></section>
+  <section role="content" id="main">
+    <%= yield %>
+  </section>
 
   <section role="footer" id="footer">
     <div class="row">
@@ -94,13 +76,30 @@
           <li class="large-3 columns">
             <% link_to partner.url do %>
             <%= image_tag partner.logo %>
-            <% end %>
-          </li>
-          <% end %>
-        </ul>
+            <% end %></li>
+          <% end %></ul>
       </div>
-
     </div>
+    <hr/>
+    <div class="row">
+      <div class="columns large-6">
+       <h6>&copy; 2014 LGBT History Festival</h6>
+       <p>Part of School's OUT, Registered Charity #1156352 in England and Wales.</p>
+      </div>
+      <div class="columns large-6">
+        <h6>
+          The First National Festival of LGBT History is part of
+          <img src="http://placekitten.com/200/200" alt="LGBT History Month 2015">
+        </h6>
+      </div>      
+    </div>
+  </section>
+
+  <section role="credits" id="credits" class="pink">
+    <div class="row">
+    <div class="column large-12">
+      <p>LGBT History Festival website created with love by <a href="http://alliscalm.net">Kim Foale</a>, logo &amp; design by <a href="http://studiosquid.co.uk/">Studio Squid</a>.</p>
+    </p>
   </section>
 
   <%= javascript_include_tag  "all" %></section>

@@ -2,60 +2,64 @@
 title: Programme of Events
 ---
 
-#programme
-  %section#s2
-    .row
-      .large-12.columns
-        %h2 Friday
-      .large-8.columns
-        %li
-          %h3 Civic Launch at Manchester Town Hall
-          %p Professor Charles Upchurch will deliver his ground-braking reserach on the first LGBT civil rights movement in the USA (?) in 1820. Mingle with the gerat and the good. Lord Mayor and Councillors in attendence.
-      .large-4.columns
-        %h3 Film
-        = partial('film-summary', :locals => { :day => "friday" })
+%section#s2
+  -# .row
+  -#   .large-12.columns
+  -#     %div{"data-magellan-expedition" => "fixed"}
+  -#       %dl.sub-nav
+  -#         %dd{"data-magellan-arrival" => "hub"}
+  -#           %a{:href => "#hub"} Hub
+  .row
+    .large-8.columns
+      %h1 Festival Program Outline
+      %p
+        Manchester is hosting the first ever national festival focused on exploring, exposing, and discussing lesbian, gay, bisexual, and trans (LGBT) history. The Festival is over five days, and will be at Central Library's Archives+, the People's History Museum, and many venues throughout Manchester. We will be showcasing new popular research into LGBT history, and celebrate LGBT representation in film and comics with a German film retrospective and an open discussion about comic books. It is a sister event to The 2nd What Is & How To Do LGBT History Research Conference, a free academic conference on LGBT history.
+      %p
+        More details about all the events will be released over the next few months!
+    .large-4.columns
+      %h2 Conference
+      %p
+        Find out more about the Conference
 
+%section#s3
+  .row
+    .large-12.columns
+      %a{:name => "#hub"}
+      %h2{"data-magellan-destination" => "hub"} Festival Hub
+  .row
+    .large-6.columns
+      %h3 Saturday
+      %p
+        On Saturday we are excited to take over part of Manchester Central Library and Archives+ to present new research by members of the public and historians. We will also be exploring the personal histories of some illustrious Talking Heads. For those who have not been, we are please to announce that the Archive will be open so that you can have a look at some of the collections. 
+      %p
+        Experienced volunteers will talk about important collections and artefacts and why they have worked with these particular documents. We are also proud to make this event as accessible as possible and there will be a family friendly section of Central library where diversity and history lessons will be given by experienced teachers for Key Stages 1 &amp; 2. There will also be story time for younger children and teenagers. All books are available in the library. 
+    .large-6.columns
+      %h3 Sunday
+      %p
+        On Sunday we are thrilled to announce that we are talking over the National People's History Museum where we will explore some of the institutional history LGBT people experienced in the last 50 years. 
+ 
+%section#s4
+  .row
+    .large-12.columns
+      %h2 Film Festival
+  .row
+    .large-6.columns
+      %h3 Film Block 1
+    .large-6.columns
+      %h3 Film Block 2
 
-  %section#s3
-    .row
-      .large-12.columns
-        %h2 Saturday
-      .large-4.columns
-        %h3 Archives+
-        %ul.hub
-          - data.archivesplus.each do |event|
-            %li{:class => event.type}
-              %h6
-                %span.date= event.start
-                = event.title
-              %p
-                %strong= event.speaker
-      .large-4.columns
-        %h3 Conference
-        %ul.hub
-          - data.archivesplus.each do |event|
-            %li
-              = event.title
-      .large-4.columns
-        %h3 Film
-        = partial('film-summary', :locals => { :day => "saturday" })       
-
-  %section#s4
-    .row
-      .large-12.columns
-        %h2 Sunday
-      .large-4.columns
-        %h3 PHM
-        %ul.hub
-          - data.archivesplus.each do |event|
-            %li
-              = event.title
-      .large-4.columns
-        %h3 Conference
-        %ul.hub
-          - data.archivesplus.each do |event|
-            %li
-              = event.title
-      .large-4.columns
-        %h3 Film
-        = partial('film-summary', :locals => { :day => "sunday" })
+%section#s5
+  .row
+    .large-12.columns
+      %h2 Other Events
+      %p There will also be a range of other events taking place over the city.
+  .row
+    .large-4.columns
+      %h3 Theater
+      %p A new play, based on the events of an infamous Fancy Dress Ball raid will be performed.
+    .large-4.columns
+      %h3 Walks
+      %p There will be walks throughout the city, uncovering Manchester's hidden LGBT past.
+    .large-4.columns
+      %h3 Other Suprises
+      %p More to be uncovered as we go on!

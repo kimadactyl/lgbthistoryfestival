@@ -5,34 +5,66 @@ $green: #8CC63F
 $blue: #0F75BC
 $violet: #92278F
 $dark-grey: rgb(34,34,34  )
+$pink: #EB6D98
 
 
 // Matching font from LGBT history month website
-h1, h2, h3, h4
-  font-family: "Nunito","Helvetica Neue",Helvetica,sans-serif
+h1, h2, h3, h4, h5
+  font-family: "Proxima-Nova", Helvetica, Arial, sans-serif
+  text-transform: uppercase
+h1, h2, h3, h4, h5
+  font-weight: bold
 
-body
-  background-color: $dark-grey
+// All pink sections
+section.pink
+  background-color: $pink
+  h1, h2, h3, h4, h5
+    color: white
 
-// Too closed in
+// Buttons
+// .button
+// &:after
+//   content: ' '
+//   height: 0
+//   position: absolute
+//   width: 0
+//   top: 0
+//   right: -1.5em
+//   border-style: solid
+//   border-width: 1.5em 0 1.5em 1.5em
+//   border-color: transparent transparent transparent $pink
+
+// Branding
+section#branding
+  padding: 1.5em 0
+  text-align: center
+  background-color: $pink
+section#date
+  background-color: black
+  text-transform: uppercase
+  text-align: center
+  h5
+    font-weight: normal
+    color: $pink
+    font-size: 110%
+    padding: 0.3em 0
+
+// Navigation
+nav#main-nav
+  text-align: center
+  li
+    margin: 0 2em
+  a
+    text-transform: uppercase
+    font-weight: bold
+
+section.top-bar-section
+  display: inline-block
+
+// Padding on copy sections
 section#main section
   padding-top: 2em
   padding-bottom: 1em
-
-// Background colours for stripy sections
-section#s1
-  background-color: lighten($red, 20%)
-section#s2
-  background-color: lighten($orange, 20%)
-section#s3
-  background-color: lighten($yellow, 20%)
-section#s4
-  background-color: lighten($green, 20%)
-section#s5
-  background-color: lighten($blue, 20%)
-section#s6
-  background-color: lighten($violet, 20%)
-
 
 // Hero
 section#hero
@@ -40,27 +72,30 @@ section#hero
   background-color: lighten($orange, 20%)
   background-position: center center
   .row h3, .row p
-    background-color: $orange
-    color: #e9e9e9
+    background-color: rgba(255,255,255,0.6)
     padding: 0.5em 1em
-    border-radius: 0.25em
     display: inline-block
   ul.orbit-slides-container
-    padding: 6em 0
+    padding: 5em 0
   li.slide
-    padding: 6em 0
+    padding: 5em 0
     h3
       font-size: 175%
     .row p
       font-size: 125%
   .intro
-    background: url('/images/hero/temperance-hall.jpg')
+    background: url('/images/hero/canal-st.jpg')
   .who
-    background: url('/images/hero/never-going-underground.jpg')
+    background: url('/images/hero/press-for-change.jpg')
   .contribute
     background: url('/images/hero/mardi-gras-99.jpg')
   div.orbit-bullets-container
     height: 0
+  div.orbit-caption a
+    color: black
+    border-style: dotted 
+    border-color: black
+    border-width: 0 0 1px 0
   ol.orbit-bullets
     display: inline
     margin: 0
@@ -112,9 +147,9 @@ span.details
 // Footer
 
 section#footer
-  margin: 3em 0 2em
+  padding: 3em 0 2em
+  background-color: black
   text-transform: uppercase
-  font-family: Nunito
   color: #777
   p
     font-size: 70%
@@ -127,3 +162,9 @@ section#footer
     margin-right: 2em
     margin: 0
     padding: 0
+
+form#contribute 
+  .error
+    background-color: $red
+    color: white
+    font-style: italic
