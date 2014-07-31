@@ -1049,7 +1049,7 @@ $orbit-bullet-radius: rem-calc(16);
 // $table-row-padding: rem-calc(9 10);
 // $table-row-font-size: rem-calc(14);
 // $table-row-font-color: #222;
-// $table-line-height: rem-calc(18);
+// $table-line-height: rem-calc(18);  
 
 // These are for controlling the display and margin of tables
 // $table-display: table-cell;
@@ -1137,9 +1137,9 @@ $topbar-bg: $topbar-bg-color;
 // $topbar-title-font-size: rem-calc(17);
 
 // Style the top bar dropdown elements
-// $topbar-dropdown-bg: #333;
+$topbar-dropdown-bg: white;
 // $topbar-dropdown-link-color: #fff;
-// $topbar-dropdown-link-bg: #333;
+$topbar-dropdown-link-bg: white;
 // $topbar-dropdown-link-weight: normal;
 // $topbar-dropdown-toggle-size: 5px;
 // $topbar-dropdown-toggle-color: #fff;
