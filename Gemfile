@@ -2,7 +2,10 @@
 # the following line to use "https"
 source 'http://rubygems.org'
 
-gem "middleman"
+gem 'middleman', :git => 'https://github.com/middleman/middleman.git', branch: 'v3-stable'
+gem 'middleman-thumbnailer', :git => 'https://github.com/nhemsley/middleman-thumbnailer.git'
+gem "middleman-favicon-maker", "~> 3.7"
+gem "middleman-google-analytics"
 
 # Live-reloading plugin
 gem "middleman-livereload"

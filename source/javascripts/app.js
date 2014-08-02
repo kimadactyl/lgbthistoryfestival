@@ -1,9 +1,10 @@
 $(document).foundation({
   orbit: {
     animation: 'slide',
-    timer_speed: 5000,
+    timer_speed: 8000,
     pause_on_hover: true,
     animation_speed: 500,
+    stack_on_small: true,
   }
 });
 

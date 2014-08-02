@@ -2,11 +2,11 @@
 title: Contribution Form
 ---
 
-%form#contribute{:action => "http://getsimpleform.com/messages?form_api_token=f36e5b63ea85702440e00ea54e63c052", :method => "post"}
+%form#contribute{:action => "http://getsimpleform.com/messages?form_api_token=6b7b75f4442501a6ffd929333fb854c8", :method => "post"}
   %section#s2
     .row
       %input{:type => "hidden", :name => "redirect_to", :value => "http://localhost:4567/thankyou.html"}
-      .large-6.columns
+      .medium-6.columns
         %h3 About you
         %label 
           %h5 Name
@@ -21,7 +21,7 @@ title: Contribution Form
         %label 
           %h5 Address
           %textarea{:rows => 6, :name => "address"}
-      .large-6.columns     
+      .medium-6.columns     
         %h3 About your project
 
         %label 
@@ -50,7 +50,7 @@ title: Contribution Form
 
   %section#s3
     .row
-      .large-12.columns
+      .medium-12.columns
         %label
           %h3 Tell us about your talk!
           %textarea{:rows => 7, :placeholder => "Aim for around 250-500 words. Remember to include something about how it might have changed attitudes to gender or sexual diversity.", :name => "about", :required => true }
@@ -66,7 +66,7 @@ title: Contribution Form
   %section#s4
 
     .row
-      .large-12.columns
-        %input.large.button.expand.round{:type => "submit"}
-      %p
-        We will get back to you [when?]
+      .medium-12.columns
+        %input.large.button.expand{:type => "submit", :value => "Send us your idea!"}
+        %p
+          We will get back to you within 14 days.

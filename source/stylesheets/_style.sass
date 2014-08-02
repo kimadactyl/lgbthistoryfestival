@@ -1,0 +1,250 @@
+$red: #ED1C24
+$pink: #EB6D98
+
+// Matching font from LGBT history month website
+h1, h2, h3, h4, h5
+  text-transform: uppercase
+  font-weight: bold
+  color: $pink
+
+// All pink sections -- inverted
+section.pink
+  background-color: $pink
+  h1, h2, h3, h4, h5
+    color: white
+  a, a:visited, a:link
+    color: black
+    text-decoration: underline
+  a:hover
+    color: white
+  a.button
+    background-color: white
+    color: black
+    text-decoration: none
+    &:hover
+      background-color: scale-color(white, $lightness: -14%)
+      color: black
+
+// Buttons
+.button h3
+  color: white
+
+// &:after
+//   content: ' '
+//   height: 0
+//   position: absolute
+//   width: 0
+//   top: 0
+//   right: -1.5em
+//   border-style: solid
+//   border-width: 1.5em 0 1.5em 1.5em
+//   border-color: transparent transparent transparent $pink
+
+// Branding
+section#branding
+  padding: 2.5em 0 2.25em 0
+  @media #{$small-only}
+    padding: 5em 0 2.25em
+  text-align: center
+  background-color: $pink
+section#date
+  background-color: black
+  text-transform: uppercase
+  text-align: center
+  letter-spacing: 0.15rem
+  @media #{$small-only}
+    letter-spacing: 0rem
+    font-size: 80%
+  h5
+    color: $pink
+    font-weight: normal
+    font-size: 110%
+    padding: 0.3em 0
+    margin: 0.35em 0
+
+// Navigation
+
+// Only show pink border when not on front page, unless it's scrolled far enough down.
+.sticky
+  border-width: 0 0 3px 0
+  border-color: $pink
+  border-style: solid
+.index .sticky
+  border-width: 0
+.index.f-topbar-fixed .sticky
+  border-width: 0 0 3px 0
+
+nav#main-nav
+  background-color: white
+  @media #{$small-only}
+    position: fixed
+    top: 0
+    display: block
+    width: 100%
+  a
+    text-align: center
+    text-transform: uppercase
+    font-weight: bold
+    text-decoration: none
+    &:hover
+      color: white
+      background-color: black
+  li
+    padding-bottom: 0
+    letter-spacing: 0.15rem
+    @media #{$small-only} 
+      a
+        text-align: left
+    &.active, &:hover
+      a
+        color: white 
+      background-color: black
+  .show-for-small
+    background-color: black
+    color: $pink
+
+// Padding on copy sections
+section#main section
+  padding-top: 2em
+  padding-bottom: 1em
+
+// Hero
+section#hero
+  padding: 0 !important
+  background-position: center center
+  .row h3, .row p
+    background-color: rgba(255,255,255,0.8)
+    padding: 0.5em 1em
+    display: inline-block
+  ul.orbit-slides-container
+    padding: 5em 0
+    @media #{$small-only}
+      padding: 0
+  li.slide
+    padding: 5em 0
+    @media #{$small-only}
+      padding: 2em 0
+    h3
+      font-size: 175%
+      @media #{$small-only}
+        font-size: 150%
+    .row p
+      font-size: 125%
+      @media #{$small-only}
+        font-size: 100%
+  .intro
+    background: url('/images/hero/canal-st.jpg')
+  .who
+    background: url('/images/hero/press-for-change.jpg')
+  .contribute
+    background: url('/images/hero/badges-long.jpg')      
+  @media #{$small-only}
+    .intro
+      background: url('/images/hero/canal-st-mobile.jpg')
+    .who
+      background: url('/images/hero/press-for-change-mobile.jpg')
+    .contribute
+      background: url('/images/hero/badges-mobile.jpg') 
+
+  div.orbit-bullets-container
+    height: 0
+    @media #{$medium-only}
+      text-align: right
+      margin-right: 1em
+    @media #{$small-only}
+      display: none
+  div.orbit-caption 
+    @media #{$small-only}
+      display: none
+    a
+      color: black
+  ol.orbit-bullets
+    display: inline
+    margin: 0
+    top: -30px
+
+// Full program blocks
+
+#programme
+  h2
+    color: rgba(255,255,255,0.9)
+  ul
+    margin: 0
+    padding: 0
+    background-color: rgba(100,100,100,0.1)
+  li
+    list-style-type: none
+    padding: 1em 0.25em
+    border-bottom: 2px dotted white
+    &:last-child
+      border-bottom: none
+    h5
+      margin-top: 0
+      font-weight: bold
+      .date
+        color: #444
+        font-weight: normal
+        font-size: 80%
+    p:last-child
+      margin-bottom: 0
+    &.talk
+      background-color: rgba(128,0,0,0.2)
+    &.keynote
+      background-color: rgba(0,0,128,0.4)
+
+ul#hub-programme
+  margin: 0
+  padding: 0
+  li
+    list-style-type: none
+    margin: 0 0 2em 0
+    padding: 0
+
+// Films
+
+span.details
+  font-weight: 300
+  font-size: 50%
+
+// Footer
+
+section#footer
+  padding: 3em 0 2em
+  background-color: black
+  text-transform: uppercase
+  color: white
+  h6
+    color: white
+  .lgbthm
+    font-size: 120%
+  p
+    font-size: 70%
+  ul
+    margin: 0
+  li
+    text-align: center
+    list-style-type: none
+    display: inline-block
+    margin-right: 2em
+    margin: 0 0 1em 0
+    padding: 0
+  hr
+    border-color: $pink
+    border-width: 1px
+    border-style: solid
+    margin: 3em 0
+
+section#credits
+  padding-top: 1em
+  color: white
+  text-align: center
+  p
+    font-size: 90%
+  a
+    color: white
+
+form#contribute 
+  .error
+    background-color: $red
+    color: white
+    font-style: italic

@@ -6,72 +6,65 @@
   <!-- Use title if it's in the page YAML frontmatter -->
   <title><%= data.page.title || "The First National Festival of LGBT History" %></title>
 
-  <link href='http://fonts.googleapis.com/css?family=Nunito:300,400,700' rel='stylesheet' type='text/css'>
-
   <script type="text/javascript" src="//use.typekit.net/cou1fvf.js"></script>
   <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
 
-  <%= stylesheet_link_tag "app", "style" %>
+  <%= stylesheet_link_tag "app" %>
   <%= javascript_include_tag "modernizr" %></head>
 
-<body class="<%= page_classes %>">
-  
+<body class="<%= page_classes %>
+  ">
   <section id="branding">
     <div class="row">
       <div class="column large-12">
         <% link_to "index.html" do %>
         <h1>
-          <%= image_tag "logo.png", :alt => "The First National Festival of LGBT History" %>
-        </h1>
-        <% end %>
-
-      </div>
+          <%= image_tag "logo.png", :alt =>"The First National Festival of LGBT History" %></h1>
+        <% end %></div>
     </div>
   </section>
   <section id="date">
     <div class="row">
-      <div class="column large-12">
+      <div class="columns large-12">
         <h5>St Valentine's Weekend 14th &amp; 15th February 2015</h5>
       </div>
     </div>
-</section>
+  </section>
 
   <div class="sticky contain-to-grid" id="nav-container">
-    <nav role="navigation" id="main-nav" class="top-bar" data-topbar data-options="sticky_on: large">
-  <!--       <ul class="title-area">
-          <li class="name">
-          </li>
-           Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone
-          <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
-        </ul>
- -->
+    <nav role="navigation" id="main-nav" class="top-bar" data-topbar  >
+      <ul class="title-area show-for-small">
+        <li class="name">
+          <h1></h1>
+        </li>
+        <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
+        <li class="toggle-topbar menu-icon">
+          <a href="#">
+            <span>Menu</span>
+          </a>
+        </li>
+      </ul>
       <section class="top-bar-section">
-        <ul class="center medium-block-grid-5">
-          <li>
-            <%= link_to 'Programme', '/programme.html' %></li>
-          <li>
-            <%= link_to 'Contribute', '/contribute.html' %></li>
-          <li class="conference">
-            <%= link_to 'Conference', '/conference.html' %></li>
-          <li>
-            <%= link_to 'About Us', '/about-us.html' %></li>
-          <li>
-            <%= link_to 'Contact', '/contact.html' %></li>
+        <ul class="center small-block-grid-1 medium-block-grid-5">
+          <%= nav_link 'Programme', '/programme.html' %>
+          <%= nav_link 'Contribute', '/contribute.html' %>
+          <%= nav_link 'Conference', '/conference.html' %>
+          <%= nav_link 'About', '/about-us.html' %>
+          <%= nav_link 'Contact', '/contact.html' %>
         </ul>
       </section>
     </nav>
-</div>
+  </div>
 
   <section role="content" id="main">
-    <%= yield %>
-  </section>
+    <%= yield %></section>
 
   <section role="footer" id="footer">
     <div class="row">
       <div class="large-12 column">
-        <ul>
+        <ul class="medium-block-grid-4 small-block-grid-2">
           <% data.partners.each do |partner| %>
-          <li class="large-3 columns">
+          <li>
             <% link_to partner.url do %>
             <%= image_tag partner.logo %>
             <% end %></li>
@@ -80,27 +73,38 @@
     </div>
     <hr/>
     <div class="row">
-      <div class="columns large-6">
-       <h6>&copy; 2014 LGBT History Festival</h6>
-       <p>Part of School's OUT, Registered Charity #1156352 in England and Wales.</p>
+      <div class="columns small-12 medium-6">
+        <h6>&copy; 2014 LGBT History Festival</h6>
+        <p>
+          Part of School's OUT, Registered Charity #1156352 in England and Wales.
+        </p>
       </div>
-      <div class="columns large-6">
-        <h6>
-          The First National Festival of LGBT History is part of
-          <img src="http://placekitten.com/200/200" alt="LGBT History Month 2015">
-        </h6>
-      </div>      
+      <h6 class="lgbthm">
+        <div class="columns medium-6 text-right">
+          <% link_to "http://lgbthistorymonth.org.uk/" do %>
+          <%= image_tag "lgbthm2.png" %>
+          <% end %></div>
+      </h6>
     </div>
   </section>
 
   <section role="credits" id="credits" class="pink">
     <div class="row">
-    <div class="column large-12">
-      <p>Uncovering &amp; celebrating our <strong>Past</strong> to Enlighten our <strong>Present</strong> &amp; Thereby guiding our creation of a more inclusive &amp; equitable <strong>Future</strong></p>
-      <p>LGBT History Festival website created with love by <a href="http://alliscalm.net">Kim Foale</a>, logo &amp; design by <a href="http://studiosquid.co.uk/">Studio Squid</a>.</p>
-    </p>
-  </section>
+      <div class="column large-12">
+        <p>
+          Uncovering &amp; celebrating our <strong>past</strong>
+          to enlighten our <strong>present</strong>
+          &amp; thereby guiding our creation of a more inclusive &amp; equitable
+          <strong>future</strong>.
+        </p>
+        <p>
+          LGBT History Festival website created with love by <a href="http://alliscalm.net">Kim Foale</a>, logo &amp; design by <a href="http://studiosquid.co.uk/">Squid</a>.
+        </p>
+      </p>
+    </section>
 
-  <%= javascript_include_tag  "all" %></section>
+    <%= javascript_include_tag  "all" %>
+    <%= google_analytics_tag %>
+    </section>
 </body>
 </html>

@@ -6,11 +6,11 @@ title: The First National LGBT History Festival
   %ul{"data-orbit" => true, "data-equalizer" => true}
     %li.intro.slide{"data-equalizer-watch" => true}
       .row
-        .large-8.columns
-          %h3 What's this?
+        .large-8.medium-10.columns
           :markdown
-            [LGBT History Month](http://lgbthistorymonth.org.uk/) is celebrating its 10th anniversary with the _First National Festival of LGBT History_. There will be a [main festival](programme.html) hosted at [Central Library](http://www.archivesplus.org/), [The People's History Museum](http://phm.org.uk), and other prestigious venues around Manchester City Center, and an academic conference ["What is &amp; how to do LGBT History?"](conference.html), hosted at the [Lesbian &amp; Gay Foundation](http://lgf.org.uk).
-          = link_to "Find out more about the festival", '/programme.html', :class => "large button"      
+            ### What's this?
+            [LGBT History Month](http://lgbthistorymonth.org.uk/) is celebrating its 10th anniversary with the _First National Festival of LGBT History_. There will be a [main festival](programme.html) hosted at [Central Library](http://www.archivesplus.org/), [People's History Museum](http://phm.org.uk), and other prestigious venues around Manchester City Center, and an academic conference ["What is &amp; how to do LGBT History?"](conference.html), hosted at the [Lesbian &amp; Gay Foundation](http://lgf.org.uk).
+          = link_to "Find out more about the festival", '/programme.html', :class => "large button"                          
       .orbit-caption
         .row
           .large-12.columns
@@ -19,11 +19,11 @@ title: The First National LGBT History Festival
             %a{:href => "https://www.flickr.com/people/manchesterarchiveplus/"} Manchester Archives+ on Flickr
     %li.who.slide{"data-equalizer-watch" => true}
       .row
-        .large-8.columns
-          %h3 LGBT History Month
+        .large-8.medium-10.columns
           :markdown
+            ### LGBT History Month
             [Lesbian, Gay, Bisexual and Trans History Month](http://lgbthistorymonth.org.uk/) celebrates the lives and achievements of the LGBT community. LGBT HM is celebrated in February in the UK, but our work to challenge homophobia, biphobia and transphobia continues throughout the year. Education is especially important to achieving this, so much of our work focuses on schools.
-          = link_to "Find out more about the organisers", '/about-us.html', :class => "large button" 
+          = link_to "Find out more about the organisers", '/about-us.html', :class => "large button"       
       .orbit-caption
         .row
           .large-12.columns
@@ -31,7 +31,7 @@ title: The First National LGBT History Festival
 
     %li.contribute.slide{"data-equalizer-watch" => true}
       .row         
-        .large-8.columns
+        .large-8.medium-10.columns
           %h3 Contribute!
           %p
             We are pleased to invite members of the public, charities, NGOs and other LGBT and history organisations, to submit proposals for talks, films, and artworks, based on archival material. We seek to showcase and celebrate endeavours to illuminate the UK's LGBT past, and help write a richer and more inclusive history of Britain.
@@ -39,14 +39,12 @@ title: The First National LGBT History Festival
       .orbit-caption
         .row
           .large-12.columns
-            %a{:href => "https://flic.kr/p/dSJQnN"} Mardis Gras 1999, 
-            courtesy 
-            %a{:href => "https://www.flickr.com/people/manchesterarchiveplus/"} Manchester Archives+ on Flickr   
+            Badges, courtesy People's History Museum  
 
 
 %section
   .row
-    .large-6.columns
+    .medium-6.columns
       %h5 30th July 2014
       %h3 Website is live!
       %p
@@ -55,37 +53,37 @@ title: The First National LGBT History Festival
         Please note that not all the technical issues have been ironed out, and this may seem a little broken on mobile and tablet devices still.
         
           
-    .large-6.columns
+    .medium-6.columns
       %h3 Call for Contributions
       %p
         We are pleased to invite members of the public, charities, NGOs and other LGBT and history organisations, to submit proposals for talks, films, and artworks, based on archival material. We seek to showcase and celebrate endeavours to illuminate the UK's LGBT past, and help write a richer and more inclusive history of Britain.
-      = link_to "Find out more about contributing", '/contribute.html', :class => "small button" 
+      = link_to "Find out more about contributing", '/contribute.html', :class => "button" 
 
       %h4 Academic Contributors
       %p
         The call for academic papers is also still open.
-      = link_to "Academic call for papers", '/conference.html', :class => "small button"
+      = link_to "Academic call for papers", '/conference.html', :class => "button"
 
 %section.pink
   .row{"data-equalizer" => true}
-    .large-4.columns.text-center
+    .medium-4.columns.text-center
       %h4 Main Festival
-      %p{"data-equalizer-watch" => true} Want to know more about how gay people throught about themselves in the 1880s? Fancy talking to someone about being trans in the 1960s? Curious about what could be hidden in some of these archive boxes?
-      = link_to "Find out more about the main festival", "/about-us.html", :class => "small button"
-    .large-4.columns.text-center
+      %p{"data-equalizer-watch" => true} Want to know more about how gay people thought about themselves in the 1880s? Fancy talking to someone about being trans in the 1960s? Curious about what could be hidden in some of these archive boxes?
+      = link_to "More about the main festival", "/programme.html", :class => "button"
+    .medium-4.columns.text-center
       %h4 Films 
-      %p{"data-equalizer-watch" => true} We are very excited to show a German retrospective to showcase the importance that german film had when it comes to exploring the changing attitudes to sex and gender diversity. 
-      = link_to "See the film schedule", "/film-programme.html", :class => "small button"
-    .large-4.columns.text-center
+      %p{"data-equalizer-watch" => true} We are very excited to announce a German retrospective to reflect the impact that German film had on the representation of sex and gender diversity on the screen.
+      = link_to "Find out about the films", "/programme.html#films", :class => "button"
+    .medium-4.columns.text-center
       %h4 Academic
       %p{"data-equalizer-watch" => true} World-class scholars will present their reserach and discuss historical methods for studying gender and sexual diversity in the past. 
-      = link_to "Find out more about the conference", "/conference.html", :class => "small button"
+      = link_to "More about the conference", "/conference.html", :class => "button"
 
-%section#s5
-  .row
-    .large-12.columns
-      %h3 Some of our speakers  
-    - (1..6).each do |n|
-      .large-2.columns
-        %h5 Famous Cat #{n}
-        %img{src: "http://placekitten.com/g/150/150"}
+-# %section#s5
+-#   .row
+-#     .large-12.columns
+-#       %h3 Some of our speakers  
+-#     - (1..6).each do |n|
+-#       .large-2.columns
+-#         %h5 Famous Cat #{n}
+-#         %img{src: "http://placekitten.com/g/150/150"}
