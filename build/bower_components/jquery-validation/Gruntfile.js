@@ -49,7 +49,7 @@ grunt.initConfig({
 				footer: umdEnd
 			},
 			files: {
-				"dist/jquery.validate-fa687791.js": [ "src/core-27350db9.js", "src/*.js" ]
+				"dist/jquery.validate.js": [ "src/core.js", "src/*.js" ]
 			}
 		},
 		extra: {
@@ -61,7 +61,7 @@ grunt.initConfig({
 				footer: umdEnd
 			},
 			files: {
-				"dist/additional-methods-a42820a4.js": [ "src/additional/additional-77065b83.js", "src/additional/*.js" ]
+				"dist/additional-methods.js": [ "src/additional/additional.js", "src/additional/*.js" ]
 			}
 		}
 	},
@@ -76,8 +76,8 @@ grunt.initConfig({
 		},
 		dist: {
 			files: {
-				"dist/additional-methods.min-977d45ac.js": "dist/additional-methods-a42820a4.js",
-				"dist/jquery.validate.min-353cfe17.js": "dist/jquery.validate-fa687791.js"
+				"dist/additional-methods.min.js": "dist/additional-methods.js",
+				"dist/jquery.validate.min.js": "dist/jquery.validate.js"
 			}
 		},
 		all: {
@@ -100,7 +100,7 @@ grunt.initConfig({
 				"changelog.txt",
 				"demo/**/*.*",
 				"dist/**/*.js",
-				"Gruntfile-8ef8edc3.js",
+				"Gruntfile.js",
 				"lib/**/*.*",
 				"package.json",
 				"README.md",
@@ -123,7 +123,7 @@ grunt.initConfig({
 			src: "test/*.js"
 		},
 		grunt: {
-			src: "Gruntfile-8ef8edc3.js"
+			src: "Gruntfile.js"
 		}
 	},
 	watch: {
