@@ -61,6 +61,15 @@ end
 # Helpers
 ###
 
+activate :blog do |blog|
+  # set options on blog
+  blog.prefix = "blog"
+  blog.sources = "{year}-{month}-{day}-{title}.html"
+  blog.permalink = "{year}/{month}/{day}/{title}.html"
+  page "/blog/*", :layout => :blog
+end
+
+
 # Automatic image dimensions on image_tag helper
 activate :automatic_image_sizes
 
