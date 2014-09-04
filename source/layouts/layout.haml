@@ -1,0 +1,74 @@
+!!!
+%html.no-js{lang: "en"}
+  %head
+    %meta{charset: "utf-8"}/
+    %meta{content: "width=device-width, initial-scale=1.0", name: "viewport"}/
+    / Facebook info
+    %meta{content: "First National Festival of LGBT History", property: "og:site_name"}/
+    %meta{content: data.page.title, property: "og:title"}/
+    %meta{content: "Manchester is hosting the first ever national festival focused on exploring, exposing, and discussing LGBT history. The Festival is over five days, and will be at Central Library's Archives+, the People's History Museum, and many venues throughout Manchester.", property: "og:description"}/
+    %meta{content: "http://lgbthistoryfestival.org/images/wide-logo.png", property: "og:image"}/
+    / Use title if it's in the page YAML frontmatter
+    %title= data.page.title || "The First National Festival of LGBT History"
+    / Fonts
+    %script{src: "//use.typekit.net/cou1fvf.js", type: "text/javascript"}
+    :javascript
+      try{Typekit.load();}catch(e){}
+    = stylesheet_link_tag "app"
+    = javascript_include_tag "modernizr"
+  %body{class: "#{page_classes}"}
+    %section#branding
+      .row
+        .column.large-12
+          = link_to "index.html" do
+            %h1
+              = image_tag "logo.png", :alt => "The First National Festival of LGBT History"
+    %section#date
+      .row
+        .columns.large-12
+          %h5 St Valentine's Weekend 14th & 15th February 2015
+    #nav-container.sticky.contain-to-grid
+      %nav#main-nav.top-bar{"data-topbar" => "", role: "navigation"}
+        %ul.title-area.show-for-small
+          %li.name
+            %h1
+          / Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone
+          %li.toggle-topbar.menu-icon
+            %a{href: "#"}
+              %span Menu
+        %section.top-bar-section
+          %ul.center.small-block-grid-1.medium-block-grid-6
+            = nav_link 'Programme', '/programme.html'
+            = nav_link 'Blog', '/blog.html'
+            = nav_link 'Contribute', '/contribute.html'
+            = nav_link 'Conference', '/conference.html'
+            = nav_link 'About', '/about-us.html'
+            = nav_link 'Contact', '/contact.html'
+    %section#main{role: "content"}= yield
+    %section#footer{role: "footer"}
+      .row
+        .large-12.column
+          %ul.medium-block-grid-4.small-block-grid-2
+            - data.partners.each do |partner|
+              %li
+                - link_to partner.url do
+                  = image_tag partner.logo
+      %hr/
+      .row
+        .columns.small-12.medium-6
+          %h6 © 2014 LGBT History Festival
+          %p
+            Part of School's OUT UK, Registered Charity #1156352 in England and Wales.
+        %h6.lgbthm
+          .columns.medium-6.text-right
+            - link_to "http://lgbthistorymonth.org.uk/" do
+              = image_tag "lgbthm2.png"
+    %section#credits.pink{role: "credits"}
+      .row
+        .column.large-12
+          :markdown
+            Uncovering & celebrating our *past* to enlighten our *present* & thereby guiding our creation of a more inclusive & equitable *future*.
+
+            LGBT History Festival website created with love by [Kim Foale](http://alliscalm.net) and [Squid](http://studiosquid.co.uk/).
+          = javascript_include_tag  "all"
+          = google_analytics_tag
