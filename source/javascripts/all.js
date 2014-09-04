@@ -3,6 +3,7 @@
 //= require foundation/js/foundation/foundation.magellan
 //= require foundation/js/foundation/foundation.equalizer
 //= require jquery-validation/dist/jquery.validate.min.js
+//= require social-likes/social-likes.min
 
 //= require app
 //= require script

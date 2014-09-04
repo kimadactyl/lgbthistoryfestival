@@ -19,6 +19,7 @@ title: Festival Blog
             = article.data.author
             on 
             = article.date.strftime('%e %b %G')
+            = partial "social"
           - article.data.teaser.each_with_index do |p, i|
             %p{:class => "para#{i}"}= p
           = link_to "Read more...", article, :class => "button"  
