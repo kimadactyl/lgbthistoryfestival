@@ -66,9 +66,14 @@ activate :blog do |blog|
   blog.prefix = "blog"
   blog.sources = "{year}-{month}-{day}-{title}.html"
   blog.permalink = "{year}/{month}/{day}/{title}.html"
-  page "/blog/*", :layout => :blog
+  # page "/blog/*", :layout => :blog
+  blog.layout = "blog-layout"
+  blog.tag_template = "tag.html"
 end
 
+activate :authors
+
+# page "/feed.xml", layout: false
 
 # Automatic image dimensions on image_tag helper
 activate :automatic_image_sizes

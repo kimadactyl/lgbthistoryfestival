@@ -8,6 +8,7 @@ gem 'middleman-blog', :git => 'git://github.com/middleman/middleman-blog.git'
 gem 'middleman-thumbnailer', :git => 'https://github.com/nhemsley/middleman-thumbnailer.git'
 gem "middleman-favicon-maker", "~> 3.7"
 gem "middleman-google-analytics"
+gem "middleman-blog-authors"
 
 # Live-reloading plugin
 gem "middleman-livereload"

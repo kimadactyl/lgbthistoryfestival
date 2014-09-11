@@ -1,6 +1,8 @@
 ---
 title: Announcing a new historical timeline exhibition for LGBT History Month and beyond
-author: Christine Burns
+authors: Christine Burns
+published: false
+tags: Contributor Blogs
 teaser: 
     - Writeme
 ---
