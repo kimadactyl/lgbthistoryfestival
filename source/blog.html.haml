@@ -36,13 +36,11 @@ title: Blog
               -# Meta info line
               %h3.meta
                 .row
-                  .columns.medium-7.small-12
+                  .columns.small-12
                     By
                     = article.data.authors
                     on 
                     = article.date.strftime('%e %b %G')
-                  .columns.medium-5.hide-for-small.text-right
-                    = partial "social"
               - article.data.teaser.each_with_index do |p, i|
                 %p{:class => "para#{i}"}= p
               .arrow
@@ -54,15 +52,15 @@ title: Blog
         -#   %a{:href => "/blog/tags/press-releases.html"} Press Release
         %li 
           %a{:href => "/blog/tags/news.html"} Festival News
-        -# %li
-        -#   %a{:href => "/blog/tags/contributor-blogs.html"} Contributor Blogs
+        %li
+          %a{:href => "/blog/tags/contributor-blogs.html"} Contributor Blogs
 
-      -# %h3 Authors
-      -# %ul
-      -#   - data.authors.sort.each do |author, i|
-      -#     - unless i.hide
-      -#       %li
-      -#         %a{:href =>  "/authors/" + author.parameterize + ".html" }= author
+      %h3 Authors
+      %ul
+        - data.authors.sort.each do |author, i|
+          - unless i.hide
+            %li
+              %a{:href =>  "/authors/" + author.parameterize + ".html" }= author
 
   - if paginate && num_pages > 1
     - if next_page

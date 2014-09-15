@@ -23,39 +23,46 @@ title: Blog
       -else
         %h1 Festival Blog
   .row
-    .columns.medium-9
+    .columns.large-9
       %article.teaser
         - page_articles.each_with_index do |article, i|
-          -# Show teaser image, if there is one
-          - if article.data.hero
-            %div.hero.hide-for-small-only{:style => "background-image: url('#{article.data.hero}')"}
-          %h2= link_to article.title, article
-          -# Meta info line
-          %h3.meta
-            By
-            = article.data.authors
-            on 
-            = article.date.strftime('%e %b %G')
-            = partial "social"
-          - article.data.teaser.each_with_index do |p, i|
-            %p{:class => "para#{i}"}= p
-          = link_to "Read more...", article, :class => "button"  
-    .columns.medium-3
+          .row
+            .small-12.columns
+              -# Show teaser image, if there is one
+              - if article.data.hero
+                = link_to article do
+                  .hide-for-small-only= image_tag article.data.hero
+              %h2= link_to article.title, article
+              -# Meta info line
+              %h3.meta
+                .row
+                  .columns.medium-7.small-12
+                    By
+                    = article.data.authors
+                    on 
+                    = article.date.strftime('%e %b %G')
+                  .columns.medium-5.hide-for-small.text-right
+                    = partial "social"
+              - article.data.teaser.each_with_index do |p, i|
+                %p{:class => "para#{i}"}= p
+              .arrow
+                = link_to "Read more...", article, :class => "button"  
+    .columns.large-3
       %h3 Post types
       %ul
-        %li 
-          %a{:href => "/blog/tags/press-releases.html"} Press Release
+        -# %li 
+        -#   %a{:href => "/blog/tags/press-releases.html"} Press Release
         %li 
           %a{:href => "/blog/tags/news.html"} Festival News
-        %li
-          %a{:href => "/blog/tags/contributor-blogs.html"} Contributor Blogs
+        -# %li
+        -#   %a{:href => "/blog/tags/contributor-blogs.html"} Contributor Blogs
 
-      %h3 Authors
-      %ul
-        - data.authors.sort.each do |author, i|
-          - unless i.hide
-            %li
-              %a{:href =>  "/authors/" + author.parameterize + ".html" }= author
+      -# %h3 Authors
+      -# %ul
+      -#   - data.authors.sort.each do |author, i|
+      -#     - unless i.hide
+      -#       %li
+      -#         %a{:href =>  "/authors/" + author.parameterize + ".html" }= author
 
   - if paginate && num_pages > 1
     - if next_page
