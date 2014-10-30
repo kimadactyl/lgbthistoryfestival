@@ -14,6 +14,7 @@ attachments:
 --- 
 #### Lesbian, Gay, Bisexual and Transgender History Month (LGBT HM) is delighted to announce the appointment of Ric Brady and Stephen M Hornby as their first national writers in residence.
 
+
 LGBT History Month has commissioned Ric and Stephen to write A Very Victorian Scandal, which will be a part of the First National Festival of LGBT History. In 1880, Manchester’s most famous detective, Jerome Caminada, led a police raid on all male fancy dress ball. Forty-seven men were arrested and their trial caused an international sensation. Their original play is based on new research by Jeff Evans, which challenges existing accounts of these events.
 
 Ric and Stephen are bringing the story to life with a series of theatrical events over the next three years. The first group of events will be staged on 14-15th February 2015 in Manchester, as part of the First National Festival of LGBT History. The festival marks the tenth anniversary of LGBT History Month, which is part of School’s OUT UK. The festival is delivered in partnership with the Manchester Central Library, the Lesbian & Gay Foundation and the People’s History Museum.
@@ -34,6 +35,7 @@ Stephen M Hornby and Ric Brady said:
 > “We are privileged to have the chance to work on this project. It is a joy to work with LGBT History Month who are a bunch of talented and devoted people. Drama is a great way to bring history to life and we have such a wonderful story to tell. It really is the UK’s Stonewall and it happened nearly a 100 years before.”
 > 
 > “People are fascinated when we tell them about 1880 police raid on the fancy dress ball. It’s such a thought-provoking piece of history.  And it suggests to us that there was a vibrant gay scene happening within Victorian England that has gone unexplored. We cannot wait to open up the secrets and share them with the world.”
+<<<<<<< HEAD
 
 #### NOTES TO EDITORS:
 
@@ -45,3 +47,5 @@ A biography of Detective Jerome Caminada by Angela Buckley was published in 2014
 Ric Brady and Stephen M Hornby are the owners and director of Pagelight Productions. Details here: http://www.pagelightp.com/
 
 ‘Stonewall’ is the common phrase used for a riot that took place in 1969 in New York following a police raid on a bar called the Stonewall Inn used by LGBT people.  This has been seen as the birth of the modern gay rights movement.
+=======
+>>>>>>> 15d800d611d5686f60fa505377783553208cdce2
