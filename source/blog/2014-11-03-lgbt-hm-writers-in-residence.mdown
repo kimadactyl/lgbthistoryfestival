@@ -35,7 +35,6 @@ Stephen M Hornby and Ric Brady said:
 > “We are privileged to have the chance to work on this project. It is a joy to work with LGBT History Month who are a bunch of talented and devoted people. Drama is a great way to bring history to life and we have such a wonderful story to tell. It really is the UK’s Stonewall and it happened nearly a 100 years before.”
 > 
 > “People are fascinated when we tell them about 1880 police raid on the fancy dress ball. It’s such a thought-provoking piece of history.  And it suggests to us that there was a vibrant gay scene happening within Victorian England that has gone unexplored. We cannot wait to open up the secrets and share them with the world.”
-<<<<<<< HEAD
 
 #### NOTES TO EDITORS:
 
@@ -47,5 +46,3 @@ A biography of Detective Jerome Caminada by Angela Buckley was published in 2014
 Ric Brady and Stephen M Hornby are the owners and director of Pagelight Productions. Details here: http://www.pagelightp.com/
 
 ‘Stonewall’ is the common phrase used for a riot that took place in 1969 in New York following a police raid on a bar called the Stonewall Inn used by LGBT people.  This has been seen as the birth of the modern gay rights movement.
-=======
->>>>>>> 15d800d611d5686f60fa505377783553208cdce2
