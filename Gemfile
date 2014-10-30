@@ -2,13 +2,22 @@
 # the following line to use "https"
 source 'http://rubygems.org'
 
+# Middleman
 gem 'middleman', :git => 'https://github.com/middleman/middleman.git', branch: 'v3-stable'
+gem 'middleman-blog', :git => 'git://github.com/middleman/middleman-blog.git'
 gem 'middleman-thumbnailer', :git => 'https://github.com/nhemsley/middleman-thumbnailer.git'
 gem "middleman-favicon-maker", "~> 3.7"
 gem "middleman-google-analytics"
+gem "middleman-blog-authors"
 
 # Live-reloading plugin
 gem "middleman-livereload"
+
+# Post trimmer
+gem "nokogiri"
+
+# Comments
+gem "disqus"
 
 # For faster file watcher updates on Windows:
 gem "wdm", "~> 0.1.0", :platforms => [:mswin, :mingw]

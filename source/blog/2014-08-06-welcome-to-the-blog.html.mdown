@@ -1,0 +1,8 @@
+---
+title: Welcome to the blog!
+authors: Kim Foale
+published: false
+teaser: 
+    - Writeme
+---
+Hello *World*!

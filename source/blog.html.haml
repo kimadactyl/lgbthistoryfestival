@@ -1,9 +1,71 @@
 ---
-title: Guest Blogs
+pageable: true
+per_page: 10
+title: Blog
 ---
-
-%section#s2
+%section
   .row
-    %h2
-      %p TODO
-      %p Section to contain news and guest blogs from contributors.
+    .columns.small-12
+      - if defined? tagname
+        %ul.breadcrumbs
+          %li
+            %a{:href => "/blog.html"} Blog
+          %li.current
+            %a{:href =>  "/blog/tags/" + tagname.parameterize + ".html" }= tagname
+        %h1= "Articles tagged &ldquo;" + tagname + "&rdquo;"
+      -elsif defined? author
+        %ul.breadcrumbs
+          %li
+            %a{:href => "/blog.html"} Blog
+          %li.current
+            %a{:href =>  "/author/" + author.name.parameterize + ".html" }= author.name
+        %h1= "Articles by " + author.name
+      -else
+        %h1 Festival Blog
+  .row
+    .columns.large-9
+      %article.teaser
+        - page_articles.each_with_index do |article, i|
+          .row
+            .small-12.columns
+              -# Show teaser image, if there is one
+              - if article.data.hero
+                = link_to article do
+                  .hide-for-small-only= image_tag article.data.hero
+              %h2= link_to article.title, article
+              -# Meta info line
+              %h3.meta
+                .row
+                  .columns.small-12
+                    By
+                    = article.data.authors
+                    on 
+                    = article.date.strftime('%e %b %G')
+              - article.data.teaser.each_with_index do |p, i|
+                %p{:class => "para#{i}"}= p
+              .arrow
+                = link_to "Read more...", article, :class => "button"  
+    .columns.large-3
+      %h3 Post types
+      %ul
+        %li 
+          %a{:href => "/blog/tags/press-releases.html"} Press Release
+        %li 
+          %a{:href => "/blog/tags/news.html"} Festival News
+        %li
+          %a{:href => "/blog/tags/contributor-blogs.html"} Contributor Blogs
+
+      %h3 Authors
+      %ul
+        - data.authors.sort.each do |author, i|
+          - unless i.hide
+            %li
+              %a{:href =>  "/authors/" + author.parameterize + ".html" }= author
+
+  - if paginate && num_pages > 1
+    - if next_page
+      %p= link_to 'Next page', next_page
+    %p
+      Page #{page_number} of #{num_pages}
+    - if prev_page
+      %p= link_to 'Previous page', prev_page

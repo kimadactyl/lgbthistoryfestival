@@ -1,0 +1,62 @@
+- author = current_page.data.authors
+- info = data.authors.fetch(author)   
+= wrap_layout :layout do
+  %section
+    %article.row
+      .columns.small-12
+        %ul.breadcrumbs.hide-for-small
+          %li
+            %a{:href => "/blog.html"} Blog
+          %li
+            %a{:href =>  "/blog/tags/" + current_page.tags[0].parameterize + ".html" }= current_page.tags[0]
+          %li.current
+            %a{:href => "" }= current_page.title
+        %h1= current_page.title
+
+      .columns.large-8
+        %h3.date
+          .row
+            .columns.small-12.large-6
+              = current_page.date.strftime('%e %B %G')
+              %span.responsive-author
+                = "by " + author
+            .columns.small-12.large-6.text-right
+              = partial "social"
+        %article= yield
+      .columns.large-4.meta
+        -# Author Section
+        %h3= author
+        - if info['photo']
+          %p.photo
+            = thumbnail('gallery/blog/' + info['photo'], :small)      
+        %p= info['bio']
+        %p
+          - if info['url']
+            %i.fi-home
+            %a{:href => info['url']}
+              = info['url-title'] ? info['url-title'] : info['url']
+            %br
+          - if info['twitter']
+            %i.fi-social-twitter
+            %a{:href => "http://twitter.com/" + info['twitter']}
+              = "@" + info['twitter']
+            %br
+
+
+        -# Attachments etc loaded from local page frontmatter
+        - if current_page.data.attachments || current_page.data.links
+          %h3 Resources
+          - if current_page.data.attachments
+            - current_page.data.attachments.each do |resource|
+              %p
+                %i.fi-download
+                  = link_to resource.url do
+                    = resource.title
+          - if current_page.data.links
+            - current_page.data.links.each do |resource|
+              %p
+                %i.fi-bookmark
+                  = link_to resource.url do
+                    = resource.title
+
+          

@@ -7,6 +7,11 @@ h1, h2, h3, h4, h5
   font-weight: bold
   color: $pink
 
+=underline-section
+  border-width: 0 0 1px 0
+  border-color: #ccc
+  border-style: solid
+
 // All pink sections -- inverted
 section.pink
   background-color: $pink
@@ -28,6 +33,44 @@ section.pink
 // Buttons
 .button h3
   color: white
+
+// Arrow buttons
+// $arrow-width: 54px / 2
+// $large-arrow-width: 62px / 2
+// .arrow
+//   a
+//     text-decoration: none
+//     text-indent: 1em
+//     padding-bottom: 1.1rem
+//   a.large
+//     text-indent: 0
+//     padding-bottom: 1.25rem
+//   a:before, a:after
+//     content: ""
+//     position: absolute
+//     top: 0   
+//     width: 0
+//     height: 0
+//     border-style: solid
+//     border-width: $arrow-width 0 $arrow-width $arrow-width
+//   a.large:after
+//     border-width: $large-arrow-width 0 $large-arrow-width $large-arrow-width
+//   a:before
+//     border-color: transparent transparent transparent #fff
+//     left: 0
+//   a.large:before 
+//     border-width: 0
+//   a:after
+//     border-color: transparent transparent transparent $pink
+//     right: -$arrow-width
+//     transition: border-color 300ms ease-out
+//   a:hover:after
+//     border-color: transparent transparent transparent scale-color($pink, $lightness: -20%)
+//     transition: border-color 300ms ease-out
+//   a.large:after
+//     right: -$large-arrow-width
+
+
 
 // &:after
 //   content: ' '
@@ -51,7 +94,7 @@ section#date
   background-color: black
   text-transform: uppercase
   text-align: center
-  letter-spacing: 0.15rem
+  letter-spacing: 0.1rem
   @media #{$small-only}
     letter-spacing: 0rem
     font-size: 80%
@@ -65,11 +108,19 @@ section#date
 // Navigation
 
 // Only show pink border when not on front page, unless it's scrolled far enough down.
-.sticky
+.sticky 
   border-width: 0 0 3px 0
   border-color: $pink
   border-style: solid
-.index .sticky
+@media #{$medium-only}
+  .top-bar-section
+    border-width: 0 0 3px 0
+    border-color: $pink
+    border-style: solid
+  section#main
+    margin-top: 3em
+
+.index .sticky 
   border-width: 0
 .index.f-topbar-fixed .sticky
   border-width: 0 0 3px 0
@@ -91,7 +142,7 @@ nav#main-nav
       background-color: black
   li
     padding-bottom: 0
-    letter-spacing: 0.15rem
+    letter-spacing: 0.1rem
     @media #{$small-only} 
       a
         text-align: left
@@ -163,6 +214,13 @@ section#hero
     margin: 0
     top: -30px
 
+.latest-blog 
+  h3 a
+    color: $pink
+    text-decoration: none
+  h5
+    color: $body-font-color 
+
 // Full program blocks
 
 #programme
@@ -205,6 +263,71 @@ ul#hub-programme
 span.details
   font-weight: 300
   font-size: 50%
+
+// Blogs
+article
+  figure
+    border: 1px solid #ccc
+    padding: 5px
+    display: inline-block
+  figcaption
+    font-style: italic
+    text-align: center
+    padding-top: 0.5em
+  h3
+    color: $body-font-color
+    +underline-section
+    padding: 0.25em 0 0.2em
+    border-top-width: 1px
+  .meta 
+    h3
+      text-align: center
+    p
+      font-size: 90%
+      font-style: italic
+      color: #555
+    p.photo
+      text-align: center
+    img
+      border: 1px solid #ccc
+      padding: 2px
+  .resources li
+    list-style-type: none
+  .social-likes
+    margin: auto 0    
+    min-height: 0
+  @media #{$large-up}
+    .responsive-author
+      display: none
+
+
+article.teaser
+  .hero
+    height: 200px
+    padding: 5px
+  h2
+    font-size: 250%
+    line-height: 125%
+    padding: 0.2em 0 0 0
+    a
+      text-decoration: none
+  h3
+    font-size: 120%
+    color: $pink
+  .meta
+    +underline-section
+    border-width: 1px 0 1px 
+  .meta
+    padding-bottom: 4px
+  .para0
+    font-size: 120%
+  .para1
+    color: #444
+    font-size: 110%
+  .para2
+    color: #666
+  .social-likes__widget
+    margin: 0
 
 // Footer
 
