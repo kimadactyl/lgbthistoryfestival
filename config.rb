@@ -73,6 +73,9 @@ end
 
 activate :authors
 
+require 'helpers/custom_helpers.rb'
+activate :custom_helpers
+
 # page "/feed.xml", layout: false
 
 # Automatic image dimensions on image_tag helper
