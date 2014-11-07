@@ -2,11 +2,12 @@
 title: LGBT History Month announces their first National Writers In Residence
 authors: Festival Team
 tags: Press Releases
+hero: "/images/blog/lgbt-hm-writers-in-residence/hero.jpg"
 teaser:
   -
     Lesbian, Gay, Bisexual and Transgender History Month (LGBT HM) is delighted to announce the appointment of Ric Brady and Stephen M Hornby as their first national writers in residence.
   -
-    LGBT History Month has commissioned Ric and Stephen to write A Very Victorian Scandal, which will be a part of the First National Festival of LGBT History. In 1880, Manchester’s most famous detective, Jerome Caminada, led a police raid on all male fancy dress ball. Forty-seven men were arrested and their trial caused an international sensation. Their original play is based on new research by Jeff Evans, which challenges existing accounts of these events.
+    LGBT History Month has commissioned Ric and Stephen to write <em>A Very Victorian Scandal</em>, which will be a part of the First National Festival of LGBT History. In 1880, Manchester’s most famous detective, Jerome Caminada, led a police raid on all male fancy dress ball. Forty-seven men were arrested and their trial caused an international sensation. Their original play is based on new research by Jeff Evans, which challenges existing accounts of these events.
 attachments: 
   -
     title: Printable version of this press release [pdf]
@@ -15,20 +16,20 @@ attachments:
 #### Lesbian, Gay, Bisexual and Transgender History Month (LGBT HM) is delighted to announce the appointment of Ric Brady and Stephen M Hornby as their first national writers in residence.
 
 
-LGBT History Month has commissioned Ric and Stephen to write A Very Victorian Scandal, which will be a part of the First National Festival of LGBT History. In 1880, Manchester’s most famous detective, Jerome Caminada, led a police raid on all male fancy dress ball. Forty-seven men were arrested and their trial caused an international sensation. Their original play is based on new research by Jeff Evans, which challenges existing accounts of these events.
-
-Ric and Stephen are bringing the story to life with a series of theatrical events over the next three years. The first group of events will be staged on 14-15th February 2015 in Manchester, as part of the First National Festival of LGBT History. The festival marks the tenth anniversary of LGBT History Month, which is part of School’s OUT UK. The festival is delivered in partnership with the Manchester Central Library, the Lesbian & Gay Foundation and the People’s History Museum.
+LGBT History Month has commissioned Ric and Stephen to write _A Very Victorian Scandal_, which will be a part of the First National Festival of LGBT History. In 1880, Manchester’s most famous detective, Jerome Caminada, led a police raid on all male fancy dress ball. Forty-seven men were arrested and their trial caused an international sensation. Their original play is based on new research by Jeff Evans, which challenges existing accounts of these events.
 
 <figure>
     <img src="/images/blog/lgbt-hm-writers-in-residence/PagelightProductions-427x640.png" alt="Ric Brady and Stephen M. Hornby">
     <figcaption>Ric Brady and Stephen M. Hornby</figcaption>
 </figure>
 
+Ric and Stephen are bringing the story to life with a series of theatrical events over the next three years. The first group of events will be staged on 14-15th February 2015 in Manchester, as part of the First National Festival of LGBT History. The festival marks the tenth anniversary of LGBT History Month, which is part of School’s OUT UK. The festival is delivered in partnership with the Manchester Central Library, the Lesbian & Gay Foundation and the People’s History Museum.
+
 Ric and Stephen are both openly gay playwrights and are based in Manchester. They have worked together as writers for over two years, and have produced plays such as The Box of Tricks, which premiered at this year’s 24:7 Theatre Festival in Manchester to strong reviews and a nomination for the Vicky Allan Award for Best New Play.
 
 Sue Sanders, the national Chair of LGBT HM said: 
 
-> 'LGBT History Month is very pleased to have commissioned A Very Victorian Scandal: The Manchester Drag Ball. This is an important project to bring to life a forgotten, local historical event that has national significance.  The piece will inform both the heterosexual and LGBT communities of the past and the complexity of our history and communities.  We are proud to have appointed such a talented pair of writers. The piece will engage many communities, raise the profile of Manchester's involvement with our past, as well as challenge some of the problematic stereotypes we suffer.’  
+> 'LGBT History Month is very pleased to have commissioned _A Very Victorian Scandal: The Manchester Drag Ball_. This is an important project to bring to life a forgotten, local historical event that has national significance.  The piece will inform both the heterosexual and LGBT communities of the past and the complexity of our history and communities.  We are proud to have appointed such a talented pair of writers. The piece will engage many communities, raise the profile of Manchester's involvement with our past, as well as challenge some of the problematic stereotypes we suffer.’  
 
 Stephen M Hornby and Ric Brady said:
 
@@ -36,13 +37,13 @@ Stephen M Hornby and Ric Brady said:
 > 
 > “People are fascinated when we tell them about 1880 police raid on the fancy dress ball. It’s such a thought-provoking piece of history.  And it suggests to us that there was a vibrant gay scene happening within Victorian England that has gone unexplored. We cannot wait to open up the secrets and share them with the world.”
 
-#### NOTES TO EDITORS:
+#### Notes to Editors
 
 LGBT HM takes places every February. 2015 marks the tenth anniversary year.
-Manchester in Love is the first international LGBT HM festival.  Details here: http://lgbthistoryfestival.org/
+Manchester in Love is the first international LGBT HM festival. [Details are on their website](http://lgbthistoryfestival.org/).
 
-A biography of Detective Jerome Caminada by Angela Buckley was published in 2014 under the title The Real Sherlock Holmes
+A biography of Detective Jerome Caminada by Angela Buckley was published in 2014 under the title _The Real Sherlock Holmes_.
 
-Ric Brady and Stephen M Hornby are the owners and director of Pagelight Productions. Details here: http://www.pagelightp.com/
+Ric Brady and Stephen M Hornby are the owners and director of Pagelight Productions. [Details are on their website](http://www.pagelightp.com/).
 
 ‘Stonewall’ is the common phrase used for a riot that took place in 1969 in New York following a police raid on a bar called the Stonewall Inn used by LGBT people.  This has been seen as the birth of the modern gay rights movement.

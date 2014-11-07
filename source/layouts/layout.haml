@@ -37,10 +37,9 @@
             %a{href: "#"}
               %span Menu
         %section.top-bar-section
-          %ul.center.small-block-grid-1.medium-block-grid-3.large-block-grid-6
+          %ul.center.small-block-grid-1.medium-block-grid-5
             = nav_link 'Programme', '/programme.html'
             = nav_link 'Blog', '/blog.html'
-            = nav_link 'Contribute', '/contribute.html'
             = nav_link 'Conference', '/conference.html'
             = nav_link 'About', '/about-us.html'
             = nav_link 'Contact', '/contact.html'
@@ -48,7 +47,7 @@
     %section#footer{role: "footer"}
       .row
         .large-12.column
-          %ul.large-block-grid-5.medium-block-grid-3.small-block-grid-2
+          %ul.large-block-grid-5.medium-block-grid-3.small-block-grid-2.partners
             - data.partners.each do |partner|
               %li
                 = link_to partner.url do
