@@ -1,51 +1,26 @@
-# Middleman Template: ZURB Foundation #
+# 1st National Festival of LGBT History Website
 
-middleman-zurb-foundation is a minimal [Middleman](http://middlemanapp.com/) project template with the [SASS](http://sass-lang.com/) version of the [ZURB Foundation](http://foundation.zurb.com/) Framework.
+Suggest we use this to store documentation.
 
-## Installation ##
+## Images
 
-Make sure to have:
+### Hero
 
-1. ruby
-1. git
-1. middleman ($ `gem install middleman`)
-1. bower ($ `npm install -g bower`)
+Blog page: scale + crop hero images to 720x200
 
+### Inline
 
-Clone into ~/.middleman (you'll have to create this directory if it's not already there). You can then use it with the `--template` flag on `middleman init`.
+Inline images should have at most 2 versions:
 
-1. $ `git clone git://github.com/axyz/middleman-zurb-foundation.git ~/.middleman/zurb-foundation`
+ * Source version shown in lightbox: ?
+ * Inline: 545px max width
 
-Then create a new project using zurb-foundation template.
+Use helper function like this (...)
 
-1. $ `middleman init my_new_project --template=zurb-foundation`
-1. $ `cd my_new_project`
-1. $ `bower install`
-1. $ `bundle exec middleman`
+### Logos
 
-Now you can start hacking on `source` directory and watch live changes on [localhost:4567](http://localhost:4567).
+Colourise using (...)
 
-For more help follow [Middleman's project template instructions](http://middlemanapp.com/getting-started/welcome/) or feel free to hit me up on [Twitter](http://twitter.com/axyz).
+## Libraries + Frameworks
 
-## ZURB Foundation License ##
-
-Copyright (c) 2011 ZURB, http://www.zurb.com/
-
-Permission is hereby granted, free of charge, to any person obtaining
-a copy of this software and associated documentation files (the
-"Software"), to deal in the Software without restriction, including
-without limitation the rights to use, copy, modify, merge, publish,
-distribute, sublicense, and/or sell copies of the Software, and to
-permit persons to whom the Software is furnished to do so, subject to
-the following conditions:
-
-The above copyright notice and this permission notice shall be
-included in all copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
-EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
-MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
-NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE
-LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION
-OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
-WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+ * [Zurb Foundation](http://foundation.zurb.com/)
