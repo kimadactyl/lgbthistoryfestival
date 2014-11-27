@@ -1,0 +1,14 @@
+---
+title: Schedule
+---
+
+%section
+  .row
+    .small-12.columns
+      - cal_file = File.open("ical/Conference_lgbthistoryfestival.org_8mtrc289k99o4g90rc9cgce3io@group.calendar.google.com.ics", "r")
+      - cals = Icalendar.parse(cal_file)
+      - cal = cals.first
+      %ul
+        - cal.events.each do |event|
+          - start = event.dtstart.strftime("%a %H:%M")
+          %li= "#{start} #{event.summary}"

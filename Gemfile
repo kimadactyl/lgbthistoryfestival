@@ -10,6 +10,9 @@ gem "middleman-favicon-maker", "~> 3.7"
 gem "middleman-google-analytics"
 gem "middleman-blog-authors"
 
+# iCal stuff
+gem "icalendar"
+
 # Live-reloading plugin
 gem "middleman-livereload"
 
