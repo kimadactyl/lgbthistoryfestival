@@ -1,14 +1,46 @@
 ---
 title: Schedule
 ---
+:ruby
+  require 'open-uri'
 
+  days = {  "Friday" => Time.new(2015,2,13),
+            "Saturday" => Time.new(2015,2,14),
+            "Sunday" => Time.new(2015,2,15) }
+
+  class CalendarSorter
+
+    def initialize(url)
+      # Load and sort the array
+      url = open(url)
+      @cal = Icalendar.parse(url).first
+      @cal.events.sort! { |a,b| a.dtstart <=> b.dtstart }
+    end
+
+    def get_start_times(start)
+      # Tell us all the possible event starting times
+      t = @cal.events.uniq { |a| a.dtstart.to_s }
+      t.select { |a| a.dtstart.between?(start, start + 24.hours) }
+    end
+
+    def get_events(time)
+      # Get all the events for a given time
+      @cal.events.select { |a| a.dtstart == time.dtstart }
+    end
+  end
+
+  academic = CalendarSorter.new("https://www.google.com/calendar/ical/lgbthistoryfestival.org_8mtrc289k99o4g90rc9cgce3io%40group.calendar.google.com/public/basic.ics")
+  main_festival = CalendarSorter.new("https://www.google.com/calendar/ical/kim%40lgbthistoryfestival.org/public/basic.ics")
 %section
   .row
     .small-12.columns
-      - cal_file = File.open("ical/Conference_lgbthistoryfestival.org_8mtrc289k99o4g90rc9cgce3io@group.calendar.google.com.ics", "r")
-      - cals = Icalendar.parse(cal_file)
-      - cal = cals.first
       %ul
-        - cal.events.each do |event|
-          - start = event.dtstart.strftime("%a %H:%M")
-          %li= "#{start} #{event.summary}"
+        - days.each do |day, time|
+          %h2= day
+          - academic.get_start_times(time).each do |time|
+            %h3= time.dtstart.strftime("%H:%M")
+            - events = academic.get_events(time)
+              - events.each do |event|
+              %li
+                %strong= event.summary
+                = event.description
