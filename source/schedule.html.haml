@@ -3,6 +3,7 @@ title: Schedule
 ---
 :ruby
   require 'open-uri'
+  require 'icalendar'
 
   days = {  "Friday" => Time.new(2015,2,13),
             "Saturday" => Time.new(2015,2,14),
@@ -10,37 +11,65 @@ title: Schedule
 
   class CalendarSorter
 
-    def initialize(url)
+    def initialize(url_array)
+      @cals = []
       # Load and sort the array
-      url = open(url)
-      @cal = Icalendar.parse(url).first
-      @cal.events.sort! { |a,b| a.dtstart <=> b.dtstart }
+      url_array.each do |key,url|
+        @cals << Icalendar.parse(open(url)).first
+      end
+      # Unfortunately this creates an unwanted index so we need to rebuild
+      # First, create a blank object
+      # combine = Icalendar::Calendar.new
+      # # For each cal, iterate each event and load it into our new calendar
+      # @cals.each do |cal|
+      #   cal.events.each do |event|
+      #     combine.events << event
+      #   end
+      # end
+      # # And reassign.
+      # @cals = combine
+      @cals.each do |cal|
+        cal.events.sort! { |a,b| a.dtstart <=> b.dtstart }
+      end
     end
 
     def get_start_times(start)
       # Tell us all the possible event starting times
-      t = @cal.events.uniq { |a| a.dtstart.to_s }
+      t = []
+      @cals.each do |cal|
+        t += cal.events.uniq { |a| a.dtstart.to_s }
+      end
       t.select { |a| a.dtstart.between?(start, start + 24.hours) }
     end
 
     def get_events(time)
-      # Get all the events for a given time
-      @cal.events.select { |a| a.dtstart == time.dtstart }
+      # Get all the.events for a given time
+      @cals.first.events.select { |a| a.dtstart == time.dtstart }
+    end
+
+    def show_cals
+      @cals.flatten
     end
   end
 
-  academic = CalendarSorter.new("https://www.google.com/calendar/ical/lgbthistoryfestival.org_8mtrc289k99o4g90rc9cgce3io%40group.calendar.google.com/public/basic.ics")
-  main_festival = CalendarSorter.new("https://www.google.com/calendar/ical/kim%40lgbthistoryfestival.org/public/basic.ics")
+  academic = CalendarSorter.new({ "Academic" => "https://www.google.com/calendar/ical/lgbthistoryfestival.org_8mtrc289k99o4g90rc9cgce3io%40group.calendar.google.com/public/basic.ics"})
+  popular = CalendarSorter.new({ 
+              "Main Festival" => "https://www.google.com/calendar/ical/kim%40lgbthistoryfestival.org/public/basic.ics",
+              "Family Space" => "https://www.google.com/calendar/ical/lgbthistoryfestival.org_0gc2nrd6ls6fjbuuf8icuju3ag%40group.calendar.google.com/public/basic.ics",
+              "Films" => "https://www.google.com/calendar/ical/lgbthistoryfestival.org_qtra32a7f24jpc75ghjuffeops%40group.calendar.google.com/public/basic.ics",
+              "Theatre" => "https://www.google.com/calendar/ical/lgbthistoryfestival.org_ijgln6bmp4th9sg6stditdv7ok%40group.calendar.google.com/public/basic.ics" })
 %section
   .row
     .small-12.columns
       %ul
         - days.each do |day, time|
           %h2= day
-          - academic.get_start_times(time).each do |time|
+          - popular.get_start_times(time).each do |time|
             %h3= time.dtstart.strftime("%H:%M")
-            - events = academic.get_events(time)
+            - events = popular.get_events(time)
               - events.each do |event|
               %li
                 %strong= event.summary
                 = event.description
+                - duration = ((event.dtend - event.dtstart)/60).to_i
+                %em.duration= "(#{duration} mins)"
