@@ -226,41 +226,79 @@ section#hero
 
 // Full program blocks
 
-#programme
-  h2
-    color: rgba(255,255,255,0.9)
-  ul
-    margin: 0
-    padding: 0
-    background-color: rgba(100,100,100,0.1)
-  li
-    list-style-type: none
-    padding: 1em 0.25em
-    border-bottom: 2px dotted white
-    &:last-child
-      border-bottom: none
-    h5
-      margin-top: 0
-      font-weight: bold
-      .date
-        color: #444
-        font-weight: normal
-        font-size: 80%
-    p:last-child
-      margin-bottom: 0
-    &.talk
-      background-color: rgba(128,0,0,0.2)
-    &.keynote
-      background-color: rgba(0,0,128,0.4)
+// #programme
+//   h2
+//     color: rgba(255,255,255,0.9)
+//   ul
+//     margin: 0
+//     padding: 0
+//     background-color: rgba(100,100,100,0.1)
+//   li
+//     list-style-type: none
+//     padding: 1em 0.25em
+//     border-bottom: 2px dotted white
+//     &:last-child
+//       border-bottom: none
+//     h5
+//       margin-top: 0
+//       font-weight: bold
+//       .date
+//         color: #444
+//         font-weight: normal
+//         font-size: 80%
+//     p:last-child
+//       margin-bottom: 0
+//     &.talk
+//       background-color: rgba(128,0,0,0.2)
+//     &.keynote
+//       background-color: rgba(0,0,128,0.4)
 
-ul#hub-programme
-  margin: 0
-  padding: 0
-  li
-    list-style-type: none
-    margin: 0 0 2em 0
-    padding: 0
+// ul#hub-programme
+//   margin: 0
+//   padding: 0
+//   li
+//     list-style-type: none
+//     margin: 0 0 2em 0
+//     padding: 0
 
+// Schedule colours
+$main-festival: #9a9cff
+$conference: #fad165
+$theatre: #92e1c0
+$films: #7bd148
+$family-space: #fa573c
+ul.schedule
+  clear: left
+  li
+    display: inline-block
+    list-style-type: none
+    border: 1px solid #bbb
+    border-radius: 0.5em
+    padding: .25em .5em
+    margin: 0 .5em .5em 0
+    &.main-festival
+      background-color: $main-festival
+    &.conference
+      background-color: $conference
+    &.family-space
+      background-color: $family-space
+    &.films
+      background-color: $films
+    &.theatre
+      background-color: $theatre
+  h3.time
+    float: left
+    width: 55px
+    font-size: 12px
+  .timeblock
+    margin-left: 65px
+    padding-left: 10px
+    border-left: 1px solid #bbb
+
+ul.key
+  text-align: center
+  li
+    display: inline-block
 // Films
 
 span.details

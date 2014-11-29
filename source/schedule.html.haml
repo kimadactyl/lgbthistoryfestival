@@ -44,12 +44,13 @@ title: Schedule
 
     def get_events(time)
       # Get all the.events for a given time
-      @cals.first.events.select { |a| a.dtstart == time.dtstart }
+      e = {}
+      @cals.each do |cal|
+        e[cal.x_wr_calname] = cal.events.select { |a| a.dtstart == time.dtstart }
+      end
+      e
     end
 
-    def show_cals
-      @cals.flatten
-    end
   end
 
   academic = CalendarSorter.new({ "Academic" => "https://www.google.com/calendar/ical/lgbthistoryfestival.org_8mtrc289k99o4g90rc9cgce3io%40group.calendar.google.com/public/basic.ics"})
@@ -57,19 +58,35 @@ title: Schedule
               "Main Festival" => "https://www.google.com/calendar/ical/kim%40lgbthistoryfestival.org/public/basic.ics",
               "Family Space" => "https://www.google.com/calendar/ical/lgbthistoryfestival.org_0gc2nrd6ls6fjbuuf8icuju3ag%40group.calendar.google.com/public/basic.ics",
               "Films" => "https://www.google.com/calendar/ical/lgbthistoryfestival.org_qtra32a7f24jpc75ghjuffeops%40group.calendar.google.com/public/basic.ics",
-              "Theatre" => "https://www.google.com/calendar/ical/lgbthistoryfestival.org_ijgln6bmp4th9sg6stditdv7ok%40group.calendar.google.com/public/basic.ics" })
+              "Theatre" => "https://www.google.com/calendar/ical/lgbthistoryfestival.org_ijgln6bmp4th9sg6stditdv7ok%40group.calendar.google.com/public/basic.ics"})
 %section
   .row
     .small-12.columns
-      %ul
+      %ul.schedule.key
+        %li.main-festival Main Festival
+        %li.family-space Family Space
+        %li.films Films
+        %li.theatre Theatre
+        %li.conference Conference
+      %ul.schedule.program
         - days.each do |day, time|
           %h2= day
           - popular.get_start_times(time).each do |time|
-            %h3= time.dtstart.strftime("%H:%M")
-            - events = popular.get_events(time)
-              - events.each do |event|
-              %li
-                %strong= event.summary
-                = event.description
-                - duration = ((event.dtend - event.dtstart)/60).to_i
-                %em.duration= "(#{duration} mins)"
+            %h3.time= time.dtstart.strftime("%H:%M")
+            .timeblock
+              - eventlists = popular.get_events(time)
+              - eventlists.each do |list,events|
+                - events.each do |event|
+                  %li{:class => "#{list.to_s.parameterize}"}
+                    %strong= event.summary
+                    = event.description
+                    - duration = ((event.dtend - event.dtstart)/60).to_i
+                    %em.duration= "(#{duration} mins)"
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+:javascript
+  $( document ).ready(function() {
+    $("ul.key .main-festival").click(function(){
+      $("ul.program .main-festival").toggle();
+      })
+  });
