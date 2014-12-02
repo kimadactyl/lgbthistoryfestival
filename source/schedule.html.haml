@@ -61,13 +61,19 @@ title: Schedule
               "Theatre" => "https://www.google.com/calendar/ical/lgbthistoryfestival.org_ijgln6bmp4th9sg6stditdv7ok%40group.calendar.google.com/public/basic.ics"})
 %section
   .row
-    .small-12.columns
+    .small-12.columns.text-center
       %ul.schedule.key
         %li.main-festival Main Festival
         %li.family-space Family Space
         %li.films Films
         %li.theatre Theatre
         %li.conference Conference
+      %form.schedule-type
+        %input{:type => "radio", :name => "expanded", :id => "s-compact", :value => "0", :checked => "checked"} 
+        %label{:for => "s-compact"} Compact Schedule
+        %input{:type => "radio", :name => "expanded", :id => "s-expanded", :value => "1"} 
+        %label{:for => "s-expanded"} Expanded Schedule
+    .small-12.columns
       %ul.schedule.program
         - days.each do |day, time|
           %h2= day
@@ -79,14 +85,23 @@ title: Schedule
                 - events.each do |event|
                   %li{:class => "#{list.to_s.parameterize}"}
                     %strong= event.summary
-                    = event.description
+                    %span.description= event.description
                     - duration = ((event.dtend - event.dtstart)/60).to_i
                     %em.duration= "(#{duration} mins)"
 
 <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 :javascript
   $( document ).ready(function() {
+    $("ul.program .description").hide();
     $("ul.key .main-festival").click(function(){
       $("ul.program .main-festival").toggle();
-      })
+    });
+    $("input[name='expanded']").click(function() {
+      if($(this).attr("value")=="0"){
+        $("ul.program .description").hide();
+      } 
+      if ($(this).attr("value")=="1"){
+        $("ul.program .description").show();   
+      }
+    });
   });
