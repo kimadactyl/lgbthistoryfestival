@@ -5,7 +5,7 @@
 compass_config do |config|
   # Require any additional compass plugins here.
   config.add_import_path "bower_components/foundation/scss"
-  
+
   # Set this to the root of your project when deployed:
   config.http_path = "/"
   config.css_dir = "stylesheets"
@@ -73,8 +73,10 @@ end
 
 activate :authors
 
-require 'helpers/custom_helpers.rb'
-activate :custom_helpers
+#require 'helpers/custom_helpers.rb'
+#activate :custom_helpers
+
+activate :imagelb
 
 # page "/feed.xml", layout: false
 
@@ -99,7 +101,7 @@ helpers do
 end
 
 require 'middleman-thumbnailer'
-activate :thumbnailer, 
+activate :thumbnailer,
   :dimensions => {
     :small => '200x',
     :medium => '333x',

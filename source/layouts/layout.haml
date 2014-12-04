@@ -16,6 +16,11 @@
       try{Typekit.load();}catch(e){}
     = stylesheet_link_tag "app"
     = javascript_include_tag "modernizr"
+    = javascript_include_tag "https://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js"
+    = javascript_include_tag "zoombox"
+    = stylesheet_link_tag "zoombox"
+    = javascript_include_tag "zboptions"
+
   %body{class: "#{page_classes}"}
     %section#branding
       .row

@@ -45,6 +45,15 @@ GIT
       rake
       rmagick (~> 2.13.0)
 
+GIT
+  remote: https://github.com/queenp/middleman-imagelb.git
+  revision: 73ed337bde0cb365ff9504d03eb0efb444f972a2
+  specs:
+    middleman-imagelb (0.0.1)
+      middleman-core (>= 3.0.0)
+      mime-types (>= 2.1)
+      rmagick (>= 2.13.2)
+
 GEM
   remote: http://rubygems.org/
   specs:
@@ -167,6 +176,7 @@ DEPENDENCIES
   middleman-blog-authors
   middleman-favicon-maker (~> 3.7)
   middleman-google-analytics
+  middleman-imagelb!
   middleman-livereload
   middleman-thumbnailer!
   nokogiri
