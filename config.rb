@@ -76,7 +76,8 @@ activate :authors
 #require 'helpers/custom_helpers.rb'
 #activate :custom_helpers
 
-activate :imagelb
+require 'middleman-imagelb'
+activate :imagelb, {:thumbsz => 545, :maxsz => 1200}
 
 # page "/feed.xml", layout: false
 

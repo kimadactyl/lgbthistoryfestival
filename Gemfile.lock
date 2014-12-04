@@ -47,7 +47,7 @@ GIT
 
 GIT
   remote: https://github.com/queenp/middleman-imagelb.git
-  revision: 73ed337bde0cb365ff9504d03eb0efb444f972a2
+  revision: f7dc4920b62adcb36413eb7d77b4226d2aad0dd5
   specs:
     middleman-imagelb (0.0.1)
       middleman-core (>= 3.0.0)
