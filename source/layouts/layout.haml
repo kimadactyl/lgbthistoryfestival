@@ -38,7 +38,7 @@
               %span Menu
         %section.top-bar-section
           %ul.center.small-block-grid-1.medium-block-grid-3.large-block-grid-6
-            = nav_link 'Programme', '/programme.html'
+            = nav_link 'Schedule', '/schedule.html'
             = nav_link 'Venues', '/venues.html'
             = nav_link 'Blog', '/blog.html'
             = nav_link 'Conference', '/conference.html'
@@ -71,4 +71,6 @@
 
             LGBT History Festival website created with love by [Kim Foale](http://alliscalm.net) and [Squid](http://studiosquid.co.uk/).
           = javascript_include_tag  "all"
+          :javascript
+            skrollr.init();
           = google_analytics_tag
