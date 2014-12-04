@@ -14,8 +14,8 @@ Inline images should have at most 2 versions:
 
  * Source version shown in lightbox: ?
  * Inline: 545px max width
-
-Use helper function like this (...)
+ * Use helper function with embedded ruby tag: `<%= inline_img ("/images/path/your_image.jpg", caption="", gallery="") >%`
+ * Currently using Zoombox which allows for multiple galleries.
 
 ### Logos
 
