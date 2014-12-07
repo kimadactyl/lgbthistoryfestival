@@ -2,9 +2,9 @@
 //= require foundation/js/foundation.min
 //= require foundation/js/foundation/foundation.magellan
 //= require foundation/js/foundation/foundation.equalizer
-//= require jquery-validation/dist/jquery.validate.min.js
+//= require jquery-validation/dist/jquery.validate.min
 //= require social-likes/social-likes.min
-//= require skrollr/dist/skrollr.min
+//= require Parallax-ImageScroll/jquery.imageScroll.min
 
 //= require app
 //= require script

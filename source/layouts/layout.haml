@@ -23,27 +23,23 @@
           = link_to "/index.html" do
             %h1
               = image_tag "logo.png", :alt => "The First National Festival of LGBT History"
-    %section#date
-      .row
-        .columns.large-12
-          %h5 St Valentine's Weekend 14th & 15th February 2015
-    #nav-container.sticky.contain-to-grid
-      %nav#main-nav.top-bar{"data-topbar" => "", role: "navigation"}
-        %ul.title-area.show-for-small
-          %li.name
-            %h1
-          / Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone
-          %li.toggle-topbar.menu-icon
-            %a{href: "#"}
-              %span Menu
-        %section.top-bar-section
-          %ul.center.small-block-grid-1.medium-block-grid-3.large-block-grid-6
-            = nav_link 'Schedule', '/schedule.html'
-            = nav_link 'Venues', '/venues.html'
-            = nav_link 'Blog', '/blog.html'
-            = nav_link 'Conference', '/conference.html'
-            = nav_link 'About', '/about-us.html'
-            = nav_link 'Contact', '/contact.html'
+    -# #nav-container.sticky.contain-to-grid
+    -#   %nav#main-nav.top-bar{"data-topbar" => "", role: "navigation"}
+    -#     %ul.title-area.show-for-small
+    -#       %li.name
+    -#         %h1
+    -#       / Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone
+    -#       %li.toggle-topbar.menu-icon
+    -#         %a{href: "#"}
+    -#           %span Menu
+    -#     %section.top-bar-section
+    -#       %ul.center.small-block-grid-1.medium-block-grid-3.large-block-grid-6
+    -#         = nav_link 'Schedule', '/schedule.html'
+    -#         = nav_link 'Venues', '/venues.html'
+    -#         = nav_link 'Blog', '/blog.html'
+    -#         = nav_link 'Conference', '/conference.html'
+    -#         = nav_link 'About', '/about-us.html'
+    -#         = nav_link 'Contact', '/contact.html'
     %section#main{role: "content"}= yield
     %section#footer{role: "footer"}
       .row
@@ -71,6 +67,13 @@
 
             LGBT History Festival website created with love by [Kim Foale](http://alliscalm.net) and [Squid](http://studiosquid.co.uk/).
           = javascript_include_tag  "all"
-          :javascript
-            skrollr.init();
           = google_analytics_tag
+
+          :javascript
+            $(document).ready(function($) {
+              $('.img-holder').imageScroll({
+                coverRatio: 0.25,
+                extraHeight: 300
+              });   
+            });
+

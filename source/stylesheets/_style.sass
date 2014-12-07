@@ -1,5 +1,37 @@
 $red: #ED1C24
 $pink: #EB6D98
+$jaggies: 40px
+/* border-serrated - a zig zag triangle border with linear gradient */
+=border-top-serrated($size, $color-outer)
+  &
+    position: relative
+    overflow: auto
+    padding-top: $size
+  &:before
+    top: 0px
+    background-position: left top
+    background: linear-gradient(-135deg, $color-outer $size / 2, transparent 0), linear-gradient(135deg, $color-outer $size / 2, transparent 0)
+    +border-serrated-helper($size, $color-outer)
+=border-bottom-serrated($size, $color-outer)
+  &
+    position: relative
+    overflow: auto
+    padding-bottom: $size
+  &:after
+    bottom: 0px
+    background-position: left bottom
+    background: linear-gradient(-45deg, $color-outer $size / 2, transparent 0), linear-gradient(45deg, $color-outer $size / 2, transparent 0)
+    +border-serrated-helper($size, $color-outer)
+=border-serrated-helper($size, $color-outer)
+  content: " "
+  display: block
+  position: absolute
+  left: 0px
+  width: 100%
+  height: $size
+  background-repeat: repeat-x
+  background-size: $size $size
+
 
 // Matching font from LGBT history month website
 h1, h2, h3, h4, h5
@@ -388,73 +420,53 @@ form#contribute
   span
     display: block
 
-// Front page scroller
+// Slides
 
-.skrollr-desktop body
-  height: 100% !important
-
-.piw
-  position: fixed
-  left: 0
-  width: 100%
-  overflow: hidden
-
-.piw-50
-  height: 50%
-  top: -50%
-
-.piw-100
-  height: 100%
-  top: -100%
-
-.pi
-  display: none
-  position: absolute
-  bottom: 0
-  left: 0
-  width: 100%
-  background-repeat: no-repeat
-  background-position: center
-  background-size: cover
-
-.pi-50
-  height: 200%
-  top: -50%
-
-.pi-100
-  height: 100%
-  top: 0
-
-.pi.skrollable-between
-  display: block
-
-.no-skrollr .piw
-  display: none !important
-
-#skrollr-body
-  height: 100%
-  overflow: visible
+section#branding
+#slide-1
+  .border
+    +border-top-serrated($jaggies, $pink)
+  .row
+    margin-top: -$jaggies
   position: relative
+  background-color: transparent
+  text-align: center
+  margin-top: 0
+  padding-top: 0
+  h1
+    position: absolute
+    background-image: url('/images/home/fancyborder.png')
+    background-repeat: no-repeat
+    background-size: contain
+    color: white
+    min-height: 310px
+    font-size: 36px
+    margin: 0 30px
+    padding: 50px
+    top: 4em
+    text-align: center
+#slide-2
+  margin-top: 3em
+  h3
+    font-size: 150%
+  p
+    font-size: 130%
+#slide-3
+  .border    
+    +border-top-serrated($jaggies, white)
+  .row
+    margin-top: -$jaggies
+  position: relative
+  background-color: transparent
+  text-align: center
+  .small-12 .content
+    position: absolute
+    top: 5em
+    color: white
+    p
+      font-size: 150%
+      background: rgba(0,0,0,0.5)
+      padding: 0.5em
+      a
+        color: white
 
-.gap
-  background: transparent center no-repeat
-  background-size: cover
-
-.skrollr .gap
-  background: transparent !important
-
-.gap-50
-  height: 50%
-
-.gap-100
-  height: 100%
-
-.header, .content
-  background: #fff
-  padding: 1em
-  -webkit-box-sizing: border-box
-  -moz-box-sizing: border-box
-  box-sizing: border-box
-
-.content-full, #done
-  height: 100%
