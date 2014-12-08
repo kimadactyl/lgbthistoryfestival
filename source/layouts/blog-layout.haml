@@ -28,7 +28,7 @@
         %h3= author
         - if info['photo']
           %p.photo
-            = thumbnail('gallery/blog/' + info['photo'], :small)      
+            = image_tag('gallery/blog/' + info['photo'])      
         %p= info['bio']
         %p
           - if info['url']
