@@ -32,7 +32,6 @@ $jaggies: 40px
   background-repeat: repeat-x
   background-size: $size $size
 
-
 // Matching font from LGBT history month website
 h1, h2, h3, h4, h5
   text-transform: uppercase
@@ -66,55 +65,6 @@ section.pink
 .button h3
   color: white
 
-// Arrow buttons
-// $arrow-width: 54px / 2
-// $large-arrow-width: 62px / 2
-// .arrow
-//   a
-//     text-decoration: none
-//     text-indent: 1em
-//     padding-bottom: 1.1rem
-//   a.large
-//     text-indent: 0
-//     padding-bottom: 1.25rem
-//   a:before, a:after
-//     content: ""
-//     position: absolute
-//     top: 0   
-//     width: 0
-//     height: 0
-//     border-style: solid
-//     border-width: $arrow-width 0 $arrow-width $arrow-width
-//   a.large:after
-//     border-width: $large-arrow-width 0 $large-arrow-width $large-arrow-width
-//   a:before
-//     border-color: transparent transparent transparent #fff
-//     left: 0
-//   a.large:before 
-//     border-width: 0
-//   a:after
-//     border-color: transparent transparent transparent $pink
-//     right: -$arrow-width
-//     transition: border-color 300ms ease-out
-//   a:hover:after
-//     border-color: transparent transparent transparent scale-color($pink, $lightness: -20%)
-//     transition: border-color 300ms ease-out
-//   a.large:after
-//     right: -$large-arrow-width
-
-
-
-// &:after
-//   content: ' '
-//   height: 0
-//   position: absolute
-//   width: 0
-//   top: 0
-//   right: -1.5em
-//   border-style: solid
-//   border-width: 1.5em 0 1.5em 1.5em
-//   border-color: transparent transparent transparent $pink
-
 // Branding
 section#branding
   padding: 2.5em 0 2.25em 0
@@ -138,56 +88,23 @@ section#date
     margin: 0.35em 0
 
 // Navigation
-
-// Only show pink border when not on front page, unless it's scrolled far enough down.
-.sticky 
-  border-width: 0 0 3px 0
-  border-color: $pink
-  border-style: solid
-@media #{$medium-only}
-  .top-bar-section
-    border-width: 0 0 3px 0
-    border-color: $pink
-    border-style: solid
-  section#main
-    margin-top: 3em
-
-.index .sticky 
-  border-width: 0
-.index.f-topbar-fixed .sticky
-  border-width: 0 0 3px 0
-
-nav#main-nav
-  background-color: white
-  @media #{$small-only}
-    position: fixed
-    top: 0
-    display: block
-    width: 100%
-  a
-    text-align: center
-    text-transform: uppercase
-    font-weight: bold
-    text-decoration: none
-    &:hover
-      color: white
-      background-color: black
+nav
+  margin-top: 1em
   li
-    padding-bottom: 0
-    // 6 wide spacing
-    letter-spacing: 0.1rem
-    // 5 wide spacing
-    // letter-spacing: 0.05rem
-    @media #{$small-only} 
-      a
-        text-align: left
-    &.active, &:hover
-      a
-        color: white 
-      background-color: black
-  .show-for-small
-    background-color: black
-    color: $pink
+    list-style-type: none
+    display: inline-block
+    padding: 0.5em 1em
+    background: white
+    background: linear-gradient(135deg, transparent 5px, white 0) top left, linear-gradient(225deg, transparent 5px, white 0) top right, linear-gradient(315deg, transparent 5px, white 0) bottom right, linear-gradient(45deg,  transparent 10px, white 0) bottom left
+    background-size: 50% 50%
+    background-repeat: no-repeat
+    background-image: radial-gradient(circle at 0 0, transparent 8px, white 8px), radial-gradient(circle at 100% 0, transparent 8px, white 8px), radial-gradient(circle at 100% 100%, transparent 8px, white 8px), radial-gradient(circle at 0 100%, transparent 8px, white 8px)
+    a
+      text-transform: uppercase
+      padding: 0.25em
+      color: black
+      text-decoration: none
+      font-size: 130%
 
 // Padding on copy sections
 section#main section
@@ -422,51 +339,97 @@ form#contribute
 
 // Slides
 
-section#branding
-#slide-1
-  .border
-    +border-top-serrated($jaggies, $pink)
-  .row
-    margin-top: -$jaggies
-  position: relative
-  background-color: transparent
-  text-align: center
-  margin-top: 0
-  padding-top: 0
-  h1
-    position: absolute
-    background-image: url('/images/home/fancyborder.png')
-    background-repeat: no-repeat
-    background-size: contain
-    color: white
-    min-height: 310px
-    font-size: 36px
-    margin: 0 30px
-    padding: 50px
-    top: 4em
-    text-align: center
-#slide-2
-  margin-top: 3em
-  h3
-    font-size: 150%
+#topborder
+  +border-top-serrated($jaggies, $pink)
+
+body.index section#main
   p
     font-size: 130%
-#slide-3
-  .border    
-    +border-top-serrated($jaggies, white)
-  .row
-    margin-top: -$jaggies
-  position: relative
-  background-color: transparent
-  text-align: center
-  .small-12 .content
-    position: absolute
-    top: 5em
-    color: white
-    p
+  h2, h3
+    background-repeat: no-repeat
+    background-size: contain
+    background-position: 50% 0
+  .arrow
+    margin: 0 auto 2em
+    width: 39px
+    height: 50px
+  .whitearrow
+    background-image: url("/images/icons/whitearrow.png") 
+  .pinkarrow
+    background-image: url("/images/icons/pinkarrow.png")
+  section#slide-1
+    background-image: url("/images/home/canalst.jpg")
+    background-attachment: fixed
+    background-color: transparent
+    text-align: center
+    padding-top: 0
+    .row
+      top: 0
+      margin-top: -$jaggies
+    h1
+      background-image: url('/images/home/fancyborder.png')
+      background-repeat: no-repeat
+      background-size: contain
+      color: white
+      min-height: 310px
+      font-size: 36px
+      margin: 3em 30px
+      padding: 50px
+      top: 4em
+      text-align: center
+  #slide-2
+    margin-top: 3em
+    h3
       font-size: 150%
-      background: rgba(0,0,0,0.5)
-      padding: 0.5em
-      a
-        color: white
-
+    p
+      font-size: 130%
+  #slide-3
+    background-attachment: fixed
+    background-image: url("/images/home/badges.jpg")
+    background-color: transparent
+    text-align: center
+    padding-top: 0
+    .border
+      +border-top-serrated($jaggies, white)
+    .small-12 .content
+      margin: 4em 0
+      color: white
+      p
+        font-size: 150%
+        background: rgba(0,0,0,0.5)
+        padding: 0.5em
+        a
+          color: white
+  #slide-4
+    padding-bottom: 2em
+    +border-bottom-serrated($jaggies, white)
+    p
+      color: white
+    img
+      margin: 1em 0
+    a
+      color: white
+      text-decoration: none
+    h3
+      background-image: url('/images/icons/chevronborder.png')
+      padding: 8px 0
+  #slide-5
+    margin-top: 2em
+    .row > div
+      margin: 3em 0 
+    h2
+      background-image: url('/images/icons/longborder.png')
+      min-height: 80px
+      padding: 13px 0
+    h3
+      background-image: url('/images/icons/scallopedborder.png')
+      color: white
+    .sat-image, .sun-image
+      background-attachment: fixed
+      background-repeat: none
+      background-size: cover
+      height: 18em
+    .sat-image
+      background-image: url("/images/home/library.jpg")
+    .sun-image
+      background-image: url("/images/home/phm.jpg")
