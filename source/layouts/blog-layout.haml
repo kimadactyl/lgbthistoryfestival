@@ -28,7 +28,7 @@
         %h3= author
         - if info['photo']
           %p.photo
-            = image_tag('gallery/blog/' + info['photo'])      
+            = image_tag('authors/' + info['photo'])      
         %p= info['bio']
         %p
           - if info['url']
