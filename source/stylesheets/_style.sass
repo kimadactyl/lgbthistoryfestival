@@ -95,7 +95,7 @@ nav
     display: inline-block
     padding: 0.5em 1em
     background: white
-    background: linear-gradient(135deg, transparent 5px, white 0) top left, linear-gradient(225deg, transparent 5px, white 0) top right, linear-gradient(315deg, transparent 5px, white 0) bottom right, linear-gradient(45deg,  transparent 10px, white 0) bottom left
+    background: linear-gradient(135deg, transparent 6px, white 0) top left, linear-gradient(225deg, transparent 6px, white 0) top right, linear-gradient(315deg, transparent 6px, white 0) bottom right, linear-gradient(45deg,  transparent 10px, white 0) bottom left
     background-size: 50% 50%
     background-repeat: no-repeat
     background-image: radial-gradient(circle at 0 0, transparent 8px, white 8px), radial-gradient(circle at 100% 0, transparent 8px, white 8px), radial-gradient(circle at 100% 100%, transparent 8px, white 8px), radial-gradient(circle at 0 100%, transparent 8px, white 8px)
@@ -185,7 +185,6 @@ ul.schedule
     display: inline-block
     list-style-type: none
     border: 1px solid #bbb
-    border-radius: 0.5em
     padding: .25em .5em
     margin: 0 .5em .5em 0
     &.main-festival
@@ -198,6 +197,8 @@ ul.schedule
       background-color: $films
     &.theatre
       background-color: $theatre
+    &.disabled
+      background-color: transparent
   h3.time
     float: left
     width: 55px

@@ -16,6 +16,7 @@
       try{Typekit.load();}catch(e){}
     = stylesheet_link_tag "app"
     = javascript_include_tag "modernizr"
+    = javascript_include_tag  "all"
   %body{class: "#{page_classes}"}
     %section#branding
       .row
@@ -59,14 +60,4 @@
             Uncovering & celebrating our *past* to enlighten our *present* & thereby guiding our creation of a more inclusive & equitable *future*.
 
             LGBT History Festival website created with love by [Kim Foale](http://alliscalm.net) and [Squid](http://studiosquid.co.uk/).
-          = javascript_include_tag  "all"
           = google_analytics_tag
-
-          -# :javascript
-          -#   $(document).ready(function($) {
-          -#     $('.img-holder').imageScroll({
-          -#       coverRatio: 0.25,
-          -#       extraHeight: 300
-          -#     });   
-          -#   });
-

@@ -58,7 +58,8 @@ title: Schedule
               "Main Festival" => "https://www.google.com/calendar/ical/kim%40lgbthistoryfestival.org/public/basic.ics",
               "Family Space" => "https://www.google.com/calendar/ical/lgbthistoryfestival.org_0gc2nrd6ls6fjbuuf8icuju3ag%40group.calendar.google.com/public/basic.ics",
               "Films" => "https://www.google.com/calendar/ical/lgbthistoryfestival.org_qtra32a7f24jpc75ghjuffeops%40group.calendar.google.com/public/basic.ics",
-              "Theatre" => "https://www.google.com/calendar/ical/lgbthistoryfestival.org_ijgln6bmp4th9sg6stditdv7ok%40group.calendar.google.com/public/basic.ics"})
+              "Theatre" => "https://www.google.com/calendar/ical/lgbthistoryfestival.org_ijgln6bmp4th9sg6stditdv7ok%40group.calendar.google.com/public/basic.ics",
+              "Conference" => "https://www.google.com/calendar/ical/lgbthistoryfestival.org_8mtrc289k99o4g90rc9cgce3io%40group.calendar.google.com/public/basic.ics"})
 %section
   .row
     .small-12.columns.text-center
@@ -78,23 +79,38 @@ title: Schedule
         - days.each do |day, time|
           %h2= day
           - popular.get_start_times(time).each do |time|
-            %h3.time= time.dtstart.strftime("%H:%M")
-            .timeblock
-              - eventlists = popular.get_events(time)
-              - eventlists.each do |list,events|
-                - events.each do |event|
-                  %li{:class => "#{list.to_s.parameterize}"}
-                    %strong= event.summary
-                    %span.description= event.description
-                    - duration = ((event.dtend - event.dtstart)/60).to_i
-                    %em.duration= "(#{duration} mins)"
+            .timegroup
+              %h3.time= time.dtstart.strftime("%H:%M")
+              .timeblock
+                - eventlists = popular.get_events(time)
+                - eventlists.each do |list,events|
+                  - events.each do |event|
+                    %li{:class => "#{list.to_s.parameterize}"}
+                      %strong= event.summary
+                      %span.description= event.description
+                      - duration = ((event.dtend - event.dtstart)/60).to_i
+                      %em.duration= "(#{duration} mins)"
 
 :javascript
   $( document ).ready(function() {
     $("ul.program .description").hide();
-    $("ul.key .main-festival").click(function(){
-      $("ul.program .main-festival").toggle();
-    });
+    $("ul.program .conference").toggle();
+    $("ul.key .conference").toggleClass('disabled');
+
+    
+    function toggleProgram($trigger, $element){
+      $trigger.click(function(){
+        $element.toggle();
+        $trigger.toggleClass('disabled');
+      })
+    }
+
+    toggleProgram($("ul.key .main-festival"), $("ul.program .main-festival"));
+    toggleProgram($("ul.key .family-space"), $("ul.program .family-space"));
+    toggleProgram($("ul.key .films"), $("ul.program .films"));
+    toggleProgram($("ul.key .theatre"), $("ul.program .theatre"));
+    toggleProgram($("ul.key .conference"), $("ul.program .conference"));
+
     $("input[name='expanded']").click(function() {
       if($(this).attr("value")=="0"){
         $("ul.program .description").hide();
