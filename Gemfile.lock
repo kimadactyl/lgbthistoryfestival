@@ -37,15 +37,6 @@ GIT
       tilt (~> 1.4.1, < 2.0)
 
 GIT
-  remote: https://github.com/nhemsley/middleman-thumbnailer.git
-  revision: 3faf7dccba74fa77859c51a52c847e492a7bbc40
-  specs:
-    middleman-thumbnailer (0.1.0)
-      mime-types (= 2.1)
-      rake
-      rmagick (~> 2.13.0)
-
-GIT
   remote: https://github.com/queenp/middleman-imagelb.git
   revision: f7dc4920b62adcb36413eb7d77b4226d2aad0dd5
   specs:
@@ -138,7 +129,6 @@ GEM
       rack
     rack-test (0.6.2)
       rack (>= 1.0)
-    rake (10.3.2)
     rb-fsevent (0.9.4)
     rb-inotify (0.9.5)
       ffi (>= 0.5.0)
@@ -178,7 +168,6 @@ DEPENDENCIES
   middleman-google-analytics
   middleman-imagelb!
   middleman-livereload
-  middleman-thumbnailer!
   nokogiri
   ruby18_source_location
   wdm (~> 0.1.0)

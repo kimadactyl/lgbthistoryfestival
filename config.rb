@@ -101,16 +101,6 @@ helpers do
   end
 end
 
-require 'middleman-thumbnailer'
-activate :thumbnailer,
-  :dimensions => {
-    :small => '200x',
-    :medium => '333x',
-    :large => '667x',
-  },
-  :include_data_thumbnails => true,
-  :namespace_directory => %w(gallery)
-
 # Add bower's directory to sprockets asset path
 after_configuration do
   @bower_config = JSON.parse(IO.read("#{root}/.bowerrc"))
