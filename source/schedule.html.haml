@@ -93,24 +93,40 @@ title: Schedule
 
 :javascript
   $( document ).ready(function() {
+    // Hide the extended defs
     $("ul.program .description").hide();
+    // Hide the conference initially
     $("ul.program .conference").toggle();
+    // Toggle off the conference button
     $("ul.key .conference").toggleClass('disabled');
 
-    
+    // Check to see if any rows are empty and hide the times
+    function checkBlanks(){
+        $(".timegroup").each(function() {
+        if($('.timeblock', this).children(':visible').length == 0) {
+          $('h3.time', this).hide();
+        } else {
+          $('h3.time', this).show();
+        }
+      })
+    }
+    checkBlanks();
+
+    // Wire up buttons to trigger appropriate sections
     function toggleProgram($trigger, $element){
       $trigger.click(function(){
         $element.toggle();
         $trigger.toggleClass('disabled');
+        checkBlanks();
       })
     }
-
     toggleProgram($("ul.key .main-festival"), $("ul.program .main-festival"));
     toggleProgram($("ul.key .family-space"), $("ul.program .family-space"));
     toggleProgram($("ul.key .films"), $("ul.program .films"));
     toggleProgram($("ul.key .theatre"), $("ul.program .theatre"));
     toggleProgram($("ul.key .conference"), $("ul.program .conference"));
 
+    // Check for click events on expanded/contracted selector
     $("input[name='expanded']").click(function() {
       if($(this).attr("value")=="0"){
         $("ul.program .description").hide();
