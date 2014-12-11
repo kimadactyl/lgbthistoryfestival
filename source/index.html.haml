@@ -3,7 +3,7 @@ title: First National Festival of LGBT History
 ---
 
 %section#slide-1
-  .row 
+  .row
     .small-12.columns
       %h1 The First National Festival of LGBT history celebrates LGBT History Month&rsquo;s 10th anniversary
   .whitearrow.arrow
@@ -11,8 +11,8 @@ title: First National Festival of LGBT History
 %section#slide-2
   .row
     .small-12.text-center.columns
-      %h3 Trailblazing activists will talk about their lives and present popular histories, and internationally renowned scholars will present world-first research on a range of topics. 
-      %p There will be groundbreaking immersive theatre over three days around the city; innovative diversity lessons for families and younger people; and a film festival celebrating LGBT themes from around the world. 
+      %h3 Trailblazing activists will talk about their lives and present popular histories, and internationally renowned scholars will present world-first research on a range of topics.
+      %p There will be groundbreaking immersive theatre over three days around the city; innovative diversity lessons for families and younger people; and a film festival celebrating LGBT themes from around the world.
   .pinkarrow.arrow
 
 %section#slide-3
@@ -21,9 +21,9 @@ title: First National Festival of LGBT History
     .small-12.text-center.columns
       .content
         :markdown
-          The Festival is hosted at [Manchester's most prestigious venues](/travel.html): the newly refurbished Central Library, People's History Museum, the Lesbian and Gay Foundation, and various venues throughout Manchester's Gay Village. 
+          The Festival is hosted at [Manchester's most prestigious venues](/travel.html): the newly refurbished Central Library, People's History Museum, the Lesbian and Gay Foundation, and various venues throughout Manchester's Gay Village.
 
-          We are proud to work with Manchester City Council, LGF, School's OUT UK, Manchester Metropolitan University, and scholars from some of the country's most respected institutions in delivering this world-first festival.          
+          We are proud to work with Manchester City Council, LGF, School's OUT UK, Manchester Metropolitan University, and scholars from some of the country's most respected institutions in delivering this world-first festival.
   .whitearrow.arrow
 
 %section#slide-4.pink
@@ -34,12 +34,12 @@ title: First National Festival of LGBT History
         %img{:src => "/images/icons/program.png"}
         %p Read the program and find out what's happening
     .small-4.columns
-      %a{:href => "/travel.html"} 
+      %a{:href => "/travel.html"}
         %h3 Venues
         %img{:src => "/images/icons/venues.png"}
         %p Find out about the venues, booking and travel
-    .small-4.columns        
-      %a{:href => "/about-us.html"} 
+    .small-4.columns
+      %a{:href => "/about-us.html"}
         %h3 About Us
         %img{:src => "/images/icons/aboutus.png"}
         %p Learn more about the organisation and its values
@@ -59,25 +59,33 @@ title: First National Festival of LGBT History
   .pinkarrow.arrow
   .sun-image
   .row
-    .medium-1.columns  
+    .medium-1.columns
     .small-12.medium-10.columns
       %h3 Sunday Hub
       %h5 People&rsquo;s History Museum
       %p Will be hosting discussions of power and institutions, and the role of social movements in changing rights for LGBT people.
-    .medium-1.columns      
+    .medium-1.columns
   .pinkarrow.arrow
 
 .row
   .small-12.columns
-    :markdown      
-      ### Film 
+    :markdown
+      ### Film
       We are showcasing film representations of LGBT diversity, including a specific focus on German film's pioneering role in representing sex and gender diversity on the screen.
 
-      ### Theatre 
+      ### Theatre
       Pagelight Productions will dramatise a historic raid of a fancy dress ball in Hulme in September 1880 and show why this event made the international news.
 
-      ### Academic Conference 
+      ### Academic Conference
       The LGF hosts an academic conference 'The 2nd What is & How to DO LGBT History?', which seeks to place attitudes, experiences and identities in their historical context.
 
-      ### Family Events 
+      ### Family Events
       Both Saturday and Sunday feature diversity and LGBT history lessons, delivered by experienced teachers, for Key Stages 1 & 2. There will also be story time for younger children and teenagers.
+
+:javascript
+  $('.arrow').on('click', function(event){
+    var target = $(this).parent().next();
+    $('html, body').animate({
+      scrollTop: target.offset().top
+        }, 1000);
+      });
