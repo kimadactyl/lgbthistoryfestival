@@ -9456,6 +9456,775 @@ c.compute_dimensions()}else a.S("[data-orbit]",a.scope).each(function(b,c){var d
 /*! Social Likes v3.0.4 by Artem Sapegin - http://sapegin.github.com/social-likes - Licensed MIT */
 
 !function(a){"function"==typeof define&&define.amd?define(["jquery"],a):a(jQuery)}(function(a,b){"use strict";function c(a,b){this.container=a,this.options=b,this.init()}function d(b,c){this.widget=b,this.options=a.extend({},c),this.detectService(),this.service&&this.init()}function e(a){function b(a,b){return b.toUpper()}var c={},d=a.data();for(var e in d){var f=d[e];"yes"===f?f=!0:"no"===f&&(f=!1),c[e.replace(/-(\w)/g,b)]=f}return c}function f(a,b){return g(a,b,encodeURIComponent)}function g(a,b,c){return a.replace(/\{([^\}]+)\}/g,function(a,d){return d in b?c?c(b[d]):b[d]:a})}function h(a,b){var c=l+a;return c+" "+c+"_"+b}function i(b,c){function d(g){"keydown"===g.type&&27!==g.which||a(g.target).closest(b).length||(b.removeClass(m),e.off(f,d),a.isFunction(c)&&c())}var e=a(document),f="click touchstart keydown";e.on(f,d)}function j(a){var b=10;if(document.documentElement.getBoundingClientRect){var c=parseInt(a.css("left"),10),d=parseInt(a.css("top"),10),e=a[0].getBoundingClientRect();e.left<b?a.css("left",b-e.left+c):e.right>window.innerWidth-b&&a.css("left",window.innerWidth-e.right-b+c),e.top<b?a.css("top",b-e.top+d):e.bottom>window.innerHeight-b&&a.css("top",window.innerHeight-e.bottom-b+d)}a.addClass(m)}var k="social-likes",l=k+"__",m=k+"_opened",n="https:"===location.protocol?"https:":"http:",o={facebook:{counterUrl:"https://graph.facebook.com/fql?q=SELECT+total_count+FROM+link_stat+WHERE+url%3D%22{url}%22&callback=?",convertNumber:function(a){return a.data[0].total_count},popupUrl:"https://www.facebook.com/sharer/sharer.php?u={url}",popupWidth:600,popupHeight:500},twitter:{counterUrl:"https://cdn.api.twitter.com/1/urls/count.json?url={url}&callback=?",convertNumber:function(a){return a.count},popupUrl:"https://twitter.com/intent/tweet?url={url}&text={title}",popupWidth:600,popupHeight:450,click:function(){return/[\.:\-–—]\s*$/.test(this.options.title)||(this.options.title+=":"),!0}},mailru:{counterUrl:n+"//connect.mail.ru/share_count?url_list={url}&callback=1&func=?",convertNumber:function(a){for(var b in a)if(a.hasOwnProperty(b))return a[b].shares},popupUrl:n+"//connect.mail.ru/share?share_url={url}&title={title}",popupWidth:550,popupHeight:360},vkontakte:{counterUrl:n+"//vk.com/share.php?act=count&url={url}&index={index}",counter:function(b,c){var d=o.vkontakte;d._||(d._=[],window.VK||(window.VK={}),window.VK.Share={count:function(a,b){d._[a].resolve(b)}});var e=d._.length;d._.push(c),a.getScript(f(b,{index:e})).fail(c.reject)},popupUrl:n+"//vk.com/share.php?url={url}&title={title}",popupWidth:550,popupHeight:330},odnoklassniki:{counterUrl:n+"//www.odnoklassniki.ru/dk?st.cmd=shareData&ref={url}&cb=?",convertNumber:function(a){return a.count},popupUrl:n+"//www.odnoklassniki.ru/dk?st.cmd=addShare&st._surl={url}",popupWidth:550,popupHeight:360},plusone:{counterUrl:"http:"===n?"http://share.yandex.ru/gpp.xml?url={url}":b,counter:function(b,c){var d=o.plusone;return d._?void c.reject():(window.services||(window.services={}),window.services.gplus={cb:function(a){d._.resolve(a)}},d._=c,void a.getScript(f(b)).fail(c.reject))},popupUrl:"https://plus.google.com/share?url={url}",popupWidth:700,popupHeight:500},pinterest:{counterUrl:n+"//api.pinterest.com/v1/urls/count.json?url={url}&callback=?",convertNumber:function(a){return a.count},popupUrl:n+"//pinterest.com/pin/create/button/?url={url}&description={title}",popupWidth:630,popupHeight:270}},p={promises:{},fetch:function(b,c,d){p.promises[b]||(p.promises[b]={});var e=p.promises[b];if(!d.forceUpdate&&e[c])return e[c];var g=a.extend({},o[b],d),h=a.Deferred(),i=g.counterUrl&&f(g.counterUrl,{url:c});return i&&a.isFunction(g.counter)?g.counter(i,h):g.counterUrl?a.getJSON(i).done(function(b){try{var c=b;a.isFunction(g.convertNumber)&&(c=g.convertNumber(b)),h.resolve(c)}catch(d){h.reject()}}).fail(h.reject):h.reject(),e[c]=h.promise(),e[c]}};a.fn.socialLikes=function(b){return this.each(function(){var d=a(this),f=d.data(k);f?a.isPlainObject(b)&&f.update(b):(f=new c(d,a.extend({},a.fn.socialLikes.defaults,b,e(d))),d.data(k,f))})},a.fn.socialLikes.defaults={url:window.location.href.replace(window.location.hash,""),title:document.title,counters:!0,zeroes:!1,wait:500,popupCheckInterval:500,singleTitle:"Share"},c.prototype={init:function(){this.container.addClass(k),this.single=this.container.hasClass(k+"_single"),this.initUserButtons(),this.number=0,this.container.on("counter."+k,a.proxy(this.updateCounter,this));var b=this.container.children();this.countersLeft=b.length,this.makeSingleButton(),this.buttons=[],b.each(a.proxy(function(b,c){this.buttons.push(new d(a(c),this.options))},this)),this.options.counters?this.timer=setTimeout(a.proxy(this.appear,this),this.options.wait):this.appear()},initUserButtons:function(){!this.userButtonInited&&window.socialLikesButtons&&a.extend(!0,o,socialLikesButtons),this.userButtonInited=!0},makeSingleButton:function(){if(this.single){var b=this.container;b.addClass(k+"_vertical"),b.wrap(a("<div>",{"class":k+"_single-w"})),b.wrapInner(a("<div>",{"class":k+"__single-container"}));var c=b.parent(),d=a("<div>",{"class":h("widget","single")}),e=a(g('<div class="{buttonCls}"><span class="{iconCls}"></span>{title}</div>',{buttonCls:h("button","single"),iconCls:h("icon","single"),title:this.options.singleTitle}));d.append(e),c.append(d),d.click(function(){var a=k+"__widget_active";return d.toggleClass(a),d.hasClass(a)?(b.css({left:-(b.width()-d.width())/2,top:-b.height()}),j(b),i(b,function(){d.removeClass(a)})):b.removeClass(m),!1}),this.widget=d}},update:function(b){if(b.forceUpdate||b.url!==this.options.url){this.number=0,this.countersLeft=this.buttons.length,this.widget&&this.widget.find("."+k+"__counter").remove(),a.extend(this.options,b);for(var c=0;c<this.buttons.length;c++)this.buttons[c].update(b)}},updateCounter:function(a,b,c){c&&(this.number+=c,this.single&&this.getCounterElem().text(this.number)),this.countersLeft--,0===this.countersLeft&&(this.appear(),this.container.addClass(k+"_ready"),this.container.trigger("ready."+k,this.number))},appear:function(){this.container.addClass(k+"_visible")},getCounterElem:function(){var b=this.widget.find("."+l+"counter_single");return b.length||(b=a("<span>",{"class":h("counter","single")}),this.widget.append(b)),b}},d.prototype={init:function(){this.detectParams(),this.initHtml(),this.initCounter()},update:function(b){a.extend(this.options,{forceUpdate:!1},b),this.widget.find("."+k+"__counter").remove(),this.initCounter()},detectService:function(){var b=this.widget.data("service");if(!b){for(var c=this.widget[0],d=c.classList||c.className.split(" "),e=0;e<d.length;e++){var f=d[e];if(o[f]){b=f;break}}if(!b)return}this.service=b,a.extend(this.options,o[b])},detectParams:function(){var a=this.widget.data();if(a.counter){var b=parseInt(a.counter,10);isNaN(b)?this.options.counterUrl=a.counter:this.options.counterNumber=b}a.title&&(this.options.title=a.title),a.url&&(this.options.url=a.url)},initHtml:function(){var b=this.options,c=this.widget,d=c.find("a");d.length&&this.cloneDataAttrs(d,c);var e=a("<span>",{"class":this.getElementClassNames("button"),text:c.text()});if(b.clickUrl){var g=f(b.clickUrl,{url:b.url,title:b.title}),h=a("<a>",{href:g});this.cloneDataAttrs(c,h),c.replaceWith(h),this.widget=c=h}else c.click(a.proxy(this.click,this));c.removeClass(this.service),c.addClass(this.getElementClassNames("widget")),e.prepend(a("<span>",{"class":this.getElementClassNames("icon")})),c.empty().append(e),this.button=e},initCounter:function(){if(this.options.counters)if(this.options.counterNumber)this.updateCounter(this.options.counterNumber);else{var b={counterUrl:this.options.counterUrl,forceUpdate:this.options.forceUpdate};p.fetch(this.service,this.options.url,b).always(a.proxy(this.updateCounter,this))}},cloneDataAttrs:function(a,b){var c=a.data();for(var d in c)c.hasOwnProperty(d)&&b.data(d,c[d])},getElementClassNames:function(a){return h(a,this.service)},updateCounter:function(b){b=parseInt(b,10)||0;var c={"class":this.getElementClassNames("counter"),text:b};b||this.options.zeroes||(c["class"]+=" "+k+"__counter_empty",c.text="");var d=a("<span>",c);this.widget.append(d),this.widget.trigger("counter."+k,[this.service,b])},click:function(b){var c=this.options,d=!0;if(a.isFunction(c.click)&&(d=c.click.call(this,b)),d){var e=f(c.popupUrl,{url:c.url,title:c.title});e=this.addAdditionalParamsToUrl(e),this.openPopup(e,{width:c.popupWidth,height:c.popupHeight})}return!1},addAdditionalParamsToUrl:function(b){var c=a.param(a.extend(this.widget.data(),this.options.data));if(a.isEmptyObject(c))return b;var d=-1===b.indexOf("?")?"?":"&";return b+d+c},openPopup:function(b,c){var d=Math.round(screen.width/2-c.width/2),e=0;screen.height>c.height&&(e=Math.round(screen.height/3-c.height/2));var f=window.open(b,"sl_"+this.service,"left="+d+",top="+e+",width="+c.width+",height="+c.height+",personalbar=0,toolbar=0,scrollbars=1,resizable=1");if(f){f.focus(),this.widget.trigger("popup_opened."+k,[this.service,f]);var g=setInterval(a.proxy(function(){f.closed&&(clearInterval(g),this.widget.trigger("popup_closed."+k,this.service))},this),this.options.popupCheckInterval)}else location.href=b}},a(function(){a("."+k).socialLikes()})});
+// Utility for creating objects in older browsers
+if ( typeof Object.create !== 'function' ) {
+  Object.create = function( obj ) {
+
+    function F() {}
+    F.prototype = obj;
+    return new F();
+
+  };
+}
+
+/*!
+ * jQuery panelSnap
+ * Version 0.12.0
+ *
+ * Requires:
+ * - jQuery 1.7 or higher (no jQuery.migrate needed)
+ *
+ * https://github.com/guidobouman/jquery-panelsnap
+ *
+ * Copyright 2013, Guido Bouman
+ *
+ * Permission is hereby granted, free of charge, to any person obtaining a copy
+ * of this software and associated documentation files (the "Software"), to deal
+ * in the Software without restriction, including without limitation the rights
+ * to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+ * copies of the Software, and to permit persons to whom the Software is
+ * furnished to do so, subject to the following conditions:
+ *
+ * The above copyright notice and this permission notice shall be included in
+ * all copies or substantial portions of the Software.
+ *
+ * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+ * THE SOFTWARE.
+ *
+ * Date: Wed Feb 13 16:05:00 2013 +0100
+ */
+(function($, window, document, undefined) {
+
+  var pluginName = 'panelSnap';
+  var storageName = 'plugin_' + pluginName;
+
+  var pluginObject = {
+
+    isMouseDown: false,
+    isSnapping: false,
+    enabled: true,
+    scrollInterval: 0,
+    scrollOffset: 0,
+
+    init: function(options, container) {
+
+      var self = this;
+
+      self.container = container;
+      self.$container = $(container);
+
+      self.$eventContainer = self.$container;
+      self.$snapContainer = self.$container;
+
+      if(self.$container.is('body')) {
+        self.$eventContainer = $(document);
+        self.$snapContainer = $(document.documentElement);
+
+        var ua = navigator.userAgent;
+        if(~ua.indexOf('WebKit')) {
+          self.$snapContainer = $('body');
+        }
+      }
+
+      self.scrollInterval = self.$container.height();
+
+      self.options = $.extend(true, {}, $.fn.panelSnap.options, options);
+
+      self.bind();
+
+      if(self.options.$menu !== false && $('.active', self.options.$menu).length > 0) {
+        $('.active', self.options.$menu).click();
+      } else {
+        var $target = self.getPanel(':first');
+        self.activatePanel($target);
+      }
+
+      return self;
+
+    },
+
+    bind: function() {
+
+      var self = this;
+
+      self.bindProxied(self.$eventContainer, 'scrollstop', self.scrollStop);
+      self.bindProxied(self.$eventContainer, 'mousewheel', self.mouseWheel);
+      self.bindProxied(self.$eventContainer, 'mousedown', self.mouseDown);
+      self.bindProxied(self.$eventContainer, 'mouseup', self.mouseUp);
+
+      self.bindProxied($(window), 'resizestop', self.resize);
+
+      if(self.options.keyboardNavigation.enabled) {
+        self.bindProxied($(window), 'keydown', self.keyDown, self.$eventContainer);
+      }
+
+      if(self.options.$menu !== false) {
+        self.bindProxied($(self.options.$menu), 'click', self.captureMenuClick, self.options.menuSelector);
+      }
+
+    },
+
+    bindProxied: function($element, event, method, selector) {
+
+      var self = this;
+
+      selector = typeof selector === 'string' ? selector : null;
+
+      $element.on(event + self.options.namespace, selector, $.proxy(function(e) {
+
+        return method.call(self, e);
+
+      }, self));
+
+    },
+
+    destroy: function() {
+
+      var self = this;
+
+      // Gotta love namespaced events!
+      self.$eventContainer.off(self.options.namespace);
+
+      $(window).off(self.options.namespace);
+
+      if(self.options.$menu !== false) {
+        $(self.options.menuSelector, self.options.$menu).off(self.options.namespace);
+      }
+
+      self.$container.removeData(storageName);
+
+    },
+
+    scrollStop: function(e) {
+
+      var self = this;
+
+      e.stopPropagation();
+
+      if(!self.enabled) {
+        return;
+      }
+
+      if(self.isMouseDown) {
+        self.$eventContainer.one('mouseup' + self.options.namespace, self.processScroll);
+        return;
+      }
+
+      if(self.isSnapping) {
+        return;
+      }
+
+      var offset = self.$snapContainer.scrollTop();
+      var scrollDifference = offset - self.scrollOffset;
+      var maxOffset = self.$container[0].scrollHeight - self.scrollInterval;
+      var panelCount = self.getPanel().length;
+
+      var childNumber;
+      if(
+        scrollDifference < -self.options.directionThreshold &&
+        scrollDifference > -self.scrollInterval
+      ) {
+        childNumber = Math.floor(offset / self.scrollInterval);
+      } else if(
+        scrollDifference > self.options.directionThreshold &&
+        scrollDifference < self.scrollInterval
+      ) {
+        childNumber = Math.ceil(offset / self.scrollInterval);
+      } else {
+        childNumber = Math.round(offset / self.scrollInterval);
+      }
+
+      childNumber = Math.max(0, Math.min(childNumber, panelCount));
+
+      var $target = self.getPanel(':eq(' + childNumber + ')');
+
+      if(scrollDifference === 0) {
+        // Do nothing
+      } else if (offset <= 0 || offset >= maxOffset) {
+        // Only activate, prevent stuttering
+        self.activatePanel($target);
+        // Set scrollOffset to a sane number for next scroll
+        self.scrollOffset = offset < 0 ? 0 : maxOffset;
+      } else {
+        self.snapToPanel($target);
+      }
+
+    },
+
+    mouseWheel: function(e) {
+
+      var self = this;
+
+      // This event only fires when the user actually scrolls with their input device.
+      // Be it a trackpad, legacy mouse or anything else.
+
+      self.$container.stop(true);
+      self.isSnapping = false;
+
+    },
+
+    mouseDown: function(e) {
+
+      var self = this;
+
+      self.isMouseDown = true;
+
+    },
+
+    mouseUp: function(e) {
+
+      var self = this;
+
+      self.isMouseDown = false;
+
+      if(self.scrollOffset !== self.$snapContainer.scrollTop()) {
+        self.scrollStop(e);
+      }
+
+    },
+
+    keyDown: function(e) {
+
+      var self = this;
+
+      var nav = self.options.keyboardNavigation
+
+      if (self.isSnapping) {
+        if(e.which == nav.previousPanelKey || e.which == nav.nextPanelKey) {
+          e.preventDefault();
+          return false;
+        }
+
+        return;
+      }
+
+      switch(e.which) {
+        case nav.previousPanelKey:
+          e.preventDefault();
+          self.snapTo('prev', nav.wrapAround);
+          break;
+        case nav.nextPanelKey:
+          e.preventDefault();
+          self.snapTo('next', nav.wrapAround);
+          break;
+      }
+
+    },
+
+    resize: function(e) {
+
+      var self = this;
+
+      self.scrollInterval = self.$container.height();
+
+      if(!self.enabled) {
+        return;
+      }
+
+      var $target = self.getPanel('.active');
+
+      self.snapToPanel($target);
+
+    },
+
+    captureMenuClick: function(e) {
+
+      var self = this;
+
+      var panel = $(e.currentTarget).data('panel');
+      var $target = self.getPanel('[data-panel="' + panel + '"]');
+
+      self.snapToPanel($target);
+
+      return false;
+
+    },
+
+    snapToPanel: function($target) {
+
+      var self = this;
+
+      if (!($target instanceof jQuery)) {
+        return;
+      }
+
+      self.isSnapping = true;
+
+      self.options.onSnapStart.call(self, $target);
+      self.$container.trigger('panelsnap:start', [$target]);
+
+      var scrollTarget = 0;
+      if(self.$container.is('body')) {
+        scrollTarget = $target.offset().top;
+      } else {
+        scrollTarget = self.$snapContainer.scrollTop() + $target.position().top;
+      }
+
+      self.$snapContainer.stop(true).animate({
+        scrollTop: scrollTarget
+      }, self.options.slideSpeed, function() {
+
+        self.scrollOffset = scrollTarget;
+        self.isSnapping = false;
+
+        // Call callback
+        self.options.onSnapFinish.call(self, $target);
+        self.$container.trigger('panelsnap:finish', [$target]);
+
+      });
+
+      self.activatePanel($target);
+
+    },
+
+    activatePanel: function($target) {
+
+      var self = this;
+
+      self.getPanel('.active').removeClass('active');
+      $target.addClass('active');
+
+      if(self.options.$menu !== false) {
+        var activeItemSelector = '> ' + self.options.menuSelector + '.active';
+        $(activeItemSelector, self.options.$menu).removeClass('active');
+
+        var attribute = '[data-panel="' + $target.data('panel') + '"]';
+        var itemSelector = '> ' + self.options.menuSelector + attribute;
+        var $itemToActivate = $(itemSelector, self.options.$menu);
+        $itemToActivate.addClass('active');
+      }
+
+      self.options.onActivate.call(self, $target);
+      self.$container.trigger('panelsnap:activate', [$target]);
+
+    },
+
+    getPanel: function(selector) {
+
+      var self = this;
+
+      if(typeof selector === 'undefined') {
+        selector = '';
+      }
+
+      var panelSelector = '> ' + self.options.panelSelector + selector;
+      return $(panelSelector, self.$container);
+
+    },
+
+    snapTo: function(target, wrap) {
+
+      var self = this;
+
+      if(typeof wrap !== 'boolean') {
+        wrap = true;
+      }
+
+      var $target;
+
+      switch(target) {
+        case 'prev':
+
+          $target = self.getPanel('.active').prev(self.options.panelSelector);
+          if($target.length < 1 && wrap)
+          {
+            $target = self.getPanel(':last');
+          }
+          break;
+
+        case 'next':
+
+          $target = self.getPanel('.active').next(self.options.panelSelector);
+          if($target.length < 1 && wrap)
+          {
+            $target = self.getPanel(':first');
+          }
+          break;
+
+        case 'first':
+
+          $target = self.getPanel(':first');
+          break;
+
+        case 'last':
+
+          $target = self.getPanel(':last');
+          break;
+      }
+
+      if($target.length > 0) {
+        self.snapToPanel($target);
+      }
+
+    },
+
+    enable: function() {
+
+      var self = this;
+
+      // Gather scrollOffset for next scroll
+      self.scrollOffset = self.$container[0].scrollHeight;
+
+      self.enabled = true;
+
+    },
+
+    disable: function() {
+
+      var self = this;
+
+      self.enabled = false;
+
+    },
+
+    toggle: function() {
+
+      var self = this;
+
+      if(self.enabled) {
+        self.disable();
+      } else {
+        self.enable();
+      }
+
+    }
+
+  };
+
+  $.fn[pluginName] = function(options) {
+
+    var args = Array.prototype.slice.call(arguments);
+
+    return this.each(function() {
+
+      var pluginInstance = $.data(this, storageName);
+      if(typeof options === 'object' || options === 'init' || ! options) {
+        if(!pluginInstance) {
+          if(options === 'init') {
+            options = args[1] || {};
+          }
+
+          pluginInstance = Object.create(pluginObject).init(options, this);
+          $.data(this, storageName, pluginInstance);
+        } else {
+          $.error('Plugin is already initialized for this object.');
+          return;
+        }
+      } else if(!pluginInstance) {
+        $.error('Plugin is not initialized for this object yet.');
+        return;
+      } else if(pluginInstance[options]) {
+        var method = options;
+        options = args.slice(1);
+        pluginInstance[method].apply(pluginInstance, options);
+      } else {
+        $.error('Method ' +  options + ' does not exist on jQuery.panelSnap.');
+        return;
+      }
+
+    });
+
+  };
+
+  $.fn[pluginName].options = {
+    $menu: false,
+    menuSelector: 'a',
+    panelSelector: 'section',
+    namespace: '.panelSnap',
+    onSnapStart: function(){},
+    onSnapFinish: function(){},
+    onActivate: function(){},
+    directionThreshold: 50,
+    slideSpeed: 200,
+    keyboardNavigation: {
+      enabled: false,
+      nextPanelKey: 40,
+      previousPanelKey: 38,
+      wrapAround: true
+    }
+  };
+
+})(jQuery, window, document);
+
+/*!
+ * Special flavoured jQuery Mobile scrollstart & scrollstop events.
+ * Version 0.1.3
+ *
+ * Requires:
+ * - jQuery 1.7.1 or higher (no jQuery.migrate needed)
+ *
+ * Copyright 2013, Guido Bouman
+ *
+ * Permission is hereby granted, free of charge, to any person obtaining a copy
+ * of this software and associated documentation files (the "Software"), to deal
+ * in the Software without restriction, including without limitation the rights
+ * to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+ * copies of the Software, and to permit persons to whom the Software is
+ * furnished to do so, subject to the following conditions:
+ *
+ * The above copyright notice and this permission notice shall be included in
+ * all copies or substantial portions of the Software.
+ *
+ * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+ * THE SOFTWARE.
+ *
+ * Date: Wed Feb 13 16:05:00 2013 +0100
+ */
+(function($) {
+
+  // Also handles the scrollstop event
+  $.event.special.scrollstart = {
+
+    enabled: true,
+
+    setup: function() {
+
+      var thisObject = this;
+      var $this = $(thisObject);
+      var scrolling;
+      var timer;
+
+      $this.data('scrollwatch', true);
+
+      function trigger(event, scrolling) {
+
+        event.type = scrolling ? "scrollstart" : "scrollstop";
+        $this.trigger(event);
+
+      }
+
+      $this.on("touchmove scroll", function(event) {
+
+        if(!$.event.special.scrollstart.enabled) {
+          return;
+        }
+
+        if(!$.event.special.scrollstart.scrolling) {
+          $.event.special.scrollstart.scrolling = true;
+          trigger(event, true);
+        }
+
+        clearTimeout(timer);
+        timer = setTimeout(function() {
+          $.event.special.scrollstart.scrolling = false;
+          trigger(event, false);
+        }, 50);
+
+      });
+
+    }
+
+  };
+
+  // Proxies scrollstart when needed
+  $.event.special.scrollstop = {
+
+    setup: function() {
+
+      var thisObject = this;
+      var $this = $(thisObject);
+
+      if(!$this.data('scrollwatch')) {
+        $(this).on('scrollstart', function(){});
+      }
+
+    }
+
+  };
+
+})(jQuery);
+
+/*!
+ * Resizestart and resizestop events.
+ * Version 0.0.1
+ *
+ * Requires:
+ * - jQuery 1.7.1 or higher (no jQuery.migrate needed)
+ *
+ * Copyright 2013, Guido Bouman
+ *
+ * Permission is hereby granted, free of charge, to any person obtaining a copy
+ * of this software and associated documentation files (the "Software"), to deal
+ * in the Software without restriction, including without limitation the rights
+ * to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+ * copies of the Software, and to permit persons to whom the Software is
+ * furnished to do so, subject to the following conditions:
+ *
+ * The above copyright notice and this permission notice shall be included in
+ * all copies or substantial portions of the Software.
+ *
+ * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+ * THE SOFTWARE.
+ *
+ * Date: Fri Oct 25 15:05:00 2013 +0100
+ */
+(function($) {
+
+  // Also handles the resizestop event
+  $.event.special.resizestart = {
+
+    enabled: true,
+
+    setup: function() {
+
+      var thisObject = this;
+      var $this = $(thisObject);
+      var resizing;
+      var timer;
+
+      $this.data('resizewatch', true);
+
+      function trigger(event, resizing) {
+
+        event.type = resizing ? "resizestart" : "resizestop";
+        $this.trigger(event);
+
+      }
+
+      $this.on("resize", function(event) {
+
+        if(!$.event.special.resizestart.enabled) {
+          return;
+        }
+
+        if(!$.event.special.resizestart.resizing) {
+          $.event.special.resizestart.resizing = true;
+          trigger(event, true);
+        }
+
+        clearTimeout(timer);
+        timer = setTimeout(function() {
+          $.event.special.resizestart.resizing = false;
+          trigger(event, false);
+        }, 200);
+
+      });
+
+    }
+
+  };
+
+  // Proxies resizestart when needed
+  $.event.special.resizestop = {
+
+    setup: function() {
+
+      var thisObject = this;
+      var $this = $(thisObject);
+
+      if(!$this.data('resizewatch')) {
+        $(this).on('resizestart', function(){});
+      }
+
+    }
+
+  };
+
+})(jQuery);
+
+/*! Copyright (c) 2011 Brandon Aaron (http://brandonaaron.net)
+ * Licensed under the MIT License (LICENSE.txt).
+ *
+ * Thanks to: http://adomas.org/javascript-mouse-wheel/ for some pointers.
+ * Thanks to: Mathias Bank(http://www.mathias-bank.de) for a scope bug fix.
+ * Thanks to: Seamus Leahy for adding deltaX and deltaY
+ *
+ * Version: 3.0.6
+ *
+ * Requires: 1.2.2+
+ */
+(function($) {
+
+  var types = ['DOMMouseScroll', 'mousewheel'];
+
+  if ($.event.fixHooks) {
+    for ( var i=types.length; i; ) {
+      $.event.fixHooks[ types[--i] ] = $.event.mouseHooks;
+    }
+  }
+
+  $.event.special.mousewheel = {
+    setup: function() {
+      if ( this.addEventListener ) {
+        for ( var i=types.length; i; ) {
+          this.addEventListener( types[--i], handler, false );
+        }
+      } else {
+        this.onmousewheel = handler;
+      }
+    },
+
+    teardown: function() {
+      if ( this.removeEventListener ) {
+        for ( var i=types.length; i; ) {
+          this.removeEventListener( types[--i], handler, false );
+        }
+      } else {
+        this.onmousewheel = null;
+      }
+    }
+  };
+
+  $.fn.extend({
+    mousewheel: function(fn) {
+      return fn ? this.bind("mousewheel", fn) : this.trigger("mousewheel");
+    },
+
+    unmousewheel: function(fn) {
+      return this.unbind("mousewheel", fn);
+    }
+  });
+
+  function handler(event) {
+    var orgEvent = event || window.event,
+        args = [].slice.call( arguments, 1 ),
+        delta = 0,
+        returnValue = true,
+        deltaX = 0,
+        deltaY = 0;
+
+    event = $.event.fix(orgEvent);
+    event.type = "mousewheel";
+
+    // Old school scrollwheel delta
+    if ( orgEvent.wheelDelta ) { delta = orgEvent.wheelDelta/120; }
+    if ( orgEvent.detail     ) { delta = -orgEvent.detail/3; }
+
+    // New school multidimensional scroll (touchpads) deltas
+    deltaY = delta;
+
+    // Gecko
+    if ( orgEvent.axis !== undefined && orgEvent.axis === orgEvent.HORIZONTAL_AXIS ) {
+      deltaY = 0;
+      deltaX = -1*delta;
+    }
+
+    // Webkit
+    if ( orgEvent.wheelDeltaY !== undefined ) { deltaY = orgEvent.wheelDeltaY/120; }
+    if ( orgEvent.wheelDeltaX !== undefined ) { deltaX = -1*orgEvent.wheelDeltaX/120; }
+
+    // Add event and delta to the front of the arguments
+    args.unshift(event, delta, deltaX, deltaY);
+
+    return ($.event.dispatch || $.event.handle).apply(this, args);
+  }
+
+})(jQuery);
 $(document).foundation({
   orbit: {
     animation: 'slide',
@@ -9485,6 +10254,7 @@ $("form#contribute").validate({
   });
 
 }).call(this);
+
 
 
 
