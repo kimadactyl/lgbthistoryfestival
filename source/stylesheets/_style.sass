@@ -93,12 +93,14 @@ nav
   li
     list-style-type: none
     display: inline-block
-    padding: 0.5em 1em
+    margin: 1em 0.25em
+    padding: 1em
     background: white
-    background: linear-gradient(135deg, transparent 6px, white 0) top left, linear-gradient(225deg, transparent 6px, white 0) top right, linear-gradient(315deg, transparent 6px, white 0) bottom right, linear-gradient(45deg,  transparent 10px, white 0) bottom left
-    background-size: 50% 50%
+    // h/t Lea Verou http://lea.verou.me/2011/03/beveled-corners-negative-border-radius-with-css3-gradients/
+    background: linear-gradient(135deg, transparent 10px, white 0) top left, linear-gradient(225deg, transparent 10px, white 0) top right, linear-gradient(315deg, transparent 10px, white 0) bottom right, linear-gradient(45deg,  transparent 10px, white 0) bottom left
+    background-size: 52% 52%
     background-repeat: no-repeat
-    background-image: radial-gradient(circle at 0 0, transparent 8px, white 8px), radial-gradient(circle at 100% 0, transparent 8px, white 8px), radial-gradient(circle at 100% 100%, transparent 8px, white 8px), radial-gradient(circle at 0 100%, transparent 8px, white 8px)
+    background-image: radial-gradient(circle at 0 0, transparent 8px, white 9px), radial-gradient(circle at 100% 0, transparent 8px, white 9px), radial-gradient(circle at 100% 100%, transparent 8px, white 9px), radial-gradient(circle at 0 100%, transparent 8px, white 9px)
     a
       text-transform: uppercase
       padding: 0.25em
