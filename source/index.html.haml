@@ -49,25 +49,24 @@ title: First National Festival of LGBT History
     .small-12.columns
       %h2 What&rsquo;s on?
   .row
-    .medium-2.columns
-      %h5 Central Library
-    .medium-2.columns
-      %h5 People&rsquo;s History Museum
-    .medium-2.columns
-      %h5 Family Space
-    .medium-2.columns
-      %h5 Theatre
-    .medium-2.columns
-      %h5 Films
-    .medium-2.columns
-      %h5 Academic Conference
+    .small-12.text-center
+      %nav.elements{"data-magellan-expedition" => "fixed"}
+        %ul
+          %li{"data-magellan-arrival" => "saturday"}
+            %a{:href => "#saturday"} Central Library
+          %li People&rsquo;s History Museum
+          %li Family Space
+          %li Theatre
+          %li Films
+          %li Academic Conference
 
 %section#saturday.text-center
   .sat-image
   .row
     .medium-1.columns
     .small-12.medium-10.columns
-      %h3.scallopedborder Saturday Hub
+      %a{:name => "saturday"}
+      %h3.scallopedborder{"data-magellan-destination" => "saturday"} Saturday Hub
       %h5 Manchester Central Library
       %p An exploration of the lives of LGBT people throughout history, with new research by members of the public and historians. Members of the community will share their stories and experiences.
     .medium-1.columns
@@ -166,8 +165,8 @@ title: First National Festival of LGBT History
 %section
   .row
     .small-12.columns
-      %h2 BELOW HERE NOT STARTED
       :markdown
+          # BELOW HERE NOT DONE
         ### Film
         We are showcasing film representations of LGBT diversity, including a specific focus on German film's pioneering role in representing sex and gender diversity on the screen.
 

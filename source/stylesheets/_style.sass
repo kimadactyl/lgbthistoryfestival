@@ -1,6 +1,15 @@
+// Colours and sizes etc
 $red: #ED1C24
 $pink: #EB6D98
 $jaggies: 40px
+
+// Theme colours
+$main-festival: #9a9cff
+$conference: #fad165
+$theatre: #92e1c0
+$films: #7bd148
+$family-space: #fa573c
+
 /* border-serrated - a zig zag triangle border with linear gradient */
 =border-top-serrated($size, $color-outer)
   &
@@ -38,6 +47,17 @@ h1, h2, h3, h4, h5
   font-weight: bold
   color: $pink
 
+h3.chevronborder
+  background-image: url('/images/icons/chevronborder.png')
+  padding: 8px 0
+
+h3.scallopedborder
+  background-image: url('/images/icons/scallopedborder.png')
+  color: white
+
+.button h3
+  color: white
+
 =underline-section
   border-width: 0 0 1px 0
   border-color: #ccc
@@ -61,10 +81,6 @@ section.pink
       background-color: scale-color(white, $lightness: -14%)
       color: black
 
-// Buttons
-.button h3
-  color: white
-
 // Branding
 section#branding
   padding: 2.5em 0 2.25em 0
@@ -76,6 +92,8 @@ section#branding
     margin: 0
     padding: 0
     line-height: 1
+
+// Branding when the screen is scrolled down
 .sticky section#branding
   position: fixed
   width: 100%
@@ -93,11 +111,12 @@ section#branding
   h1 img
     display: none
 
+// Pink triangles at the top
 #topborder
   +border-top-serrated($jaggies, $pink)  
 
 // Navigation
-nav
+nav#primary
   margin-top: 1em
   li
     list-style-type: none
@@ -122,180 +141,7 @@ section#main section
   padding-top: 2em
   padding-bottom: 1em
 
-// Hero
-section#hero
-  padding: 0 !important
-  background-position: center center
-  .row h3, .row p
-    background-color: rgba(255,255,255,0.8)
-    padding: 0.5em 1em
-    display: inline-block
-  ul.orbit-slides-container
-    padding: 5em 0
-    @media #{$small-only}
-      padding: 0
-  li.slide
-    padding: 5em 0
-    @media #{$small-only}
-      padding: 2em 0
-    h3
-      font-size: 175%
-      @media #{$small-only}
-        font-size: 150%
-    .row p
-      font-size: 125%
-      @media #{$small-only}
-        font-size: 100%
-  .intro
-    background: url('/images/hero/canal-st.jpg')
-  .who
-    background: url('/images/hero/press-for-change.jpg')
-  .contribute
-    background: url('/images/hero/badges-long.jpg')      
-  @media #{$small-only}
-    .intro
-      background: url('/images/hero/canal-st-mobile.jpg')
-    .who
-      background: url('/images/hero/press-for-change-mobile.jpg')
-    .contribute
-      background: url('/images/hero/badges-mobile.jpg') 
-
-  div.orbit-bullets-container
-    height: 0
-    @media #{$medium-only}
-      text-align: right
-      margin-right: 1em
-    @media #{$small-only}
-      display: none
-  div.orbit-caption 
-    @media #{$small-only}
-      display: none
-    a
-      color: black
-  ol.orbit-bullets
-    display: inline
-    margin: 0
-    top: -30px
-
-.latest-blog 
-  h3 a
-    color: $pink
-    text-decoration: none
-  h5
-    color: $body-font-color 
-
-// Schedule colours
-$main-festival: #9a9cff
-$conference: #fad165
-$theatre: #92e1c0
-$films: #7bd148
-$family-space: #fa573c
-ul.schedule
-  clear: left
-  li
-    display: inline-block
-    list-style-type: none
-    border: 1px solid #bbb
-    padding: .25em .5em
-    margin: 0 .5em .5em 0
-    &.main-festival
-      background-color: $main-festival
-    &.conference
-      background-color: $conference
-    &.family-space
-      background-color: $family-space
-    &.films
-      background-color: $films
-    &.theatre
-      background-color: $theatre
-    &.disabled
-      background-color: transparent
-  h3.time
-    float: left
-    width: 55px
-    font-size: 12px
-  .timeblock
-    margin-left: 65px
-    padding-left: 10px
-    border-left: 1px solid #bbb
-
-ul.key
-  text-align: center
-  li
-    display: inline-block
-
-// Films
-span.details
-  font-weight: 300
-  font-size: 50%
-
-// Blogs
-article
-  figure
-    border: 1px solid #ccc
-    padding: 5px
-    display: inline-block
-  figcaption
-    font-style: italic
-    text-align: center
-    padding-top: 0.5em
-  h3
-    color: $body-font-color
-    +underline-section
-    padding: 0.25em 0 0.2em
-    border-top-width: 1px
-  .meta 
-    h3
-      text-align: center
-    p
-      font-size: 90%
-      font-style: italic
-      color: #555
-    p.photo
-      text-align: center
-    img
-      border: 1px solid #ccc
-      padding: 2px
-  .resources li
-    list-style-type: none
-  .social-likes
-    margin: auto 0    
-    min-height: 0
-  @media #{$large-up}
-    .responsive-author
-      display: none
-
-
-article.teaser
-  .hero
-    height: 200px
-    padding: 5px
-  h2
-    font-size: 250%
-    line-height: 125%
-    padding: 0.2em 0 0 0
-    a
-      text-decoration: none
-  h3
-    font-size: 120%
-    color: $pink
-  .meta
-    +underline-section
-    border-width: 1px 0 1px 
-  .meta
-    padding-bottom: 4px
-  .para0
-    font-size: 120%
-  .para1
-    color: #444
-    font-size: 110%
-  .para2
-    color: #666
-  .social-likes__widget
-    margin: 0
-
 // Footer
-
 section#footer
   padding: 3em 0 2em
   background-color: black
@@ -334,14 +180,110 @@ section#credits
   a
     color: white
 
-form#contribute 
-  .error
-    background-color: $red
-    color: white
+////////////////////////////////////
+// PAGE-SPECIFIC RULES START HERE //
+////////////////////////////////////
+
+ul.schedule
+  clear: left
+  li
+    display: inline-block
+    list-style-type: none
+    border: 1px solid #bbb
+    padding: .25em .5em
+    margin: 0 .5em .5em 0
+    &.main-festival
+      background-color: $main-festival
+    &.conference
+      background-color: $conference
+    &.family-space
+      background-color: $family-space
+    &.films
+      background-color: $films
+    &.theatre
+      background-color: $theatre
+    &.disabled
+      background-color: transparent
+  h3.time
+    float: left
+    width: 55px
+    font-size: 12px
+  .timeblock
+    margin-left: 65px
+    padding-left: 10px
+    border-left: 1px solid #bbb
+
+ul.key
+  text-align: center
+  li
+    display: inline-block
+
+// Blogs
+article
+  figure
+    border: 1px solid #ccc
+    padding: 5px
+    display: inline-block
+  figcaption
     font-style: italic
+    text-align: center
+    padding-top: 0.5em
+  h3
+    color: $body-font-color
+    +underline-section
+    padding: 0.25em 0 0.2em
+    border-top-width: 1px
+  .meta 
+    h3
+      text-align: center
+    p
+      font-size: 90%
+      font-style: italic
+      color: #555
+    p.photo
+      text-align: center
+    img
+      border: 1px solid #ccc
+      padding: 2px
+  .resources li
+    list-style-type: none
+  .social-likes
+    margin: auto 0    
+    min-height: 0
+  @media #{$large-up}
+    .responsive-author
+      display: none
+
+// Blog teasers
+article.teaser
+  .hero
+    height: 200px
+    padding: 5px
+  h2
+    font-size: 250%
+    line-height: 125%
+    padding: 0.2em 0 0 0
+    a
+      text-decoration: none
+  h3
+    font-size: 120%
+    color: $pink
+  .meta
+    +underline-section
+    border-width: 1px 0 1px 
+  .meta
+    padding-bottom: 4px
+  .para0
+    font-size: 120%
+  .para1
+    color: #444
+    font-size: 110%
+  .para2
+    color: #666
+  .social-likes__widget
+    margin: 0
 
 // Venues
-
 .vcard
   border: 0
   margin: 0
@@ -349,9 +291,7 @@ form#contribute
   span
     display: block
 
-// Slides
-
-
+// Front page slides
 body.index section#main
   section .row > div
     margin: 3em 0 
@@ -387,7 +327,7 @@ body.index section#main
       color: white
       min-height: 310px
       font-size: 36px
-      margin: 3em 30px
+      margin: 3em 30px 0
       padding: 50px
       top: 4em
       text-align: center
@@ -448,9 +388,15 @@ body.index section#main
   background-image: url("/images/home/theatre.png")
   height: 30em
 
-h3.chevronborder
-  background-image: url('/images/icons/chevronborder.png')
-  padding: 8px 0
-h3.scallopedborder
-  background-image: url('/images/icons/scallopedborder.png')
-  color: white
+nav.elements
+  background: transparent
+  ul
+    margin: 0
+    padding: 0
+    width: 100%
+  li
+    background-color: $pink
+    list-style-type: none
+    display: inline-block    
+    padding: 0
+    margin: 0

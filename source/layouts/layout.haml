@@ -22,7 +22,7 @@
       = link_to "/index.html" do
         %h1
           = image_tag "logo.png", :alt => "The First National Festival of LGBT History"
-      %nav
+      %nav#primary
         %ul
           = nav_link 'Schedule', '/schedule.html'
           = nav_link 'Travel', '/travel.html'
@@ -58,3 +58,13 @@
 
             LGBT History Festival website created with love by [Kim Foale](http://alliscalm.net) and [Squid](http://studiosquid.co.uk/).
           = google_analytics_tag
+          :javascript
+            $(document).foundation({
+              "magellan-expedition": {
+                throttle_delay: 50,
+                // FIX THIS! 
+                // Should get it from jQuery. For some reason $('#branding').outerHeight() 
+                // isn't giving the right height.
+                fixed_top: 100,
+              }
+            });
