@@ -30,57 +30,152 @@ title: First National Festival of LGBT History
   .row.text-center
     .small-4.columns
       %a{:href => "/programme.html"}
-        %h3 The Program
+        %h3.chevronborder The Program
         %img{:src => "/images/icons/program.png"}
         %p Read the program and find out what's happening
     .small-4.columns
       %a{:href => "/travel.html"}
-        %h3 Venues
+        %h3.chevronborder Venues
         %img{:src => "/images/icons/venues.png"}
         %p Find out about the venues, booking and travel
     .small-4.columns
       %a{:href => "/about-us.html"}
-        %h3 About Us
+        %h3.chevronborder About Us
         %img{:src => "/images/icons/aboutus.png"}
         %p Learn more about the organisation and its values
 
-%section#slide-5.text-center
+%section#whatson.text-center
   .row
     .small-12.columns
       %h2 What&rsquo;s on?
+  .row
+    .medium-2.columns
+      %h5 Central Library
+    .medium-2.columns
+      %h5 People&rsquo;s History Museum
+    .medium-2.columns
+      %h5 Family Space
+    .medium-2.columns
+      %h5 Theatre
+    .medium-2.columns
+      %h5 Films
+    .medium-2.columns
+      %h5 Academic Conference
+
+%section#saturday.text-center
   .sat-image
   .row
     .medium-1.columns
     .small-12.medium-10.columns
-      %h3 Saturday Hub
+      %h3.scallopedborder Saturday Hub
       %h5 Manchester Central Library
       %p An exploration of the lives of LGBT people throughout history, with new research by members of the public and historians. Members of the community will share their stories and experiences.
     .medium-1.columns
+  .row
+    .medium-4.columns
+    .medium-8.columns.text-right
+      :markdown
+        #### Historical Presentations
+      %p= lorem.words 30
+  .row
+    .medium-8.columns.text-left
+      :markdown
+        #### &ldquo;Talking Heads&rdquo;
+      %p= lorem.words 30
+    .medium-4.columns
+  .row
+    .medium-4.columns
+    .medium-8.columns.text-right
+      :markdown
+        #### Archive Tours
+      %p= lorem.words 30
   .pinkarrow.arrow
+
+%section#sunday.text-center
   .sun-image
   .row
     .medium-1.columns
     .small-12.medium-10.columns
-      %h3 Sunday Hub
+      %h3.scallopedborder Sunday Hub
       %h5 People&rsquo;s History Museum
-      %p Will be hosting discussions of power and institutions, and the role of social movements in changing rights for LGBT people.
+      %p  Discussions of power and institutions, and the role of social movements in changing rights for LGBT people. Sunday has three themes: relating to the protest movement, the law, and the workplace.
     .medium-1.columns
+  .row
+    .medium-8.columns.text-left
+      :markdown
+        #### Theme 1: Lesbian Protesters
+
+        From votes for women campaigns to the Greenham Common peace camps, lesbian women have been at the forefront of movements for social change. **Sheila Standard** and **Dr Sonja Tiernan** discuss the key roles played by lesbians in protest movements, including the _Barmaids' Defence League_ and Britain _Urania_, a pioneering covert journal on gender and sexaulity.
+    .medium-4.columns
+  .row
+    .medium-4.columns
+    .medium-8.columns.text-right
+      :markdown
+        #### Theme 2: LGBT and the Law
+
+        In the 1800s, the British Empire stretched across two thirds of the world, and Britain exported laws banning same-sex relations to its colonies. Human rights campaigner **Peter Tatchell**, and **Prossy Kakooza** a refugee who has rebuilt her life in the UK after experiencing abuse and torture in Uganda, discuss Britain's colonial legacy. 
+  .row 
+    .medium-8.columns.text-left
+      :markdown
+        #### Theme 3: LGBT in the Workplace
+
+        **Mike Jackson**, the co-founder of _Lesbians and Gays Support the Miners_ highlights the story behind this year’s critically acclaimed film _Pride_. **Cath Booth** discusses the work of _Lesbians and Gays Support the Printworkers_ who assisted workers sacked by Murdoch at Wapping. TUC LGBT &amp; Disability Officer **Peter Purton** will explore the history of how homophobia and transphobia have been addressed in the workplace.
+    .medium-4.columns
   .pinkarrow.arrow
 
-.row
-  .small-12.columns
-    :markdown
-      ### Film
-      We are showcasing film representations of LGBT diversity, including a specific focus on German film's pioneering role in representing sex and gender diversity on the screen.
+%section#theatre.text-center
+  .theatre-image
+  .row
+    .medium-1.columns
+    .medium-10.columns
+      %h3.scallopedborder Theatre
+      :markdown
+        A Very Victorian Scandal ([#AVVS](https://twitter.com/hashtag/AVVS)) is a groundbreaking immersive theatre project, being performed over the festival weekend. The project will recreate scenes from the biggest police raid on an LGBT venue in British history. Manchester’s famous Victorian detective, Jerome Caminada, led the raid on an all-male fancy dress ball in Hulme and arrested forty-seven men. The subsequent press coverage caused an international sensation. This was the UK’s Stonewall moment, and it happened in 1880.
+      .medium-1.columns
+    .row
+      .medium-8.columns.text-left
+        :markdown
+          #### The Raid
 
-      ### Theatre
-      Pagelight Productions will dramatise a historic raid of a fancy dress ball in Hulme in September 1880 and show why this event made the international news.
+          ##### Friday 13th
 
-      ### Academic Conference
-      The LGF hosts an academic conference 'The 2nd What is & How to DO LGBT History?', which seeks to place attitudes, experiences and identities in their historical context.
+          Elements of the fancy dress ball will be recreated at Via, on Canal Street, in a themed night of entertainment. Audiences can mingle with the fancy dress ball attendees, and watch them sing and dance to Music Hall tunes. The evening will climax with a spectacular police raid.
+      .medium-4.columns
+        = image_tag ("home/raid.jpg")
+    .row
+      .medium-4.columns
+        = image_tag ("home/caminada.jpg")
+      .medium-8.columns.text-left
+        :markdown
+          #### Caminada
 
-      ### Family Events
-      Both Saturday and Sunday feature diversity and LGBT history lessons, delivered by experienced teachers, for Key Stages 1 & 2. There will also be story time for younger children and teenagers.
+          ##### Saturday 14th
+
+          The political motives of the police raid will be explored in an intimate performance in the Manchester Central Library. Will Caminada be able to tame the press to help the Deputy Chief Constable achieve promotion?
+    .row
+      .medium-8.columns.text-left
+        :markdown
+          #### The Trial
+
+          ##### Sunday 15th
+
+          The trial of 47 prisoners will be recreated in an immersive theatrical experience at the People’s History Museum. The fate of the Prisoners will be decided. Can they all maintain an oath of silence, or will one of them speak out? And how will the prosecution secure convictions, when no law has been broken? 
+      .medium-4.columns
+        = image_tag ("home/trial.jpg")
+
+%section
+  .row
+    .small-12.columns
+      %h2 BELOW HERE NOT STARTED
+      :markdown
+        ### Film
+        We are showcasing film representations of LGBT diversity, including a specific focus on German film's pioneering role in representing sex and gender diversity on the screen.
+
+        ### Academic Conference
+        The LGF hosts an academic conference 'The 2nd What is & How to DO LGBT History?', which seeks to place attitudes, experiences and identities in their historical context.
+
+        ### Family Events
+        Both Saturday and Sunday feature diversity and LGBT history lessons, delivered by experienced teachers, for Key Stages 1 & 2. There will also be story time for younger children and teenagers.
 
 :javascript
   $('.arrow').on('click', function(event){

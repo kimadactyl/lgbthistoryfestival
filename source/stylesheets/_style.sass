@@ -346,6 +346,8 @@ form#contribute
   +border-top-serrated($jaggies, $pink)
 
 body.index section#main
+  section .row > div
+    margin: 3em 0 
   p
     font-size: 130%
   h2, h3
@@ -356,6 +358,8 @@ body.index section#main
     margin: 0 auto 2em
     width: 39px
     height: 50px
+    cursor: pointer
+    cursor: hand
   .whitearrow
     background-image: url("/images/icons/whitearrow.png") 
   .pinkarrow
@@ -413,10 +417,7 @@ body.index section#main
     a
       color: white
       text-decoration: none
-    h3
-      background-image: url('/images/icons/chevronborder.png')
-      padding: 8px 0
-  #slide-5
+  #saturday
     margin-top: 2em
     .row > div
       margin: 3em 0 
@@ -424,15 +425,25 @@ body.index section#main
       background-image: url('/images/icons/longborder.png')
       min-height: 80px
       padding: 13px 0
-    h3
-      background-image: url('/images/icons/scallopedborder.png')
-      color: white
-    .sat-image, .sun-image
-      background-attachment: fixed
-      background-repeat: none
-      background-size: cover
-      height: 18em
-    .sat-image
-      background-image: url("/images/home/library.jpg")
-    .sun-image
-      background-image: url("/images/home/phm.jpg")
+  #sunday
+    margin-top: 2em
+
+.sat-image, .sun-image, .theatre-image
+  background-attachment: fixed
+  background-repeat: none
+  background-size: cover
+  height: 18em
+.sat-image
+  background-image: url("/images/home/library.jpg")
+.sun-image
+  background-image: url("/images/home/phm.jpg")
+.theatre-image
+  background-image: url("/images/home/theatre.png")
+  height: 30em
+
+h3.chevronborder
+  background-image: url('/images/icons/chevronborder.png')
+  padding: 8px 0
+h3.scallopedborder
+  background-image: url('/images/icons/scallopedborder.png')
+  color: white

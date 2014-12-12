@@ -6,9 +6,32 @@ METHOD:PUBLISH
 X-WR-CALNAME:Main Festival
 X-WR-TIMEZONE:Europe/London
 BEGIN:VEVENT
+DTSTART:20150214T130000Z
+DTEND:20150214T133000Z
+DTSTAMP:20141212T130441Z
+UID:od7iba0v2r81mbi80dfkqqgp18@google.com
+CREATED:20141126T140306Z
+DESCRIPTION:Jan Bridget is a 67 year old lesbian from poor\, lower class\, 
+ background.  Originally from Lancashire but lived in Calderdale for 25 year
+ s.  As a mature student she acquired BA in classical studies at Queen Mary\
+ , London followed by the Diploma in Youth and Community Work at Manchester 
+ Polytechnic.  Set up and jointly ran Lesbian Information Service (1987-1998
+ ) and Gay and Lesbian Youth in Calderdale (1999-2011).\n\nJan will talk abo
+ ut setting up LIS in Leicester in 1987\, some of the challenges they faced 
+ and how attitudes have changed (or not) in the last 35 years of working for
+  LGBT equality.\n\n[Lesbian Information Service](http://www.lesbianinformat
+ ionservice.org/)
+LAST-MODIFIED:20141212T130426Z
+LOCATION:Space 1
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Jan Bridget: Lesbian Information Service
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
 DTSTART:20150213T170000Z
 DTEND:20150213T190000Z
-DTSTAMP:20141212T125409Z
+DTSTAMP:20141212T130441Z
 UID:nugm31eushk6dql7lr1kkfoheo@google.com
 ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=kim@lg
  bthistoryfestival.org;X-NUM-GUESTS=0:mailto:kim@lgbthistoryfestival.org
@@ -29,7 +52,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART:20150214T160000Z
 DTEND:20150214T163000Z
-DTSTAMP:20141212T125409Z
+DTSTAMP:20141212T130441Z
 UID:5vnrpjjarf00mtt263scqcbj8g@google.com
 ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=kim@lg
  bthistoryfestival.org;X-NUM-GUESTS=0:mailto:kim@lgbthistoryfestival.org
@@ -56,7 +79,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART:20150214T151500Z
 DTEND:20150214T154500Z
-DTSTAMP:20141212T125409Z
+DTSTAMP:20141212T130441Z
 UID:lslnmpua7uu18ufksm3r6ag6dc@google.com
 CREATED:20141126T140517Z
 DESCRIPTION:David Edgley: former twink involved in gay rights – now old cod
@@ -74,7 +97,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART:20150214T151500Z
 DTEND:20150214T154500Z
-DTSTAMP:20141212T125409Z
+DTSTAMP:20141212T130441Z
 UID:4339p0jqd3bfkip1seqgg88p0o@google.com
 ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=kim@lg
  bthistoryfestival.org;X-NUM-GUESTS=0:mailto:kim@lgbthistoryfestival.org
@@ -92,7 +115,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART:20150214T143000Z
 DTEND:20150214T150000Z
-DTSTAMP:20141212T125409Z
+DTSTAMP:20141212T130441Z
 UID:lied8d2u7mp66tk1jo3m69meb8@google.com
 CREATED:20141126T140451Z
 DESCRIPTION:Razia Aziz is an educator and trainer and co-founded The Equali
@@ -110,7 +133,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART:20150214T143000Z
 DTEND:20150214T150000Z
-DTSTAMP:20141212T125409Z
+DTSTAMP:20141212T130441Z
 UID:vi1466hk2vkk1fo3tc2c9kam8s@google.com
 ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=kim@lg
  bthistoryfestival.org;X-NUM-GUESTS=0:mailto:kim@lgbthistoryfestival.org
@@ -130,7 +153,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART:20150214T134500Z
 DTEND:20150214T141500Z
-DTSTAMP:20141212T125409Z
+DTSTAMP:20141212T130441Z
 UID:jnfplk6upm6e4e2m3vmpeo3rm8@google.com
 CREATED:20141126T140428Z
 DESCRIPTION:Dr Sarah Parker is an Impact Research Fellow in English Studies
@@ -149,7 +172,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART:20150214T134500Z
 DTEND:20150214T141500Z
-DTSTAMP:20141212T125409Z
+DTSTAMP:20141212T130441Z
 UID:kkdbaa8u6ef09pk1b0cfe098ic@google.com
 ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=kim@lg
  bthistoryfestival.org;X-NUM-GUESTS=0:mailto:kim@lgbthistoryfestival.org
@@ -170,7 +193,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART:20150214T130000Z
 DTEND:20150214T133000Z
-DTSTAMP:20141212T125409Z
+DTSTAMP:20141212T130441Z
 UID:10bietmtdr79n84dhsenptvt1c@google.com
 ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=kim@lg
  bthistoryfestival.org;X-NUM-GUESTS=0:mailto:kim@lgbthistoryfestival.org
@@ -187,31 +210,9 @@ SUMMARY:Peter Scott Presland: CHE Reading
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
-DTSTART:20150214T130000Z
-DTEND:20150214T133000Z
-DTSTAMP:20141212T125409Z
-UID:od7iba0v2r81mbi80dfkqqgp18@google.com
-CREATED:20141126T140306Z
-DESCRIPTION:Jan Bridget is a 67 year old lesbian from poor\, lower class\, 
- background.  Originally from Lancashire but lived in Calderdale for 25 year
- s.  As a mature student acquired BA in classical studies at Queen Mary\, Lo
- ndon followed by the Diploma in Youth and Community Work at Manchester Poly
- technic.  Set up and jointly ran Lesbian Information Service (1987-1998) an
- d Gay and Lesbian Youth in Calderdale (1999-2011).\n\nJan will talk about s
- etting up LIS in Leicester in 1987\, some of the challenges they faced and 
- how attitudes have changed (or not) in the last 35 years of working for LGB
- T equality.\n\nhttp://www.lesbianinformationservice.org/
-LAST-MODIFIED:20141203T102045Z
-LOCATION:Space 1
-SEQUENCE:0
-STATUS:CONFIRMED
-SUMMARY:Jan Bridget: Lesbian Information Service
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
 DTSTART:20150214T111500Z
 DTEND:20150214T114500Z
-DTSTAMP:20141212T125409Z
+DTSTAMP:20141212T130441Z
 UID:bgrlhtksii8l63khmi0v2qaock@google.com
 ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=kim@lg
  bthistoryfestival.org;X-NUM-GUESTS=0:mailto:kim@lgbthistoryfestival.org
@@ -228,7 +229,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART:20150214T111500Z
 DTEND:20150214T114500Z
-DTSTAMP:20141212T125409Z
+DTSTAMP:20141212T130441Z
 UID:5s2mvij1nh9l2707ejtihdd9q0@google.com
 ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=kim@lg
  bthistoryfestival.org;X-NUM-GUESTS=0:mailto:kim@lgbthistoryfestival.org
@@ -247,7 +248,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART:20150214T111500Z
 DTEND:20150214T114500Z
-DTSTAMP:20141212T125409Z
+DTSTAMP:20141212T130441Z
 UID:ultffs4j15hmgi8md4e93tdrcc@google.com
 CREATED:20141126T140219Z
 DESCRIPTION:Abigail Ward is a freelance curator\, writer and DJ with over f
@@ -268,7 +269,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART:20150214T103000Z
 DTEND:20150214T110000Z
-DTSTAMP:20141212T125409Z
+DTSTAMP:20141212T130441Z
 UID:6a73qulikvaqfv7aouea1k656o@google.com
 CREATED:20141126T135808Z
 DESCRIPTION:Lifelong political activist Peter Tatchell will be a Talking He
@@ -286,7 +287,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART:20150214T103000Z
 DTEND:20150214T110000Z
-DTSTAMP:20141212T125409Z
+DTSTAMP:20141212T130441Z
 UID:1tqbp6o5kfe7d7m1ems41u8sjc@google.com
 ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=kim@lg
  bthistoryfestival.org;X-NUM-GUESTS=0:mailto:kim@lgbthistoryfestival.org
@@ -304,7 +305,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART:20150214T134500Z
 DTEND:20150214T141500Z
-DTSTAMP:20141212T125409Z
+DTSTAMP:20141212T130441Z
 UID:2gv7hbspd8o7ug10krqmk3odm4@google.com
 ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=kim@lg
  bthistoryfestival.org;X-NUM-GUESTS=0:mailto:kim@lgbthistoryfestival.org
@@ -320,7 +321,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART:20150214T160000Z
 DTEND:20150214T163000Z
-DTSTAMP:20141212T125409Z
+DTSTAMP:20141212T130441Z
 UID:65g83ppf4h43148rvtc27ihst0@google.com
 CREATED:20141126T140545Z
 DESCRIPTION:
