@@ -49,24 +49,25 @@ title: First National Festival of LGBT History
     .small-12.columns
       %h2 What&rsquo;s on?
   .row
-    .small-12.text-center
+    .small-12.text-center.columns
       %nav.elements{"data-magellan-expedition" => "fixed"}
         %ul
           %li{"data-magellan-arrival" => "saturday"}
             %a{:href => "#saturday"} Central Library
-          %li People&rsquo;s History Museum
+          %li{"data-magellan-arrival" => "sunday"} 
+            %a{:href => "#sunday"} People&rsquo;s History Museum
+          %li{"data-magellan-arrival" => "theatre"}
+            %a{:href => "#theatre"} Theatre
           %li Family Space
-          %li Theatre
           %li Films
           %li Academic Conference
 
-%section#saturday.text-center
+%section#saturday.text-center{"data-magellan-destination" => "saturday"}
   .sat-image
   .row
     .medium-1.columns
     .small-12.medium-10.columns
-      %a{:name => "saturday"}
-      %h3.scallopedborder{"data-magellan-destination" => "saturday"} Saturday Hub
+      %h3.scallopedborder Saturday Hub
       %h5 Manchester Central Library
       %p An exploration of the lives of LGBT people throughout history, with new research by members of the public and historians. Members of the community will share their stories and experiences.
     .medium-1.columns
@@ -90,7 +91,7 @@ title: First National Festival of LGBT History
       %p= lorem.words 30
   .pinkarrow.arrow
 
-%section#sunday.text-center
+%section#sunday.text-center{"data-magellan-destination" => "sunday"}
   .sun-image
   .row
     .medium-1.columns
@@ -122,7 +123,7 @@ title: First National Festival of LGBT History
     .medium-4.columns
   .pinkarrow.arrow
 
-%section#theatre.text-center
+%section#theatre.text-center{"data-magellan-destination" => "theatre"}
   .theatre-image
   .row
     .medium-1.columns
