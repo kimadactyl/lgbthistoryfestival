@@ -1,0 +1,334 @@
+BEGIN:VCALENDAR
+PRODID:-//Google Inc//Google Calendar 70.9054//EN
+VERSION:2.0
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Main Festival
+X-WR-TIMEZONE:Europe/London
+BEGIN:VEVENT
+DTSTART:20150213T170000Z
+DTEND:20150213T190000Z
+DTSTAMP:20141212T125409Z
+UID:nugm31eushk6dql7lr1kkfoheo@google.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=kim@lg
+ bthistoryfestival.org;X-NUM-GUESTS=0:mailto:kim@lgbthistoryfestival.org
+CREATED:20141211T131848Z
+DESCRIPTION:LGBT History Festival Civic Launch\nWelcome by Lord Mayor of Ma
+ nchester \nThe 1st Alan Horsfall Lecture by Prof. Charles Upchurch – Florid
+ a State University (Asst. Professor of British History)  '“Like Sympathetic
+  Ink:” Identity and the Early Nineteenth-Century Attempt to Reform of the B
+ ritish Sodomy Laws'. \nIntroduced by National Chair of SO/LGBT HM Sue Sande
+ rs 
+LAST-MODIFIED:20141211T155923Z
+LOCATION:TBC 
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:LGBT History Festival Launch & the 1st Alan Horsfall Lecture 
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20150214T160000Z
+DTEND:20150214T163000Z
+DTSTAMP:20141212T125409Z
+UID:5vnrpjjarf00mtt263scqcbj8g@google.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=kim@lg
+ bthistoryfestival.org;X-NUM-GUESTS=0:mailto:kim@lgbthistoryfestival.org
+CREATED:20141126T141411Z
+DESCRIPTION:Shrewsbury is the county town for Shropshire\, a highly rural a
+ rea. \nThis session will look at what has been achieved\, how LGBT visibili
+ ty has increased over the years\, particularly in Shrewsbury and across the
+  County. \n\nSue Gorbing: is a film programmer for SpringOut\, which works 
+ with the Shropshire Rainbow Film Festival\, a core member of SAND (Safe Age
+ ing No Discrimination) and a director of FRESh (Fairness Respect Equality S
+ hropshire).\n\nPeter Roscoe:  is a lifelong LGBT and union activist\, a co-
+ founder  of the Shropshire Rainbow Film Festival and a director of FRESh.\n
+ \nGeoff Hardy: has been an LGBT activist since 1971\, a co-founder of the S
+ hropshire Rainbow Film Festival\, a core member of SAND and a director of F
+ RESh.\n\nhttp://www.rainbowfilmfestival.org.uk/\nhttps://lgbtsand.wordpress
+ .com/\nhttp://www.freshshropshire.org.uk/
+LAST-MODIFIED:20141206T141935Z
+LOCATION:Space 2
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Geoff Hardy: Rainbow Shropshire
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20150214T151500Z
+DTEND:20150214T154500Z
+DTSTAMP:20141212T125409Z
+UID:lslnmpua7uu18ufksm3r6ag6dc@google.com
+CREATED:20141126T140517Z
+DESCRIPTION:David Edgley: former twink involved in gay rights – now old cod
+ ger spending retirement delving into LGBT history and also helping with our
+  local LGBT helpline and community newsletter.\n\nDavid will talk about the
+  many and perhaps surprising LGBT Histories that Nottinghamshire has produc
+ ed.\n\nhttp://lgbthistoryfestival.org/authors/david-edgley.html
+LAST-MODIFIED:20141204T104914Z
+LOCATION:Space 2
+SEQUENCE:1
+STATUS:CONFIRMED
+SUMMARY:David Edgley: Queer Nottinghamshire
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20150214T151500Z
+DTEND:20150214T154500Z
+DTSTAMP:20141212T125409Z
+UID:4339p0jqd3bfkip1seqgg88p0o@google.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=kim@lg
+ bthistoryfestival.org;X-NUM-GUESTS=0:mailto:kim@lgbthistoryfestival.org
+CREATED:20141126T141355Z
+DESCRIPTION:Alex grew up in Pasewalk\, in the former GDR and will share som
+ e of his life story with us about what it was like to grow up gay in the pr
+ ovinces in the GDR and how things have changed (or not) since unification. 
+LAST-MODIFIED:20141204T104256Z
+LOCATION:Space 3
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Alexander Herrmann
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20150214T143000Z
+DTEND:20150214T150000Z
+DTSTAMP:20141212T125409Z
+UID:lied8d2u7mp66tk1jo3m69meb8@google.com
+CREATED:20141126T140451Z
+DESCRIPTION:Razia Aziz is an educator and trainer and co-founded The Equali
+ ty Academy. As a Talking Head\, she will share part of her life story with 
+ us\, how her thinking about herself has changed over time and how the attit
+ udes of others have changed or remained the same in her years of activism a
+ nd teaching. DRAFT\nhttp://www.theequalityacademy.com/
+LAST-MODIFIED:20141204T103125Z
+LOCATION:Space 2
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Razia Aziz
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20150214T143000Z
+DTEND:20150214T150000Z
+DTSTAMP:20141212T125409Z
+UID:vi1466hk2vkk1fo3tc2c9kam8s@google.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=kim@lg
+ bthistoryfestival.org;X-NUM-GUESTS=0:mailto:kim@lgbthistoryfestival.org
+CREATED:20141126T141338Z
+DESCRIPTION:Helena Whitbread will talk about how it is possible\, through t
+ he medium of Anne Lister's journal\, to trace the construction of her own l
+ esbian identity in an era which did not\, or chose not to\, recognise that 
+ sexual love between women existed or even deemed possible.\n\nHelena is the
+  editor and biographer of Anne Lister's diaries.
+LAST-MODIFIED:20141203T105608Z
+LOCATION:Space 2
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Helena Whitbread: Anne Lister
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20150214T134500Z
+DTEND:20150214T141500Z
+DTSTAMP:20141212T125409Z
+UID:jnfplk6upm6e4e2m3vmpeo3rm8@google.com
+CREATED:20141126T140428Z
+DESCRIPTION:Dr Sarah Parker is an Impact Research Fellow in English Studies
+  at University of Stirling. \nSarah will talk about Olive Custance\, wife o
+ f Lord Alfred Douglas and poet. We will learn more about both Olive and Bos
+ ie\, their unconventional relationship\, their romances with both men and w
+ omen and their explorations of the fluidity of gender.\n\nhttp://lgbthistor
+ yfestival.org/authors/sarah-parker.html
+LAST-MODIFIED:20141203T105010Z
+LOCATION:Space 2
+SEQUENCE:1
+STATUS:CONFIRMED
+SUMMARY:Sarah Parker: After Oscar
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20150214T134500Z
+DTEND:20150214T141500Z
+DTSTAMP:20141212T125409Z
+UID:kkdbaa8u6ef09pk1b0cfe098ic@google.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=kim@lg
+ bthistoryfestival.org;X-NUM-GUESTS=0:mailto:kim@lgbthistoryfestival.org
+CREATED:20141126T141110Z
+DESCRIPTION:Writer\, former IT consultant and veteran LGBT activist Ross Bu
+ rgess founded the Tunbridge Wells CHE group in 1972. As a  Talking Head he 
+ will share his experiences setting up the group\, and talk about the role t
+ hat CHE played in helping to change attitudes over the last 40 years. Ross 
+ is also a regular contributor to LGBT History Project UK and a national exe
+ cutive member of CHE. \n\nhttp://www.lgbthistoryuk.org/
+LAST-MODIFIED:20141203T104237Z
+LOCATION:Space 2
+SEQUENCE:1
+STATUS:CONFIRMED
+SUMMARY:Ross Burgess: Experiences with CHE
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20150214T130000Z
+DTEND:20150214T133000Z
+DTSTAMP:20141212T125409Z
+UID:10bietmtdr79n84dhsenptvt1c@google.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=kim@lg
+ bthistoryfestival.org;X-NUM-GUESTS=0:mailto:kim@lgbthistoryfestival.org
+CREATED:20141126T140816Z
+DESCRIPTION:Writer\, cabaret artist\, and theatre producer Peter Scott-Pres
+ land will be reading from his forthcoming book Amiable Warriors\, the offic
+ ial history of CHE (Campaign for Homosexual Equality). \n\nhttp://www.amiab
+ le-warriors.uk/
+LAST-MODIFIED:20141203T102934Z
+LOCATION:Space 2
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Peter Scott Presland: CHE Reading
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20150214T130000Z
+DTEND:20150214T133000Z
+DTSTAMP:20141212T125409Z
+UID:od7iba0v2r81mbi80dfkqqgp18@google.com
+CREATED:20141126T140306Z
+DESCRIPTION:Jan Bridget is a 67 year old lesbian from poor\, lower class\, 
+ background.  Originally from Lancashire but lived in Calderdale for 25 year
+ s.  As a mature student acquired BA in classical studies at Queen Mary\, Lo
+ ndon followed by the Diploma in Youth and Community Work at Manchester Poly
+ technic.  Set up and jointly ran Lesbian Information Service (1987-1998) an
+ d Gay and Lesbian Youth in Calderdale (1999-2011).\n\nJan will talk about s
+ etting up LIS in Leicester in 1987\, some of the challenges they faced and 
+ how attitudes have changed (or not) in the last 35 years of working for LGB
+ T equality.\n\nhttp://www.lesbianinformationservice.org/
+LAST-MODIFIED:20141203T102045Z
+LOCATION:Space 1
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Jan Bridget: Lesbian Information Service
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20150214T111500Z
+DTEND:20150214T114500Z
+DTSTAMP:20141212T125409Z
+UID:bgrlhtksii8l63khmi0v2qaock@google.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=kim@lg
+ bthistoryfestival.org;X-NUM-GUESTS=0:mailto:kim@lgbthistoryfestival.org
+CREATED:20141126T142055Z
+DESCRIPTION:LGF Chief Executive Paul Martin will illustrate some of the hig
+ hlights of the LGF collections now housed at Archives+. 
+LAST-MODIFIED:20141201T184035Z
+LOCATION:Archive Search Room
+SEQUENCE:1
+STATUS:CONFIRMED
+SUMMARY:Paul Martin: Demonstration 1
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20150214T111500Z
+DTEND:20150214T114500Z
+DTSTAMP:20141212T125409Z
+UID:5s2mvij1nh9l2707ejtihdd9q0@google.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=kim@lg
+ bthistoryfestival.org;X-NUM-GUESTS=0:mailto:kim@lgbthistoryfestival.org
+CREATED:20141126T140710Z
+DESCRIPTION:Julie Parker is runs of Outhouse London with Mavis Seaman and h
+ as been hugely influential in the UK's gay and lesbian theatre scene. Julie
+  will talk about her time as Artistic Directer of The Drill Hall and how th
+ ings have changed in her 30 years of professional theatre practice.
+LAST-MODIFIED:20141201T183401Z
+LOCATION:Space 3
+SEQUENCE:1
+STATUS:CONFIRMED
+SUMMARY:Julie Parker
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20150214T111500Z
+DTEND:20150214T114500Z
+DTSTAMP:20141212T125409Z
+UID:ultffs4j15hmgi8md4e93tdrcc@google.com
+CREATED:20141126T140219Z
+DESCRIPTION:Abigail Ward is a freelance curator\, writer and DJ with over f
+ ifteen years' experience in the music industry and cultural sector. She has
+  been running Manchester District Music Archive since 2003. \n\nhttp://lgbt
+ historyfestival.org/blog/2014/11/20/queer-noise.html\n\nIn her talk\, Abiga
+ il will be examining three key points in the city’s LGBT music history: the
+  birth of punk in 1976\; the house music explosion of the early 90s\; and t
+ he alt-gay scene which developed a decade later as a response to the homoge
+ neity of the music on offer on Canal Street - Manchester’s gay village.
+LAST-MODIFIED:20141201T182623Z
+LOCATION:Space 2
+SEQUENCE:2
+STATUS:CONFIRMED
+SUMMARY:Abigail Ward: Queer Noise
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20150214T103000Z
+DTEND:20150214T110000Z
+DTSTAMP:20141212T125409Z
+UID:6a73qulikvaqfv7aouea1k656o@google.com
+CREATED:20141126T135808Z
+DESCRIPTION:Lifelong political activist Peter Tatchell will be a Talking He
+ ad and sharing with the audience how his attitudes to himself have changed 
+ over time as political\, social\, and cultural changes happened around him.
+  Tatchell will speak about how he made some of those changes happen and wha
+ t impact they have had on him and others. 
+LAST-MODIFIED:20141201T181946Z
+LOCATION:Space 3
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Peter Tatchell
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20150214T103000Z
+DTEND:20150214T110000Z
+DTSTAMP:20141212T125409Z
+UID:1tqbp6o5kfe7d7m1ems41u8sjc@google.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=kim@lg
+ bthistoryfestival.org;X-NUM-GUESTS=0:mailto:kim@lgbthistoryfestival.org
+CREATED:20141126T140645Z
+DESCRIPTION:Prolific activist and campaigner Christine Burns will talk abou
+ t her time with Press for Change and how the political and legal situation 
+ for trans* people has changed in the last 25 years. 
+LAST-MODIFIED:20141201T181329Z
+LOCATION:Space 2
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Christine Burns
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20150214T134500Z
+DTEND:20150214T141500Z
+DTSTAMP:20141212T125409Z
+UID:2gv7hbspd8o7ug10krqmk3odm4@google.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=kim@lg
+ bthistoryfestival.org;X-NUM-GUESTS=0:mailto:kim@lgbthistoryfestival.org
+CREATED:20141126T142146Z
+DESCRIPTION:
+LAST-MODIFIED:20141127T185630Z
+LOCATION:Archive Tour
+SEQUENCE:1
+STATUS:CONFIRMED
+SUMMARY:Sylvia Kölling: Archive Demonstration 2
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20150214T160000Z
+DTEND:20150214T163000Z
+DTSTAMP:20141212T125409Z
+UID:65g83ppf4h43148rvtc27ihst0@google.com
+CREATED:20141126T140545Z
+DESCRIPTION:
+LAST-MODIFIED:20141127T185436Z
+LOCATION:Space 1
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Laila El-Metoui
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR

@@ -2,7 +2,6 @@
 title: Schedule
 ---
 :ruby
-  require 'open-uri'
   require 'icalendar'
 
   days = {  "Friday" => Time.new(2015,2,13),
@@ -53,13 +52,12 @@ title: Schedule
 
   end
 
-  academic = CalendarSorter.new({ "Academic" => "https://www.google.com/calendar/ical/lgbthistoryfestival.org_8mtrc289k99o4g90rc9cgce3io%40group.calendar.google.com/public/basic.ics"})
   popular = CalendarSorter.new({ 
-              "Main Festival" => "https://www.google.com/calendar/ical/kim%40lgbthistoryfestival.org/public/basic.ics",
-              "Family Space" => "https://www.google.com/calendar/ical/lgbthistoryfestival.org_0gc2nrd6ls6fjbuuf8icuju3ag%40group.calendar.google.com/public/basic.ics",
-              "Films" => "https://www.google.com/calendar/ical/lgbthistoryfestival.org_qtra32a7f24jpc75ghjuffeops%40group.calendar.google.com/public/basic.ics",
-              "Theatre" => "https://www.google.com/calendar/ical/lgbthistoryfestival.org_ijgln6bmp4th9sg6stditdv7ok%40group.calendar.google.com/public/basic.ics",
-              "Conference" => "https://www.google.com/calendar/ical/lgbthistoryfestival.org_8mtrc289k99o4g90rc9cgce3io%40group.calendar.google.com/public/basic.ics"})
+              "Main Festival" => "ical/main.ics",
+              "Family Space" => "ical/family-space.ics",
+              "Films" => "ical/films.ics",
+              "Theatre" => "ical/theatre.ics",
+              "Conference" => "ical/academic.ics"})
 %section
   .row
     .small-12.columns.text-center
@@ -87,9 +85,10 @@ title: Schedule
                   - events.each do |event|
                     %li{:class => "#{list.to_s.parameterize}"}
                       %strong= event.summary
-                      %span.description= event.description
                       - duration = ((event.dtend - event.dtstart)/60).to_i
                       %em.duration= "(#{duration} mins)"
+                      %div.description
+                        = Kramdown::Document.new(event.description).to_html
 
 :javascript
   $( document ).ready(function() {
