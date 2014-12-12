@@ -72,20 +72,29 @@ section#branding
     padding: 5em 0 2.25em
   text-align: center
   background-color: $pink
-section#date
-  background-color: black
-  text-transform: uppercase
-  text-align: center
-  letter-spacing: 0.1rem
-  @media #{$small-only}
-    letter-spacing: 0rem
-    font-size: 80%
-  h5
-    color: $pink
-    font-weight: normal
-    font-size: 110%
-    padding: 0.3em 0
-    margin: 0.35em 0
+  ul
+    margin: 0
+    padding: 0
+    line-height: 1
+.sticky section#branding
+  position: fixed
+  width: 100%
+  z-index: 1000
+  padding: 2em 0 0.75em
+  ul
+    min-height: 85px
+    display: inline-block
+    padding-left: 230px
+    background-image: url("/images/logo-sticky.png")
+    background-position: 0 50%
+    background-repeat: no-repeat
+    li
+      margin-top: 1.6em
+  h1 img
+    display: none
+
+#topborder
+  +border-top-serrated($jaggies, $pink)  
 
 // Navigation
 nav
@@ -94,7 +103,7 @@ nav
     list-style-type: none
     display: inline-block
     margin: 1em 0.25em
-    padding: 1em
+    padding: 0.5em 1em
     background: white
     // h/t Lea Verou http://lea.verou.me/2011/03/beveled-corners-negative-border-radius-with-css3-gradients/
     background: linear-gradient(135deg, transparent 10px, white 0) top left, linear-gradient(225deg, transparent 10px, white 0) top right, linear-gradient(315deg, transparent 10px, white 0) bottom right, linear-gradient(45deg,  transparent 10px, white 0) bottom left
@@ -342,8 +351,6 @@ form#contribute
 
 // Slides
 
-#topborder
-  +border-top-serrated($jaggies, $pink)
 
 body.index section#main
   section .row > div
