@@ -1,20 +1,24 @@
 -
   name: LGBT History Month
-  logo: partners/lgbthm_g.png
+  logo: partners/logo1_lgbthistmonth.png
   url: http://lgbthistorymonth.org.uk/
 -
   name: "The Lesbian & Gay Foundation"
-  logo: partners/lgf_g.png
+  logo: partners/logo2_lgf.png
   url: http://lgf.org.uk
 -
-  name: Manchester City Council
-  logo: partners/mcc.png
-  url: http://www.archivesplus.org/
--
   name: Manchester Metropolitan University
-  logo: partners/mmu_g.png
+  logo: partners/logo3_mmu.png
   url: http://mmu.ac.uk
 -
   name: People's History Museum
-  logo: partners/phm_g.png
+  logo: partners/logo4_PHM.png
   url: http://www.phm.org.uk/
+-
+  name: School's OUT UK
+  logo: partners/logo5_schoolsout.png
+  url: http://www.schools-out.org.uk/
+-
+  name: Manchester City Council
+  logo: partners/logo6_mcc.png
+  url: http://www.archivesplus.org/
