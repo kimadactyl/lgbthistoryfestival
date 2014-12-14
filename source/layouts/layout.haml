@@ -33,39 +33,41 @@
     #topborder
     %section#main{role: "content"}= yield
     %section#footer{role: "footer"}
-      .row
+      .row#sponsors
         .large-12.column
           %ul.large-block-grid-5.medium-block-grid-3.small-block-grid-2.partners
             - data.partners.each do |partner|
               %li
                 = link_to partner.url do
                   = image_tag partner.logo
-      %hr/
-      .row
-        .columns.small-12.medium-6
-          %h6 © 2014 LGBT History Festival
-          %p
-            Part of School's OUT UK, Registered Charity #1156352 in England and Wales.
-        %h6.lgbthm
-          .columns.medium-6.text-right
-            = link_to "http://lgbthistorymonth.org.uk/" do
-              = image_tag "lgbthm2.png"
     %section#credits.pink{role: "credits"}
       .row
-        .column.large-12
+        .columns.medium-2.small-1
+          %p
+        .columns.medium-8.small-10
           :markdown
-            Uncovering & celebrating our *past* to enlighten our *present* & thereby guiding our creation of a more inclusive & equitable *future*.
+            ###### © 2014 LGBT History Festival
+
+            **Part of School's OUT UK, Registered Charity #1156352 in England and Wales.**
+
+            ---
+
+            Uncovering & celebrating our **past** to enlighten our **present** & thereby guiding our creation of a more inclusive & equitable **future**.
+
+            ---
 
             LGBT History Festival website created with love by [Kim Foale](http://alliscalm.net) and [Squid](http://studiosquid.co.uk/).
-          = google_analytics_tag
-          :javascript
-            $(document).foundation({
-              "magellan-expedition": {
-                throttle_delay: 50,
-                // FIX THIS! 
-                // Should get it from jQuery. For some reason $('#branding').outerHeight() 
-                // isn't giving the right height.
-                fixed_top: 100,
-                threshold: -200
-              }
-            });
+        .columns.medium-2.small-1
+          %p
+    = google_analytics_tag
+    :javascript
+      $(document).foundation({
+        "magellan-expedition": {
+          throttle_delay: 50,
+          // FIX THIS! 
+          // Should get it from jQuery. For some reason $('#branding').outerHeight() 
+          // isn't giving the right height.
+          fixed_top: 100,
+          threshold: -200
+        }
+      });

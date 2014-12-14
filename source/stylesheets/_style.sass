@@ -144,9 +144,10 @@ section#main section
 // Footer
 section#footer
   padding: 3em 0 2em
-  background-color: black
+  background-color: $pink
   text-transform: uppercase
   color: white
+  +border-bottom-serrated($jaggies, black)
   h6
     color: white
   .lgbthm
@@ -173,12 +174,23 @@ section#footer
 
 section#credits
   padding-top: 1em
-  color: white
+  color: $pink
+  background-color: black
   text-align: center
+  text-transform: uppercase
   p
     font-size: 90%
   a
-    color: white
+    font-weight: bold
+    text-decoration: none
+  h6, a, hr
+    color: $pink
+  hr
+    border-width: 2px 0
+    border-color: $pink
+    height: 8px
+    width: 40%
+    margin: 0 auto 1em
 
 ////////////////////////////////////
 // PAGE-SPECIFIC RULES START HERE //
