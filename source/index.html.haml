@@ -54,7 +54,7 @@ title: First National Festival of LGBT History
         %ul
           %li{"data-magellan-arrival" => "saturday"}
             %a{:href => "#saturday"} Central Library
-          %li{"data-magellan-arrival" => "sunday"} 
+          %li{"data-magellan-arrival" => "sunday"}
             %a{:href => "#sunday"} People&rsquo;s History Museum
           %li{"data-magellan-arrival" => "theatre"}
             %a{:href => "#theatre"} Theatre
@@ -70,14 +70,14 @@ title: First National Festival of LGBT History
       %h3.scallopedborder Saturday Hub
       %h4 Manchester Central Library
       :markdown
-        Where are we now and how did we get here? Saturday explores 200+ years of LGBTQ identity, from when George III was on the throne to the present day. 
+        Where are we now and how did we get here? Saturday explores 200+ years of LGBTQ identity, from when George III was on the throne to the present day.
     .medium-1.columns
   .row
     .medium-8.columns.text-left
       :markdown
         #### Where are we now?
 
-        A celebration of the remarkable work of LGBTQ campaigners living today. We examine the frontline services that improved the lives of many, such as the _Lesbian Information Service_ (presented by **Jan Bridget**), and _Nottinghamshire Lesbian and Gay Switchboard_ (presented by **David Edgley**). 
+        A celebration of the remarkable work of LGBTQ campaigners living today. We examine the frontline services that improved the lives of many, such as the _Lesbian Information Service_ (presented by **Jan Bridget**), and _Nottinghamshire Lesbian and Gay Switchboard_ (presented by **David Edgley**).
 
         The _Campaign for Homosexual Equality_ are launching the first volume of their history, written by **Peter Scott-Presland**, while **Ross Burgess** talks about CHE's impact and legacy. **Christine Burns MBE**, key activist in _Press For Change_, who's work contributed to the _Gender Recognition Act 2004_, will talk about overcoming the challenges to document trans* history.
 
@@ -86,7 +86,7 @@ title: First National Festival of LGBT History
         Obviously as a Manchester festival we have to talk about music! **Abby Ward**, founder of the _Manchester District Music Archive_ discusses her _Queer Noise_ collection of tickets and posters, including infamous clubnights from _Flesh_ (at the famous _Haçienda_) to _Club Brenda_.
 
     .medium-4.columns
-        
+
 
   .row
     .medium-4.columns
@@ -97,7 +97,7 @@ title: First National Festival of LGBT History
         **Helena Whitbread**, biographer of **Anne Lister**, discusses her coded diaries, which detail her multiple relationships with women when George III was on the throne. 1806-1840 26 volumes 4m words
 
         Oscar Wilde's lover's wife, **Olive Custance**, is
-        
+
   .row
     .medium-4.columns
     .medium-8.columns.text-right
@@ -128,8 +128,8 @@ title: First National Festival of LGBT History
       :markdown
         #### Theme 2: LGBT and the Law
 
-        In the 1800s, the British Empire stretched across two thirds of the world, and Britain exported laws banning same-sex relations to its colonies. Human rights campaigner **Peter Tatchell** and **Prossy Kakooza**, a refugee who has rebuilt her life in the UK after experiencing abuse and torture in Uganda, discuss Britain's colonial legacy. 
-  .row 
+        In the 1800s, the British Empire stretched across two thirds of the world, and Britain exported laws banning same-sex relations to its colonies. Human rights campaigner **Peter Tatchell** and **Prossy Kakooza**, a refugee who has rebuilt her life in the UK after experiencing abuse and torture in Uganda, discuss Britain's colonial legacy.
+  .row
     .medium-8.columns.text-left
       :markdown
         #### Theme 3: LGBT in the Workplace
@@ -174,7 +174,7 @@ title: First National Festival of LGBT History
 
           ##### Sunday 15th
 
-          The trial of 47 prisoners will be recreated in an immersive theatrical experience at the People’s History Museum. The fate of the Prisoners will be decided. Can they all maintain an oath of silence, or will one of them speak out? And how will the prosecution secure convictions, when no law has been broken? 
+          The trial of 47 prisoners will be recreated in an immersive theatrical experience at the People’s History Museum. The fate of the Prisoners will be decided. Can they all maintain an oath of silence, or will one of them speak out? And how will the prosecution secure convictions, when no law has been broken?
       .medium-4.columns
         = image_tag ("home/trial.jpg")
 
@@ -194,7 +194,10 @@ title: First National Festival of LGBT History
 :javascript
   $('.arrow').on('click', function(event){
     var target = $(this).parent().next();
+    // Find the true visible height of #branding section and use that.
+    var nav_deviation = $("#branding").outerHeight() + $("#branding").offset().top - $(window).scrollTop();
+    var scrollMe = target.offset().top - nav_deviation;
     $('html, body').animate({
-      scrollTop: target.offset().top
+      scrollTop: scrollMe
         }, 1000);
       });
