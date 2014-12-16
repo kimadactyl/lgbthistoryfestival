@@ -36,9 +36,11 @@ title: Schedule
       # Tell us all the possible event starting times
       t = []
       @cals.each do |cal|
-        t += cal.events.uniq { |a| a.dtstart.to_s }
+        t += cal.events { |a| a.dtstart.to_s }
       end
-      t.select { |a| a.dtstart.between?(start, start + 24.hours) }
+      t.uniq! { |x| x.dtstart.to_s}
+      t.sort! { |a,b| a.dtstart <=> b.dtstart }
+      t.uniq.select { |a| a.dtstart.between?(start, start + 24.hours) }
     end
 
     def get_events(time)
@@ -52,7 +54,7 @@ title: Schedule
 
   end
 
-  popular = CalendarSorter.new({ 
+  popular = CalendarSorter.new({
               "Main Festival" => "ical/main.ics",
               "Family Space" => "ical/family-space.ics",
               "Films" => "ical/films.ics",
@@ -68,9 +70,9 @@ title: Schedule
         %li.theatre Theatre
         %li.conference Conference
       %form.schedule-type
-        %input{:type => "radio", :name => "expanded", :id => "s-compact", :value => "0", :checked => "checked"} 
+        %input{:type => "radio", :name => "expanded", :id => "s-compact", :value => "0", :checked => "checked"}
         %label{:for => "s-compact"} Compact Schedule
-        %input{:type => "radio", :name => "expanded", :id => "s-expanded", :value => "1"} 
+        %input{:type => "radio", :name => "expanded", :id => "s-expanded", :value => "1"}
         %label{:for => "s-expanded"} Expanded Schedule
     .small-12.columns
       %ul.schedule.program
@@ -129,9 +131,9 @@ title: Schedule
     $("input[name='expanded']").click(function() {
       if($(this).attr("value")=="0"){
         $("ul.program .description").hide();
-      } 
+      }
       if ($(this).attr("value")=="1"){
-        $("ul.program .description").show();   
+        $("ul.program .description").show();
       }
     });
   });
