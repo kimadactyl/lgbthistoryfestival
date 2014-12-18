@@ -224,6 +224,8 @@ section#credits
 // PAGE-SPECIFIC RULES START HERE //
 ////////////////////////////////////
 
+$deselected: #C4C4C4
+
 ul.schedule
   clear: left
   li
@@ -231,7 +233,8 @@ ul.schedule
     list-style-type: none
     padding: .25em .5em
     margin: 0 .5em .5em 0
-    &.main-festival
+    border: 3px solid $pink
+    &.main-festival, &.disabled:hover
       background-color: $main-festival
     &.conference
       background-color: $conference
@@ -242,9 +245,11 @@ ul.schedule
       background-color: $films
     &.theatre
       background-color: $theatre
-      border: 3px solid $pink
-    &.disabled
+    &.disabled, &:hover
       background-color: transparent
+      border-color: $deselected
+      color: $deselected
+
   h3.time
     float: left
     width: 55px

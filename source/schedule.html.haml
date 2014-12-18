@@ -148,4 +148,9 @@ title: Schedule
         $("ul.program .description").show();
       }
     });
+
+    $("ul.key li").hover(function() {
+      $('span.status i', this).toggleClass('fi-check');
+      $('span.status i', this).toggleClass('fi-x');
+    });
   });
