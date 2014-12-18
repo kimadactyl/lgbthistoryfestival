@@ -16,17 +16,6 @@ title: Schedule
       url_array.each do |key,url|
         @cals << Icalendar.parse(open(url)).first
       end
-      # Unfortunately this creates an unwanted index so we need to rebuild
-      # First, create a blank object
-      # combine = Icalendar::Calendar.new
-      # # For each cal, iterate each event and load it into our new calendar
-      # @cals.each do |cal|
-      #   cal.events.each do |event|
-      #     combine.events << event
-      #   end
-      # end
-      # # And reassign.
-      # @cals = combine
       @cals.each do |cal|
         cal.events.sort! { |a,b| a.dtstart <=> b.dtstart }
       end
@@ -36,9 +25,11 @@ title: Schedule
       # Tell us all the possible event starting times
       t = []
       @cals.each do |cal|
-        t += cal.events.uniq { |a| a.dtstart.to_s }
+        t += cal.events { |a| a.dtstart.to_s }
       end
-      t.select { |a| a.dtstart.between?(start, start + 24.hours) }
+      t.uniq! { |x| x.dtstart.to_s}
+      t.sort! { |a,b| a.dtstart <=> b.dtstart }
+      t.uniq.select { |a| a.dtstart.between?(start, start + 24.hours) }
     end
 
     def get_events(time)
@@ -52,7 +43,7 @@ title: Schedule
 
   end
 
-  popular = CalendarSorter.new({ 
+  popular = CalendarSorter.new({
               "Main Festival" => "ical/main.ics",
               "Family Space" => "ical/family-space.ics",
               "Films" => "ical/films.ics",
@@ -62,16 +53,33 @@ title: Schedule
   .row
     .small-12.columns.text-center
       %ul.schedule.key
-        %li.main-festival Main Festival
-        %li.family-space Family Space
-        %li.films Films
-        %li.theatre Theatre
-        %li.conference Conference
+        %li.main-festival
+          %span.status
+            %i.fi-check 
+          %span Main Festival 
+        %li.family-space 
+          %span.status
+            %i.fi-check           
+          %span Family Space
+        %li.films
+          %span.status
+            %i.fi-check           
+          %span Films
+        %li.theatre 
+          %span.status
+            %i.fi-check           
+          %span Theatre
+        %li.conference 
+          %span.status
+            %i.fi-x           
+          %span Conference
       %form.schedule-type
-        %input{:type => "radio", :name => "expanded", :id => "s-compact", :value => "0", :checked => "checked"} 
-        %label{:for => "s-compact"} Compact Schedule
-        %input{:type => "radio", :name => "expanded", :id => "s-expanded", :value => "1"} 
-        %label{:for => "s-expanded"} Expanded Schedule
+        %input{:type => "radio", :name => "expanded", :id => "s-compact", :value => "0", :checked => "checked"}
+        %label{:for => "s-compact"} 
+          <i class="fi-arrows-compress"></i> Compact
+        %input{:type => "radio", :name => "expanded", :id => "s-expanded", :value => "1"}
+        %label{:for => "s-expanded"} 
+          <i class="fi-arrows-expand"></i> Expanded
     .small-12.columns
       %ul.schedule.program
         - days.each do |day, time|
@@ -114,8 +122,14 @@ title: Schedule
     // Wire up buttons to trigger appropriate sections
     function toggleProgram($trigger, $element){
       $trigger.click(function(){
+        // Toggle the program boxes
         $element.toggle();
+        // Toggle the key box
         $trigger.toggleClass('disabled');
+        // Toggle the on/off icon
+        $('span.status i', $trigger).toggleClass('fi-check');
+        $('span.status i', $trigger).toggleClass('fi-x');
+        // Check for blank time rows
         checkBlanks();
       })
     }
@@ -129,9 +143,9 @@ title: Schedule
     $("input[name='expanded']").click(function() {
       if($(this).attr("value")=="0"){
         $("ul.program .description").hide();
-      } 
+      }
       if ($(this).attr("value")=="1"){
-        $("ul.program .description").show();   
+        $("ul.program .description").show();
       }
     });
   });

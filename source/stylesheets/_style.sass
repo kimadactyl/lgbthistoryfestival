@@ -2,13 +2,14 @@
 $red: #ED1C24
 $pink: #EB6D98
 $jaggies: 40px
+$pinkspacing: 0.07em
 
 // Theme colours
-$main-festival: #9a9cff
-$conference: #fad165
-$theatre: #92e1c0
-$films: #7bd148
-$family-space: #fa573c
+$main-festival: $pink
+$family-space: #F4B5CC
+$films: #F9D9E5
+$theatre: #FFFFFF
+$conference: #FFFFFF
 
 /* border-serrated - a zig zag triangle border with linear gradient */
 =border-top-serrated($size, $color-outer)
@@ -41,11 +42,20 @@ $family-space: #fa573c
   background-repeat: repeat-x
   background-size: $size $size
 
+// Scalloped Borders
+=scalloped-border($color)
+  // h/t Lea Verou http://lea.verou.me/2011/03/beveled-corners-negative-border-radius-with-css3-gradients/
+  background: linear-gradient(135deg, transparent 10px, $color 0) top left, linear-gradient(225deg, transparent 10px, $color 0) top right, linear-gradient(315deg, transparent 10px, $color 0) bottom right, linear-gradient(45deg,  transparent 10px, $color 0) bottom left
+  background-size: 52% 52%
+  background-repeat: no-repeat
+  background-image: radial-gradient(circle at 0 0, transparent 8px, $color 9px), radial-gradient(circle at 100% 0, transparent 8px, $color 9px), radial-gradient(circle at 100% 100%, transparent 8px, $color 9px), radial-gradient(circle at 0 100%, transparent 8px, $color 9px)
+
 // Matching font from LGBT history month website
 h1, h2, h3, h4, h5
   text-transform: uppercase
   font-weight: bold
   color: $pink
+  letter-spacing: $pinkspacing
 
 h3.chevronborder
   background-image: url('/images/icons/chevronborder.png')
@@ -54,6 +64,7 @@ h3.chevronborder
 h3.scallopedborder
   background-image: url('/images/icons/scallopedborder.png')
   color: white
+  margin-bottom: 1em
 
 .button h3
   color: white
@@ -83,33 +94,47 @@ section.pink
 
 // Branding
 section#branding
-  padding: 2.5em 0 2.25em 0
+  padding: 3.5em 0 0.25em 0
   @media #{$small-only}
     padding: 5em 0 2.25em
   text-align: center
   background-color: $pink
+  img.mainlogo
+    margin-bottom: 0.6em
+  img.strapline
+    margin-bottom: 0.5em
+  img
+    display: block
+    margin: auto
   ul
     margin: 0
     padding: 0
     line-height: 1
+  li.stickylogo
+    display: none
 
 // Branding when the screen is scrolled down
 .sticky section#branding
   position: fixed
   width: 100%
   z-index: 1000
-  padding: 2em 0 0.75em
+  padding: 0em 0 0.75em
   ul
-    min-height: 85px
     display: inline-block
-    padding-left: 230px
-    background-image: url("/images/logo-sticky.png")
-    background-position: 0 50%
-    background-repeat: no-repeat
     li
       margin-top: 1.6em
+      vertical-align: top
+    li.stickylogo
+      width: 230px
+      background: transparent
+      margin: 0
+      display: inline-block
+
   h1 img
     display: none
+.sticky.index section#branding
+  padding: 2em 0 0.75em
+
 
 // Pink triangles at the top
 #topborder
@@ -124,18 +149,19 @@ nav#primary
     margin: 1em 0.25em
     padding: 0.5em 1em
     background: white
-    // h/t Lea Verou http://lea.verou.me/2011/03/beveled-corners-negative-border-radius-with-css3-gradients/
-    background: linear-gradient(135deg, transparent 10px, white 0) top left, linear-gradient(225deg, transparent 10px, white 0) top right, linear-gradient(315deg, transparent 10px, white 0) bottom right, linear-gradient(45deg,  transparent 10px, white 0) bottom left
-    background-size: 52% 52%
-    background-repeat: no-repeat
-    background-image: radial-gradient(circle at 0 0, transparent 8px, white 9px), radial-gradient(circle at 100% 0, transparent 8px, white 9px), radial-gradient(circle at 100% 100%, transparent 8px, white 9px), radial-gradient(circle at 0 100%, transparent 8px, white 9px)
+    +scalloped-border(white)
     a
       text-transform: uppercase
       padding: 0.25em
       color: black
       text-decoration: none
       font-size: 130%
-
+  li:hover
+    background: white
+    +scalloped-border(black)
+    a
+      color: white
+ 
 // Padding on copy sections
 section#main section
   padding-top: 2em
@@ -144,9 +170,10 @@ section#main section
 // Footer
 section#footer
   padding: 3em 0 2em
-  background-color: black
+  background-color: $pink
   text-transform: uppercase
   color: white
+  +border-bottom-serrated($jaggies, black)
   h6
     color: white
   .lgbthm
@@ -171,14 +198,27 @@ section#footer
     a
       line-height: 150px
 
+
 section#credits
   padding-top: 1em
-  color: white
+  color: $pink
+  letter-spacing: $pinkspacing
+  background-color: black
   text-align: center
+  text-transform: uppercase
   p
     font-size: 90%
   a
-    color: white
+    font-weight: bold
+    text-decoration: none
+  h6, a, hr
+    color: $pink
+  hr
+    border-width: 2px 0
+    border-color: $pink
+    height: 8px
+    width: 40%
+    margin: 0 auto 1em
 
 ////////////////////////////////////
 // PAGE-SPECIFIC RULES START HERE //
@@ -189,19 +229,20 @@ ul.schedule
   li
     display: inline-block
     list-style-type: none
-    border: 1px solid #bbb
     padding: .25em .5em
     margin: 0 .5em .5em 0
     &.main-festival
       background-color: $main-festival
     &.conference
       background-color: $conference
+      border: 3px solid black
     &.family-space
       background-color: $family-space
     &.films
       background-color: $films
     &.theatre
       background-color: $theatre
+      border: 3px solid $pink
     &.disabled
       background-color: transparent
   h3.time
@@ -216,7 +257,12 @@ ul.schedule
 ul.key
   text-align: center
   li
+    border: 3px solid $pink
     display: inline-block
+
+form.schedule-type 
+  label, input
+    font-size: 125%
 
 // Blogs
 article
@@ -268,6 +314,7 @@ article.teaser
   h3
     font-size: 120%
     color: $pink
+    letter-spacing: $pinkspacing
   .meta
     +underline-section
     border-width: 1px 0 1px 
@@ -291,12 +338,17 @@ article.teaser
   span
     display: block
 
-// Front page slides
+//////////////////////////
+// FRONT PAGE SLIDESHOW //
+//////////////////////////
+
 body.index section#main
   section .row > div
-    margin: 3em 0 
+    margin: 2em 0 
   p
     font-size: 130%
+  h3, h4
+    margin-bottom: 1.5em
   h2, h3
     background-repeat: no-repeat
     background-size: contain
@@ -308,9 +360,11 @@ body.index section#main
     cursor: pointer
     cursor: hand
   .whitearrow
-    background-image: url("/images/icons/whitearrow.png") 
+    background-image: url("/images/icons/arrow_white.png")
+    background-image: url("/images/icons/arrow_white.svg")  
   .pinkarrow
-    background-image: url("/images/icons/pinkarrow.png")
+    background-image: url("/images/icons/arrow_pink.png")
+    background-image: url("/images/icons/arrow_pink.svg")
   section#slide-1
     background-image: url("/images/home/canalst.jpg")
     background-attachment: fixed
@@ -327,14 +381,16 @@ body.index section#main
       color: white
       min-height: 310px
       font-size: 36px
-      margin: 3em 30px 0
+      margin: 1em 0 0
       padding: 50px
       top: 4em
       text-align: center
+      font-weight: normal
   #slide-2
-    margin-top: 3em
+    margin-top: 1em
     h3
       font-size: 150%
+      margin-bottom: 1em
     p
       font-size: 130%
   #slide-3
@@ -350,7 +406,6 @@ body.index section#main
       color: white
       p
         font-size: 150%
-        background: rgba(0,0,0,0.5)
         padding: 0.5em
         a
           color: white
@@ -379,14 +434,13 @@ body.index section#main
   background-attachment: fixed
   background-repeat: none
   background-size: cover
-  height: 18em
+  height: 25em
 .sat-image
   background-image: url("/images/home/library.jpg")
 .sun-image
   background-image: url("/images/home/phm.jpg")
 .theatre-image
   background-image: url("/images/home/theatre.png")
-  height: 30em
 
 nav.elements
   background: transparent
