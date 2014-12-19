@@ -55,7 +55,10 @@ h1, h2, h3, h4, h5
   text-transform: uppercase
   font-weight: bold
   color: $pink
-  letter-spacing: $pinkspacing
+
+.index 
+  h1, h2, h3, h4, h5
+    letter-spacing: $pinkspacing
 
 // Various fancy borders for h3/h2 elements
 .longborder
@@ -145,6 +148,8 @@ section#branding
       display: inline-block
     .navleft
       margin-left: 33px
+    a
+      padding: 0
 
   h1 img
     display: none
@@ -368,6 +373,10 @@ body.index section#main
     margin: 2em 0 
   p
     font-size: 130%
+  p.caption
+    font-size: 90%
+    font-style: italic
+    color: #aaa   
   h3, h4
     margin-bottom: 1.5em
   .arrow
@@ -446,7 +455,7 @@ body.index section#main
   section#sunday
     margin-top: 2em
 
-.sat-image, .sun-image, .theatre-image
+.sat-image, .sun-image, .theatre-image, .film-image
   background-attachment: fixed
   background-repeat: no-repeat
   background-size: cover
@@ -457,6 +466,8 @@ body.index section#main
   background-image: url("/images/home/phm.jpg")
 .theatre-image
   background-image: url("/images/home/theatre.png")
+.film-image
+  background-image: url("/images/home/pride.jpg")
 
 nav#elements
   background: white
