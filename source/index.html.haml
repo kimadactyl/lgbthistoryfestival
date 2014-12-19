@@ -2,37 +2,57 @@
 title: First National Festival of LGBT History
 ---
 
-%section#slide-1
-  .row
-    .small-12.columns
-      %h1 The First National Festival of LGBT history celebrates LGBT History Month&rsquo;s 10th anniversary
-  .whitearrow.arrow
 
-%section#slide-2
+%section#what-it-is
   .row
     .small-12.text-center.columns
-      %h3 Trailblazing activists will talk about their lives and present popular histories, and internationally renowned scholars will present world-first research on a range of topics.
-      %p There will be groundbreaking immersive theatre over three days around the city; innovative diversity lessons for families and younger people; and a film festival celebrating LGBT themes from around the world.
+      %h3 Trailblazing activists and renowned scholars are coming together to celebrate and present 300+ years of LGBT History, in a world-first popular festival of it's kind. 
+      %p The Festival features historical talks and lectures on LGBT life stories and politics, a groundbreaking immersive theatre production, a film festival, diversity lessons for children and young adults, an academic conference, and many other surprises. 
   .pinkarrow.arrow
 
-%section#slide-3
-  .border
+%section#whatson
   .row
-    .small-12.text-center.columns
-      .content
-        :markdown
-          The Festival is hosted at [Manchester's most prestigious venues](/travel.html): the newly refurbished Central Library, People's History Museum, the Lesbian and Gay Foundation, and various venues throughout Manchester's Gay Village.
+    .small-12.columns.text-center
+      %h2.longborder What&rsquo;s on?
+        
+      :markdown
+        The festival launches on **Friday** at the Lesbian and Gay Foundation, with the **[inaugural Allan Horsfall lecture](/blog/2014/11/13/allan-horsfall-lecture.html)**, sponsored by the Campagin for Homosexual Equality. **Saturday** at **Central Library** goes _Under The Rainbow_, with an exploration of LGBT identity and personal stories from the 18th century to today. **Sunday** at **People's History Musuem** explores lesbian activists, LGBT rights in the workplace, and explores Britain's colonial legacy in exporting homophobic laws.
 
-          We are proud to work with Manchester City Council, LGF, School's OUT UK, Manchester Metropolitan University, and scholars from some of the country's most respected institutions in delivering this world-first festival.
+        **[_A Very Victorian Scandal_](#theatre)**, our innovative, immersive theatre performance based on an 1880 police raid on a fancy dress ball, runs throughout the weekend. There are **family-friendly** events for children and young adults on the Saturday and Sunday. The 2nd **&ldquo;What is and how to do LGBT history&rdquo;** conference runs in parallel at the **Lesbian and Gay Foundation**.
+
+        Finally, there are **films** throughout the week in Manchester's **Gay Village**, and various suprises in the week leading up to the festival. Stay tuned, and be sure to follow our [Facebook](https://www.facebook.com/lgbthistoryfestival?fref=ts) and [Twitter](https://twitter.com/lgbthistoryfest), or join our [e-mail list](http://crm.lgbthistoryfestival.org/civicrm/mailing/subscribe) for up-to-the minute news! Keep scrolling to find out more, or go to the [schedule page](/schedule.html) to find out full details.
+  .row     
+    .small-12.columns.text-center
+      %h2 Find out more about&hellip;
+      %nav#elements{"data-magellan-expedition" => "fixed"}
+        %ul.show-for-medium-up
+          %li.first{"data-magellan-arrival" => "saturday"}
+            %a{:href => "#saturday"} Saturday
+          %li{"data-magellan-arrival" => "sunday"}
+            %a{:href => "#sunday"} Sunday
+          %li{"data-magellan-arrival" => "theatre"}
+            %a{:href => "#theatre"} Theatre
+          %li Families
+          %li Films
+          %li.last Academic
+  .pinkarrow.arrow             
+
+%section#first-festival-is
+  .row
+    .small-12.columns
+      :markdown
+        ### The First National Festival of LGBT History is the official celebration of LGBT History Month's 10th anniversary. [LGBT History Month](http://lgbthistorymonth.org.uk/) is a part of [School's OUT UK](http://www.schools-out.org.uk/), which has worked towards equality, safety and visibility for lesbian, gay, bisexual and trans* people in education since 1974. 
+
+        ### We are proud to work with Manchester City Council, the LGF, Manchester Metropolitan University, and scholars from some of the country's most respected institutions in delivering this unprecedented, world-first festival. 
   .whitearrow.arrow
 
-%section#slide-4.pink
+%section#bigicons.pink
   .row.text-center
     .small-4.columns
-      %a{:href => "/programme.html"}
-        %h3.chevronborder The Program
+      %a{:href => "/schedule.html"}
+        %h3.chevronborder The Schedule
         %img{:src => "/images/icons/program.png"}
-        %p Read the program and find out what's happening
+        %p Read the schedule and find out what's happening
     .small-4.columns
       %a{:href => "/travel.html"}
         %h3.chevronborder Venues
@@ -44,34 +64,20 @@ title: First National Festival of LGBT History
         %img{:src => "/images/icons/aboutus.png"}
         %p Learn more about the organisation and its values
 
-%section#whatson.text-center
-  .row
-    .small-12.columns
-      %h2 What&rsquo;s on?
-  .row
-    .small-12.text-center.columns
-      %nav.elements{"data-magellan-expedition" => "fixed"}
-        %ul
-          %li{"data-magellan-arrival" => "saturday"}
-            %a{:href => "#saturday"} Central Library
-          %li{"data-magellan-arrival" => "sunday"}
-            %a{:href => "#sunday"} People&rsquo;s History Museum
-          %li{"data-magellan-arrival" => "theatre"}
-            %a{:href => "#theatre"} Theatre
-          %li Family Space
-          %li Films
-          %li Academic Conference
+
 
 %section#saturday.text-center{"data-magellan-destination" => "saturday"}
   .sat-image
+
   .row
     .medium-1.columns
     .small-12.medium-10.columns
-      %h3.scallopedborder Saturday Hub
+      %h3.scallopedborder Saturday &mdash; Under The Rainbow
       %h5 Manchester Central Library
       :markdown
         Where are we now and how did we get here? Saturday explores 200+ years of LGBTQ identity, from when George III was on the throne to the present day. 
     .medium-1.columns
+
   .row
     .medium-8.columns.text-left
       :markdown
@@ -86,7 +92,6 @@ title: First National Festival of LGBT History
         Obviously as a Manchester festival we have to talk about music! **Abby Ward**, founder of the _Manchester District Music Archive_ discusses her _Queer Noise_ collection of tickets and posters, including infamous clubnights from _Flesh_ (at the famous _Haçienda_) to _Club Brenda_.
 
     .medium-4.columns
-
 
   .row
     .medium-4.columns
@@ -197,5 +202,5 @@ title: First National Festival of LGBT History
     var scrollMe = target.offset().top - nav_deviation;
     $('html, body').animate({
       scrollTop: scrollMe
-        }, 1000);
-      });
+    }, 1000);
+  });        

@@ -25,14 +25,16 @@
           = image_tag "strapline.svg", :alt => "Hosted by the City of Manchester", :width => 492, :height => 82, :class => "strapline"
       %nav#primary
         %ul
-          = nav_link 'Schedule', '/schedule.html'
-          = nav_link 'Travel', '/travel.html'
-          = nav_link 'Blog', '/blog.html'
+          %span.navleft
+            = nav_link 'Schedule', '/schedule.html'
+            = nav_link 'Travel', '/travel.html'
+            = nav_link 'Blog', '/blog.html'
           %li.stickylogo
             = image_tag "logo.svg", :alt => "The First National Festival of LGBT History"
-          = nav_link 'Conference', '/conference.html'
-          = nav_link 'About', '/about-us.html'
-          = nav_link 'Contact', '/contact.html'
+          %span.navright
+            = nav_link 'Academic', '/conference.html'
+            = nav_link 'About', '/about-us.html'
+            = nav_link 'Contact', '/contact.html'
     #topborder
     %section#main{role: "content"}= yield
     %section#footer{role: "footer"}
@@ -70,7 +72,7 @@
           // FIX THIS! 
           // Should get it from jQuery. For some reason $('#branding').outerHeight() 
           // isn't giving the right height.
-          fixed_top: 100,
+          fixed_top: 115,
           threshold: -200
         }
       });
