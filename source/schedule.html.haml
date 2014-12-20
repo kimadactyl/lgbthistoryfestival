@@ -4,7 +4,8 @@ title: Schedule
 :ruby
   require 'icalendar'
 
-  days = {  "Friday" => Time.new(2015,2,13),
+  days = {  "Thursday" => Time.new(2015,2,12),
+            "Friday" => Time.new(2015,2,13),
             "Saturday" => Time.new(2015,2,14),
             "Sunday" => Time.new(2015,2,15) }
 
@@ -60,19 +61,27 @@ title: Schedule
         %li.family-space 
           %span.status
             %i.fi-check           
-          %span Family Space
+          %span 
+            Family Space
+            %i.icon-school
         %li.films
           %span.status
             %i.fi-check           
-          %span Films
+          %span 
+            Films 
+            %i.icon-video
         %li.theatre 
           %span.status
             %i.fi-check           
-          %span Theatre
+          %span 
+            Theatre
+            %i.icon-theatre
         %li.conference 
           %span.status
             %i.fi-x           
-          %span Conference
+          %span 
+            Conference
+            %i.icon-book
       %form.schedule-type
         %input{:type => "radio", :name => "expanded", :id => "s-compact", :value => "0", :checked => "checked"}
         %label{:for => "s-compact"} 
@@ -92,6 +101,15 @@ title: Schedule
                 - eventlists.each do |list,events|
                   - events.each do |event|
                     %li{:class => "#{list.to_s.parameterize}"}
+                      - case list.to_s.parameterize
+                      - when 'films'
+                        %i.icon-video
+                      - when 'family-space'
+                        %i.icon-school
+                      - when 'theatre'
+                        %i.icon-theatre
+                      - when 'conference'
+                        %i.icon-book
                       %strong= event.summary
                       - duration = ((event.dtend - event.dtstart)/60).to_i
                       %em.duration= "(#{duration} mins)"

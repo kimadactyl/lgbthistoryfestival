@@ -68,6 +68,7 @@ h1, h2, h3, h4, h5
   margin-bottom: 1em
   padding: 8px 0
 
+
 .chevronborder
   // SVG is playing up, not sure why
   background: url('/images/icons/chevronborder.png')
@@ -82,7 +83,7 @@ h3.scallopedborder
   color: white
   margin-bottom: 1em
   background: $pink
-  mask-border: circle(4px)
+
 .button h3
   color: white
 
@@ -270,21 +271,29 @@ ul.schedule
       background-color: transparent
       border-color: $deselected
       color: $deselected
-
+  @media #{$small-only}
+    li
+      display: block     
   h3.time
-    float: left
-    width: 55px
-    font-size: 12px
-  .timeblock
-    margin-left: 65px
-    padding-left: 10px
-    border-left: 1px solid #bbb
+    font-size: 80%
+  @media #{$medium-up} 
+    h3.time
+      float: left
+      width: 55px
+    .timeblock
+      margin-left: 65px
+      padding-left: 10px
+      border-left: 1px solid #bbb
 
 ul.key
   text-align: center
   li
     border: 3px solid $pink
     display: inline-block
+  @media #{$small-only}
+    li
+      display: block
+      text-align: left 
 
 form.schedule-type 
   label, input
@@ -455,7 +464,7 @@ body.index section#main
   section#sunday
     margin-top: 2em
 
-.sat-image, .sun-image, .theatre-image, .film-image
+.fpi
   background-attachment: fixed
   background-repeat: no-repeat
   background-size: cover
@@ -468,7 +477,8 @@ body.index section#main
   background-image: url("/images/home/theatre.png")
 .film-image
   background-image: url("/images/home/pride.jpg")
-
+.academic-image, .family-image  
+  background-image: url("http://placekitten.com/1024/960")
 nav#elements
   background: white
   left: 0

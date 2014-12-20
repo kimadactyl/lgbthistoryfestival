@@ -34,8 +34,10 @@ title: First National Festival of LGBT History
             %a{:href => "#theatre"} Theatre
           %li{"data-magellan-arrival" => "film"}
             %a{:href => "#film"} Films
-          %li Families
-          %li.last Academic
+          %li{"data-magellan-arrival" => "families"} 
+            %a{:href => "#families"} Families
+          %li.last{"data-magellan-arrival" => "academic"}
+            %a{:href => "#academic"} Academic
   .pinkarrow.arrow             
 
 %section#first-festival-is
@@ -49,27 +51,24 @@ title: First National Festival of LGBT History
 
 %section#bigicons.pink
   .row.text-center
-    .small-4.columns
+    .medium-4.columns
       %a{:href => "/schedule.html"}
         %h3.chevronborder The Schedule
         %img{:src => "/images/icons/program.png"}
         %p Read the schedule and find out what's happening
-    .small-4.columns
+    .medium-4.columns
       %a{:href => "/travel.html"}
         %h3.chevronborder Venues
         %img{:src => "/images/icons/venues.png"}
         %p Find out about the venues, booking and travel
-    .small-4.columns
+    .medium-4.columns
       %a{:href => "/about-us.html"}
         %h3.chevronborder About Us
         %img{:src => "/images/icons/aboutus.png"}
         %p Learn more about the organisation and its values
 
-
-
 %section#saturday.text-center{"data-magellan-destination" => "saturday"}
-  .sat-image
-
+  .sat-image.fpi
   .row
     .medium-1.columns
     .small-12.medium-10.columns
@@ -133,7 +132,7 @@ title: First National Festival of LGBT History
   .pinkarrow.arrow
 
 %section#sunday{"data-magellan-destination" => "sunday"}
-  .sun-image
+  .sun-image.fpi
   .row
     .medium-1.columns
     .small-12.medium-10.columns.text-center
@@ -174,7 +173,7 @@ title: First National Festival of LGBT History
   .pinkarrow.arrow
 
 %section#theatre.text-center{"data-magellan-destination" => "theatre"}
-  .theatre-image
+  .theatre-image.fpi
   .row
     .medium-1.columns
     .medium-10.columns
@@ -220,7 +219,7 @@ title: First National Festival of LGBT History
   .arrow.pinkarrow
 
 %section#film.text-center{"data-magellan-destination" => "film"}
-  .film-image
+  .film-image.fpi
   .row
     .medium-1.columns
     .medium-10.columns
@@ -263,17 +262,26 @@ title: First National Festival of LGBT History
         Sunday afternoon The Harvey Milk benefit, with introduction from Stuart Milk
       %p= lorem.words(30)        
 
-%section  
+%section#families{"data-magellan-destination" => "families"}
+  .family-image.fpi
   .row
-    .small-12.columns
+    .small-12.columns.text-center
+      %h3.scallopedborder Family Events
       :markdown
-        ### Family Events
         Both Saturday and Sunday feature diversity and LGBT history lessons, delivered by experienced teachers, for Key Stages 1 & 2. There will also be story time for younger children and teenagers.
        
+%section#academic{"data-magellan-destination" => "academic"}
+  .academic-image.fpi
+  .row
+    .small-12.columns.text-center
+      %h3.scallopedborder Academic Conference
+      
+      :markdown
+        The LGF hosts _&ldquo;The 2nd What is &amp; How to DO LGBT History?&rdquo;_ conference, which seeks to place attitudes, experiences and identities in their historical context.
 
-        ### Academic Conference
-        The LGF hosts an academic conference 'The 2nd What is & How to DO LGBT History?', which seeks to place attitudes, experiences and identities in their historical context.
+        Despite the increasing popular demand for "LGBT History" in Britain, the history of attitudes towards sex and gender diversity in the UK remains an underdeveloped field, especially in comparison with the advances that have been made in the United States. An important part of the 10th anniversary celebrations of LGBT History month is to lead and develop the growing discourse into past attitudes towards sex and gender diversity within the academy and among the general public.
 
+        [Read more about the academic conference](/academic.html)        
 
 :javascript
   $('.arrow').on('click', function(event){
