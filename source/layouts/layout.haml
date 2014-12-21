@@ -18,53 +18,69 @@
     = javascript_include_tag "modernizr"
     = javascript_include_tag  "all"
   %body{class: "#{page_classes}"}
-    %section#branding
-      = link_to "/index.html" do
-        %h1
-          = image_tag "logo.svg", :alt => "The First National Festival of LGBT History", :width => 375, :height => 150, :class => "mainlogo"
-          = image_tag "strapline.svg", :alt => "Hosted by the City of Manchester", :width => 492, :height => 82, :class => "strapline"
-      %nav#primary
-        %ul
-          %span.navleft
+    .off-canvas-wrap{"data-offcanvas" => "data-offcanvas"}
+      .inner-wrap
+        %nav.tab-bar.show-for-small
+          %section.left-small
+            %a.left-off-canvas-toggle.menu-icon
+              %span
+        %aside.left-off-canvas-menu.show-for-small
+          %ul.off-canvas-list
+            = nav_link 'Home', '/index.html'
             = nav_link 'Schedule', '/schedule.html'
             = nav_link 'Travel', '/travel.html'
             = nav_link 'Blog', '/blog.html'
-          %li.stickylogo
-            = link_to '/index.html' do
-              = image_tag "logo.svg", :alt => "The First National Festival of LGBT History"
-          %span.navright
             = nav_link 'Academic', '/conference.html'
             = nav_link 'About', '/about-us.html'
-            = nav_link 'Contact', '/contact.html'
-    #topborder
-    %section#main{role: "content"}= yield
-    %section#footer{role: "footer"}
-      .row#sponsors
-        .large-12.column
-          %ul.large-block-grid-6.medium-block-grid-3.small-block-grid-2.partners
-            - data.partners.each do |partner|
-              %li
-                = link_to partner.url do
-                  = image_tag partner.logo
-    %section#credits.pink{role: "credits"}
-      .row
-        .columns.medium-2.small-1
-          %p
-        .columns.medium-8.small-10
-          :markdown
-            ###### © 2014 LGBT History Festival
+            = nav_link 'Contact', '/contact.html'        
+        %section#branding
+          = link_to "/index.html" do
+            %h1
+              = image_tag "logo.svg", :alt => "The First National Festival of LGBT History", :width => 375, :height => 150, :class => "mainlogo"
+              = image_tag "strapline.svg", :alt => "Hosted by the City of Manchester", :width => 492, :height => 82, :class => "strapline"
+          %nav#primary.hide-for-small
+            %ul
+              %span.navleft
+                = nav_link 'Schedule', '/schedule.html'
+                = nav_link 'Travel', '/travel.html'
+                = nav_link 'Blog', '/blog.html'
+              %li.stickylogo
+                = link_to '/index.html' do
+                  = image_tag "logo.svg", :alt => "The First National Festival of LGBT History"
+              %span.navright
+                = nav_link 'Academic', '/conference.html'
+                = nav_link 'About', '/about-us.html'
+                = nav_link 'Contact', '/contact.html'
+        #topborder
+        %section#main{role: "content"}= yield
+        %section#footer{role: "footer"}
+          .row#sponsors
+            .large-12.column
+              %ul.large-block-grid-6.medium-block-grid-3.small-block-grid-2.partners
+                - data.partners.each do |partner|
+                  %li
+                    = link_to partner.url do
+                      = image_tag partner.logo
+        %section#credits.pink{role: "credits"}
+          .row
+            .columns.medium-2.small-1
+              %p
+            .columns.medium-8.small-10
+              :markdown
+                ###### © 2014 LGBT History Festival
 
-            **Part of School's OUT UK, Registered Charity #1156352 in England and Wales.**
+                **Part of School's OUT UK, Registered Charity #1156352 in England and Wales.**
 
-            ---
+                ---
 
-            Uncovering & celebrating our **past** to enlighten our **present** & thereby guiding our creation of a more inclusive & equitable **future**.
+                Uncovering & celebrating our **past** to enlighten our **present** & thereby guiding our creation of a more inclusive & equitable **future**.
 
-            ---
+                ---
 
-            LGBT History Festival website created with love by [Kim Foale](http://alliscalm.net) and [Squid](http://studiosquid.co.uk/).
-        .columns.medium-2.small-1
-          %p
+                LGBT History Festival website created with love by [Kim Foale](http://alliscalm.net) and [Squid](http://studiosquid.co.uk/).
+            .columns.medium-2.small-1
+              %p
+      %a.exit-off-canvas            
     = google_analytics_tag
     :javascript
       $(document).foundation({

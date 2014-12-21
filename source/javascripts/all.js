@@ -3,7 +3,7 @@
 //= require foundation/js/foundation.min
 //= require jquery-validation/dist/jquery.validate.min
 //= require social-likes/social-likes.min
-//= require panelsnap/jquery.panelSnap
+//= require jquery.stellar/jquery.stellar
 
 //= require app
 //= require script

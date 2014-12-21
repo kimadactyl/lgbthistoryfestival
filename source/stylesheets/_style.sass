@@ -137,6 +137,8 @@ section#branding
   width: 100%
   z-index: 1000
   padding: 0em 0 0.75em
+  .strapline
+    display: none
   ul
     display: inline-block
     li
@@ -148,14 +150,18 @@ section#branding
       margin: 0
       display: inline-block
     .navleft
-      margin-left: 33px
+      // Probably should recompute this with jQuery
+      margin-left: 32px
     a
       padding: 0
+    @media #{$medium-only} 
+      a
+        font-size: 100%
 
   h1 img
     display: none
 .sticky.index section#branding
-  padding: 2em 0 0.75em
+  padding: 0 0 0.75em
 
 
 // Pink triangles at the top
@@ -183,7 +189,8 @@ nav#primary
     +scalloped-border(black)
     a
       color: white
- 
+.sticky nav#primary
+  margin-top: 0 
 // Padding on copy sections
 section#main section
   padding-top: 2em
@@ -402,7 +409,8 @@ body.index section#main
     background-image: url("/images/icons/arrow_pink.svg")
   section#first-festival-is
     background-image: url("/images/home/canalst.jpg")
-    background-attachment: fixed
+    background-size: cover !important
+    background-repeat: no-repeat
     background-color: transparent
     text-align: center
     padding-top: 0
@@ -465,9 +473,8 @@ body.index section#main
     margin-top: 2em
 
 .fpi
-  background-attachment: fixed
   background-repeat: no-repeat
-  background-size: cover
+  background-size: cover !important
   height: 28em
 .sat-image
   background-image: url("/images/home/library.jpg")
@@ -481,7 +488,7 @@ body.index section#main
   background-image: url("/images/home/sue-schools.jpg")
 .academic-image
   // Courtesty Huw on Flickr http://www.flickr.com/photos/littlehuw/8442039623/in/pool-1888270@N20
-  background-image: url("/images/home/bloodysunday.jpg")
+  background: url("/images/home/bloodysunday.jpg")
 nav#elements
   background: white
   left: 0
