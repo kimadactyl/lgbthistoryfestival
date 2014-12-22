@@ -482,8 +482,8 @@ body.index section#main
       color: white
       text-decoration: none
   section#saturday
-    +border-top-serrated($jaggies, $pink)
-    margin-top: -$jaggies
+    // +border-top-serrated($jaggies, $pink)
+    // margin-top: -$jaggies
     h2
       background-image: url('/images/icons/longborder.png')
       min-height: 80px
@@ -494,20 +494,32 @@ body.index section#main
 .fpi
   background-repeat: no-repeat
   background-size: cover !important
+  background-position: fixed
   height: 28em
+  position: relative
+  p
+    position: absolute
+    bottom: 0
+    right: 0
+    background: rgba(255,255,255,0.5)
+    font-size: 100% !important
+    font-style: italic
+    margin: 0
+    padding: 0 0.5em
 .sat-image
-  background-image: url("/images/home/library.jpg")
+  background: url("/images/home/library.jpg")
 .sun-image
-  background-image: url("/images/home/phm.jpg")
-.theatre-image
-  background-image: url("/images/home/theatre.png")
-.film-image
-  background-image: url("/images/home/pride.jpg")
-.family-image
-  background-image: url("/images/home/sue-schools.jpg")
-.academic-image
   // Courtesty Huw on Flickr http://www.flickr.com/photos/littlehuw/8442039623/in/pool-1888270@N20
   background: url("/images/home/bloodysunday.jpg")
+.theatre-image
+  background: url("/images/home/theatre.png")
+.film-image
+  background: url("/images/home/pride.jpg")
+.family-image
+  background: url("/images/home/sue-schools.jpg")
+.academic-image
+  background: url("/images/home/drawers.jpg")
+
 nav#elements
   background: white
   left: 0
