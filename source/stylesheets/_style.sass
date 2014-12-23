@@ -59,7 +59,9 @@ h1, h2, h3, h4, h5
 .index 
   h1, h2, h3, h4, h5
     letter-spacing: $pinkspacing
-
+p
+  strong
+    font-weight: 600
 // Various fancy borders for h3/h2 elements
 .longborder
   background: url('/images/icons/longborder.svg')
@@ -184,6 +186,7 @@ section#branding
 // Pink triangles at the top
 #topborder
   +border-top-serrated($jaggies, $pink)  
+  z-index: 1000
 
 // Navigation
 nav#primary
@@ -404,7 +407,9 @@ article.teaser
 
 body.index section#main
   section .row > div
-    margin: 2em 0 
+    margin: 2em 0
+  #whatson .row > div
+    margin: 0 
   p
     font-size: 130%
   p.caption
@@ -442,27 +447,41 @@ body.index section#main
       font-weight: normal
       a
         color: white
+  #what-it-is, #what-it-is-2 
+    padding-bottom: 2em   
   section#what-it-is
-    margin-top: 0em
     background-attachment: fixed
-    background-image: url("/images/home/badges.jpg")
+    background: url("/images/home/badges.jpg")
+    -webkit-filter: grayscale(100%)
+    -moz-filter: grayscale(100%)
+    -ms-filter: grayscale(100%)
+    -o-filter: grayscale(100%)
+    filter: grayscale(100%)
     background-color: transparent
-    padding-top: 0em
+    margin-top: -40px
+    padding-top: 5em
+    z-index: -10
     .row
       top: 0
       margin-top: -$jaggies    
     h3
-      font-size: 150%
-      margin-top: 3em
-      margin-bottom: 1em
+      font-size: 170%
+      padding: 3em 1.5em
+      font-weight: 600
+      color: white
+      background-image: url("/images/icons/introborder.svg")
+      background-repeat: no-repeat
+      background-width: 100%
     p
       font-size: 130%
       color: white
+  section#what-it-is-2
+    +border-bottom-serrated($jaggies, $pink)
   section#hosted-at
     text-align: center
     padding-top: 0
     .border
-      +border-top-serrated($jaggies, white)
+      +border-top-serrated($jaggies, $pink)
     .small-12 .content
       margin: 4em 0
       color: black
