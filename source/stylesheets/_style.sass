@@ -85,6 +85,7 @@ h3.scallopedborder
   color: white
   margin-bottom: 1em
   position: relative
+  display: inline-block
   .pre, .post
     background-repeat: no-repeat
     position: absolute
@@ -98,6 +99,7 @@ h3.scallopedborder
   .text
     background: $pink
     margin: 0 10px
+    padding: 0 2em
   .post
     background-image: url("/images/icons/scallop_right.svg")   
     background-position: 100% 0
@@ -451,8 +453,6 @@ body.index section#main
       font-weight: normal
       a
         color: white
-  #what-it-is, #what-it-is-2 
-    padding-bottom: 2em   
   section#what-it-is
     background-attachment: fixed
     background: url("/images/home/badges.jpg")
@@ -468,19 +468,24 @@ body.index section#main
     .row
       top: 0
       margin-top: -$jaggies    
+    @media #{$large-up} 
+      .titlecontainer
+        background-image: url("/images/icons/introborder.svg")
+        background-repeat: no-repeat
+        background-size: contain
     h3
-      font-size: 170%
-      padding: 3em 1.5em
+      font-size: 230%
+      padding: 1.25em 1.5em
       font-weight: 600
       color: white
-      background-image: url("/images/icons/introborder.svg")
-      background-repeat: no-repeat
-      background-width: 100%
     p
       font-size: 130%
       color: white
   section#what-it-is-2
     +border-bottom-serrated($jaggies, $pink)
+    h3
+      font-size: 210%
+      font-weight: bold 
   section#hosted-at
     text-align: center
     padding-top: 0
