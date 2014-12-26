@@ -116,7 +116,7 @@ title: Schedule
                       - duration = ((event.dtend - event.dtstart)/60).to_i
                       %em.duration= "(#{duration} mins)"
                       %div.description
-                        = Kramdown::Document.new(event.description).to_html
+                        = parseEvent(Kramdown::Document.new(event.description).to_html)
 
 :javascript
   $( document ).ready(function() {

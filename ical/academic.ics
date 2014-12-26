@@ -7,9 +7,230 @@ X-WR-CALNAME:Conference
 X-WR-TIMEZONE:Europe/London
 X-WR-CALDESC:
 BEGIN:VEVENT
+DTSTART:20150215T150000Z
+DTEND:20150215T163000Z
+DTSTAMP:20141226T194514Z
+UID:o47ol56gj2oidivukfvl93o8ag@google.com
+CREATED:20141127T185255Z
+DESCRIPTION:I)Jordåen\, Runar. et. al. (University of Bergen): “Establishin
+ g a queer historical archive in Norway”\nII){Jennifer Ingleheart} (Durham U
+ niversity): “Romosexuality: Ancient Rome and modern LGBT identities”\nIII){
+ Marianna Muravyeva} (Oxford Brookes University): “How traditional is “non” 
+ traditional\, writing the early history of Russian LGBT community today"\n\
+ nPanel 7 TBC
+LAST-MODIFIED:20141226T192828Z
+LOCATION:
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Panel 7: Uncovering and Undoing the Political Uses of Past Attitude
+ s towards Sex and Gender
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20150215T150000Z
+DTEND:20150215T163000Z
+DTSTAMP:20141226T194514Z
+UID:1avmv0bpmkb285mi6n1b3esrro@google.com
+CREATED:20141127T185307Z
+DESCRIPTION:i.{Matt Cook} (Birkbeck College\, University of London) &  Alis
+ on Oram (Leeds Beckett): “Local queer history”\nii.{Colin R. Johnson} (Indi
+ ana University\, Bloomington): “What the Torch-Wielding Villagers Knew”\n\n
+ Chair: {John Garrard} (formerly of Salford University)  
+LAST-MODIFIED:20141226T192805Z
+LOCATION:
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Panel 8: Non-Metropolitan Readings of Past Attitudes Towards Sex an
+ d Gender
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20150215T100000Z
+DTEND:20150215T113000Z
+DTSTAMP:20141226T194514Z
+UID:k6h9qk8qikp1nvbrr2862nhemk@google.com
+CREATED:20141127T185059Z
+DESCRIPTION:1.{Alejandro Melero} (University Carlos III de Madrid): “Proble
+ ms and difficulties in the study of the representation of homosexuality in 
+ Spanish cinema under Franco”\n2.{Kirsty Heyam} (University of Leeds): “Medi
+ eval languages\, modern assumptions: a call for interrogative translation”\
+ n3.{Cheryl Morgan} (Out Stories Bristol): “Their-stories: Interrogating gen
+ der identities from the past”\nPanel 6 Chair: Dr {Justin Bengry} ( Birkbeck
+ \, London Uni. & LGBT HM AAP)
+LAST-MODIFIED:20141226T192732Z
+LOCATION:LGBTI History?
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Panel 6: What Narratives can we include in LGBTI History?
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20150215T100000Z
+DTEND:20150215T113000Z
+DTSTAMP:20141226T194514Z
+UID:ofi5ffephse8qheh2nsb70vjs4@google.com
+CREATED:20141127T185041Z
+DESCRIPTION:1.{Alva Traebert} (University of Edinburgh): TBC\n2.{Emma Vicke
+ rs} (Liverpool John Moores University): TBC\n3.{Rebecca Jennings}: “Listeni
+ ng to histories of intimacy: oral history and the experience of the lesbian
+  interviewer”.\n\nPanel 5 Chair: {Mark Walmsley} ( Leeds Uni. & LGBT HM AAP
+ )
+LAST-MODIFIED:20141226T192654Z
+LOCATION:
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Panel 5: Oral Testimony and reconstructing past attitudes to sex an
+ d gender
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20150214T134500Z
+DTEND:20150214T151500Z
+DTSTAMP:20141226T194514Z
+UID:4qefe683luvnajahujc5ansc1o@google.com
+CREATED:20141127T184256Z
+DESCRIPTION:{Mark Walmsley} (University of Leeds): TBC\n{Dan Callwood} (Que
+ en Mary\, University of London): “National problems\, transnational solutio
+ ns?: Writing a history of gay liberation in France\, 1968-82”\n\nChair: {Dr
+  Emma Vickers} (Liverpool J.M. Uni.)
+LAST-MODIFIED:20141226T191844Z
+LOCATION:
+SEQUENCE:1
+STATUS:CONFIRMED
+SUMMARY:Panel 3: Using Print Culture to understand the history of past atti
+ tudes towards sex and gender
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20150214T133000Z
+DTEND:20150214T134500Z
+DTSTAMP:20141226T194514Z
+UID:5auqo8ihv7evcmsnvoutubecvk@google.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Confer
+ ence;X-NUM-GUESTS=0:mailto:lgbthistoryfestival.org_8mtrc289k99o4g90rc9cgce3
+ io@group.calendar.google.com
+CREATED:20141226T191517Z
+DESCRIPTION:
+LAST-MODIFIED:20141226T191529Z
+LOCATION:
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Conference reconvenes
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20150214T111500Z
+DTEND:20150214T121500Z
+DTSTAMP:20141226T194514Z
+UID:em2lmbmi09b4uh1jlptn0svr1c@google.com
+CREATED:20141127T184051Z
+DESCRIPTION:Addressing historical silences: CHE\, the first ‘out’ and popul
+ ar homosexual rights group\nChair: Professor Stephen Whittle (Manchester Me
+ tro. Uni.)\n
+LAST-MODIFIED:20141226T191404Z
+LOCATION:
+SEQUENCE:1
+STATUS:CONFIRMED
+SUMMARY:Peter Scott-Presland: Keynote Speech
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20150214T110000Z
+DTEND:20150214T111500Z
+DTSTAMP:20141226T194514Z
+UID:c06ovk5ong8koehf6e7jl6nmi8@google.com
+CREATED:20141226T191251Z
+DESCRIPTION:including movement time.
+LAST-MODIFIED:20141226T191303Z
+LOCATION:
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Refreshment Break
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20150214T093000Z
+DTEND:20150214T110000Z
+DTSTAMP:20141226T194514Z
+UID:k6bnktkts7ambdt5hs5tg8d4rc@google.com
+CREATED:20141127T183911Z
+DESCRIPTION:{Sonja Tiernan} (Liverpool Hope University): “Making History Me
+ morable: Recording the Marriage Equality Campaign in Ireland”\n{Kate Turner
+ } (University of Westminster): “Homosexual Law reform and Scottish National
+  Identity\, 1950 – Present”.\nChair: Dr Helen Smith (Lincoln Uni. & LGBT HM
+  AAP)
+LAST-MODIFIED:20141226T191159Z
+LOCATION:
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Panel 2: Looking Back from Equal Marriage and Learning from the Pas
+ t
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20150214T093000Z
+DTEND:20150214T110000Z
+DTSTAMP:20141226T194514Z
+UID:32paj91eepddq61kfdtcemdrd8@google.com
+CREATED:20141127T183836Z
+DESCRIPTION:{Robert Beachy} (Yonsei University): “Queer subcultures in Nazi
+  Berlin: what the Gestapo files can tell us” \n{Janet Weston} (Birkbeck Col
+ lege\, University of London): “Criminals and victims: problems with the his
+ tory of sexual deviance”.\n\nChair: Professor Charles Upchurch (Florida S. 
+ Uni. & LGBT HM Patron )
+LAST-MODIFIED:20141226T191052Z
+LOCATION:
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Panel 1: Crimes and Criminality
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20150213T150000Z
+DTEND:20150213T164500Z
+DTSTAMP:20141226T194514Z
+UID:nd8r01bls1n9ovsk1b46r7rlvs@google.com
+CREATED:20141226T185854Z
+DESCRIPTION:And allocation of crash space
+LAST-MODIFIED:20141226T190723Z
+LOCATION:
+SEQUENCE:2
+STATUS:CONFIRMED
+SUMMARY:Festival Conference Registration
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20150213T190000Z
+DTEND:20150213T210000Z
+DTSTAMP:20141226T194514Z
+UID:hkpo2pvat928dcsk7kqqevmrb8@google.com
+CREATED:20141126T142738Z
+DESCRIPTION:And allocation of crash space
+LAST-MODIFIED:20141226T190639Z
+LOCATION:
+SEQUENCE:3
+STATUS:CONFIRMED
+SUMMARY:Conference Registration
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20150213T190000Z
+DTEND:20150213T200000Z
+DTSTAMP:20141226T194514Z
+UID:btmmd960vd9opjci6vdeobcpek@google.com
+CREATED:20141226T190130Z
+DESCRIPTION:
+LAST-MODIFIED:20141226T190629Z
+LOCATION:
+SEQUENCE:2
+STATUS:CONFIRMED
+SUMMARY:Informal Drinks Reception
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
 DTSTART:20150215T163000Z
 DTEND:20150215T170000Z
-DTSTAMP:20141220T142206Z
+DTSTAMP:20141226T194514Z
 UID:ir3pi958siojv87r2a86fr47so@google.com
 CREATED:20141127T185325Z
 DESCRIPTION:1.The 3rd What Is & How to Do LGBT History Conference 2016 \n2.
@@ -23,47 +244,9 @@ SUMMARY:Feedback and Announcements
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
-DTSTART:20150215T150000Z
-DTEND:20150215T163000Z
-DTSTAMP:20141220T142206Z
-UID:1avmv0bpmkb285mi6n1b3esrro@google.com
-CREATED:20141127T185307Z
-DESCRIPTION:i.Matt Cook (Birkbeck College\, University of London) &  Alison
-  Oram (Leeds Beckett): “Local queer history”\nii.Colin R. Johnson (Indiana 
- University\, Bloomington): “What the Torch-Wielding Villagers Knew”\n\nPane
- l 8 John Garrard (formerly of Salford University)  \n
-LAST-MODIFIED:20141211T160721Z
-LOCATION:
-SEQUENCE:0
-STATUS:CONFIRMED
-SUMMARY:Panel 8: Non-Metropolitan Readings of Past Attitudes Towards Sex an
- d Gender
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-DTSTART:20150215T150000Z
-DTEND:20150215T163000Z
-DTSTAMP:20141220T142206Z
-UID:o47ol56gj2oidivukfvl93o8ag@google.com
-CREATED:20141127T185255Z
-DESCRIPTION:I)Jordåen\, Runar. et. al. (University of Bergen): “Establishin
- g a queer historical archive in Norway”\nII)Jennifer Ingleheart (Durham Uni
- versity): “Romosexuality: Ancient Rome and modern LGBT identities”\nIII)Mar
- ianna Muravyeva (Oxford Brookes University): “How traditional is “non” trad
- itional\, writing the early history of Russian LGBT community today"\n\nPan
- el 7 TBC
-LAST-MODIFIED:20141211T160704Z
-LOCATION:
-SEQUENCE:0
-STATUS:CONFIRMED
-SUMMARY:Panel 7: Uncovering and Undoing the Political Uses of Past Attitude
- s towards Sex and Gender
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
 DTSTART:20150215T134500Z
 DTEND:20150215T144500Z
-DTSTAMP:20141220T142206Z
+DTSTAMP:20141226T194514Z
 UID:a8ns6n5d240t85bauf8oic9ak0@google.com
 CREATED:20141127T185212Z
 DESCRIPTION:How to Do LGBT History Workshop: Developing the Debate: Histori
@@ -87,7 +270,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART:20150215T114500Z
 DTEND:20150215T123000Z
-DTSTAMP:20141220T142206Z
+DTSTAMP:20141226T194514Z
 UID:h8gs5gciqgc858vamtc13h5o80@google.com
 CREATED:20141127T185129Z
 DESCRIPTION:How to Do LGBT History Showcase III: How to historicise past at
@@ -102,47 +285,9 @@ SUMMARY:How to Do LGBT History Showcase III: How to historicise past attitu
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
-DTSTART:20150215T100000Z
-DTEND:20150215T113000Z
-DTSTAMP:20141220T142206Z
-UID:k6h9qk8qikp1nvbrr2862nhemk@google.com
-CREATED:20141127T185059Z
-DESCRIPTION:1.Alejandro Melero (University Carlos III de Madrid): “Problems
-  and difficulties in the study of the representation of homosexuality in Sp
- anish cinema under Franco”\n2.Kirsty Heyam (University of Leeds): “Medieval
-  languages\, modern assumptions: a call for interrogative translation”\n3.C
- heryl Morgan (Out Stories Bristol): “Their-stories: Interrogating gender id
- entities from the past”\nPanel 6 Chair: Dr Justin Bengry ( Birkbeck\, Londo
- n Uni. & LGBT HM AAP)
-LAST-MODIFIED:20141211T160547Z
-LOCATION:LGBTI History?
-SEQUENCE:0
-STATUS:CONFIRMED
-SUMMARY:Panel 6: What Narratives can we include in LGBTI History?
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-DTSTART:20150215T100000Z
-DTEND:20150215T113000Z
-DTSTAMP:20141220T142206Z
-UID:ofi5ffephse8qheh2nsb70vjs4@google.com
-CREATED:20141127T185041Z
-DESCRIPTION:1.Alva Traebert (University of Edinburgh): TBC\n2.Emma Vickers 
- (Liverpool John Moores University): TBC\n3.Rebecca Jennings: “Listening to 
- histories of intimacy: oral history and the experience of the lesbian inter
- viewer”.\n\nPanel 5 Chair: Mark Walmsley ( Leeds Uni. & LGBT HM AAP)
-LAST-MODIFIED:20141211T160522Z
-LOCATION:
-SEQUENCE:0
-STATUS:CONFIRMED
-SUMMARY:Panel 5: Oral Testimony and reconstructing past attitudes to sex an
- d gender
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
 DTSTART:20150214T193000Z
 DTEND:20150214T210000Z
-DTSTAMP:20141220T142206Z
+DTSTAMP:20141226T194514Z
 UID:5ohr02ghalcrcfmi674ftda1o8@google.com
 CREATED:20141127T184839Z
 DESCRIPTION:Teh Joyce Leyland LGBT Centre \nSidney Street\, All Saints\, Ma
@@ -157,7 +302,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART:20150214T153000Z
 DTEND:20150214T160000Z
-DTSTAMP:20141220T142206Z
+DTSTAMP:20141226T194514Z
 UID:9dkl9e8oadbgaiqf1f8eba0ack@google.com
 CREATED:20141127T184513Z
 DESCRIPTION:Data Handling and how to avoid common miss-readings with the hi
@@ -174,7 +319,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART:20150214T153000Z
 DTEND:20150214T160000Z
-DTSTAMP:20141220T142206Z
+DTSTAMP:20141226T194514Z
 UID:a7fr0fl4rems1ib54n97g13a38@google.com
 CREATED:20141127T184453Z
 DESCRIPTION:The use and Misuse of digitalised newspapers. \nProf Charles Up
@@ -190,7 +335,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART:20150214T134500Z
 DTEND:20150214T151500Z
-DTSTAMP:20141220T142206Z
+DTSTAMP:20141226T194514Z
 UID:4qhkauad7cq5t7tlair7dbptmg@google.com
 CREATED:20141127T184325Z
 DESCRIPTION:1.Helen Smith: TBC\n2.Jeff Evans: “The police targeting of work
@@ -205,94 +350,9 @@ SUMMARY:Panel 4: Working-class attitudes towards sex and gender in historic
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
-DTSTART:20150214T134500Z
-DTEND:20150214T151500Z
-DTSTAMP:20141220T142206Z
-UID:4qefe683luvnajahujc5ansc1o@google.com
-CREATED:20141127T184256Z
-DESCRIPTION:1.Mark Walmsley (University of Leeds): TBC\n2.Dan Callwood (Que
- en Mary\, University of London): “National problems\, transnational solutio
- ns?: Writing a history of gay liberation in France\, 1968-82”\n\nChair: Dr 
- Emma Vickers (Liverpool J.M. Uni.)
-LAST-MODIFIED:20141211T160228Z
-LOCATION:
-SEQUENCE:1
-STATUS:CONFIRMED
-SUMMARY:Panel 3: Using Print Culture to understand the history of past atti
- tudes towards sex and gender
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-DTSTART:20150214T111500Z
-DTEND:20150214T121500Z
-DTSTAMP:20141220T142206Z
-UID:em2lmbmi09b4uh1jlptn0svr1c@google.com
-CREATED:20141127T184051Z
-DESCRIPTION: Addressing historical silences: CHE\, the first ‘out’ and popu
- lar homosexual rights group\nChair: Professor Stephen Whittle (Manchester M
- etro. Uni.)\n
-LAST-MODIFIED:20141211T160150Z
-LOCATION:
-SEQUENCE:1
-STATUS:CONFIRMED
-SUMMARY:Peter Scott-Presland: Keynote Speech
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-DTSTART:20150214T093000Z
-DTEND:20150214T110000Z
-DTSTAMP:20141220T142206Z
-UID:k6bnktkts7ambdt5hs5tg8d4rc@google.com
-CREATED:20141127T183911Z
-DESCRIPTION:1.Sonja Tiernan (Liverpool Hope University): “Making History Me
- morable: Recording the Marriage Equality Campaign in Ireland”\n2)Kate Turne
- r (University of Westminster): “Homosexual Law reform and Scottish National
-  Identity\, 1950 – Present”.\nPanel 2 Chair: Dr Helen Smith (Lincoln Uni. &
-  LGBT HM AAP
-LAST-MODIFIED:20141211T160112Z
-LOCATION:
-SEQUENCE:0
-STATUS:CONFIRMED
-SUMMARY:Panel 2: Looking Back from Equal Marriage and Learning from the Pas
- t
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-DTSTART:20150214T093000Z
-DTEND:20150214T110000Z
-DTSTAMP:20141220T142206Z
-UID:32paj91eepddq61kfdtcemdrd8@google.com
-CREATED:20141127T183836Z
-DESCRIPTION:I)Robert Beachy (Yonsei University): “Queer subcultures in Nazi
-  Berlin: what the Gestapo files can tell us” \nII)Janet Weston (Birkbeck Co
- llege\, University of London): “Criminals and victims: problems with the hi
- story of sexual deviance”.\n\nPanel 1 Chair: Professor Charles Upchurch (Fl
- orida S. Uni. & LGBT HM Patron )
-LAST-MODIFIED:20141211T160042Z
-LOCATION:
-SEQUENCE:0
-STATUS:CONFIRMED
-SUMMARY:Panel 1: Crimes and Criminality
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-DTSTART:20150213T150000Z
-DTEND:20150213T210000Z
-DTSTAMP:20141220T142206Z
-UID:hkpo2pvat928dcsk7kqqevmrb8@google.com
-CREATED:20141126T142738Z
-DESCRIPTION:And allocation of crash space
-LAST-MODIFIED:20141211T132323Z
-LOCATION:
-SEQUENCE:1
-STATUS:CONFIRMED
-SUMMARY:Conference Registration
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
 DTSTART:20150214T091500Z
 DTEND:20150214T093000Z
-DTSTAMP:20141220T142206Z
+DTSTAMP:20141226T194514Z
 UID:g8avaltk8k3d9lsmuu6r75m4kg@google.com
 CREATED:20141127T183758Z
 DESCRIPTION:
@@ -306,7 +366,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART:20150214T080000Z
 DTEND:20150214T090000Z
-DTSTAMP:20141220T142206Z
+DTSTAMP:20141226T194514Z
 UID:f96lps04l6s2ep1mfdktr7fktg@google.com
 CREATED:20141127T183728Z
 DESCRIPTION:
@@ -320,7 +380,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART:20150215T090000Z
 DTEND:20150215T093000Z
-DTSTAMP:20141220T142206Z
+DTSTAMP:20141226T194514Z
 UID:r61dd2s13isfomt0svu4vqo1h4@google.com
 CREATED:20141127T184941Z
 DESCRIPTION:
@@ -334,7 +394,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART:20150215T093000Z
 DTEND:20150215T100000Z
-DTSTAMP:20141220T142206Z
+DTSTAMP:20141226T194514Z
 UID:eifvpf6skmijfl05nstnaggajs@google.com
 CREATED:20141127T185011Z
 DESCRIPTION:
@@ -348,7 +408,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART:20150214T160000Z
 DTEND:20150214T161500Z
-DTSTAMP:20141220T142206Z
+DTSTAMP:20141226T194514Z
 UID:pfmpatsl6ss6qrg127jklkm3so@google.com
 CREATED:20141127T184634Z
 DESCRIPTION:
@@ -362,7 +422,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART:20150214T121500Z
 DTEND:20150214T133000Z
-DTSTAMP:20141220T142206Z
+DTSTAMP:20141226T194514Z
 UID:50lu5c2ifqt2kqhsp1acn0h6tk@google.com
 CREATED:20141127T184152Z
 DESCRIPTION:
@@ -376,7 +436,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART:20150214T080000Z
 DTEND:20150214T090000Z
-DTSTAMP:20141220T142206Z
+DTSTAMP:20141226T194514Z
 UID:vgdnfpuiq1c7edct9pkm6gj0jo@google.com
 CREATED:20141127T183708Z
 DESCRIPTION:
@@ -390,7 +450,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART:20150213T150000Z
 DTEND:20150213T160000Z
-DTSTAMP:20141220T142206Z
+DTSTAMP:20141226T194514Z
 UID:k9rg9h0mvrfd41vbl0h1f54cp0@google.com
 CREATED:20141126T142714Z
 DESCRIPTION:
