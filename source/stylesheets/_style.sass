@@ -305,8 +305,10 @@ ul.schedule
       background-color: transparent
       border-color: $deselected
       color: $deselected
-    &:hover
-      background-color: transparent
+  &.key li, li.has-description:hover
+    background-color: transparent     
+    cursor: hand
+    cursor: pointer 
 
   @media #{$small-only}
     li
@@ -320,7 +322,7 @@ ul.schedule
     .timeblock
       margin-left: 65px
       padding-left: 10px
-      border-left: 1px solid #bbb
+      border-left: 1px solid #bbb      
 
 ul.key
   text-align: center

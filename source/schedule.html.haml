@@ -100,7 +100,7 @@ title: Schedule
                 - eventlists = popular.get_events(time)
                 - eventlists.each do |list,events|
                   - events.each do |event|
-                    %li{:class => "#{list.to_s.parameterize}"}
+                    %li{:class => "#{list.to_s.parameterize} #{'has-description' if event.description.present?}"}
                       - case list.to_s.parameterize
                       - when 'films'
                         %i.icon-video
@@ -110,7 +110,9 @@ title: Schedule
                         %i.icon-theatre
                       - when 'conference'
                         %i.icon-book
-                      %strong= event.summary
+                      %strong
+                        = event.summary
+                        = ' &hellip;' if event.description.present?
                       - duration = ((event.dtend - event.dtstart)/60).to_i
                       %em.duration= "(#{duration} mins)"
                       %div.description
