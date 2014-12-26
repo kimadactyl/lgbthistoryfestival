@@ -8,11 +8,11 @@ module CustomHelpers
     end
   end
   def parseEventTitle(titleString)
-    #Helper parses event title strings of the format "Talk with {Christine Burns}
-    #and {Peter Tatchell}" to turn bracketed names into contributor links.
+  #Helper parses event title strings of the format "Talk with {Christine Burns}
+  #and {Peter Tatchell}" to turn bracketed names into contributor links.
 
-    #This regex may be overly broad, I've tested it for well formed simple cases
-    #/queenp
+  #This regex may be overly broad, I've tested it for well formed simple cases
+  #/queenp
     titleString.gsub(/\{[^\{]*\}/) {|author| contrib_linker(author[1..-1])}
   end
 end
