@@ -56,7 +56,7 @@ h1, h2, h3, h4, h5
   font-weight: bold
   color: $pink
 
-.index 
+.index
   h1, h2, h3, h4, h5
     letter-spacing: $pinkspacing
 p
@@ -101,7 +101,7 @@ h3.scallopedborder
     margin: 0 10px
     padding: 0 2em
   .post
-    background-image: url("/images/icons/scallop_right.svg")   
+    background-image: url("/images/icons/scallop_right.svg")
     background-position: 100% 0
     right: 0
 
@@ -175,7 +175,7 @@ section#branding
       margin-left: 32px
     a
       padding: 0
-    @media #{$medium-only} 
+    @media #{$medium-only}
       a
         font-size: 100%
 
@@ -187,7 +187,7 @@ section#branding
 
 // Pink triangles at the top
 #topborder
-  +border-top-serrated($jaggies, $pink)  
+  +border-top-serrated($jaggies, $pink)
   z-index: 1000
 
 // Navigation
@@ -301,16 +301,19 @@ ul.schedule
       background-color: $films
     &.theatre
       background-color: $theatre
-    &.disabled, &:hover
+    &.disabled
       background-color: transparent
       border-color: $deselected
       color: $deselected
+    &:hover
+      background-color: transparent
+
   @media #{$small-only}
     li
-      display: block     
+      display: block
   h3.time
     font-size: 80%
-  @media #{$medium-up} 
+  @media #{$medium-up}
     h3.time
       float: left
       width: 55px
@@ -327,9 +330,9 @@ ul.key
   @media #{$small-only}
     li
       display: block
-      text-align: left 
+      text-align: left
 
-form.schedule-type 
+form.schedule-type
   label, input
     font-size: 125%
 
@@ -348,7 +351,7 @@ article
     +underline-section
     padding: 0.25em 0 0.2em
     border-top-width: 1px
-  .meta 
+  .meta
     h3
       text-align: center
     p
@@ -363,7 +366,7 @@ article
   .resources li
     list-style-type: none
   .social-likes
-    margin: auto 0    
+    margin: auto 0
     min-height: 0
   @media #{$large-up}
     .responsive-author
@@ -386,7 +389,7 @@ article.teaser
     letter-spacing: $pinkspacing
   .meta
     +underline-section
-    border-width: 1px 0 1px 
+    border-width: 1px 0 1px
   .meta
     padding-bottom: 4px
   .para0
@@ -415,13 +418,13 @@ body.index section#main
   section .row > div
     margin: 2em 0
   #whatson .row > div
-    margin: 0 
+    margin: 0
   p
     font-size: 130%
   p.caption
     font-size: 90%
     font-style: italic
-    color: #aaa   
+    color: #aaa
   h3, h4
     margin-bottom: 1.5em
   .arrow
@@ -432,7 +435,7 @@ body.index section#main
     cursor: hand
   .whitearrow
     background-image: url("/images/icons/arrow_white.png")
-    background-image: url("/images/icons/arrow_white.svg")  
+    background-image: url("/images/icons/arrow_white.svg")
   .pinkarrow
     background-image: url("/images/icons/arrow_pink.png")
     background-image: url("/images/icons/arrow_pink.svg")
@@ -453,6 +456,8 @@ body.index section#main
       font-weight: normal
       a
         color: white
+  #what-it-is, #what-it-is-2
+    padding-bottom: 2em
   section#what-it-is
     background-attachment: fixed
     background: url("/images/home/badges.jpg")
@@ -473,6 +478,7 @@ body.index section#main
         background-image: url("/images/icons/introborder.svg")
         background-repeat: no-repeat
         background-size: contain
+      margin-top: -$jaggies
     h3
       font-size: 230%
       padding: 1.25em 1.5em
@@ -571,8 +577,8 @@ nav#elements
     text-transform: uppercase
     font-weight: bold
     font-size: 125%
-    list-style-type: none  
-    display: inline-block  
+    list-style-type: none
+    display: inline-block
     padding: 0em 1.5em
     a
       color: $pink
