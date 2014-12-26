@@ -219,8 +219,6 @@ section#main section
 
 // Footer
 section#footer
-  padding: 3em 0 2em
-  background-color: $pink
   text-transform: uppercase
   color: white
   +border-bottom-serrated($jaggies, black)
@@ -244,9 +242,15 @@ section#footer
     border-width: 1px
     border-style: solid
     margin: 3em 0
-  .partners li
-    a
-      line-height: 150px
+#partners
+  padding-top: 2em
+  background-color: $pink
+  +border-bottom-serrated($jaggies, white)
+  li a
+    line-height: 150px
+#supporters
+  margin-top: 2em
+  background-color: #FFF
 
 
 section#credits

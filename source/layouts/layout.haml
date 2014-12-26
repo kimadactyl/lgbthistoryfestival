@@ -54,13 +54,20 @@
         #topborder
         %section#main{role: "content"}= yield
         %section#footer{role: "footer"}
-          .row#sponsors
-            .large-12.column
+          #partners
+            .row
               %ul.large-block-grid-6.medium-block-grid-3.small-block-grid-2.partners
                 - data.partners.each do |partner|
                   %li
                     = link_to partner.url do
                       = image_tag partner.logo
+          #supporters
+            .row
+              %ul.large-block-grid-10.medium-block-grid-5.small-block-grid-3.partners
+                - data.supporters.each do |supporter|
+                  %li
+                    = link_to supporter.url do
+                      = image_tag supporter.logo                
         %section#credits.pink{role: "credits"}
           .row
             .columns.medium-2.small-1
