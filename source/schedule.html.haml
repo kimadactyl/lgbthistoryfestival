@@ -56,38 +56,38 @@ title: Schedule
       %ul.schedule.key
         %li.main-festival
           %span.status
-            %i.fi-check 
-          %span Main Festival 
-        %li.family-space 
+            %i.fi-check
+          %span Main Festival
+        %li.family-space
           %span.status
-            %i.fi-check           
-          %span 
+            %i.fi-check
+          %span
             Family Space
             %i.icon-school
         %li.films
           %span.status
-            %i.fi-check           
-          %span 
-            Films 
+            %i.fi-check
+          %span
+            Films
             %i.icon-video
-        %li.theatre 
+        %li.theatre
           %span.status
-            %i.fi-check           
-          %span 
+            %i.fi-check
+          %span
             Theatre
             %i.icon-theatre
-        %li.conference 
+        %li.conference
           %span.status
-            %i.fi-x           
-          %span 
+            %i.fi-x
+          %span
             Conference
             %i.icon-book
       %form.schedule-type
         %input{:type => "radio", :name => "expanded", :id => "s-compact", :value => "0", :checked => "checked"}
-        %label{:for => "s-compact"} 
+        %label{:for => "s-compact"}
           <i class="fi-arrows-compress"></i> Compact
         %input{:type => "radio", :name => "expanded", :id => "s-expanded", :value => "1"}
-        %label{:for => "s-expanded"} 
+        %label{:for => "s-expanded"}
           <i class="fi-arrows-expand"></i> Expanded
     .small-12.columns
       %ul.schedule.program
@@ -166,6 +166,11 @@ title: Schedule
         $("ul.program .description").show();
       }
     });
+
+    // Click event to expand.
+    $("ul.program li").click(function() {
+      $(this).children(".description").toggle();
+    })
 
     $("ul.key li").hover(function() {
       $('span.status i', this).toggleClass('fi-check');
