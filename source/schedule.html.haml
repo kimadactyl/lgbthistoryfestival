@@ -1,0 +1,181 @@
+---
+title: Schedule
+---
+:ruby
+  require 'icalendar'
+
+  days = {  "Thursday" => Time.new(2015,2,12),
+            "Friday" => Time.new(2015,2,13),
+            "Saturday" => Time.new(2015,2,14),
+            "Sunday" => Time.new(2015,2,15) }
+
+  class CalendarSorter
+
+    def initialize(url_array)
+      @cals = []
+      # Load and sort the array
+      url_array.each do |key,url|
+        @cals << Icalendar.parse(open(url)).first
+      end
+      @cals.each do |cal|
+        cal.events.sort! { |a,b| a.dtstart <=> b.dtstart }
+      end
+    end
+
+    def get_start_times(start)
+      # Tell us all the possible event starting times
+      t = []
+      @cals.each do |cal|
+        t += cal.events { |a| a.dtstart.to_s }
+      end
+      t.uniq! { |x| x.dtstart.to_s}
+      t.sort! { |a,b| a.dtstart <=> b.dtstart }
+      t.uniq.select { |a| a.dtstart.between?(start, start + 24.hours) }
+    end
+
+    def get_events(time)
+      # Get all the.events for a given time
+      e = {}
+      @cals.each do |cal|
+        e[cal.x_wr_calname] = cal.events.select { |a| a.dtstart == time.dtstart }
+      end
+      e
+    end
+
+  end
+
+  popular = CalendarSorter.new({
+              "Main Festival" => "ical/main.ics",
+              "Family Space" => "ical/family-space.ics",
+              "Films" => "ical/films.ics",
+              "Theatre" => "ical/theatre.ics",
+              "Conference" => "ical/academic.ics"})
+%section
+  .row
+    .small-12.columns.text-center
+      %ul.schedule.key
+        %li.main-festival
+          %span.status
+            %i.fi-check
+          %span Main Festival
+        %li.family-space
+          %span.status
+            %i.fi-check
+          %span
+            Family Space
+            %i.icon-school
+        %li.films
+          %span.status
+            %i.fi-check
+          %span
+            Films
+            %i.icon-video
+        %li.theatre
+          %span.status
+            %i.fi-check
+          %span
+            Theatre
+            %i.icon-theatre
+        %li.conference
+          %span.status
+            %i.fi-x
+          %span
+            Conference
+            %i.icon-book
+      %form.schedule-type
+        %input{:type => "radio", :name => "expanded", :id => "s-compact", :value => "0", :checked => "checked"}
+        %label{:for => "s-compact"}
+          <i class="fi-arrows-compress"></i> Compact
+        %input{:type => "radio", :name => "expanded", :id => "s-expanded", :value => "1"}
+        %label{:for => "s-expanded"}
+          <i class="fi-arrows-expand"></i> Expanded
+    .small-12.columns
+      %ul.schedule.program
+        - days.each do |day, time|
+          %h2= day
+          - popular.get_start_times(time).each do |time|
+            .timegroup
+              %h3.time= time.dtstart.strftime("%H:%M")
+              .timeblock
+                - eventlists = popular.get_events(time)
+                - eventlists.each do |list,events|
+                  - events.each do |event|
+                    %li{:class => "#{list.to_s.parameterize} #{'has-description' if event.description.present?}"}
+                      - case list.to_s.parameterize
+                      - when 'films'
+                        %i.icon-video
+                      - when 'family-space'
+                        %i.icon-school
+                      - when 'theatre'
+                        %i.icon-theatre
+                      - when 'conference'
+                        %i.icon-book
+                      %strong
+                        = event.summary
+                        = ' &hellip;' if event.description.present?
+                      - duration = ((event.dtend - event.dtstart)/60).to_i
+                      %em.duration= "(#{duration} mins)"
+                      %div.description
+                        = parseEvent(Kramdown::Document.new(event.description).to_html)
+
+:javascript
+  $( document ).ready(function() {
+    // Hide the extended defs
+    $("ul.program .description").hide();
+    // Hide the conference initially
+    $("ul.program .conference").toggle();
+    // Toggle off the conference button
+    $("ul.key .conference").toggleClass('disabled');
+
+    // Check to see if any rows are empty and hide the times
+    function checkBlanks(){
+        $(".timegroup").each(function() {
+        if($('.timeblock', this).children(':visible').length == 0) {
+          $('h3.time', this).hide();
+        } else {
+          $('h3.time', this).show();
+        }
+      })
+    }
+    checkBlanks();
+
+    // Wire up buttons to trigger appropriate sections
+    function toggleProgram($trigger, $element){
+      $trigger.click(function(){
+        // Toggle the program boxes
+        $element.toggle();
+        // Toggle the key box
+        $trigger.toggleClass('disabled');
+        // Toggle the on/off icon
+        $('span.status i', $trigger).toggleClass('fi-check');
+        $('span.status i', $trigger).toggleClass('fi-x');
+        // Check for blank time rows
+        checkBlanks();
+      })
+    }
+    toggleProgram($("ul.key .main-festival"), $("ul.program .main-festival"));
+    toggleProgram($("ul.key .family-space"), $("ul.program .family-space"));
+    toggleProgram($("ul.key .films"), $("ul.program .films"));
+    toggleProgram($("ul.key .theatre"), $("ul.program .theatre"));
+    toggleProgram($("ul.key .conference"), $("ul.program .conference"));
+
+    // Check for click events on expanded/contracted selector
+    $("input[name='expanded']").click(function() {
+      if($(this).attr("value")=="0"){
+        $("ul.program .description").hide();
+      }
+      if ($(this).attr("value")=="1"){
+        $("ul.program .description").show();
+      }
+    });
+
+    // Click event to expand.
+    $("ul.program li").click(function() {
+      $(this).children(".description").toggle();
+    })
+
+    $("ul.key li").hover(function() {
+      $('span.status i', this).toggleClass('fi-check');
+      $('span.status i', this).toggleClass('fi-x');
+    });
+  });

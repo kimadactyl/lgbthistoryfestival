@@ -1,11 +1,112 @@
+// Colours and sizes etc
 $red: #ED1C24
 $pink: #EB6D98
+$jaggies: 40px
+$pinkspacing: 0.07em
+
+// Theme colours
+$main-festival: $pink
+$family-space: #F4B5CC
+$films: #F9D9E5
+$theatre: #FFFFFF
+$conference: #FFFFFF
+
+/* border-serrated - a zig zag triangle border with linear gradient */
+=border-top-serrated($size, $color-outer)
+  &
+    position: relative
+    overflow: auto
+    padding-top: $size
+  &:before
+    top: 0px
+    background-position: left top
+    background: linear-gradient(-135deg, $color-outer $size / 2, transparent 0), linear-gradient(135deg, $color-outer $size / 2, transparent 0)
+    +border-serrated-helper($size, $color-outer)
+=border-bottom-serrated($size, $color-outer)
+  &
+    position: relative
+    overflow: auto
+    padding-bottom: $size
+  &:after
+    bottom: 0px
+    background-position: left bottom
+    background: linear-gradient(-45deg, $color-outer $size / 2, transparent 0), linear-gradient(45deg, $color-outer $size / 2, transparent 0)
+    +border-serrated-helper($size, $color-outer)
+=border-serrated-helper($size, $color-outer)
+  content: " "
+  display: block
+  position: absolute
+  left: 0px
+  width: 100%
+  height: $size
+  background-repeat: repeat-x
+  background-size: $size $size
+
+// Scalloped Borders
+=scalloped-border($color)
+  // h/t Lea Verou http://lea.verou.me/2011/03/beveled-corners-negative-border-radius-with-css3-gradients/
+  background: linear-gradient(135deg, transparent 10px, $color 0) top left, linear-gradient(225deg, transparent 10px, $color 0) top right, linear-gradient(315deg, transparent 10px, $color 0) bottom right, linear-gradient(45deg,  transparent 10px, $color 0) bottom left
+  background-size: 52% 52%
+  background-repeat: no-repeat
+  background-image: radial-gradient(circle at 0 0, transparent 8px, $color 9px), radial-gradient(circle at 100% 0, transparent 8px, $color 9px), radial-gradient(circle at 100% 100%, transparent 8px, $color 9px), radial-gradient(circle at 0 100%, transparent 8px, $color 9px)
 
 // Matching font from LGBT history month website
 h1, h2, h3, h4, h5
   text-transform: uppercase
   font-weight: bold
   color: $pink
+
+.index
+  h1, h2, h3, h4, h5
+    letter-spacing: $pinkspacing
+p
+  strong
+    font-weight: 600
+// Various fancy borders for h3/h2 elements
+.longborder
+  background: url('/images/icons/longborder.svg')
+  background-repeat: no-repeat
+  background-position: 50%
+  margin-bottom: 1em
+  padding: 8px 0
+
+
+.chevronborder
+  // SVG is playing up, not sure why
+  background: url('/images/icons/chevronborder.png')
+  background-size: 100%
+  background-repeat: no-repeat
+  background-position: 50%
+  margin-bottom: 1em
+  padding: 8px 0
+
+h3.scallopedborder
+  // background-image: url('/images/icons/scallopedborder.svg')
+  color: white
+  margin-bottom: 1em
+  position: relative
+  display: inline-block
+  .pre, .post
+    background-repeat: no-repeat
+    position: absolute
+    top: 0
+    bottom: 0
+    width: 100%
+    fill: $pink
+  .pre
+    background-image: url("/images/icons/scallop_left.svg")
+    left: 0
+  .text
+    background: $pink
+    margin: 0 10px
+    padding: 0 2em
+  .post
+    background-image: url("/images/icons/scallop_right.svg")
+    background-position: 100% 0
+    right: 0
+
+.button h3
+  color: white
 
 =underline-section
   border-width: 0 0 1px 0
@@ -30,253 +131,219 @@ section.pink
       background-color: scale-color(white, $lightness: -14%)
       color: black
 
-// Buttons
-.button h3
-  color: white
-
-// Arrow buttons
-// $arrow-width: 54px / 2
-// $large-arrow-width: 62px / 2
-// .arrow
-//   a
-//     text-decoration: none
-//     text-indent: 1em
-//     padding-bottom: 1.1rem
-//   a.large
-//     text-indent: 0
-//     padding-bottom: 1.25rem
-//   a:before, a:after
-//     content: ""
-//     position: absolute
-//     top: 0
-//     width: 0
-//     height: 0
-//     border-style: solid
-//     border-width: $arrow-width 0 $arrow-width $arrow-width
-//   a.large:after
-//     border-width: $large-arrow-width 0 $large-arrow-width $large-arrow-width
-//   a:before
-//     border-color: transparent transparent transparent #fff
-//     left: 0
-//   a.large:before
-//     border-width: 0
-//   a:after
-//     border-color: transparent transparent transparent $pink
-//     right: -$arrow-width
-//     transition: border-color 300ms ease-out
-//   a:hover:after
-//     border-color: transparent transparent transparent scale-color($pink, $lightness: -20%)
-//     transition: border-color 300ms ease-out
-//   a.large:after
-//     right: -$large-arrow-width
-
-
-
-// &:after
-//   content: ' '
-//   height: 0
-//   position: absolute
-//   width: 0
-//   top: 0
-//   right: -1.5em
-//   border-style: solid
-//   border-width: 1.5em 0 1.5em 1.5em
-//   border-color: transparent transparent transparent $pink
-
 // Branding
 section#branding
-  padding: 2.5em 0 2.25em 0
+  padding: 3.5em 0 0.25em 0
   @media #{$small-only}
     padding: 5em 0 2.25em
   text-align: center
   background-color: $pink
-section#date
-  background-color: black
-  text-transform: uppercase
-  text-align: center
-  letter-spacing: 0.1rem
-  @media #{$small-only}
-    letter-spacing: 0rem
-    font-size: 80%
-  h5
-    color: $pink
-    font-weight: normal
-    font-size: 110%
-    padding: 0.3em 0
-    margin: 0.35em 0
-
-// Navigation
-
-// Only show pink border when not on front page, unless it's scrolled far enough down.
-.sticky
-  border-width: 0 0 3px 0
-  border-color: $pink
-  border-style: solid
-@media #{$medium-only}
-  .top-bar-section
-    border-width: 0 0 3px 0
-    border-color: $pink
-    border-style: solid
-  section#main
-    margin-top: 3em
-
-.index .sticky
-  border-width: 0
-.index.f-topbar-fixed .sticky
-  border-width: 0 0 3px 0
-
-nav#main-nav
-  background-color: white
-  @media #{$small-only}
-    position: fixed
-    top: 0
+  img.mainlogo
+    margin-bottom: 0.6em
+  img.strapline
+    margin-bottom: 0.5em
+  img
     display: block
-    width: 100%
-  a
-    text-align: center
-    text-transform: uppercase
-    font-weight: bold
-    text-decoration: none
-    &:hover
-      color: white
-      background-color: black
-  li
-    padding-bottom: 0
-    // 6 wide spacing
-    // letter-spacing: 0.1rem
-    // 5 wide spacing
-    letter-spacing: 0.05rem
-    @media #{$small-only}
-      a
-        text-align: left
-    &.active, &:hover
-      a
-        color: white
-      background-color: black
-  .show-for-small
-    background-color: black
-    color: $pink
-
-// Padding on copy sections
-section#main section
-  padding-top: 2em
-  padding-bottom: 1em
-
-// Hero
-section#hero
-  padding: 0 !important
-  background-position: center center
-  .row h3, .row p
-    background-color: rgba(255,255,255,0.8)
-    padding: 0.5em 1em
-    display: inline-block
-  ul.orbit-slides-container
-    padding: 5em 0
-    @media #{$small-only}
-      padding: 0
-  li.slide
-    padding: 5em 0
-    @media #{$small-only}
-      padding: 2em 0
-    h3
-      font-size: 175%
-      @media #{$small-only}
-        font-size: 150%
-    .row p
-      font-size: 125%
-      @media #{$small-only}
-        font-size: 100%
-  .intro
-    background: url('/images/hero/canal-st.jpg')
-  .who
-    background: url('/images/hero/press-for-change.jpg')
-  .contribute
-    background: url('/images/hero/badges-long.jpg')
-  @media #{$small-only}
-    .intro
-      background: url('/images/hero/canal-st-mobile.jpg')
-    .who
-      background: url('/images/hero/press-for-change-mobile.jpg')
-    .contribute
-      background: url('/images/hero/badges-mobile.jpg')
-
-  div.orbit-bullets-container
-    height: 0
-    @media #{$medium-only}
-      text-align: right
-      margin-right: 1em
-    @media #{$small-only}
-      display: none
-  div.orbit-caption
-    @media #{$small-only}
-      display: none
-    a
-      color: black
-  ol.orbit-bullets
-    display: inline
-    margin: 0
-    top: -30px
-
-.latest-blog
-  h3 a
-    color: $pink
-    text-decoration: none
-  h5
-    color: $body-font-color
-
-// Full program blocks
-
-#programme
-  h2
-    color: rgba(255,255,255,0.9)
+    margin: auto
   ul
     margin: 0
     padding: 0
-    background-color: rgba(100,100,100,0.1)
-  li
-    list-style-type: none
-    padding: 1em 0.25em
-    border-bottom: 2px dotted white
-    &:last-child
-      border-bottom: none
-    h5
-      margin-top: 0
-      font-weight: bold
-      .date
-        color: #444
-        font-weight: normal
-        font-size: 80%
-    p:last-child
-      margin-bottom: 0
-    &.talk
-      background-color: rgba(128,0,0,0.2)
-    &.keynote
-      background-color: rgba(0,0,128,0.4)
+    line-height: 1
+  li.stickylogo
+    display: none
 
-ul#hub-programme
-  margin: 0
-  padding: 0
+// Branding when the screen is scrolled down
+.sticky section#branding
+  position: fixed
+  width: 100%
+  z-index: 1000
+  padding: 0em 0 0.75em
+  .strapline
+    display: none
+  ul
+    display: inline-block
+    li
+      margin-top: 1.6em
+      vertical-align: top
+    li.stickylogo
+      width: 230px
+      background: transparent
+      margin: 0
+      display: inline-block
+    .navleft
+      // Probably should recompute this with jQuery
+      margin-left: 32px
+    a
+      padding: 0
+    @media #{$medium-only}
+      a
+        font-size: 100%
+
+  h1 img
+    display: none
+.sticky.index section#branding
+  padding: 0 0 0.75em
+
+
+// Pink triangles at the top
+#topborder
+  +border-top-serrated($jaggies, $pink)
+  z-index: 1000
+
+// Navigation
+nav#primary
+  margin-top: 1em
   li
     list-style-type: none
-    margin: 0 0 2em 0
+    display: inline-block
+    margin: 1em 0.25em
+    padding: 0.5em 1em
+    background: white
+    +scalloped-border(white)
+    a
+      text-transform: uppercase
+      padding: 0.25em
+      color: black
+      text-decoration: none
+      font-size: 130%
+  li:hover
+    background: white
+    +scalloped-border(black)
+    a
+      color: white
+.sticky nav#primary
+  margin-top: 0
+.sticky section#main
+  margin-top: 500px
+// Padding on copy sections
+section#main section
+  padding-top: 2em
+
+// Footer
+section#footer
+  text-transform: uppercase
+  color: white
+  +border-bottom-serrated($jaggies, black)
+  h6
+    color: white
+  .lgbthm
+    font-size: 120%
+  p
+    font-size: 70%
+  ul
+    margin: 0
+  li
+    text-align: center
+    list-style-type: none
+    display: inline-block
+    margin-right: 2em
+    margin: 0 0 1em 0
     padding: 0
+  hr
+    border-color: $pink
+    border-width: 1px
+    border-style: solid
+    margin: 3em 0
+#partners
+  padding-top: 2em
+  background-color: $pink
+  +border-bottom-serrated($jaggies, white)
+  li a
+    line-height: 150px
+#supporters
+  margin-top: 2em
+  background-color: #FFF
 
-// Films
 
-span.details
-  font-weight: 300
-  font-size: 50%
+section#credits
+  padding-top: 1em
+  color: $pink
+  letter-spacing: $pinkspacing
+  background-color: black
+  text-align: center
+  text-transform: uppercase
+  p
+    font-size: 90%
+  a
+    font-weight: bold
+    text-decoration: none
+  h6, a, hr
+    color: $pink
+  hr
+    border-width: 2px 0
+    border-color: $pink
+    height: 8px
+    width: 40%
+    margin: 0 auto 1em
+
+////////////////////////////////////
+// PAGE-SPECIFIC RULES START HERE //
+////////////////////////////////////
+
+$deselected: #C4C4C4
+
+ul.schedule
+  clear: left
+  li
+    display: inline-block
+    list-style-type: none
+    padding: .25em .5em
+    margin: 0 .5em .5em 0
+    border: 3px solid $pink
+    &.main-festival, &.disabled:hover
+      background-color: $main-festival
+    &.conference
+      background-color: $conference
+      border: 3px solid black
+    &.family-space
+      background-color: $family-space
+    &.films
+      background-color: $films
+    &.theatre
+      background-color: $theatre
+    &.disabled
+      background-color: transparent
+      border-color: $deselected
+      color: $deselected
+  &.key li, li.has-description:hover
+    background-color: transparent     
+    cursor: hand
+    cursor: pointer 
+
+  @media #{$small-only}
+    li
+      display: block
+  h3.time
+    font-size: 80%
+  @media #{$medium-up}
+    h3.time
+      float: left
+      width: 55px
+    .timeblock
+      margin-left: 65px
+      padding-left: 10px
+      border-left: 1px solid #bbb      
+
+ul.key
+  text-align: center
+  li
+    border: 3px solid $pink
+    display: inline-block
+  @media #{$small-only}
+    li
+      display: block
+      text-align: left
+
+form.schedule-type
+  label, input
+    font-size: 125%
 
 // Blogs
 article
-  p
-    font-size: 110%
   figure
     border: 1px solid #ccc
     padding: 5px
     display: inline-block
-    a
-      text-decoration: none
   figcaption
     font-style: italic
     text-align: center
@@ -307,7 +374,7 @@ article
     .responsive-author
       display: none
 
-
+// Blog teasers
 article.teaser
   .hero
     height: 200px
@@ -321,6 +388,7 @@ article.teaser
   h3
     font-size: 120%
     color: $pink
+    letter-spacing: $pinkspacing
   .meta
     +underline-section
     border-width: 1px 0 1px
@@ -336,48 +404,190 @@ article.teaser
   .social-likes__widget
     margin: 0
 
-// Footer
+// Venues
+.vcard
+  border: 0
+  margin: 0
+  padding: 0
+  span
+    display: block
 
-section#footer
-  padding: 3em 0 2em
-  background-color: black
-  text-transform: uppercase
-  color: white
-  h6
-    color: white
-  .lgbthm
-    font-size: 120%
+//////////////////////////
+// FRONT PAGE SLIDESHOW //
+//////////////////////////
+
+body.index section#main
+  section .row > div
+    margin: 2em 0
+  #whatson .row > div
+    margin: 0
   p
-    font-size: 70%
+    font-size: 130%
+  p.caption
+    font-size: 90%
+    font-style: italic
+    color: #aaa
+  h3, h4
+    margin-bottom: 1.5em
+  .arrow
+    margin: 0.5em auto 0
+    width: 39px
+    height: 50px
+    cursor: pointer
+    cursor: hand
+  .whitearrow
+    background-image: url("/images/icons/arrow_white.png")
+    background-image: url("/images/icons/arrow_white.svg")
+  .pinkarrow
+    background-image: url("/images/icons/arrow_pink.png")
+    background-image: url("/images/icons/arrow_pink.svg")
+  section#first-festival-is
+    background-image: url("/images/home/canalst.jpg")
+    background-size: cover !important
+    background-repeat: no-repeat
+    background-color: transparent
+    text-align: center
+    padding-top: 0
+    .row
+      top: 0
+      margin-top: -$jaggies
+    h3
+      color: white
+      margin: 3em 0
+      text-align: center
+      font-weight: normal
+      a
+        color: white
+  #what-it-is, #what-it-is-2
+    padding-bottom: 2em
+  section#what-it-is
+    background-attachment: fixed
+    background: url("/images/home/badges.jpg")
+    -webkit-filter: grayscale(100%)
+    -moz-filter: grayscale(100%)
+    -ms-filter: grayscale(100%)
+    -o-filter: grayscale(100%)
+    filter: grayscale(100%)
+    background-color: transparent
+    margin-top: -40px
+    padding-top: 5em
+    z-index: -10
+    .row
+      top: 0
+      margin-top: -$jaggies    
+    @media #{$large-up} 
+      .titlecontainer
+        background-image: url("/images/icons/introborder.svg")
+        background-repeat: no-repeat
+        background-size: contain
+      margin-top: -$jaggies
+    h3
+      font-size: 230%
+      padding: 1.25em 1.5em
+      font-weight: 600
+      color: white
+    p
+      font-size: 130%
+      color: white
+  section#what-it-is-2
+    +border-bottom-serrated($jaggies, $pink)
+    h3
+      font-size: 210%
+      font-weight: bold 
+  section#hosted-at
+    text-align: center
+    padding-top: 0
+    .border
+      +border-top-serrated($jaggies, $pink)
+    .small-12 .content
+      margin: 4em 0
+      color: black
+      p
+        font-size: 150%
+        padding: 0.5em
+        a
+          color: black
+  section#bigicons
+    padding-bottom: 2em
+    p
+      color: white
+    img
+      margin: 1em 0
+    a
+      color: white
+      text-decoration: none
+  section#saturday
+    // +border-top-serrated($jaggies, $pink)
+    // margin-top: -$jaggies
+    h2
+      background-image: url('/images/icons/longborder.png')
+      min-height: 80px
+      padding: 13px 0
+  section#sunday
+    margin-top: 2em
+
+.fpi
+  background-repeat: no-repeat
+  background-size: cover !important
+  background-position: fixed
+  height: 25em
+  position: relative
+  p
+    position: absolute
+    bottom: 0
+    right: 0
+    background: rgba(255,255,255,0.5)
+    font-size: 100% !important
+    font-style: italic
+    margin: 0
+    padding: 0 0.5em
+.sat-image
+  background: url("/images/home/library.jpg")
+.sun-image
+  // Courtesty Huw on Flickr http://www.flickr.com/photos/littlehuw/8442039623/in/pool-1888270@N20
+  background: url("/images/home/bloodysunday.jpg")
+.theatre-image
+  background: url("/images/home/theatre.png")
+.film-image
+  background: url("/images/home/pride.jpg")
+.family-image
+  background: url("/images/home/sue-schools.jpg")
+.academic-image
+  background: url("/images/home/drawers.jpg")
+
+a.readmore-js-toggle
+  background-color: #CBCBCB
+  +scalloped-border(#CBCBCB)
+  display: inline-block !important
+  text-decoration: none
+  text-transform: uppercase
+  font-size: 125%
+  padding: 0.5em 1em
+  margin: 0 0 1em
+  width: auto
+
+nav#elements
+  background: white
+  left: 0
+  padding: 0.25em 0
   ul
     margin: 0
+    padding: 0
   li
-    text-align: center
+    color: $pink
+    letter-spacing: $pinkspacing
+    text-transform: uppercase
+    font-weight: bold
+    font-size: 125%
     list-style-type: none
     display: inline-block
-    margin-right: 2em
-    margin: 0 0 1em 0
-    padding: 0
-  hr
-    border-color: $pink
-    border-width: 1px
-    border-style: solid
-    margin: 3em 0
-  .partners li
+    padding: 0em 1.5em
     a
-      line-height: 150px
-
-section#credits
-  padding-top: 1em
-  color: white
-  text-align: center
-  p
-    font-size: 90%
-  a
-    color: white
-
-form#contribute
-  .error
-    background-color: $red
-    color: white
-    font-style: italic
+      color: $pink
+      text-decoration: none
+    &.first
+      padding-left: 0
+    &.last
+      padding-right: 0
+  li.active a
+    color: black

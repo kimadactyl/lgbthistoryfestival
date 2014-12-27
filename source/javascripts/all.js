@@ -1,9 +1,9 @@
 //= require jquery/dist/jquery
+//= require fastclick/lib/fastclick
 //= require foundation/js/foundation.min
-//= require foundation/js/foundation/foundation.magellan
-//= require foundation/js/foundation/foundation.equalizer
-//= require jquery-validation/dist/jquery.validate.min.js
 //= require social-likes/social-likes.min
+//= require jquery.stellar/jquery.stellar.min
+//= require readmore/readmore.min
 
 //= require app
 //= require script

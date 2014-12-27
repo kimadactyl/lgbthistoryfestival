@@ -2,85 +2,400 @@
 title: First National Festival of LGBT History
 ---
 
-%section#hero
-  %ul{"data-orbit" => true, "data-equalizer" => true}
-    %li.intro.slide{"data-equalizer-watch" => true}
-      .row
-        .large-8.medium-10.columns
-          :markdown
-            ### What's this?
-            [LGBT History Month](http://lgbthistorymonth.org.uk/) is celebrating its 10th anniversary with the _First National Festival of LGBT History_. There will be a [main festival](programme.html) hosted at [Central Library](http://www.archivesplus.org/), [People's History Museum](http://phm.org.uk), and other prestigious venues around Manchester City Centre, and an academic conference ["What is &amp; how to do LGBT History?"](conference.html), hosted at the [Lesbian &amp; Gay Foundation](http://lgf.org.uk).
-          .arrow
-            = link_to "Find out more about the festival", '/programme.html', :class => "large button"                          
-      .orbit-caption
-        .row
-          .large-12.columns
-            %a{:href => "https://flic.kr/p/8WwFFh"} Canal St (1901),
-            courtesy
-            %a{:href => "https://www.flickr.com/people/manchesterarchiveplus/"} Manchester Archives+ on Flickr
-    %li.who.slide{"data-equalizer-watch" => true}
-      .row
-        .large-8.medium-10.columns
-          :markdown
-            ### LGBT History Month
-            [Lesbian, Gay, Bisexual and Trans History Month](http://lgbthistorymonth.org.uk/) celebrates the lives and achievements of the LGBT community. LGBT HM is celebrated in February in the UK, but our work to challenge homophobia, biphobia and transphobia continues throughout the year. Education is especially important to achieving this, so much of our work focuses on schools.
-          .arrow            
-            = link_to "Find out more about the organisers", '/about-us.html', :class => "large button"       
-      .orbit-caption
-        .row
-          .large-12.columns
-            Press For Change march (1997), courtesy Janeen Willis
 
-
-%section
+%section#what-it-is{"data-stellar-background-ratio" => "0.5"}
   .row
-    .medium-6.columns.latest-blog
-      %h5 Latest blog post
-      - latest = page_articles[0]
-      %h3= link_to latest.title, latest
-      %h5
-        By
-        = latest.data.authors
-        on 
-        = latest.date.strftime('%e %b %G')
-      - latest.data.teaser.each do |p|
-        %p= p
-      .arrow
-        = link_to "Read more", latest, :class => "button"
-        
-          
-    .medium-6.columns
-      %h3 Huge update coming soon
-      %p
-        Please bear with us -- much of this information is out of date and will be updated next week!
+    .small-12.text-center.columns.titlecontainer
+      %h3 A world-first popular festival, celebrating three centuries of LGBT history, run entirely by volunteers.
+  .whitearrow.arrow
 
-      %h3 Academic Conference
+%section#what-it-is-2.text-center
+  .row
+    .small-12.columns
+      %h3 Trailblazing campaigners, eminent scholars, and pioneering performers, join forces to share unique and rarely heard histories, for adults and children of all ages.
 
-      %p
-        The academic conference 'What is & How to DO LGBT History?' is part of the Festival, and seeks to place attitudes, experiences and identities in their historical context. In doing so, we hope to uncover and understand regional, temporal and ideological differences in past attitudes towards gender and sex.
-      .arrow
-        = link_to "Conference details", '/conference.html', :class => "button"
+  %article
+    .row
+      .small-12.columns
+        :markdown
+          On **Friday**, the [inaugural Allan Horsfall lecture](/blog/2014/11/13/allan-horsfall-lecture.html), sponsored by the Campaign for Homosexual Equality, unveils the first attempts at parliamentary reform in 1832. **Saturday** at **Central Library** goes Under The Rainbow, with an exploration of LGBT identity and personal stories from the 18th century to today. **Sunday** at **People's History Musuem** explores lesbian activists, LGBT rights in the workplace, and Britain's colonial legacy in exporting homophobic laws.
 
-%section.pink
-  .row{"data-equalizer" => true}
-    .medium-4.columns.text-center
-      %h4 Main Festival
-      %p{"data-equalizer-watch" => true} Want to know more about how gay people thought about themselves in the 1880s? Fancy talking to someone about being trans in the 1960s? Curious about what could be hidden in some of these archive boxes?
-      = link_to "More about the main festival", "/programme.html", :class => "button"
-    .medium-4.columns.text-center
-      %h4 Projecting Diversity
-      %p{"data-equalizer-watch" => true} We are very excited to showcase a number of film representations of LGBT diversity. This includes a specific focus on German film's pioneering role in representing sex and gender diversity on the screen.
-      = link_to "Find out about the films", "/programme.html#films", :class => "button"
-    .medium-4.columns.text-center
-      %h4 Conference
-      %p{"data-equalizer-watch" => true} World-class scholars will present their reserach and discuss historical methods for studying gender and sexual diversity in the past. 
-      = link_to "More about the conference", "/conference.html", :class => "button"
+          [A Very Victorian Scandal](#theatre), our innovative, immersive theatre performance based on an 1880 police raid on a fancy dress ball, runs throughout the weekend. There are **schools and families** events for children, young adults, parents and educators on the Saturday and Sunday. The 2nd **&ldquo;What is and how to do LGBT history&rdquo;** conference runs in parallel.
 
--# %section#s5
--#   .row
--#     .large-12.columns
--#       %h3 Some of our speakers  
--#     - (1..6).each do |n|
--#       .large-2.columns
--#         %h5 Famous Cat #{n}
--#         %img{src: "http://placekitten.com/g/150/150"}
+          There are **films** throughout the week in Manchester's **Gay Village**, and various surprises in the week leading up to the festival. Stay tuned, and be sure to follow our [Facebook](https://www.facebook.com/lgbthistoryfestival?fref=ts) and [Twitter](https://twitter.com/lgbthistoryfest), or join our [e-mail list](http://crm.lgbthistoryfestival.org/civicrm/mailing/subscribe) for up-to-the minute news! Keep scrolling to find out more, or go to the [schedule page](/schedule.html) to find out full details.
+  .pinkarrow.arrow
+
+%section#bigicons.pink
+  .row.text-center
+    .medium-4.columns
+      %a{:href => "/schedule.html"}
+        %h3.chevronborder The Schedule
+        %img{:src => "/images/icons/program.png"}
+        %p Read the schedule and find out what's happening
+    .medium-4.columns
+      %a{:href => "/travel.html"}
+        %h3.chevronborder Venues
+        %img{:src => "/images/icons/venues.png"}
+        %p Find out about the venues, booking and travel
+    .medium-4.columns
+      %a{:href => "/about-us.html"}
+        %h3.chevronborder About Us
+        %img{:src => "/images/icons/aboutus.png"}
+        %p Learn more about the organisation and its values
+
+%section#whatson
+  .row
+    .small-12.columns.text-center
+      %h2.longborder What&rsquo;s on?
+  .row
+    .small-12.columns.text-center
+      %nav#elements{"data-magellan-expedition" => "fixed"}
+        %ul.show-for-medium-up
+          %li.first{"data-magellan-arrival" => "saturday"}
+            %a{:href => "#saturday"} Saturday
+          %li{"data-magellan-arrival" => "sunday"}
+            %a{:href => "#sunday"} Sunday
+          %li{"data-magellan-arrival" => "theatre"}
+            %a{:href => "#theatre"} Theatre
+          %li{"data-magellan-arrival" => "film"}
+            %a{:href => "#film"} Films
+          %li{"data-magellan-arrival" => "families"}
+            %a{:href => "#families"} Families
+          %li.last{"data-magellan-arrival" => "academic"}
+            %a{:href => "#academic"} Academic
+
+%section#saturday.text-center{"data-magellan-destination" => "saturday"}
+  .sat-image.fpi{"data-stellar-background-ratio" => "0.5"}
+    %p Manchester Central Library in 1934. Courtesy Archives+.
+  .row
+    .medium-1.columns
+    .small-12.medium-10.columns
+      %h3.scallopedborder
+        .pre
+        .text Under The Rainbow
+        .post
+      :markdown
+        ###  Saturday &mdash; Manchester Central Library
+
+        Saturday explores three centuries of LGBTQ identity, from when George III was on the throne to the present day. Campaigners and academics behind groups such as the Campaign for Homosexual Equality, the Lesbian Information Service, and Press for Change discuss their life work, legacy, successes, and regrets.
+    .medium-1.columns
+
+  %article
+    .row
+      .medium-7.columns.text-left
+        :markdown
+          #### Under the Rainbow
+
+          A celebration of the remarkable work of LGBTQ campaigners living today. Highlights include the launch of The Campaign for Homosexual Equality's history, written by **Peter Scott-Presland**, while **Ross Burgess** talks about CHE's impact and legacy. **Christine Burns MBE**, key activist in Press For Change, whose work contributed to the Gender Recognition Act 2004, will talk about overcoming the challenges to document trans* history.
+
+          We also talk to the people behind the frontline services that improved the lives of many, such as Nottinghamshire Lesbian and Gay Switchboard (presented by **David Edgley**) and the controversial Lesbian Information Service (presented by **Jan Bridget**). How do the people involved in these campaigns and services feel about their legacy today?
+
+          Many other remarkable individuals will discuss their extraordinary lives, including **Peter Tatchell**, founder of the Gay Liberation Front; and **Alex Herrmann**, who will talk about his life as a gay man in Socialist East Germany.
+
+          Obviously as a Manchester festival we have to talk about music! **Abigail Ward**, founder of the Manchester District Music Archive discusses her Queer Noise collection of tickets and posters, including infamous clubnights from Flesh (at the famous Haçienda) to Club Brenda.
+
+      .medium-5.columns
+        %br
+        %br
+        %br
+        = image_tag "http://lgbthistoryfestival.org/images/blog/allan-horsfall-lecture/che-1972.jpg", :alt => "The CHE football team"
+        %p.caption The CHE football team. Courtesy Peter Scott-Presland.
+        %br
+        %br
+        = image_tag "images/blog/nottingham/thatcher-march.jpg", :alt => "Photo from an anti-Thatcher march"
+        %p.caption Anti Section-28 demo. Courtesy David Edgley.
+        %br
+        %br
+        = image_tag "http://lgbthistoryfestival.org/images/blog/queer-noise/flesh.jpg", :alt => "Flesh flyer"
+        %p.caption Flyer for Flesh clubnight. Courtesy Manchester District Music Archive.
+
+    .row
+      .medium-4.columns
+        = image_tag "/images/blog/olive-custance/olive-custance.jpg", :alt => "Olive Custance"
+        %p.caption Olive Custance. Source unknown.
+      .medium-8.columns.text-left
+        :markdown
+          #### Coded Lives
+
+          **Helena Whitbread** discusses **Anne Lister's** (1791–1840) coded diaries, which detail her scandalous liaisons with women. Between 1806 and 1840 she wrote prolifically, with a total output of 26 volumes containing 4 million words. As well as writing about her sex life and seduction techniques, she wrote about the weather, social and national events, and her own business interests as a wealthy landowner.
+
+          Oscar Wilde's lover, Lord Alfred ‘Bosie’ Douglas was married to **Olive Custance**, a remarkable person in her own right. **Dr Sarah Parker** will discuss her new research about Olive's relationships with both men and women, and her life as a successful poet.
+
+    .row
+      .medium-7.columns.text-left
+        :markdown
+          #### Delving into the archive
+
+          **Paul Martin OBE**, Chief Executive of the Lesbian and Gay Foundation, will present exhibits from the LGF&rsquo;s archive. **Sylvia Kölling**, Saturday Hub coordinator and archive volunteer, will talk about the remarkable personal correspondence of the father of the modern gay rights movement, **Allan Horsfall**. Both archives are stored at Central Library.
+      .medium-5.columns
+        = image_tag "/images/home/sylvia-archive.jpg", :alt => "Festival volunteers at the archive"
+        %p.caption Festival volunteers at Archives+. Courtesy Kim Foale.
+
+
+  .pinkarrow.arrow
+
+%section#sunday.text-center{"data-magellan-destination" => "sunday"}
+  .sun-image.fpi{"data-stellar-background-ratio" => "0.5"}
+    %p Craggan Estate, Derry, 1985. Courtesy JGM Evans.
+  .row
+    .medium-1.columns
+    .small-12.medium-10.columns.text-center
+      %h3.scallopedborder
+        .pre
+        .text Power, Resistance, Empire
+        .post
+      :markdown
+        ### Sunday &mdash; People&rsquo;s History Museum
+
+        Organised protest and social movements have been instrumental in building a more equal world. Sunday focusses on the impact of power, institutions, and the law, in changing rights for LGBT people.
+
+        We examine the global export of Britain's anti-gay buggery laws from the 19th century. We ask why lesbian voices have been marginalised in the protest movement, highlighting the remarkable work of women at Greenham Common Peace Camp. Finally, we chronicle campaigns against workplace discrimination beginning in the 1960s.
+    .medium-1.columns
+  %article.text-center
+    .row
+      .medium-7.columns.text-left
+        :markdown
+          #### Uniting for workplace equality
+
+          **Mike Jackson**, co-founder of Lesbians and Gays Support the Miners highlights the story behind this year's critically acclaimed film &ldquo;Pride&rdquo;. **Cath Booth** discusses the work of Lesbians and Gays Support the Printworkers, who assisted workers sacked by Rupert Murdoch during the Wapping dispute. TUC LGBT &amp; Disability Officer **Peter Purton** will explore the history of how homophobia and transphobia have been addressed in the workplace.
+
+          Finally, [All The Nice Girls](/blog/2014/10/02/about-a-piano.html) explores the lives of World War I stars  Gwen Farrar and Norah Blaney, using theatre, cabaret and dance. Gwen and Norah routinely performed for the entertainment of the armed forces.
+      .medium-5.columns
+        = image_tag "/images/home/lgsm.jpg", :alt => "LGSM Banner"
+        %p.caption Original LGSM banner. Courtesy People's History Museum.
+    .row
+      .medium-5.columns
+        = image_tag "/images/home/uganda-tatchell.jpg", :alt => "Peter Tatchell Ugandan campaign"
+        %p.caption Peter Tatchell protesting homophobia in Uganda. Courtesy Peter Tatchell.
+      .medium-7.columns.text-right
+        :markdown
+          #### Exporting Homophobia
+          In the 1800s, the British Empire stretched across two thirds of the world, and Britain exported laws banning same-sex relations to its colonies. Human rights campaigner **Peter Tatchell** and **Prossy Kakooza**, a refugee who has rebuilt her life in the UK after experiencing abuse and torture in Uganda, discuss Britain's colonial legacy.
+    .row
+      .medium-7.columns.text-left
+        :markdown
+          #### Protest &amp; Lesbianism
+
+          From Votes For Women to the Greenham Common peace camps, lesbian women have been at the forefront of movements for social change. **Sheila Standard** and **Dr Sonja Tiernan** discuss the key roles played by lesbians in protest movements, including the Barmaids' Defence League and Urania, a pioneering covert journal on gender and sexuality.
+      .medium-5.columns
+        = image_tag "/images/home/greenham.jpg", :alt => "Protesters at Greenham Common"
+        %p.caption Protestors at Greenham Common. Courtesy People's History Museum.
+  .pinkarrow.arrow
+
+%section#theatre.text-center{"data-magellan-destination" => "theatre"}
+  .theatre-image.fpi{"data-stellar-background-ratio" => "0.5"}
+    %p Illustrated Police News, 1880. Courtesy Archives+.
+  .row
+    .medium-1.columns
+    .medium-10.columns
+      %h3.scallopedborder
+        .pre
+        .text A Very Victorian Scandal
+        .post
+      :markdown
+        _One of the foulest and most disgraceful orgies that ever disgraced any town&hellip;
+        (Manchester Evening News, September 1880)_
+
+        **A Very Victorian Scandal** ([#AVVS](https://twitter.com/hashtag/AVVS)) is a groundbreaking immersive theatre project, being performed over the festival weekend. The project will recreate scenes from the biggest police raid on an &lsquo;LGBT&rsquo; event in British history. Manchester’s famous Victorian detective, **Jerome Caminada**, led the raid on an all-male fancy dress ball in Hulme, and arrested forty-seven men. The subsequent press coverage caused an international sensation. **This was the UK’s Stonewall moment**, and it happened in 1880.
+    .medium-1.columns
+  %article
+    .row
+      .medium-8.columns.text-left
+        :markdown
+          #### The Raid
+
+          ##### Friday 13th, Via Fossa
+
+          A living recreation of the fancy dress ball. Mingle with the fancy dress ball attendees, learn a little about their lives, and watch them sing and dance to Music Hall tunes. A Victorian police raid will then rudely interrupt the evening's raucous events.
+      .medium-4.columns
+        = image_tag "home/raid.jpg", :alt => "Hulme Temperance Hall"
+        %p.caption Hulme Temperance Hall. Courtesy Archives+
+    .row
+      .medium-4.columns
+        = image_tag "home/caminada.jpg", :alt => "Det. Jerome Caminada"
+        %p.caption Det. Jerome Caminada. Courtesy Archives+.
+      .medium-8.columns.text-left
+        :markdown
+          #### Caminada
+
+          ##### Saturday 14th, Central Library
+
+          A fresh take on the motives behind the police raid, in an intimate performance at Manchester Central Library. Secrets and politics combine to make some men, and ruin others. Caminada courts the press, but can he keep control of the story?
+    .row
+      .medium-8.columns.text-left
+        :markdown
+          #### The Trial
+
+          ##### Sunday 15th
+
+          Experience what it was like to be amongst the 47 prisoners, as we recreate the infamous trial using immersive theatre. You will watch your fate, and the fate of the other prisoners, be decided by the Chief Justice. Will all of the prisoners maintain their promise to remain silent, or will the fear of prison force someone to speak out?
+
+      .medium-4.columns
+        = image_tag "home/trial.jpg", :alt => "Thomas Nash, prosecution barrister"
+        %p.caption Thomas Nash, prosecution barrister. Courtesy Archives+.
+
+  .arrow.pinkarrow
+
+%section#film.text-center{"data-magellan-destination" => "film"}
+  .film-image.fpi{"data-stellar-background-ratio" => "0.5"}
+  .row
+    .medium-1.columns
+    .medium-10.columns
+      %h3.scallopedborder
+        .pre
+        .text Projecting Diversity
+        .post
+
+      :markdown
+        We are showcasing film representations of LGBT diversity, including a specific focus on German film's pioneering role in representing sex and gender diversity on the screen. Something something **Stewart Milk**.
+    .medium-1.columns
+  %article
+    .row
+      .medium-6.columns
+        :markdown
+          ### Pride
+
+          With introduction from Mike Jackson
+        %p= lorem.words(30)
+      .medium-6.columns
+        :markdown
+          ### Taxi zum Klo
+        %p= lorem.words(30)
+
+    .row
+      .medium-6.columns
+        =image_tag "films/pride.jpg", :alt => "Pride"
+      .medium-6.columns
+        =image_tag "films/taxi-zum-klo-2.jpg", :alt => "Taxi Zum Klo"
+
+
+    .row
+      .medium-7.columns
+        :markdown
+          #### The Times of Harvey Milk
+          Sunday afternoon The Harvey Milk benefit, with introduction from Stuart Milk
+        %p= lorem.words(30)
+      .medium-5.columns
+        =image_tag "films/times-harvey-milk-2.jpg", :alt => "The Times of Harvey Milk"
+
+    .row
+      .medium-6.columns
+        :markdown
+          ### Short Films
+
+        %p= lorem.words(30)
+      .medium-6.columns
+        :markdown
+          ### BFI film collections
+
+          'Beautiful Things' being screened in the media silos Saturday all day at Central Library
+        %p= lorem.words(30)
+
+%section#families.text-center{"data-magellan-destination" => "families"}
+  .family-image.fpi{"data-stellar-background-ratio" => "0.5"}
+    %p A School's OUT event. Photo by <a href="http://www.flickr.com/photos/littlehuw/8442039623/in/pool-1888270@N20">Huw</a>.
+  .row
+    .medium-1.columns
+    .medium-10.columns.text-center
+      %h3.scallopedborder
+        .pre
+        .text Schools &amp; Families
+        .post
+      :markdown
+        On Saturday and Sunday, **Schools OUT UK** will host the Schools &amp; Families festival strand. We will offer children, educators, parents and governors the chance to experience educational, fun, and inclusive activities for children of all ages.
+
+        At Schools OUT, we are proud of our 40 year legacy making schools safer and more equal for lesbian, gay, bisexual and trans* people, in all their diversity. We are run entirely by volunteers, and established both LGBT History Month and The First National Festival of LGBT History to further our aims as national educators.
+    .medium-1.columns
+  %article
+    .row
+      .medium-7.columns
+        :markdown
+          #### Readings &amp; Lessons
+
+          Readings will be presented by **Adam Lowe**, a local poet and founder of [Young Enigma](http://youngenigma.com/), **Catherine Hall**, author of _Repercussions_, and **Sue Sanders**, co-chair of School's OUT. They will be reading titles for children and young adults such as &ldquo;My Invented Life&rdquo;, &ldquo;Pugdog&rdquo;, &ldquo;Space Girl Pukes&rdquo; and &ldquo;Who Are You, Stripy Horse?&rdquo;. A range of diversity lessons will be presented by experienced classroom teachers.
+
+          All the books read will be available to borrow from the library!
+      .medium-5.columns
+    .row
+      .medium-5.columns
+        =image_tag "home/stuartmilk.jpg", :alt => "Stuart Milk"
+        %p.caption Stuart Milk. Courtesy Harvey Milk Foundation.
+      .medium-7.columns
+        :markdown
+          #### Harvey Milk
+
+          **Stuart Milk**, nephew of **Harvey Milk**, will present a lesson on his uncle's work and legacy, and the work of the [Harvey Milk Foundation](http://milkfoundation.org/) worldwide. Harvey Milk was an American politician who campaigned for gay rights in San Francisco's famous Castro district. He was tragically assassinated in 1978 alongside his colleague George Moscone. Stuart co-founded the Harvey Milk Foundation, and is now an ambassador for LGBT rights around the world.
+    .row
+      .medium-7.columns
+        :markdown
+          #### Combating discrimination and the law
+
+          Schools OUT believe that to eliminate the prejudice and negative stereotypes around minority groups and women, we need to educate out prejudice.
+
+          All public organisations (including schools) have a duty under the [Equality Act 2010](http://www.legislation.gov.uk/ukpga/2010/15/contents) to not only prohibit discrimination based on sexual orientation and gender identity, but to actively educate people about all the protected characteristics, including gender, sexuality and marital status.
+
+          These lessons will demonstrate how this can be done, and prove that such work can be fun, educational, and successful in eliminating discrimination.
+      .medium-5.columns
+        =image_tag "home/equality.png", :alt => "Equality Act 2010 booklet", :style => "border: 1px solid #aaa"
+
+%section#academic{"data-magellan-destination" => "academic"}
+  .academic-image.fpi{"data-stellar-background-ratio" => "0.5"}
+    %p Archive card index. Courtesy Archives+.
+  .row
+    .medium-1.columns
+    .medium-10.columns.text-center
+      %h3.scallopedborder
+        .pre
+        .text Academic Conference
+        .post
+
+      :markdown
+        The LGF hosts &ldquo;The 2nd What is &amp; How to DO LGBT History?&rdquo; conference, which seeks to place attitudes, experiences and identities in their historical context.
+
+        Despite the increasing popular demand for "LGBT History" in Britain, the history of attitudes towards sex and gender diversity in the UK remains an underdeveloped field, especially in comparison with the advances that have been made in the United States. An important part of the 10th anniversary celebrations of LGBT History month is to lead and develop the growing discourse into past attitudes towards sex and gender diversity within the academy and among the general public.
+
+      <a href="/academic.html" class="readmore-js-toggle">Learn More</a>
+    .medium-1.columns
+
+%section#first-festival-is{"data-stellar-background-ratio" => "0.5"}
+  .row
+    .small-12.columns
+      :markdown
+        ### The First National Festival of LGBT History is the official celebration of LGBT History Month's 10th anniversary. [LGBT History Month](http://lgbthistorymonth.org.uk/) is a part of [School's OUT UK](http://www.schools-out.org.uk/), which has worked towards equality, safety and visibility for lesbian, gay, bisexual and trans* people in education since 1974.
+
+        ### We are proud to work with Manchester City Council, the LGF, Manchester Metropolitan University, and scholars from some of the country's most respected institutions in delivering this unprecedented, world-first festival.
+
+:javascript
+  $('.arrow').on('click', function(event){
+    var target = $(this).parent().next();
+    // Find the true visible height of #branding section and use that.
+    var nav_deviation = $("#branding").outerHeight() + $("#branding").offset().top - $(window).scrollTop();
+
+    // Dirty hack for edge case. condition borrowed from script.js
+    if($(window).scrollTop() < $('#branding').height() + 200 - $('nav#primary').height()) {
+      nav_deviation = 67;
+    }
+
+    var scrollMe = target.offset().top - nav_deviation;
+
+    $('html, body').animate({
+      scrollTop: scrollMe
+    }, 1000);
+  });
+
+  $(window).stellar({
+    horizontalScrolling: false,
+    verticalScrolling: true,
+    responsive: true
+  });
+
+  $('article').readmore({
+    speed: 75,
+    maxHeight: 0,
+    moreLink: '<a href="#">Learn More</a>',
+    afterToggle: function(trigger, element, expanded) {
+      if(! expanded) { // The "Close" link was clicked
+        $('html, body').animate( { scrollTop: element.offset().top }, {duration: 200 } );
+      }
+    }
+  });
