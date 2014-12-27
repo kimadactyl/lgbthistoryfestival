@@ -15,8 +15,7 @@
     :javascript
       try{Typekit.load();}catch(e){}
     = stylesheet_link_tag "app"
-    = javascript_include_tag "modernizr"
-    = javascript_include_tag  "all"
+    = javascript_include_tag "libs"
   %body{class: "#{page_classes}"}
     .off-canvas-wrap{"data-offcanvas" => "data-offcanvas"}
       .inner-wrap
@@ -87,7 +86,8 @@
                 LGBT History Festival website created with love by [Kim Foale](http://alliscalm.net) and [Squid](http://studiosquid.co.uk/).
             .columns.medium-2.small-1
               %p
-      %a.exit-off-canvas            
+      %a.exit-off-canvas
+    = javascript_include_tag  "all"              
     = google_analytics_tag
     :javascript
       $(document).foundation({

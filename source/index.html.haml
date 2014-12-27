@@ -98,20 +98,20 @@ title: First National Festival of LGBT History
         %br
         %br
         %br
-        = image_tag "http://lgbthistoryfestival.org/images/blog/allan-horsfall-lecture/che-1972.jpg", :alt => "The CHE football team"
+        = image_tag "blog/allan-horsfall-lecture/che-1972.jpg", :alt => "The CHE football team"
         %p.caption The CHE football team. Courtesy Peter Scott-Presland.
         %br
         %br
-        = image_tag "images/blog/nottingham/thatcher-march.jpg", :alt => "Photo from an anti-Thatcher march"
+        = image_tag "blog/nottingham/thatcher-march.jpg", :alt => "Photo from an anti-Thatcher march"
         %p.caption Anti Section-28 demo. Courtesy David Edgley.
         %br
         %br
-        = image_tag "http://lgbthistoryfestival.org/images/blog/queer-noise/flesh.jpg", :alt => "Flesh flyer"
+        = image_tag "blog/queer-noise/flesh.jpg", :alt => "Flesh flyer"
         %p.caption Flyer for Flesh clubnight. Courtesy Manchester District Music Archive.
 
     .row
       .medium-4.columns
-        = image_tag "/images/blog/olive-custance/olive-custance.jpg", :alt => "Olive Custance"
+        = image_tag "blog/olive-custance/olive-custance.jpg", :alt => "Olive Custance"
         %p.caption Olive Custance. Source unknown.
       .medium-8.columns.text-left
         :markdown
@@ -128,7 +128,7 @@ title: First National Festival of LGBT History
 
           **Paul Martin OBE**, Chief Executive of the Lesbian and Gay Foundation, will present exhibits from the LGF&rsquo;s archive. **Sylvia Kölling**, Saturday Hub coordinator and archive volunteer, will talk about the remarkable personal correspondence of the father of the modern gay rights movement, **Allan Horsfall**. Both archives are stored at Central Library.
       .medium-5.columns
-        = image_tag "/images/home/sylvia-archive.jpg", :alt => "Festival volunteers at the archive"
+        = image_tag "home/sylvia-archive.jpg", :alt => "Festival volunteers at the archive"
         %p.caption Festival volunteers at Archives+. Courtesy Kim Foale.
 
 
@@ -161,11 +161,11 @@ title: First National Festival of LGBT History
 
           Finally, [All The Nice Girls](/blog/2014/10/02/about-a-piano.html) explores the lives of World War I stars  Gwen Farrar and Norah Blaney, using theatre, cabaret and dance. Gwen and Norah routinely performed for the entertainment of the armed forces.
       .medium-5.columns
-        = image_tag "/images/home/lgsm.jpg", :alt => "LGSM Banner"
+        = image_tag "home/lgsm.jpg", :alt => "LGSM Banner"
         %p.caption Original LGSM banner. Courtesy People's History Museum.
     .row
       .medium-5.columns
-        = image_tag "/images/home/uganda-tatchell.jpg", :alt => "Peter Tatchell Ugandan campaign"
+        = image_tag "home/uganda-tatchell.jpg", :alt => "Peter Tatchell Ugandan campaign"
         %p.caption Peter Tatchell protesting homophobia in Uganda. Courtesy Peter Tatchell.
       .medium-7.columns.text-right
         :markdown
@@ -178,7 +178,7 @@ title: First National Festival of LGBT History
 
           From Votes For Women to the Greenham Common peace camps, lesbian women have been at the forefront of movements for social change. **Sheila Standard** and **Dr Sonja Tiernan** discuss the key roles played by lesbians in protest movements, including the Barmaids' Defence League and Urania, a pioneering covert journal on gender and sexuality.
       .medium-5.columns
-        = image_tag "/images/home/greenham.jpg", :alt => "Protesters at Greenham Common"
+        = image_tag "home/greenham.jpg", :alt => "Protesters at Greenham Common"
         %p.caption Protestors at Greenham Common. Courtesy People's History Museum.
   .pinkarrow.arrow
 
@@ -290,6 +290,7 @@ title: First National Festival of LGBT History
 
           'Beautiful Things' being screened in the media silos Saturday all day at Central Library
         %p= lorem.words(30)
+  .pinkarrow.arrow
 
 %section#families.text-center{"data-magellan-destination" => "families"}
   .family-image.fpi{"data-stellar-background-ratio" => "0.5"}
@@ -337,6 +338,7 @@ title: First National Festival of LGBT History
           These lessons will demonstrate how this can be done, and prove that such work can be fun, educational, and successful in eliminating discrimination.
       .medium-5.columns
         =image_tag "home/equality.png", :alt => "Equality Act 2010 booklet", :style => "border: 1px solid #aaa"
+  .pinkarrow.arrow
 
 %section#academic{"data-magellan-destination" => "academic"}
   .academic-image.fpi{"data-stellar-background-ratio" => "0.5"}
@@ -354,8 +356,9 @@ title: First National Festival of LGBT History
 
         Despite the increasing popular demand for "LGBT History" in Britain, the history of attitudes towards sex and gender diversity in the UK remains an underdeveloped field, especially in comparison with the advances that have been made in the United States. An important part of the 10th anniversary celebrations of LGBT History month is to lead and develop the growing discourse into past attitudes towards sex and gender diversity within the academy and among the general public.
 
-      <a href="/academic.html" class="readmore-js-toggle">Learn More</a>
+      <a href="/conference.html" class="readmore-js-toggle">Learn More</a>
     .medium-1.columns
+  .pinkarrow.arrow
 
 %section#first-festival-is{"data-stellar-background-ratio" => "0.5"}
   .row
@@ -364,38 +367,4 @@ title: First National Festival of LGBT History
         ### The First National Festival of LGBT History is the official celebration of LGBT History Month's 10th anniversary. [LGBT History Month](http://lgbthistorymonth.org.uk/) is a part of [School's OUT UK](http://www.schools-out.org.uk/), which has worked towards equality, safety and visibility for lesbian, gay, bisexual and trans* people in education since 1974.
 
         ### We are proud to work with Manchester City Council, the LGF, Manchester Metropolitan University, and scholars from some of the country's most respected institutions in delivering this unprecedented, world-first festival.
-
-:javascript
-  $('.arrow').on('click', function(event){
-    var target = $(this).parent().next();
-    // Find the true visible height of #branding section and use that.
-    var nav_deviation = $("#branding").outerHeight() + $("#branding").offset().top - $(window).scrollTop();
-
-    // Dirty hack for edge case. condition borrowed from script.js
-    if($(window).scrollTop() < $('#branding').height() + 200 - $('nav#primary').height()) {
-      nav_deviation = 67;
-    }
-
-    var scrollMe = target.offset().top - nav_deviation;
-
-    $('html, body').animate({
-      scrollTop: scrollMe
-    }, 1000);
-  });
-
-  $(window).stellar({
-    horizontalScrolling: false,
-    verticalScrolling: true,
-    responsive: true
-  });
-
-  $('article').readmore({
-    speed: 75,
-    maxHeight: 0,
-    moreLink: '<a href="#">Learn More</a>',
-    afterToggle: function(trigger, element, expanded) {
-      if(! expanded) { // The "Close" link was clicked
-        $('html, body').animate( { scrollTop: element.offset().top }, {duration: 200 } );
-      }
-    }
-  });
+  .whitearrow.arrow

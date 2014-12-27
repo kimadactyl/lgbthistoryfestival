@@ -6,9 +6,352 @@ METHOD:PUBLISH
 X-WR-CALNAME:Main Festival
 X-WR-TIMEZONE:Europe/London
 BEGIN:VEVENT
+DTSTART:20150215T150000Z
+DTEND:20150215T155000Z
+DTSTAMP:20141227T131544Z
+UID:d7f46m3t10d79eo3l7htln64gg@google.com
+CREATED:20141226T202019Z
+DESCRIPTION:{Stephen Boyce}
+LAST-MODIFIED:20141226T205105Z
+LOCATION:
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Schools Out Workshop\, What is a Diversity lesson for young people?
+  Reception to year 6
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20150215T140000Z
+DTEND:20150215T145000Z
+DTSTAMP:20141227T131544Z
+UID:i2et7gp2ucanknsdb8os2gs1ek@google.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=kim@lg
+ bthistoryfestival.org;X-NUM-GUESTS=0:mailto:kim@lgbthistoryfestival.org
+CREATED:20141226T201640Z
+DESCRIPTION:{Stephen Boyce}
+LAST-MODIFIED:20141226T205045Z
+LOCATION:
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Schools Out Workshop\, What is a Diversity lesson for young people?
+  Reception to year 6
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20150215T153000Z
+DTEND:20150215T160000Z
+DTSTAMP:20141227T131544Z
+UID:s1l4i5p8dj9du3ajksr1iuhkqg@google.com
+CREATED:20141226T202112Z
+DESCRIPTION:{Cath Booth} will be discussing Lesbians and Gays Support the P
+ rintworkers (LGSP): a group in London supporting printworkers sacked by Mur
+ doch in 1986\, following closely in the footsteps of LGSM during the miners
+ ' strike.
+LAST-MODIFIED:20141226T204950Z
+LOCATION:
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Shock Horror! Lesbians and Gays Support the Printworkers
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20150215T120000Z
+DTEND:20150215T123000Z
+DTSTAMP:20141227T131544Z
+UID:5o57d17afr2pjfm82uu8qa271c@google.com
+CREATED:20141226T201456Z
+DESCRIPTION:In the early 1800's there was a vibrant social and sexual scene
+  for men which revolved around the house of Isaac Hitchen in Great Sankey n
+ ear Warrington. Meeting places like this were known as ‘molly’ houses in th
+ e parlance of the day. "Isaac Hitchen's House" tells the story of these men
+ \, the investigation\, and the attitudes of the authorities\, in song. Writ
+ ten and performed by {Eleanor Levin}\, {Nina George} and {Scott Millington}
+  of the Grievous Angels as part of Lancaster's 'Documenting Dissent' projec
+ t.
+LAST-MODIFIED:20141226T204739Z
+LOCATION:
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Isaac Hitchen's House (A Lancashire Tale) 
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20150215T145000Z
+DTEND:20150215T152000Z
+DTSTAMP:20141227T131544Z
+UID:k0vt63uirbkahobqj299vhuj14@google.com
+CREATED:20141226T203527Z
+DESCRIPTION:Talk by {Prossy Kakooza}: Many LGBT people like myself run from
+  persecution to seek asylum in countries like UK thinking they'll immediate
+ ly be safe. But most times seeking asylum makes you enter what feels like a
+ nother form of persecution with having to prove your sexuality to the immig
+ ration system. When I asked for asylum\, on many levels\, it felt like jump
+ ing from a frying pan into a fire. In a series of such intrusive and embarr
+ assing questions\, I was asked to prove I was gay. How on earth was I or an
+ ybody else supposed to do that?!
+LAST-MODIFIED:20141226T204511Z
+LOCATION:
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:The Journey to Freedom. From "You can't be Gay" to "Gay? Prove it" 
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20150215T153000Z
+DTEND:20150215T160000Z
+DTSTAMP:20141227T131544Z
+UID:f8qrbf6u0okusfoh3jc8vtmins@google.com
+CREATED:20141226T202207Z
+DESCRIPTION:by Prof. {Alex Sharpe}
+LAST-MODIFIED:20141226T204408Z
+LOCATION:
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Sexual Intimacy\, Gender Variance and the Criminal Law
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20150215T121000Z
+DTEND:20150215T125000Z
+DTSTAMP:20141227T131544Z
+UID:28hlep3bop73dghqde7hjo3444@google.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=kim@lg
+ bthistoryfestival.org;X-NUM-GUESTS=0:mailto:kim@lgbthistoryfestival.org
+CREATED:20141226T203306Z
+DESCRIPTION:{Peter Tatchell} tells the inside story of how Dr Vaernet was a
+ uthorised by the head of the Gestapo to experiment on gay concentration cam
+ p prisoners to discover a medical means to eradicate homosexuality - and ho
+ w he escaped prosecution for war crimes with the collusion of Danish and Br
+ itish governments. 
+LAST-MODIFIED:20141226T204330Z
+LOCATION:
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Hidden History: SS Dr Carl Vaernet & the Nazi bid to eradicate homo
+ sexuality
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20150215T145000Z
+DTEND:20150215T152000Z
+DTSTAMP:20141227T131544Z
+UID:4j89kbruo1304qajg68bgj0bo8@google.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=kim@lg
+ bthistoryfestival.org;X-NUM-GUESTS=0:mailto:kim@lgbthistoryfestival.org
+CREATED:20141226T201832Z
+DESCRIPTION:{Mike Jackson} will speak about growing up gay in the 1970’s\, 
+ Lesbian Gay Support the Miners\, his role within the group\, the archive\, 
+ the impact of the movie and some practical fashion tips on what to wear whi
+ lst overthrowing the capitalist state.
+LAST-MODIFIED:20141226T204300Z
+LOCATION:
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Lesbian and Gay Support the Minners
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20150215T141000Z
+DTEND:20150215T144000Z
+DTSTAMP:20141227T131544Z
+UID:tet732oa6ntd66cd28p3ocb02c@google.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=kim@lg
+ bthistoryfestival.org;X-NUM-GUESTS=0:mailto:kim@lgbthistoryfestival.org
+CREATED:20141226T201308Z
+DESCRIPTION:Councillor {Paul Murphy} talks about the 70s and 80s and how th
+ e trade union movement tried to address attitudes in and surrounding the wo
+ rkplace\, as well as dealing with the issues raised by the AIDS pandemic on
+  the shop floor and boardroom at British Aerospace in the 1980s.
+LAST-MODIFIED:20141226T204143Z
+LOCATION:
+SEQUENCE:1
+STATUS:CONFIRMED
+SUMMARY:Cllr Paul Murphy - The old days
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20150215T113000Z
+DTEND:20150215T120000Z
+DTSTAMP:20141227T131544Z
+UID:blp4i1ghcvq8jg4pt4qp9c6iak@google.com
+CREATED:20141226T201425Z
+DESCRIPTION:Talk by {Peter Purton}\, TUC LGBT and Disability Officer.
+LAST-MODIFIED:20141226T203928Z
+LOCATION:
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Winning equality for LGBT people: how trade unions made the differe
+ nce.
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20150215T153000Z
+DTEND:20150215T160000Z
+DTSTAMP:20141227T131544Z
+UID:31u5knlf8o8mm2fifsmtf62v10@google.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=kim@lg
+ bthistoryfestival.org;X-NUM-GUESTS=0:mailto:kim@lgbthistoryfestival.org
+CREATED:20141226T203601Z
+DESCRIPTION:
+LAST-MODIFIED:20141226T203614Z
+LOCATION:
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Linda Bellos
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20150215T141000Z
+DTEND:20150215T144000Z
+DTSTAMP:20141227T131544Z
+UID:f4s3odgcip0774vomgi128l6tc@google.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=kim@lg
+ bthistoryfestival.org;X-NUM-GUESTS=0:mailto:kim@lgbthistoryfestival.org
+CREATED:20141226T203209Z
+DESCRIPTION:At the age of twenty-six\, Eva Gore-Booth was sent to recover f
+ rom illness in the picturesque village of Bordighera in Italy. In the garde
+ n\, standing under an olive tree\, she first met a young English woman\, Es
+ ther Roper. The encounter was to change the two women’s lives forever.  \n\
+ nTalk by Dr {Sonja Tiernan}\, Lecturer in Modern History at Liverpool Hope 
+ University.
+LAST-MODIFIED:20141226T203432Z
+LOCATION:
+SEQUENCE:1
+STATUS:CONFIRMED
+SUMMARY:‘Sappho was right’: the formidable relationship of Eva Gore-Booth a
+ nd Esther Roper
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20150215T113000Z
+DTEND:20150215T120000Z
+DTSTAMP:20141227T131544Z
+UID:vcr8bm883erb76ggi0g8apcq70@google.com
+CREATED:20141226T201353Z
+DESCRIPTION:{Sheila Standard} remembers where she was in 1979 when it was a
+ nnounced an the radio that First Strike\, American Cruise Nuclear missiles 
+ were to be based at Greenham Common USAF Airbase. Like most people she was 
+ gripped with fear and a sense of inevitable disaster\, and felt powerless t
+ o do anything. Then something truely epic happened.... Greenham. 
+LAST-MODIFIED:20141226T202729Z
+LOCATION:
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:A Personal Account of Greenham Common Women’s Peace Camp 1984
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20150215T145000Z
+DTEND:20150215T152000Z
+DTSTAMP:20141227T131544Z
+UID:i8go4jckl8tena0h0k5p5vmgdc@google.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=kim@lg
+ bthistoryfestival.org;X-NUM-GUESTS=0:mailto:kim@lgbthistoryfestival.org
+CREATED:20141226T201757Z
+DESCRIPTION:
+LAST-MODIFIED:20141226T202353Z
+LOCATION:
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Dr Kate Cook
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20150215T160000Z
+DTEND:20150215T164000Z
+DTSTAMP:20141227T131544Z
+UID:1296n3vth7qop4c2vggqp5dnq4@google.com
+CREATED:20141226T202247Z
+DESCRIPTION:
+LAST-MODIFIED:20141226T202247Z
+LOCATION:
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:The Manchester Lesbian and Gay Chorus- performing Bread and Roses
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20150215T150000Z
+DTEND:20150215T160000Z
+DTSTAMP:20141227T131544Z
+UID:5arlt7hs6e91qk4i9he4n7l5nc@google.com
+CREATED:20141226T201924Z
+DESCRIPTION:
+LAST-MODIFIED:20141226T201924Z
+LOCATION:
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Second Tour LGBT PHM permanent collection Catherine O'Donnell
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20150215T133000Z
+DTEND:20150215T143000Z
+DTSTAMP:20141227T131544Z
+UID:ki263mi5fkl2edi1vf57cfurb0@google.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=kim@lg
+ bthistoryfestival.org;X-NUM-GUESTS=0:mailto:kim@lgbthistoryfestival.org
+CREATED:20141226T201206Z
+DESCRIPTION:
+LAST-MODIFIED:20141226T201213Z
+LOCATION:
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:First Tour LGBT PHM permanent collection with Catherine O'Donell
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20150215T110000Z
+DTEND:20150215T120000Z
+DTSTAMP:20141227T131544Z
+UID:7o8ar10lb6i1bnk2q6boff46ug@google.com
+CREATED:20141226T200232Z
+DESCRIPTION:
+LAST-MODIFIED:20141226T200232Z
+LOCATION:
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Launch of History Time
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20150215T103000Z
+DTEND:20150215T123000Z
+DTSTAMP:20141227T131544Z
+UID:9mphtio0dr8cn9ctov3v3b8rvo@google.com
+CREATED:20141226T200135Z
+DESCRIPTION:
+LAST-MODIFIED:20141226T200135Z
+LOCATION:
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Under the Rainbow - Catherine O'Donnell
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20150214T111500Z
+DTEND:20150214T114500Z
+DTSTAMP:20141227T131544Z
+UID:5s2mvij1nh9l2707ejtihdd9q0@google.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=kim@lg
+ bthistoryfestival.org;X-NUM-GUESTS=0:mailto:kim@lgbthistoryfestival.org
+CREATED:20141126T140710Z
+DESCRIPTION:{Julie Parker} is runs of Outhouse London with Mavis Seaman and
+  has been hugely influential in the UK's gay and lesbian theatre scene. Jul
+ ie will talk about her time as Artistic Directer of The Drill Hall and how 
+ things have changed for LGBTQ people in theatre in her 30 years of professi
+ onal theatre practice.
+LAST-MODIFIED:20141226T195401Z
+LOCATION:Space 3
+SEQUENCE:1
+STATUS:CONFIRMED
+SUMMARY:Julie Parker - LGBTQ theatre
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
 DTSTART:20150214T134500Z
 DTEND:20150214T141500Z
-DTSTAMP:20141226T194513Z
+DTSTAMP:20141227T131544Z
 UID:2gv7hbspd8o7ug10krqmk3odm4@google.com
 ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=kim@lg
  bthistoryfestival.org;X-NUM-GUESTS=0:mailto:kim@lgbthistoryfestival.org
@@ -24,7 +367,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART:20150214T111500Z
 DTEND:20150214T114500Z
-DTSTAMP:20141226T194513Z
+DTSTAMP:20141227T131544Z
 UID:ultffs4j15hmgi8md4e93tdrcc@google.com
 CREATED:20141126T140219Z
 DESCRIPTION:{Abigail Ward} is a freelance curator\, writer and DJ with over
@@ -45,7 +388,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART:20150214T103000Z
 DTEND:20150214T110000Z
-DTSTAMP:20141226T194513Z
+DTSTAMP:20141227T131544Z
 UID:1tqbp6o5kfe7d7m1ems41u8sjc@google.com
 ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=kim@lg
  bthistoryfestival.org;X-NUM-GUESTS=0:mailto:kim@lgbthistoryfestival.org
@@ -67,7 +410,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART:20150213T170000Z
 DTEND:20150213T180000Z
-DTSTAMP:20141226T194513Z
+DTSTAMP:20141227T131544Z
 UID:nugm31eushk6dql7lr1kkfoheo@google.com
 ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=kim@lg
  bthistoryfestival.org;X-NUM-GUESTS=0:mailto:kim@lgbthistoryfestival.org
@@ -88,7 +431,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART:20150214T134500Z
 DTEND:20150214T141500Z
-DTSTAMP:20141226T194513Z
+DTSTAMP:20141227T131544Z
 UID:jnfplk6upm6e4e2m3vmpeo3rm8@google.com
 CREATED:20141126T140428Z
 DESCRIPTION:Dr Sarah Parker is an Impact Research Fellow in English Studies
@@ -107,7 +450,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART:20150214T151500Z
 DTEND:20150214T154500Z
-DTSTAMP:20141226T194513Z
+DTSTAMP:20141227T131544Z
 UID:4339p0jqd3bfkip1seqgg88p0o@google.com
 ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=kim@lg
  bthistoryfestival.org;X-NUM-GUESTS=0:mailto:kim@lgbthistoryfestival.org
@@ -125,7 +468,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART:20150214T143000Z
 DTEND:20150214T150000Z
-DTSTAMP:20141226T194513Z
+DTSTAMP:20141227T131544Z
 UID:lied8d2u7mp66tk1jo3m69meb8@google.com
 CREATED:20141126T140451Z
 DESCRIPTION:Razia Aziz -- During a half century which has taken me from Lag
@@ -150,29 +493,9 @@ SUMMARY:Razia Aziz - spiritual journeys
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
-DTSTART:20150214T111500Z
-DTEND:20150214T114500Z
-DTSTAMP:20141226T194513Z
-UID:5s2mvij1nh9l2707ejtihdd9q0@google.com
-ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=kim@lg
- bthistoryfestival.org;X-NUM-GUESTS=0:mailto:kim@lgbthistoryfestival.org
-CREATED:20141126T140710Z
-DESCRIPTION:Julie Parker is runs of Outhouse London with Mavis Seaman and h
- as been hugely influential in the UK's gay and lesbian theatre scene. Julie
-  will talk about her time as Artistic Directer of The Drill Hall and how th
- ings have changed for LGBTQ people in theatre in her 30 years of profession
- al theatre practice.
-LAST-MODIFIED:20141216T173059Z
-LOCATION:Space 3
-SEQUENCE:1
-STATUS:CONFIRMED
-SUMMARY:Julie Parker - LGBTQ theatre
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
 DTSTART:20150214T103000Z
 DTEND:20150214T110000Z
-DTSTAMP:20141226T194513Z
+DTSTAMP:20141227T131544Z
 UID:6a73qulikvaqfv7aouea1k656o@google.com
 CREATED:20141126T135808Z
 DESCRIPTION:Peter Tatchell reflects on his experience of greater public und
@@ -203,7 +526,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART:20150214T130000Z
 DTEND:20150214T133000Z
-DTSTAMP:20141226T194513Z
+DTSTAMP:20141227T131544Z
 UID:od7iba0v2r81mbi80dfkqqgp18@google.com
 CREATED:20141126T140306Z
 DESCRIPTION:Jan Bridget is a 67 year old lesbian from poor\, lower class\, 
@@ -226,7 +549,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART:20150214T160000Z
 DTEND:20150214T163000Z
-DTSTAMP:20141226T194513Z
+DTSTAMP:20141227T131544Z
 UID:5vnrpjjarf00mtt263scqcbj8g@google.com
 ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=kim@lg
  bthistoryfestival.org;X-NUM-GUESTS=0:mailto:kim@lgbthistoryfestival.org
@@ -253,7 +576,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART:20150214T151500Z
 DTEND:20150214T154500Z
-DTSTAMP:20141226T194513Z
+DTSTAMP:20141227T131544Z
 UID:lslnmpua7uu18ufksm3r6ag6dc@google.com
 CREATED:20141126T140517Z
 DESCRIPTION:David Edgley: former twink involved in gay rights – now old cod
@@ -271,7 +594,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART:20150214T143000Z
 DTEND:20150214T150000Z
-DTSTAMP:20141226T194513Z
+DTSTAMP:20141227T131544Z
 UID:vi1466hk2vkk1fo3tc2c9kam8s@google.com
 ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=kim@lg
  bthistoryfestival.org;X-NUM-GUESTS=0:mailto:kim@lgbthistoryfestival.org
@@ -291,7 +614,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART:20150214T134500Z
 DTEND:20150214T141500Z
-DTSTAMP:20141226T194513Z
+DTSTAMP:20141227T131544Z
 UID:kkdbaa8u6ef09pk1b0cfe098ic@google.com
 ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=kim@lg
  bthistoryfestival.org;X-NUM-GUESTS=0:mailto:kim@lgbthistoryfestival.org
@@ -312,7 +635,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART:20150214T130000Z
 DTEND:20150214T133000Z
-DTSTAMP:20141226T194513Z
+DTSTAMP:20141227T131544Z
 UID:10bietmtdr79n84dhsenptvt1c@google.com
 ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=kim@lg
  bthistoryfestival.org;X-NUM-GUESTS=0:mailto:kim@lgbthistoryfestival.org
@@ -331,7 +654,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART:20150214T111500Z
 DTEND:20150214T114500Z
-DTSTAMP:20141226T194513Z
+DTSTAMP:20141227T131544Z
 UID:bgrlhtksii8l63khmi0v2qaock@google.com
 ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=kim@lg
  bthistoryfestival.org;X-NUM-GUESTS=0:mailto:kim@lgbthistoryfestival.org
@@ -348,7 +671,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART:20150214T160000Z
 DTEND:20150214T163000Z
-DTSTAMP:20141226T194513Z
+DTSTAMP:20141227T131544Z
 UID:65g83ppf4h43148rvtc27ihst0@google.com
 CREATED:20141126T140545Z
 DESCRIPTION:
