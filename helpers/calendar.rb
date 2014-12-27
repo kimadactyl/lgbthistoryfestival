@@ -10,9 +10,11 @@ module FestivalCalendar
 
     def initialize(url_array)
       @cals = []
+      @idxs = []
       # Load and sort the array
       url_array.each do |key,url|
         @cals << Icalendar.parse(open(url)).first
+	@idxs << key
       end
       @cals.each do |cal|
         cal.events.sort! { |a,b| a.dtstart <=> b.dtstart }
@@ -40,7 +42,9 @@ module FestivalCalendar
     end
 
     def [] (key)
-      #TODO: Get calendar events by key
+      #Skeleton method to index a Calendar sorter by key.
+      idx = @idxs.index(key)
+      @cals[idx]
     end
 
   end
