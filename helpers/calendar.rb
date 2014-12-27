@@ -8,13 +8,19 @@ module FestivalCalendar
 
   class CalendarSorter
 
-    def initialize(url_array)
+    def initialize(argObject)
       @cals = []
       @idxs = []
-      # Load and sort the array
-      url_array.each do |key,url|
-        @cals << Icalendar.parse(open(url)).first
-	@idxs << key
+
+      #if argument is a hash, treat as URL array
+      if argObject.is_a?(Hash)
+        # Load and sort the array
+        argObject.each do |key,url|
+          @cals << Icalendar.parse(open(url)).first
+      	  @idxs << key
+        end
+      elsif argObject.is_a?(Icalendar::Calendar)
+        @cals << argObject #for creating new Calendar Sorters from old
       end
       @cals.each do |cal|
         cal.events.sort! { |a,b| a.dtstart <=> b.dtstart }
@@ -44,7 +50,7 @@ module FestivalCalendar
     def [] (key)
       #Skeleton method to index a Calendar sorter by key.
       idx = @idxs.index(key)
-      @cals[idx]
+      CalendarSorter.new(@cals[idx])
     end
 
   end
