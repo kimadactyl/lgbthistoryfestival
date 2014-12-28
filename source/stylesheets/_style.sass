@@ -142,6 +142,9 @@ section#branding
     margin-bottom: 0.6em
   img.strapline
     margin-bottom: 0.5em
+  @media #{$small-only}    
+    img.strapline, img.mainlogo
+      max-width: 95%
   img
     display: block
     margin: auto
@@ -156,6 +159,7 @@ section#branding
 .sticky section#branding
   position: fixed
   width: 100%
+  top: 0
   z-index: 1000
   padding: 0em 0 0.75em
   .strapline
@@ -178,34 +182,47 @@ section#branding
     @media #{$medium-only}
       a
         font-size: 100%
-
   h1 img
     display: none
 .sticky.index section#branding
   padding: 0 0 0.75em
 
+@media #{$small-only} 
+  .sticky section#branding, #topborder
+    display: none
+
+.top-bar
+  background: black
+  a
+    text-decoration: none
+  &.expanded .title-area
+    background: black
 
 // Pink triangles at the top
 #topborder
   +border-top-serrated($jaggies, $pink)
   z-index: 1000
 
-// Navigation
-nav#primary
-  margin-top: 1em
+// Common to mobile and main nav
+nav#primary, nav#mobilenav .left
   li
     list-style-type: none
-    display: inline-block
-    margin: 1em 0.25em
-    padding: 0.5em 1em
     background: white
-    +scalloped-border(white)
     a
       text-transform: uppercase
       padding: 0.25em
       color: black
       text-decoration: none
-      font-size: 130%
+      font-size: 130%    
+
+// Main navigation
+nav#primary
+  margin-top: 1em
+  li
+    margin: 1em 0.25em
+    padding: 0.5em 1em  
+    display: inline-block
+    +scalloped-border(white)
   li:hover
     background: white
     +scalloped-border(black)
@@ -215,6 +232,14 @@ nav#primary
   margin-top: 0
 .sticky section#main
   margin-top: 500px
+
+// Mobile navigation
+nav#mobilenav .left
+  li
+    margin: 0em 1em
+  li.active a, li a:hover
+    background-color: $pink
+
 // Padding on copy sections
 section#main section
   padding-top: 2em
@@ -463,7 +488,7 @@ body.index section#main
     padding-bottom: 2em
   section#what-it-is
     background-attachment: fixed
-    background: url("/images/home/badges.jpg")
+    background-image: url("/images/home/badges.jpg")
     -webkit-filter: grayscale(100%)
     -moz-filter: grayscale(100%)
     -ms-filter: grayscale(100%)
@@ -485,6 +510,9 @@ body.index section#main
     h3
       font-size: 230%
       padding: 1.25em 1.5em
+      @media #{$small-only}
+        font-size: 125%
+        padding: 1em 0.25em 0
       font-weight: 600
       color: white
     p
@@ -495,6 +523,9 @@ body.index section#main
     h3
       font-size: 210%
       font-weight: bold 
+      @media #{$small-only}
+        font-size: 125%
+        padding: 1em 0.25em 0      
   section#hosted-at
     text-align: center
     padding-top: 0
@@ -528,9 +559,13 @@ body.index section#main
     margin-top: 2em
 
 .fpi
+  z-index: -1
+  width: 100%
   background-repeat: no-repeat
   background-size: cover !important
-  background-position: fixed
+  background-attachment: fixed
+  @media screen and (-webkit-min-device-pixel-ratio:0)
+    background-attachment: scroll
   height: 25em
   position: relative
   p
@@ -543,18 +578,19 @@ body.index section#main
     margin: 0
     padding: 0 0.5em
 .sat-image
-  background: url("/images/home/library.jpg")
+  background-image: url("/images/home/library.jpg")
+  -webkit-background-size: 1024px 829px
 .sun-image
   // Courtesty Huw on Flickr http://www.flickr.com/photos/littlehuw/8442039623/in/pool-1888270@N20
-  background: url("/images/home/bloodysunday.jpg")
+  background-image: url("/images/home/bloodysunday.jpg")
 .theatre-image
-  background: url("/images/home/theatre.png")
+  background-image: url("/images/home/theatre.png")
 .film-image
-  background: url("/images/home/pride.jpg")
+  background-image: url("/images/home/pride.jpg")
 .family-image
-  background: url("/images/home/sue-schools.jpg")
+  background-image: url("/images/home/sue-schools.jpg")
 .academic-image
-  background: url("/images/home/drawers.jpg")
+  background-image: url("/images/home/drawers.jpg")
 
 a.readmore-js-toggle
   background-color: #CBCBCB

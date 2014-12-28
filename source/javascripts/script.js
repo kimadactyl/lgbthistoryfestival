@@ -1,3 +1,14 @@
+$(document).foundation({
+  "magellan-expedition": {
+    throttle_delay: 50,
+    // FIX THIS! 
+    // Should get it from jQuery. For some reason $('#branding').outerHeight() 
+    // isn't giving the right height.
+    fixed_top: 115,
+    threshold: 0
+  }
+});
+
 // Navigation
 $(window).scroll(function() {
 // If the current scroll position is more than the branding height minus the nav height,
@@ -42,7 +53,7 @@ $(window).stellar({
 });
 
 // Readmore dropdowns
-$('article').readmore({
+$('.index article').readmore({
   speed: 75,
   maxHeight: 0,
   moreLink: '<a href="#">Learn More</a>',
