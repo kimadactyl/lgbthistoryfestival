@@ -63,22 +63,23 @@ p
   strong
     font-weight: 600
 // Various fancy borders for h3/h2 elements
-.longborder
-  background: url('/images/icons/longborder.svg')
-  background-repeat: no-repeat
-  background-position: 50%
-  margin-bottom: 1em
-  padding: 8px 0
+@media #{$medium-up}  
+  .longborder
+    background: url('/images/icons/longborder.svg')
+    background-repeat: no-repeat
+    background-position: 50%
+    margin-bottom: 1em
+    padding: 8px 0
 
-
-.chevronborder
-  // SVG is playing up, not sure why
-  background: url('/images/icons/chevronborder.png')
-  background-size: 100%
-  background-repeat: no-repeat
-  background-position: 50%
-  margin-bottom: 1em
-  padding: 8px 0
+@media #{$medium-up}  
+  .chevronborder
+    // SVG is playing up, not sure why
+    background: url('/images/icons/chevronborder.png')
+    background-size: 100%
+    background-repeat: no-repeat
+    background-position: 50%
+    margin-bottom: 1em
+    padding: 8px 0
 
 h3.scallopedborder
   // background-image: url('/images/icons/scallopedborder.svg')
@@ -188,7 +189,7 @@ section#branding
   padding: 0 0 0.75em
 
 @media #{$small-only} 
-  .sticky section#branding, #topborder
+  .sticky section#branding
     display: none
 
 .top-bar
