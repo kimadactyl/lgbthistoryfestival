@@ -134,7 +134,8 @@ section.pink
 
 // Branding
 section#branding
-  padding: 3.5em 0 0.25em 0
+  padding: 3.5em 0 0 0
+  margin-bottom: 0.25em
   @media #{$small-only}
     padding: 5em 0 2.25em
   text-align: center
@@ -200,9 +201,13 @@ section#branding
     background: black
 
 // Pink triangles at the top
-#topborder
-  +border-top-serrated($jaggies, $pink)
-  z-index: 1000
+@media #{$medium-up} 
+  body:not(.index) #topborder
+    +border-bottom-serrated($jaggies, white)
+    z-index: 1000
+  .index #topborder
+    +border-top-serrated($jaggies, $pink)
+    z-index: 1000
 
 // Common to mobile and main nav
 nav#primary, nav#mobilenav .left
