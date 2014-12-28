@@ -55,12 +55,6 @@ $('article').readmore({
 
 // Calendar
 $( document ).ready(function() {
-  // Hide the extended defs
-  $("ul.program .description").hide();
-  // Hide the conference initially
-  $("ul.program .conference").toggle();
-  // Toggle off the conference button
-  $("ul.key .conference").toggleClass('disabled');
 
   // Check to see if any rows are empty and hide the times
   function checkBlanks(){
@@ -72,8 +66,6 @@ $( document ).ready(function() {
       }
     })
   }
-  checkBlanks();
-
   // Wire up buttons to trigger appropriate sections
   function toggleProgram($trigger, $element){
     $trigger.click(function(){
@@ -88,11 +80,6 @@ $( document ).ready(function() {
       checkBlanks();
     })
   }
-  toggleProgram($("ul.key .main-festival"), $("ul.program .main-festival"));
-  toggleProgram($("ul.key .family-space"), $("ul.program .family-space"));
-  toggleProgram($("ul.key .films"), $("ul.program .films"));
-  toggleProgram($("ul.key .theatre"), $("ul.program .theatre"));
-  toggleProgram($("ul.key .conference"), $("ul.program .conference"));
 
   // Check for click events on expanded/contracted selector
   $("input[name='expanded']").click(function() {
@@ -113,4 +100,20 @@ $( document ).ready(function() {
     $('span.status i', this).toggleClass('fi-check');
     $('span.status i', this).toggleClass('fi-x');
   });
+
+  // Hide the extended defs
+  $("ul.program .description").hide();
+
+  // MAIN SCHEDULE LOGIC
+  toggleProgram($("ul.key .main-festival"), $("ul.program .main-festival"));
+  toggleProgram($("ul.key .family-space"), $("ul.program .family-space"));
+  toggleProgram($("ul.key .films"), $("ul.program .films"));
+  toggleProgram($("ul.key .theatre"), $("ul.program .theatre"));
+  toggleProgram($("ul.key .conference"), $("ul.program .conference"));  
+
+  // Hide the conference initially
+  $(".schedule ul.program .conference").toggle();
+  // Toggle off the conference button
+  $(".schedule ul.key .conference").toggleClass('disabled');
+  checkBlanks();
 });

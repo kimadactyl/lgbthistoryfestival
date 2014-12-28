@@ -1,7 +1,8 @@
 require 'icalendar'
 module FestivalCalendar
   # Constant, accessible from any page/layout as FestivalCalendar::DAYS
-  DAYS = {  "Thursday" => Time.new(2015,2,12),
+  # "Thursday" => Time.new(2015,2,12),
+  DAYS = {  
             "Friday" => Time.new(2015,2,13),
             "Saturday" => Time.new(2015,2,14),
             "Sunday" => Time.new(2015,2,15) }
@@ -56,10 +57,12 @@ module FestivalCalendar
   end
 
   # Again, constant, accessible from any page/layout as FestivalCalendar::POPULAR
+  # "Films" => "ical/films.ics",
   POPULAR = CalendarSorter.new({
               "Main Festival" => "ical/main.ics",
               "Family Space" => "ical/family-space.ics",
-              "Films" => "ical/films.ics",
               "Theatre" => "ical/theatre.ics",
               "Conference" => "ical/academic.ics"})
+  
+  ACADEMIC = CalendarSorter.new({"Conference" => "ical/academic.ics"})
 end

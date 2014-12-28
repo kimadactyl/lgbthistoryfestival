@@ -4,17 +4,60 @@ title: What is & How to DO LGBT History?
 
 %section
   .row
-    .large-12.columns
+    .small-12.columns
       %h1 The 2nd What is &amp; How to Do LGBT History Conference 
       %h2 Methods, Subjects, &amp; Approaches
 %section.pink
   .row
-    .large-8.columns
+    .medium-8.columns
       :markdown
         ### About the conference
         Despite the increasing popular demand for "LGBT History" in Britain, the history of attitudes towards sex and gender diversity in the UK remains an underdeveloped field, especially in comparison with the advances that have been made in the United States. An important part of the 10th anniversary celebrations of LGBT History month is to lead and develop the growing discourse into past attitudes towards sex and gender diversity within the academy and among the general public.
-
-        The academic conference 'What is & How to DO LGBT History?' is part of the Festival, and seeks to place attitudes, experiences and identities in their historical context. In doing so, we hope to uncover and understand regional, temporal and ideological differences in past attitudes towards genderand sex. We are delighted to announce that many of the LGBT HM Distinguished Academic Patrons will be in attendance and contributing to the event. The organisers of "What is & How to Do LGBT History?" conference invite twenty minute papers or three paper panels on the following range of broad topics and their relationship to the study of past attitudes towards sex, and gender diversity.
+    .medium-4.columns
+      %h3 Registration
+      %p <i class="fi-ticket"></i> <a href="http://crm.lgbthistoryfestival.org/civicrm/event/info?reset=1&id=2">Go to our registration site to sign up!</a>
+      %h3
+      %p 
+        <i class="fi-download"></i> <a href="/attachments/academic-programme.pdf">Conference program [pdf]</a>
+        %br 
+        <i class="fi-page"></i> <a href="/attachments/academic-programme.doc">Conference program [doc]</a>
+%section
+  .row
+    .small-12.columns.text-center
+      %form.schedule-type
+        %input{:type => "radio", :name => "expanded", :id => "s-compact", :value => "0", :checked => "checked"}      
+        %label{:for => "s-compact"}        
+          <i class="fi-arrows-compress"></i> Compact
+        %input{:type => "radio", :name => "expanded", :id => "s-expanded", :value => "1"}
+        %label{:for => "s-expanded"}
+          <i class="fi-arrows-expand"></i> Expanded
+  .row
+    .small-12.columns
+      %ul.schedule.program
+        - days = FestivalCalendar::DAYS
+        - days.each do |day, time|
+          %h2= day
+          - academic = FestivalCalendar::ACADEMIC
+          - academic.get_start_times(time).each do |time|
+            .timegroup
+              %h3.time= time.dtstart.strftime("%H:%M")
+              .timeblock
+                - eventlists = academic.get_events(time)
+                - eventlists.each do |list,events|
+                  - events.each do |event|
+                    %li{:class => "#{list.to_s.parameterize} #{'has-description' if event.description.present?}"}
+                      %strong
+                        = event.summary
+                        = ' &hellip;' if event.description.present?
+                      - duration = ((event.dtend - event.dtstart)/60).to_i
+                      %em.duration= "(#{duration} mins)"
+                      %div.description
+                        = parseEvent(Kramdown::Document.new(event.description).to_html)
+%section.pink
+  .row
+    .medium-8.columns
+      :markdown
+        ### Topics
 
          * Archival research and the uncovering of source materials
          * The influence of other disciplines on historical study
@@ -29,15 +72,7 @@ title: What is & How to DO LGBT History?
         ### Venue
         We are pleased to announce that the conference will be hosted at The LGF Conference Venue, 5 Richmond St, Manchester. [More information about the venue is on the LGF website](http://www.lgf.org.uk/for-professionals/room-hire/).
 
-        ### Contact
-         * For paper submissions, please contact [lgbthmaap@gmail.com](mailto:lgbthmaap@gmail.com). 
-         * For any other enquiries, please contact [academics@schools-out.org.uk](mailto:academics@schools-out.org.uk).
-
-    .large-4.columns
-      %h3 Registration
-      %p <i class="fi-ticket"></i> Registration is now open. <a href="http://crm.lgbthistoryfestival.org/civicrm/event/info?reset=1&id=2">Go to our registration site to sign up!</a>
-      %h3
-      %p <i class="fi-download"></i> <a href="/attachments/academic-programme.pdf">Download the program for the conference.</a> Full site coming soon.
+    .medium-4.columns
       %h3 Academic Patrons 
       %h5 (History &amp Archeology)
       :markdown
@@ -47,3 +82,10 @@ title: What is & How to DO LGBT History?
         * [Shelia Rowbotham](http://www.manchester.ac.uk/research/sheila.rowbotham/publications) (Professor, School of Social Sciences, Manchester University)
         * [Charles Upchurch](http://history.fsu.edu/People/Faculty-by-Name/Charles-Upchurch) (Associate Professor of History, Florida State University)
         * [Jeffrey Weeks](http://www.lsbu.ac.uk/about-us/people-finder/prof-jeffrey-weeks) (Research Professor, Arts and Human Sciences, South Bank University).
+
+%section{:style => "margin-bottom: 6em"}
+  .row
+    .small-12.columns
+      :markdown
+        ### Contact
+         * All enquiries: [academics@schools-out.org.uk](mailto:academics@schools-out.org.uk).
