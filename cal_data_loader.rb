@@ -39,7 +39,7 @@ else
                                "pic" => "",
                                "urlname" => parameterize(name),
                                "events" => [event.uid.to_s]}
-        elsif contribs[name]["events"].include?(event.uid)
+        elsif !contribs[name]["events"].include?(event.uid)
           #add event to existing entry
           contribs[name]["events"].push(event.uid.to_s)
         end
