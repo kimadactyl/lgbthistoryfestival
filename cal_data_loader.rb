@@ -1,6 +1,6 @@
 #!/usr/bin/env ruby
 # usage: cal_data_loader.rb [clean]
-#  - clean clears contrib data file
+#  - clean clears contributor data file
 
 require 'icalendar'
 require 'yaml'
@@ -14,6 +14,11 @@ ICALS = {"main-festival" => "ical/main.ics",
 
 CONTRIB_FILE = "data/contribs.yml"
 
+def parameterize string
+  #avoiding requiring rails for such a simple script, for now
+  string.downcase.split(" ").join("-")
+end
+
 if ARGV[0] == "clean"
   File.open(CONTRIB_FILE, 'w') {|f| f.write ""}
 else
@@ -25,15 +30,18 @@ else
     ical = Icalendar.parse(open(ics)).first
     ical.events.each do |event|
       contributors = event.description.scan(CONTRIB_REGEX)
-      contributors.each do |contrib|
-        contrib = contrib[1..-2]
-        if !contribs.has_key?(contrib)
+      contributors.each do |name|
+        name = name[1..-2] # cut off curly braces
+        if !contribs.has_key?(name)
           #don't overwrite existing records
           #init new entry
-          contribs[contrib] = {"bio" => nil,
-                               "pic" => nil,
-                               "urlname" => "TODO:script urlification",
-                               "events" => event.uid.to_s}
+          contribs[name] = {"bio" => "",
+                               "pic" => "",
+                               "urlname" => parameterize(name),
+                               "events" => [event.uid.to_s]}
+        elsif contribs[name]["events"].include?(event.uid)
+          #add event to existing entry
+          contribs[name]["events"].push(event.uid.to_s)
         end
       end
     end
