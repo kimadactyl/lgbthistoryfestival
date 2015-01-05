@@ -16,4 +16,9 @@ module CustomHelpers
   #/queenp
     eventText.gsub(/\{[^\{]*\}/) {|speaker| contrib_linker(speaker[1..-2])}
   end
+  def contribs_AZ()
+    #really just a low functionality stub
+    #sort list of contributor data by contributor surname
+    data.contribs.sort_by {|key,_| key.split(" ")[-1].downcase}
+  end
 end
