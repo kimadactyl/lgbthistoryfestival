@@ -6,9 +6,177 @@ METHOD:PUBLISH
 X-WR-CALNAME:Main Festival
 X-WR-TIMEZONE:Europe/London
 BEGIN:VEVENT
+DTSTART:20150215T180000Z
+DTEND:20150215T190000Z
+DTSTAMP:20150106T234831Z
+UID:ki263mi5fkl2edi1vf57cfurb0@google.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=kim@lg
+ bthistoryfestival.org;X-NUM-GUESTS=0:mailto:kim@lgbthistoryfestival.org
+CREATED:20141226T201206Z
+DESCRIPTION:Join {Catherine O’Donnell} on a tour of the People's History Mu
+ seum’s main galleries and discover how attitudes towards gender and sexuali
+ ty have been affected by society\, politics and activism over the past 200 
+ years.  \nSuitable for adults and young people\nIn order to keep our events
+  programme affordable to everyone\, please make a donation\nSuggested donat
+ ion £3\n
+LAST-MODIFIED:20150106T234146Z
+LOCATION:Meeting Main exhibition space
+SEQUENCE:1
+STATUS:CONFIRMED
+SUMMARY:LGBT History Tour
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20150215T194000Z
+DTEND:20150215T204000Z
+DTSTAMP:20150106T234831Z
+UID:5arlt7hs6e91qk4i9he4n7l5nc@google.com
+CREATED:20141226T201924Z
+DESCRIPTION:Join {Catherine O’Donnell} on a tour of the People's History Mu
+ seum’s main galleries and discover how attitudes towards gender and sexuali
+ ty have been affected by society\, politics and activism over the past 200 
+ years.  \nSuitable for adults and young people\nIn order to keep our events
+  programme affordable to everyone\, please make a donation\nSuggested donat
+ ion £3\n
+LAST-MODIFIED:20150106T234129Z
+LOCATION:Meeting Main exhibition space
+SEQUENCE:1
+STATUS:CONFIRMED
+SUMMARY:LGBT History Tour
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20150215T200000Z
+DTEND:20150215T210000Z
+DTSTAMP:20150106T234831Z
+UID:0vnfsdjti2ekrueoo1nn5fqtsc@google.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=kim@lg
+ bthistoryfestival.org;X-NUM-GUESTS=0:mailto:kim@lgbthistoryfestival.org
+CREATED:20141223T101250Z
+DESCRIPTION:Meet in the Foyer and walk through the main exhibition space to
+  explore items in the permanent collection that relate to LGBT history.
+LAST-MODIFIED:20150106T234114Z
+LOCATION:Meet in the Foyer and walk through the main exhibition space. 
+SEQUENCE:1
+STATUS:CONFIRMED
+SUMMARY:Second Tour LGBT People's History Museum permanent collection Cathe
+ rine O'Donnell
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20150215T183000Z
+DTEND:20150215T193000Z
+DTSTAMP:20150106T234831Z
+UID:o58e687o3k0odj605pivbsvri0@google.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=kim@lg
+ bthistoryfestival.org;X-NUM-GUESTS=0:mailto:kim@lgbthistoryfestival.org
+CREATED:20141223T101119Z
+DESCRIPTION:Meet in the Foyer and walk through the main exhibition space to
+  explore items in the permanent collection that relate to LGBT history.
+LAST-MODIFIED:20150106T234100Z
+LOCATION:Meet in the Foyer and walk through the main exhibition space
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:First Tour LGBT People's History Museum permanent collection with C
+ atherine O'Donnell
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20150214T111500Z
+DTEND:20150214T114500Z
+DTSTAMP:20150106T234831Z
+UID:5s2mvij1nh9l2707ejtihdd9q0@google.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=kim@lg
+ bthistoryfestival.org;X-NUM-GUESTS=0:mailto:kim@lgbthistoryfestival.org
+CREATED:20141126T140710Z
+DESCRIPTION:{Julie Parker} runs of Outhouse London with Mavis Seaman and ha
+ s been hugely influential in the UK's gay and lesbian theatre scene. Julie 
+ will talk about her time as Artistic Directer of The Drill Hall and how thi
+ ngs have changed for LGBTQ people in theatre in her 30 years of professiona
+ l theatre practice.
+LAST-MODIFIED:20150106T233602Z
+LOCATION:Space 3
+SEQUENCE:1
+STATUS:CONFIRMED
+SUMMARY:Julie Parker - LGBTQ theatre
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20150216T045000Z
+DTEND:20150216T052000Z
+DTSTAMP:20150106T234831Z
+UID:hoios09purqlqdnutmrothpom0@google.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=kim@lg
+ bthistoryfestival.org;X-NUM-GUESTS=0:mailto:kim@lgbthistoryfestival.org
+CREATED:20141223T092148Z
+DESCRIPTION:In the early 1800's there was a vibrant social and sexual scene
+  for men which revolved around the house of Isaac Hitchen in Great Sankey n
+ ear Warrington. Meeting places like this were known as ‘molly’ houses in th
+ e parlance of the day. In May of 1806 a large group of the men were arreste
+ d following a raid on the house. Some escaped\, but many of them were charg
+ ed with ‘sodomy’ or an ‘unnatural crime\,’ which in England carried the dea
+ th penalty from the 1530's until 1861. In September of 1806\, five of the m
+ en\, including Hitchen himself\, were sentenced to death by hanging. There 
+ is a Preston based LGBT community project named in his memory. \n\n"Isaac H
+ itchen's House" tells the story of these men\, the investigation\, and the 
+ attitudes of the authorities\, in song. Written and performed by Eleanor Le
+ vin\, Nina George and Scott Millington of the Grievous Angels as part of La
+ ncaster's 'Documenting Dissent' project led by Global Link with grateful ac
+ knowledgement to Harry Cocks\, Richard Norton and the Lancashire Archives.\
+ n \nEleanor\, Nina and Scott’s first musical foray together was in 2005 as 
+ part of ‘The Mistresses of the Ten Minute Musical’ and led them to be instr
+ umental in the foundation of the Grievous Angels\, a solidarity-folk collec
+ tive which was based in Lancaster. They are currently working on a project 
+ of songs based on Lancaster’s local history\, and developing their own orig
+ inal works.  \n\n[Website address of the song](http://www.documentingdissen
+ t.org.uk/?p=15521) \n[Documenting Dissent's homepage](http://www.documentin
+ gdissent.org.uk/)\n
+LAST-MODIFIED:20150106T233208Z
+LOCATION:Mini Theatre space
+SEQUENCE:1
+STATUS:CONFIRMED
+SUMMARY:Isaac Hitchen Song ( A Lanchashire Tale) 
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20150215T163000Z
+DTEND:20150215T170000Z
+DTSTAMP:20150106T234831Z
+UID:7egb3jg34cbnvmm967trpvob88@google.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=kim@lg
+ bthistoryfestival.org;X-NUM-GUESTS=0:mailto:kim@lgbthistoryfestival.org
+CREATED:20141223T093447Z
+DESCRIPTION:Sheila Standard remembers where she was in 1979 when it was ann
+ ounced on the radio that First Strike\, American Cruise Nuclear missiles we
+ re to be based at Greenham Common USAF Airbase. Like most people she was gr
+ ipped with fear and a sense of inevitable disaster\, and felt powerless to 
+ do anything. The worst bit was her mum lived near Greenham\, and would 'get
+  it first!' However\, the feeling of powerlessness did not last for long. A
+ ll over the country people started to organise into anti missile groups\, a
+ nd she joined Withington Against the Missiles\, a local group in Manchester
+ \, and accidentally got involved in an NVDA(Non Violent Direct Action) prot
+ est becoming one of the "Bunker 4". \n\nThen something truely epic happened
+ .... Greenham. \nThis is a very personal reflection of one of thousands of 
+ women discovering the power of working together\, singing\, being silly\, t
+ he wit and repartee\, fear and bravery\, that goes with bringing fences cra
+ shing down\, to the mockery of militarism. \nA woman's movement\, that conf
+ licted and then embraced sexuality\, and stood up to the hateful press\, an
+ d "respectable society"\, embracing freedom\, and our right to struggle aga
+ inst the holocaust. \nIt is also a story of how women all over the country 
+ embraced Greenham and supported the Greenham Women's Camps\, and some of th
+ e triumphs and also  low ebbs of this anarchic protest. \n
+LAST-MODIFIED:20150106T233033Z
+LOCATION:Changing Exhibition Space
+SEQUENCE:1
+STATUS:CONFIRMED
+SUMMARY:Sheila Standard-A Personal Account of Greenham Common Women’s Peace
+  Camp 1984
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
 DTSTART:20150215T165000Z
 DTEND:20150215T173000Z
-DTSTAMP:20150106T232201Z
+DTSTAMP:20150106T234831Z
 UID:ijho8rsqpjbnnpj4r73k35dgpc@google.com
 CREATED:20150106T171458Z
 DESCRIPTION:In the early 1800s there was a vibrant social and sexual scene 
@@ -44,7 +212,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART:20150215T195000Z
 DTEND:20150215T201000Z
-DTSTAMP:20150106T232201Z
+DTSTAMP:20150106T234831Z
 UID:6cp3pm2ap1pbegufvk5vvh1q5s@google.com
 ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=kim@lg
  bthistoryfestival.org;X-NUM-GUESTS=0:mailto:kim@lgbthistoryfestival.org
@@ -63,7 +231,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART:20150215T195000Z
 DTEND:20150215T202000Z
-DTSTAMP:20150106T232201Z
+DTSTAMP:20150106T234831Z
 UID:20f4bdoc358dav66dbclejjuog@google.com
 ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=kim@lg
  bthistoryfestival.org;X-NUM-GUESTS=0:mailto:kim@lgbthistoryfestival.org
@@ -87,7 +255,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART:20150214T130000Z
 DTEND:20150214T133000Z
-DTSTAMP:20150106T232201Z
+DTSTAMP:20150106T234831Z
 UID:od7iba0v2r81mbi80dfkqqgp18@google.com
 CREATED:20141126T140306Z
 DESCRIPTION:{Jan Bridget} is a 67 year old lesbian from a poor\, lower clas
@@ -110,7 +278,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART:20150215T200000Z
 DTEND:20150215T205000Z
-DTSTAMP:20150106T232201Z
+DTSTAMP:20150106T234831Z
 UID:630sqjdt7s6ukf1hvnbuums8ro@google.com
 ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=kim@lg
  bthistoryfestival.org;X-NUM-GUESTS=0:mailto:kim@lgbthistoryfestival.org
@@ -127,7 +295,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART:20150215T190000Z
 DTEND:20150215T195000Z
-DTSTAMP:20150106T232201Z
+DTSTAMP:20150106T234831Z
 UID:0ai1eove8gtp2cbjfmchefe8qg@google.com
 ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=kim@lg
  bthistoryfestival.org;X-NUM-GUESTS=0:mailto:kim@lgbthistoryfestival.org
@@ -143,44 +311,9 @@ SUMMARY:Stephen Boyce: Schools Out Workshop\, What is a Diversity lesson fo
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
-DTSTART:20150215T163000Z
-DTEND:20150215T170000Z
-DTSTAMP:20150106T232201Z
-UID:7egb3jg34cbnvmm967trpvob88@google.com
-ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=kim@lg
- bthistoryfestival.org;X-NUM-GUESTS=0:mailto:kim@lgbthistoryfestival.org
-CREATED:20141223T093447Z
-DESCRIPTION:Sheila remembers where she was in 1979 when it was announced on
-  the radio that First Strike\, American Cruise Nuclear missiles were to be 
- based at Greenham Common USAF Airbase. Like most people she was gripped wit
- h fear and a sense of inevitable disaster\, and felt powerless to do anythi
- ng. The worst bit was her mum lived near Greenham\, and would 'get it first
- !' However\, the feeling of powerlessness did not last for long. All over t
- he country people started to organise into anti missile groups\, and she jo
- ined Withington Against the Missiles\, a local group in Manchester\, and ac
- cidentally got involved in an NVDA(Non Violent Direct Action) protest becom
- ing one of the "Bunker 4". \n\nThen something truely epic happened.... Gree
- nham. \nThis is a very personal reflection of one of thousands of women dis
- covering the power of working together\, singing\, being silly\, the wit an
- d repartee\, fear and bravery\, that goes with bringing fences crashing dow
- n\, to the mockery of militarism. \nA woman's movement\, that conflicted an
- d then embraced sexuality\, and stood up to the hateful press\, and "respec
- table society"\, embracing freedom\, and our right to struggle against the 
- holocaust. \nIt is also a story of how women all over the country embraced 
- Greenham and supported the Greenham Women's Camps\, and some of the triumph
- s and also  low ebbs of this anarchic protest. \n
-LAST-MODIFIED:20150106T173018Z
-LOCATION:Changing Exhibition Space
-SEQUENCE:1
-STATUS:CONFIRMED
-SUMMARY:Sheila Standard-A Personal Account of Greenham Common Women’s Peace
-  Camp 1984
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
 DTSTART:20150215T190000Z
 DTEND:20150215T195000Z
-DTSTAMP:20150106T232201Z
+DTSTAMP:20150106T234831Z
 UID:j128lt55rvkosi0osgqofef400@google.com
 CREATED:20150106T172848Z
 DESCRIPTION:‘All The Nice Girls’ takes an entertaining glimpse at the lives
@@ -215,7 +348,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART:20150215T210000Z
 DTEND:20150215T220000Z
-DTSTAMP:20150106T232201Z
+DTSTAMP:20150106T234831Z
 UID:gf4pua0vdjeaa6rgmabrr3flqo@google.com
 ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=kim@lg
  bthistoryfestival.org;X-NUM-GUESTS=0:mailto:kim@lgbthistoryfestival.org
@@ -233,7 +366,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART:20150215T203000Z
 DTEND:20150215T210000Z
-DTSTAMP:20150106T232201Z
+DTSTAMP:20150106T234831Z
 UID:1q3ql1qapk57jko4jjlki2meq8@google.com
 ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=kim@lg
  bthistoryfestival.org;X-NUM-GUESTS=0:mailto:kim@lgbthistoryfestival.org
@@ -258,7 +391,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART:20150215T180000Z
 DTEND:20150215T190000Z
-DTSTAMP:20150106T232201Z
+DTSTAMP:20150106T234831Z
 UID:h99tu1lea4jr13mena5qqmjr8c@google.com
 ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=kim@lg
  bthistoryfestival.org;X-NUM-GUESTS=0:mailto:kim@lgbthistoryfestival.org
@@ -276,46 +409,9 @@ SUMMARY:A Very Victorian Scandal (Part 3)
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
-DTSTART:20150216T045000Z
-DTEND:20150216T052000Z
-DTSTAMP:20150106T232201Z
-UID:hoios09purqlqdnutmrothpom0@google.com
-ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=kim@lg
- bthistoryfestival.org;X-NUM-GUESTS=0:mailto:kim@lgbthistoryfestival.org
-CREATED:20141223T092148Z
-DESCRIPTION:In the early 1800's there was a vibrant social and sexual scene
-  for men which revolved around the house of Isaac Hitchen in Great Sankey n
- ear Warrington. Meeting places like this were known as ‘molly’ houses in th
- e parlance of the day. In May of 1806 a large group of the men were arreste
- d following a raid on the house. Some escaped\, but many of them were charg
- ed with ‘sodomy’ or an ‘unnatural crime\,’ which in England carried the dea
- th penalty from the 1530's until 1861. In September of 1806\, five of the m
- en\, including Hitchen himself\, were sentenced to death by hanging. There 
- is a Preston based LGBT community project named in his memory. \n\n"Isaac H
- itchen's House" tells the story of these men\, the investigation\, and the 
- attitudes of the authorities\, in song. Written and performed by Eleanor Le
- vin\, Nina George and Scott Millington of the Grievous Angels as part of La
- ncaster's 'Documenting Dissent' project led by Global Link with grateful ac
- knowledgement to Harry Cocks\, Richard Norton and the Lancashire Archives.\
- n \nEleanor\, Nina and Scott’s first musical foray together was in 2005 as 
- part of ‘The Mistresses of the Ten Minute Musical’ and led them to be instr
- umental in the foundation of the Grievous Angels\, a solidarity-folk collec
- tive which was based in Lancaster. They are currently working on a project 
- of songs based on Lancaster’s local history\, and developing their own orig
- inal works.  \n\nwebsite address of the song - http://www.documentingdissen
- t.org.uk/?p=15521 and a link/address of/to the Documenting Dissent's homepa
- ge - http://www.documentingdissent.org.uk/\n
-LAST-MODIFIED:20150106T171312Z
-LOCATION:Mini Theatre space
-SEQUENCE:1
-STATUS:CONFIRMED
-SUMMARY:Isaac Hitchen Song ( A Lanchashire Tale) 
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
 DTSTART:20150215T160000Z
 DTEND:20150215T173000Z
-DTSTAMP:20150106T232201Z
+DTSTAMP:20150106T234831Z
 UID:gufe0j255eqs354728q32suua4@google.com
 ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=kim@lg
  bthistoryfestival.org;X-NUM-GUESTS=0:mailto:kim@lgbthistoryfestival.org
@@ -330,47 +426,9 @@ SUMMARY:Under the Rainbow- Catherine O'Donnell
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
-DTSTART:20150215T194000Z
-DTEND:20150215T204000Z
-DTSTAMP:20150106T232201Z
-UID:5arlt7hs6e91qk4i9he4n7l5nc@google.com
-CREATED:20141226T201924Z
-DESCRIPTION:Join Catherine O’Donnell on a tour of the PHM’s main galleries 
- and discover how attitudes towards gender and sexuality have been affected 
- by society\, politics and activism over the past 200 years.  \nSuitable for
-  adults and young people\nIn order to keep our events programme affordable 
- to everyone\, please make a donation\nSuggested donation £3\n
-LAST-MODIFIED:20150106T170938Z
-LOCATION:Meeting Main exhibition space
-SEQUENCE:1
-STATUS:CONFIRMED
-SUMMARY:LGBT History Tour
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-DTSTART:20150215T180000Z
-DTEND:20150215T190000Z
-DTSTAMP:20150106T232201Z
-UID:ki263mi5fkl2edi1vf57cfurb0@google.com
-ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=kim@lg
- bthistoryfestival.org;X-NUM-GUESTS=0:mailto:kim@lgbthistoryfestival.org
-CREATED:20141226T201206Z
-DESCRIPTION:Join Catherine O’Donnell on a tour of the PHM’s main galleries 
- and discover how attitudes towards gender and sexuality have been affected 
- by society\, politics and activism over the past 200 years.  \nSuitable for
-  adults and young people\nIn order to keep our events programme affordable 
- to everyone\, please make a donation\nSuggested donation £3\n
-LAST-MODIFIED:20150106T170708Z
-LOCATION:Meeting Main exhibition space
-SEQUENCE:1
-STATUS:CONFIRMED
-SUMMARY:LGBT History Tour
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
 DTSTART:20150215T121000Z
 DTEND:20150215T125000Z
-DTSTAMP:20150106T232201Z
+DTSTAMP:20150106T234831Z
 UID:28hlep3bop73dghqde7hjo3444@google.com
 ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=kim@lg
  bthistoryfestival.org;X-NUM-GUESTS=0:mailto:kim@lgbthistoryfestival.org
@@ -391,7 +449,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART:20150215T110000Z
 DTEND:20150215T120000Z
-DTSTAMP:20150106T232201Z
+DTSTAMP:20150106T234831Z
 UID:7o8ar10lb6i1bnk2q6boff46ug@google.com
 CREATED:20141226T200232Z
 DESCRIPTION:
@@ -403,26 +461,9 @@ SUMMARY:Launch of History Time
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
-DTSTART:20150215T200000Z
-DTEND:20150215T210000Z
-DTSTAMP:20150106T232201Z
-UID:0vnfsdjti2ekrueoo1nn5fqtsc@google.com
-ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=kim@lg
- bthistoryfestival.org;X-NUM-GUESTS=0:mailto:kim@lgbthistoryfestival.org
-CREATED:20141223T101250Z
-DESCRIPTION:Meet in the Foyer and walk through the main exhibition space to
-  explore items in the permanent collection that relate to LGBT history.
-LAST-MODIFIED:20150106T170041Z
-LOCATION:Meet in the Foyer and walk through the main exhibition space. 
-SEQUENCE:1
-STATUS:CONFIRMED
-SUMMARY:Second Tour LGBT PHM permanent collection Catherine O'Donnell
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
 DTSTART:20150215T203000Z
 DTEND:20150215T210000Z
-DTSTAMP:20150106T232201Z
+DTSTAMP:20150106T234831Z
 UID:hj0cq2ivihpalkqj694gf99288@google.com
 ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=kim@lg
  bthistoryfestival.org;X-NUM-GUESTS=0:mailto:kim@lgbthistoryfestival.org
@@ -449,7 +490,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART:20150215T203000Z
 DTEND:20150215T210000Z
-DTSTAMP:20150106T232201Z
+DTSTAMP:20150106T234831Z
 UID:k5457mnhq24isqp4dc7lf5k84g@google.com
 ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=kim@lg
  bthistoryfestival.org;X-NUM-GUESTS=0:mailto:kim@lgbthistoryfestival.org
@@ -465,7 +506,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART:20150215T195000Z
 DTEND:20150215T202000Z
-DTSTAMP:20150106T232201Z
+DTSTAMP:20150106T234831Z
 UID:b2022von6fts2lfjcqa75lmfm0@google.com
 ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=kim@lg
  bthistoryfestival.org;X-NUM-GUESTS=0:mailto:kim@lgbthistoryfestival.org
@@ -481,7 +522,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART:20150215T190000Z
 DTEND:20150215T193000Z
-DTSTAMP:20150106T232201Z
+DTSTAMP:20150106T234831Z
 UID:7ujg8gvrt56j63tfj73gj6kas4@google.com
 ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=kim@lg
  bthistoryfestival.org;X-NUM-GUESTS=0:mailto:kim@lgbthistoryfestival.org
@@ -521,7 +562,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART:20150215T190000Z
 DTEND:20150215T193000Z
-DTSTAMP:20150106T232201Z
+DTSTAMP:20150106T234831Z
 UID:5ip92h26sfn4qm8r0skcdjmegg@google.com
 ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=kim@lg
  bthistoryfestival.org;X-NUM-GUESTS=0:mailto:kim@lgbthistoryfestival.org
@@ -540,7 +581,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART:20150215T172000Z
 DTEND:20150215T175000Z
-DTSTAMP:20150106T232201Z
+DTSTAMP:20150106T234831Z
 UID:glnbvfbjghhdt54vv14ekgdt7g@google.com
 ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=kim@lg
  bthistoryfestival.org;X-NUM-GUESTS=0:mailto:kim@lgbthistoryfestival.org
@@ -558,7 +599,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART:20150215T163000Z
 DTEND:20150215T170000Z
-DTSTAMP:20150106T232201Z
+DTSTAMP:20150106T234831Z
 UID:phu7vurrf0c86gq8rn43mnvnqk@google.com
 ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=kim@lg
  bthistoryfestival.org;X-NUM-GUESTS=0:mailto:kim@lgbthistoryfestival.org
@@ -573,26 +614,9 @@ SUMMARY:Peter Purton-  Winning equality for LGBT people: how trade unions m
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
-DTSTART:20150215T183000Z
-DTEND:20150215T193000Z
-DTSTAMP:20150106T232201Z
-UID:o58e687o3k0odj605pivbsvri0@google.com
-ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=kim@lg
- bthistoryfestival.org;X-NUM-GUESTS=0:mailto:kim@lgbthistoryfestival.org
-CREATED:20141223T101119Z
-DESCRIPTION:Meet in the Foyer and walk through the main exhibition space to
-  explore items in the permanent collection that relate to LGBT history.
-LAST-MODIFIED:20150106T164446Z
-LOCATION:Meet in the Foyer and walk through the main exhibition space
-SEQUENCE:0
-STATUS:CONFIRMED
-SUMMARY:First Tour LGBT PHM permanent collection with Catherine O'Donnell
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
 DTSTART:20150214T160000Z
 DTEND:20150214T163000Z
-DTSTAMP:20150106T232201Z
+DTSTAMP:20150106T234831Z
 UID:5vnrpjjarf00mtt263scqcbj8g@google.com
 ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=kim@lg
  bthistoryfestival.org;X-NUM-GUESTS=0:mailto:kim@lgbthistoryfestival.org
@@ -619,7 +643,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART:20150214T160000Z
 DTEND:20150214T163000Z
-DTSTAMP:20150106T232201Z
+DTSTAMP:20150106T234831Z
 UID:65g83ppf4h43148rvtc27ihst0@google.com
 CREATED:20141126T140545Z
 DESCRIPTION:In her talk {Laila El-Metoui} will share her experience of mana
@@ -670,7 +694,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART:20150214T151500Z
 DTEND:20150214T154500Z
-DTSTAMP:20150106T232201Z
+DTSTAMP:20150106T234831Z
 UID:lslnmpua7uu18ufksm3r6ag6dc@google.com
 CREATED:20141126T140517Z
 DESCRIPTION:{David Edgley}: former twink involved in gay rights – now old c
@@ -689,7 +713,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART:20150214T151500Z
 DTEND:20150214T154500Z
-DTSTAMP:20150106T232201Z
+DTSTAMP:20150106T234831Z
 UID:4339p0jqd3bfkip1seqgg88p0o@google.com
 ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=kim@lg
  bthistoryfestival.org;X-NUM-GUESTS=0:mailto:kim@lgbthistoryfestival.org
@@ -708,7 +732,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART:20150214T143000Z
 DTEND:20150214T150000Z
-DTSTAMP:20150106T232201Z
+DTSTAMP:20150106T234831Z
 UID:lied8d2u7mp66tk1jo3m69meb8@google.com
 CREATED:20141126T140451Z
 DESCRIPTION:{Razia Aziz} -- During a half century which has taken me from L
@@ -735,7 +759,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART:20150214T143000Z
 DTEND:20150214T150000Z
-DTSTAMP:20150106T232201Z
+DTSTAMP:20150106T234831Z
 UID:vi1466hk2vkk1fo3tc2c9kam8s@google.com
 ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=kim@lg
  bthistoryfestival.org;X-NUM-GUESTS=0:mailto:kim@lgbthistoryfestival.org
@@ -755,7 +779,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART:20150214T134500Z
 DTEND:20150214T141500Z
-DTSTAMP:20150106T232201Z
+DTSTAMP:20150106T234831Z
 UID:jnfplk6upm6e4e2m3vmpeo3rm8@google.com
 CREATED:20141126T140428Z
 DESCRIPTION:{Dr Sarah Parker} is an Impact Research Fellow in English Studi
@@ -774,7 +798,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART:20150214T130000Z
 DTEND:20150214T133000Z
-DTSTAMP:20150106T232201Z
+DTSTAMP:20150106T234831Z
 UID:10bietmtdr79n84dhsenptvt1c@google.com
 ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=kim@lg
  bthistoryfestival.org;X-NUM-GUESTS=0:mailto:kim@lgbthistoryfestival.org
@@ -793,7 +817,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART:20150214T111500Z
 DTEND:20150214T114500Z
-DTSTAMP:20150106T232201Z
+DTSTAMP:20150106T234831Z
 UID:bgrlhtksii8l63khmi0v2qaock@google.com
 ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=kim@lg
  bthistoryfestival.org;X-NUM-GUESTS=0:mailto:kim@lgbthistoryfestival.org
@@ -810,7 +834,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART:20150214T103000Z
 DTEND:20150214T110000Z
-DTSTAMP:20150106T232201Z
+DTSTAMP:20150106T234831Z
 UID:6a73qulikvaqfv7aouea1k656o@google.com
 CREATED:20141126T135808Z
 DESCRIPTION:{Peter Tatchell} reflects on his experience of greater public u
@@ -842,7 +866,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART:20150214T134500Z
 DTEND:20150214T141500Z
-DTSTAMP:20150106T232201Z
+DTSTAMP:20150106T234831Z
 UID:kkdbaa8u6ef09pk1b0cfe098ic@google.com
 ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=kim@lg
  bthistoryfestival.org;X-NUM-GUESTS=0:mailto:kim@lgbthistoryfestival.org
@@ -864,7 +888,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART:20150214T111500Z
 DTEND:20150214T114500Z
-DTSTAMP:20150106T232201Z
+DTSTAMP:20150106T234831Z
 UID:ultffs4j15hmgi8md4e93tdrcc@google.com
 CREATED:20141126T140219Z
 DESCRIPTION:{Abigail Ward} is a freelance curator\, writer and DJ with over
@@ -886,7 +910,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART:20150214T103000Z
 DTEND:20150214T110000Z
-DTSTAMP:20150106T232201Z
+DTSTAMP:20150106T234831Z
 UID:1tqbp6o5kfe7d7m1ems41u8sjc@google.com
 ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=kim@lg
  bthistoryfestival.org;X-NUM-GUESTS=0:mailto:kim@lgbthistoryfestival.org
@@ -910,7 +934,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART:20150109T100000Z
 DTEND:20150109T120000Z
-DTSTAMP:20150106T232201Z
+DTSTAMP:20150106T234831Z
 UID:j6r03vs7ussib7mcrr9h79b3lc@google.com
 CREATED:20150104T125639Z
 DESCRIPTION:
@@ -922,29 +946,9 @@ SUMMARY:RDK meeting
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
-DTSTART:20150214T111500Z
-DTEND:20150214T114500Z
-DTSTAMP:20150106T232201Z
-UID:5s2mvij1nh9l2707ejtihdd9q0@google.com
-ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=kim@lg
- bthistoryfestival.org;X-NUM-GUESTS=0:mailto:kim@lgbthistoryfestival.org
-CREATED:20141126T140710Z
-DESCRIPTION:{Julie Parker} is runs of Outhouse London with Mavis Seaman and
-  has been hugely influential in the UK's gay and lesbian theatre scene. Jul
- ie will talk about her time as Artistic Directer of The Drill Hall and how 
- things have changed for LGBTQ people in theatre in her 30 years of professi
- onal theatre practice.
-LAST-MODIFIED:20141226T195401Z
-LOCATION:Space 3
-SEQUENCE:1
-STATUS:CONFIRMED
-SUMMARY:Julie Parker - LGBTQ theatre
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
 DTSTART:20150214T134500Z
 DTEND:20150214T141500Z
-DTSTAMP:20150106T232201Z
+DTSTAMP:20150106T234831Z
 UID:2gv7hbspd8o7ug10krqmk3odm4@google.com
 ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=kim@lg
  bthistoryfestival.org;X-NUM-GUESTS=0:mailto:kim@lgbthistoryfestival.org
@@ -960,7 +964,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART:20150213T170000Z
 DTEND:20150213T180000Z
-DTSTAMP:20150106T232201Z
+DTSTAMP:20150106T234831Z
 UID:nugm31eushk6dql7lr1kkfoheo@google.com
 ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=kim@lg
  bthistoryfestival.org;X-NUM-GUESTS=0:mailto:kim@lgbthistoryfestival.org

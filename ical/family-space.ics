@@ -7,9 +7,46 @@ X-WR-CALNAME:Family Space
 X-WR-TIMEZONE:Europe/London
 X-WR-CALDESC:
 BEGIN:VEVENT
+DTSTART:20150214T151500Z
+DTEND:20150214T154500Z
+DTSTAMP:20150106T234831Z
+UID:8v1j88vncf7kjopk32jl9aej5k@google.com
+CREATED:20141126T141852Z
+DESCRIPTION:Stuart Milk will be reading from "The Harvey Milk Story" by Kar
+ i Krakow\, a children's book on his uncle\, the first openly gay person to 
+ be elected to public office in California.
+LAST-MODIFIED:20150106T234545Z
+LOCATION:
+SEQUENCE:3
+STATUS:CONFIRMED
+SUMMARY:Stuart Milk: Readings on Harvey Milk
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20150215T110000Z
+DTEND:20150215T120000Z
+DTSTAMP:20150106T234831Z
+UID:qjcbjpsjjuq36is4a9edj09t78@google.com
+CREATED:20150105T164925Z
+DESCRIPTION:Meet Matilda\, a little girl who is given a magic rainbow bag. 
+  Help Matilda solve clues to get to the end of the rainbow and find what sh
+ e’s looking for.  Fun interactive story session with puppets\, song\, dance
+  and a craft activity.  Why not tweet a photo of your finished creation to 
+ us at @PHMMcr.\nFamily Friendly activity\, suitable for under 5s and their 
+ grown ups\nBooking required via Eventbrite – (http://undertherainbowphm.eve
+ ntbrite.co.uk) \nIn order to keep our events programme affordable to everyo
+ ne\, please make a donation\nSuggested donation £3\n
+LAST-MODIFIED:20150106T232605Z
+LOCATION:
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:The Little People's History Museum – Under the Rainbow
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
 DTSTART:20150214T120000Z
 DTEND:20150214T130000Z
-DTSTAMP:20150106T232201Z
+DTSTAMP:20150106T234831Z
 UID:od4n755nomm0heavdeep218vlo@google.com
 ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Family
   Space;X-NUM-GUESTS=0:mailto:lgbthistoryfestival.org_0gc2nrd6ls6fjbuuf8icuj
@@ -28,7 +65,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART:20150215T150000Z
 DTEND:20150215T155000Z
-DTSTAMP:20150106T232201Z
+DTSTAMP:20150106T234831Z
 UID:uqv32bqnflge6lbdk3po4qgrto@google.com
 CREATED:20150105T165042Z
 DESCRIPTION:{Stephen Boyce}
@@ -43,7 +80,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART:20150215T140000Z
 DTEND:20150215T145000Z
-DTSTAMP:20150106T232201Z
+DTSTAMP:20150106T234831Z
 UID:11cuo7qocop30nk7jcl4kmj52k@google.com
 CREATED:20150105T164947Z
 DESCRIPTION:{Stephen Boyce}
@@ -56,45 +93,9 @@ SUMMARY:Schools Out Workshop\, What is a Diversity lesson for young people?
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
-DTSTART:20150215T110000Z
-DTEND:20150215T120000Z
-DTSTAMP:20150106T232201Z
-UID:qjcbjpsjjuq36is4a9edj09t78@google.com
-CREATED:20150105T164925Z
-DESCRIPTION:Meet Matilda\, a little girl who is given a magic rainbow bag. 
-  Help Matilda solve clues to get to the end of the rainbow and find what sh
- e’s looking for.  Fun interactive story session with puppets\, song\, dance
-  and a craft activity.  Why not tweet a photo of your finished creation to 
- us at @PHMMcr.  \nFamily Friendly activity\, suitable for under 5s and thei
- r grown ups\nBooking required via Eventbrite – http://undertherainbowphm.ev
- entbrite.co.uk \nIn order to keep our events programme affordable to everyo
- ne\, please make a donation\nSuggested donation £3\n
-LAST-MODIFIED:20150105T164925Z
-LOCATION:
-SEQUENCE:0
-STATUS:CONFIRMED
-SUMMARY:The Little People's History Museum – Under the Rainbow
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-DTSTART:20150214T151500Z
-DTEND:20150214T154500Z
-DTSTAMP:20150106T232201Z
-UID:8v1j88vncf7kjopk32jl9aej5k@google.com
-CREATED:20141126T141852Z
-DESCRIPTION:Stuart will be reading from: \n"The Harvey Milk Story" (Kari Kr
- akow)
-LAST-MODIFIED:20150101T201713Z
-LOCATION:
-SEQUENCE:3
-STATUS:CONFIRMED
-SUMMARY:Stuart Milk: Readings on Harvey Milk
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
 DTSTART:20150214T111500Z
 DTEND:20150214T114500Z
-DTSTAMP:20150106T232201Z
+DTSTAMP:20150106T234831Z
 UID:84dfbi3ordnt2jhq6ekfoe9llg@google.com
 CREATED:20141126T141611Z
 DESCRIPTION:
@@ -108,7 +109,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART:20150214T134500Z
 DTEND:20150214T141500Z
-DTSTAMP:20150106T232201Z
+DTSTAMP:20150106T234831Z
 UID:7cmpo76a2eme1d9sb7c861p554@google.com
 CREATED:20141126T141747Z
 DESCRIPTION:
@@ -122,7 +123,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART:20150214T160000Z
 DTEND:20150214T163000Z
-DTSTAMP:20150106T232201Z
+DTSTAMP:20150106T234831Z
 UID:10p12um7sahd92a6jcsorphn78@google.com
 CREATED:20141126T141924Z
 DESCRIPTION:Adam will be reading from:\n"Trumpet" (Jackie Kay)\n\nAdam will
@@ -137,7 +138,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART:20150214T143000Z
 DTEND:20150214T150000Z
-DTSTAMP:20150106T232201Z
+DTSTAMP:20150106T234831Z
 UID:8n7i1shhdjupam07fkg1lrmims@google.com
 CREATED:20141126T141817Z
 DESCRIPTION:Sue will be reading from:\n"Spacegirl Pukes" (Katy Watson)\n"Pu
@@ -152,7 +153,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART:20150214T130000Z
 DTEND:20150214T133000Z
-DTSTAMP:20150106T232201Z
+DTSTAMP:20150106T234831Z
 UID:q1jm6tqb3a20rm86d030o8rdps@google.com
 CREATED:20141126T141639Z
 DESCRIPTION:Catherine will be reading from:\n"My Invented Life" (Lauren Bjo
@@ -168,7 +169,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART:20150214T103000Z
 DTEND:20150214T110000Z
-DTSTAMP:20150106T232201Z
+DTSTAMP:20150106T234831Z
 UID:dsbauu3756djlvchfk13rnjo9o@google.com
 CREATED:20141126T141546Z
 DESCRIPTION:Juno will be reading from: \n"Tyrannosaurus Drip" (Julia Donald
