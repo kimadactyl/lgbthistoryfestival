@@ -19,9 +19,9 @@ EVENTS_FILE = "data/events.yml"
 
 def parameterize string, inc=false
   #avoiding requiring rails for such a simple script, for now
-  string.gsub(/[^\w\s\d]/,"-")
+  string.gsub!(/[^\w\s\d]/,"")
   string = string.downcase.split(" ").join("-")
-  string = string[0..20] #truncate for usefulness
+  string = string[0..40] #truncate for usefulness
   if inc
     string + inc
   else
