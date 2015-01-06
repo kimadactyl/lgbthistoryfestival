@@ -6,9 +6,88 @@ METHOD:PUBLISH
 X-WR-CALNAME:Main Festival
 X-WR-TIMEZONE:Europe/London
 BEGIN:VEVENT
+DTSTART:20150215T165000Z
+DTEND:20150215T173000Z
+DTSTAMP:20150106T232201Z
+UID:ijho8rsqpjbnnpj4r73k35dgpc@google.com
+CREATED:20150106T171458Z
+DESCRIPTION:In the early 1800s there was a vibrant social and sexual scene 
+ for men which revolved around the house of Isaac Hitchen in Great Sankey ne
+ ar Warrington. Meeting places like this were known as ‘molly’ houses in the
+  parlance of the day. In May of 1806 a large group of the men were arrested
+  following a raid on the house. Some escaped\, but many of them were charge
+ d with ‘sodomy’ or an ‘unnatural crime\,’ which in England carried the deat
+ h penalty from the 1530s until 1861. In September of 1806\, five of the men
+ \, including Hitchen himself\, were sentenced to death by hanging. There is
+  a Preston based LGBT community project named in his memory. \n\n"Isaac Hit
+ chen's House" tells the story of these men\, the investigation\, and the at
+ titudes of the authorities\, in song. Written and performed by Eleanor Levi
+ n\, Nina George and Scott Millington of the Grievous Angels as part of Lanc
+ aster's 'Documenting Dissent' project led by Global Link with grateful ackn
+ owledgement to Harry Cocks\, Richard Norton and the Lancashire Archives.\n 
+ \nEleanor\, Nina and Scott’s first musical foray together was in 2005 as pa
+ rt of ‘The Mistresses of the Ten Minute Musical’ and led them to be instrum
+ ental in the foundation of the Grievous Angels\, a solidarity-folk collecti
+ ve which was based in Lancaster. They are currently working on a project of
+  songs based on Lancaster’s local history\, and developing their own origin
+ al works.  \n\n[Website of the song](http://www.documentingdissent.org.uk/?
+ p=15521)\n[Documenting Dissent's homepage](http://www.documentingdissent.or
+ g.uk/)\n
+LAST-MODIFIED:20150106T230531Z
+LOCATION:Mini Theatre Space
+SEQUENCE:1
+STATUS:CONFIRMED
+SUMMARY:Documenting Dissent Team- Eleanor Levin\, Nina George and Scott Mil
+ lington: Isaac Hitchen's House (A Lancashire Tale) 
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20150215T195000Z
+DTEND:20150215T201000Z
+DTSTAMP:20150106T232201Z
+UID:6cp3pm2ap1pbegufvk5vvh1q5s@google.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=kim@lg
+ bthistoryfestival.org;X-NUM-GUESTS=0:mailto:kim@lgbthistoryfestival.org
+CREATED:20141223T094950Z
+DESCRIPTION:Mike will speak about growing up gay in the 1970s\, Lesbians an
+ d Gays Support the Miners\, his role within the group\, the archive\, the i
+ mpact of the movie and some practical fashion tips on what to wear whilst o
+ verthrowing the capitalist state.
+LAST-MODIFIED:20150106T230235Z
+LOCATION:Archive Space
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Mike Jackson- Lesbian and Gay Support the Miners
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20150215T195000Z
+DTEND:20150215T202000Z
+DTSTAMP:20150106T232201Z
+UID:20f4bdoc358dav66dbclejjuog@google.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=kim@lg
+ bthistoryfestival.org;X-NUM-GUESTS=0:mailto:kim@lgbthistoryfestival.org
+CREATED:20141223T093138Z
+DESCRIPTION:Many LGBT people like myself run from persecution to seek asylu
+ m in nations like the UK thinking they'll immediately be safe. But most tim
+ es seeking asylum makes you enter what feels like another form of persecuti
+ on with having to prove your sexuality to the immigration system. When I as
+ ked for asylum\, on many levels\, it felt like jumping from a frying pan in
+ to a fire. In a series of such intrusive and embarrassing questions\, I was
+  asked to prove I was gay. How on earth was I or anybody else supposed to d
+ o that?!
+LAST-MODIFIED:20150106T230118Z
+LOCATION:Coal Store
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Prossy kakooza The Journey to Freedom. From "You can't be Gay" to "
+ Gay? Prove it" 
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
 DTSTART:20150214T130000Z
 DTEND:20150214T133000Z
-DTSTAMP:20150106T225122Z
+DTSTAMP:20150106T232201Z
 UID:od7iba0v2r81mbi80dfkqqgp18@google.com
 CREATED:20141126T140306Z
 DESCRIPTION:{Jan Bridget} is a 67 year old lesbian from a poor\, lower clas
@@ -31,7 +110,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART:20150215T200000Z
 DTEND:20150215T205000Z
-DTSTAMP:20150106T225122Z
+DTSTAMP:20150106T232201Z
 UID:630sqjdt7s6ukf1hvnbuums8ro@google.com
 ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=kim@lg
  bthistoryfestival.org;X-NUM-GUESTS=0:mailto:kim@lgbthistoryfestival.org
@@ -48,7 +127,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART:20150215T190000Z
 DTEND:20150215T195000Z
-DTSTAMP:20150106T225122Z
+DTSTAMP:20150106T232201Z
 UID:0ai1eove8gtp2cbjfmchefe8qg@google.com
 ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=kim@lg
  bthistoryfestival.org;X-NUM-GUESTS=0:mailto:kim@lgbthistoryfestival.org
@@ -66,7 +145,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART:20150215T163000Z
 DTEND:20150215T170000Z
-DTSTAMP:20150106T225122Z
+DTSTAMP:20150106T232201Z
 UID:7egb3jg34cbnvmm967trpvob88@google.com
 ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=kim@lg
  bthistoryfestival.org;X-NUM-GUESTS=0:mailto:kim@lgbthistoryfestival.org
@@ -101,7 +180,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART:20150215T190000Z
 DTEND:20150215T195000Z
-DTSTAMP:20150106T225122Z
+DTSTAMP:20150106T232201Z
 UID:j128lt55rvkosi0osgqofef400@google.com
 CREATED:20150106T172848Z
 DESCRIPTION:‘All The Nice Girls’ takes an entertaining glimpse at the lives
@@ -136,7 +215,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART:20150215T210000Z
 DTEND:20150215T220000Z
-DTSTAMP:20150106T225122Z
+DTSTAMP:20150106T232201Z
 UID:gf4pua0vdjeaa6rgmabrr3flqo@google.com
 ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=kim@lg
  bthistoryfestival.org;X-NUM-GUESTS=0:mailto:kim@lgbthistoryfestival.org
@@ -152,28 +231,9 @@ SUMMARY:The Manchester Lesbian and Gay Chorus- performing Bread and Roses (
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
-DTSTART:20150215T195000Z
-DTEND:20150215T201000Z
-DTSTAMP:20150106T225122Z
-UID:6cp3pm2ap1pbegufvk5vvh1q5s@google.com
-ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=kim@lg
- bthistoryfestival.org;X-NUM-GUESTS=0:mailto:kim@lgbthistoryfestival.org
-CREATED:20141223T094950Z
-DESCRIPTION:Mike will speak about growing up gay in the 1970s\, Lesbians an
- d Gays Support the Miners\, his role within the group\, the archive\, the i
- mpact of the movie and some practical fashion tips on what to wear whilst o
- verthrowing the capitalist state.
-LAST-MODIFIED:20150106T172523Z
-LOCATION:Archive Space
-SEQUENCE:0
-STATUS:CONFIRMED
-SUMMARY:Mike Jackson- Lesbian and Gay Support the Minners
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
 DTSTART:20150215T203000Z
 DTEND:20150215T210000Z
-DTSTAMP:20150106T225122Z
+DTSTAMP:20150106T232201Z
 UID:1q3ql1qapk57jko4jjlki2meq8@google.com
 ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=kim@lg
  bthistoryfestival.org;X-NUM-GUESTS=0:mailto:kim@lgbthistoryfestival.org
@@ -198,7 +258,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART:20150215T180000Z
 DTEND:20150215T190000Z
-DTSTAMP:20150106T225122Z
+DTSTAMP:20150106T232201Z
 UID:h99tu1lea4jr13mena5qqmjr8c@google.com
 ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=kim@lg
  bthistoryfestival.org;X-NUM-GUESTS=0:mailto:kim@lgbthistoryfestival.org
@@ -216,45 +276,9 @@ SUMMARY:A Very Victorian Scandal (Part 3)
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
-DTSTART:20150215T165000Z
-DTEND:20150215T173000Z
-DTSTAMP:20150106T225122Z
-UID:ijho8rsqpjbnnpj4r73k35dgpc@google.com
-CREATED:20150106T171458Z
-DESCRIPTION:In the early 1800s there was a vibrant social and sexual scene 
- for men which revolved around the house of Isaac Hitchen in Great Sankey ne
- ar Warrington. Meeting places like this were known as ‘molly’ houses in the
-  parlance of the day. In May of 1806 a large group of the men were arrested
-  following a raid on the house. Some escaped\, but many of them were charge
- d with ‘sodomy’ or an ‘unnatural crime\,’ which in England carried the deat
- h penalty from the 1530s until 1861. In September of 1806\, five of the men
- \, including Hitchen himself\, were sentenced to death by hanging. There is
-  a Preston based LGBT community project named in his memory. \n\n"Isaac Hit
- chen's House" tells the story of these men\, the investigation\, and the at
- titudes of the authorities\, in song. Written and performed by Eleanor Levi
- n\, Nina George and Scott Millington of the Grievous Angels as part of Lanc
- aster's 'Documenting Dissent' project led by Global Link with grateful ackn
- owledgement to Harry Cocks\, Richard Norton and the Lancashire Archives.\n 
- \nEleanor\, Nina and Scott’s first musical foray together was in 2005 as pa
- rt of ‘The Mistresses of the Ten Minute Musical’ and led them to be instrum
- ental in the foundation of the Grievous Angels\, a solidarity-folk collecti
- ve which was based in Lancaster. They are currently working on a project of
-  songs based on Lancaster’s local history\, and developing their own origin
- al works.  \n\nwebsite address of the song - http://www.documentingdissent.
- org.uk/?p=15521 and a link/address of/to the Documenting Dissent's homepage
-  - http://www.documentingdissent.org.uk/\n
-LAST-MODIFIED:20150106T171526Z
-LOCATION:Mini Theatre Space
-SEQUENCE:1
-STATUS:CONFIRMED
-SUMMARY:Documenting Dissent Team- Eleanor Levin\, Nina George and Scott Mil
- lington: Isaac Hitchen's House (A Lancashire Tale) 
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
 DTSTART:20150216T045000Z
 DTEND:20150216T052000Z
-DTSTAMP:20150106T225122Z
+DTSTAMP:20150106T232201Z
 UID:hoios09purqlqdnutmrothpom0@google.com
 ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=kim@lg
  bthistoryfestival.org;X-NUM-GUESTS=0:mailto:kim@lgbthistoryfestival.org
@@ -291,7 +315,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART:20150215T160000Z
 DTEND:20150215T173000Z
-DTSTAMP:20150106T225122Z
+DTSTAMP:20150106T232201Z
 UID:gufe0j255eqs354728q32suua4@google.com
 ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=kim@lg
  bthistoryfestival.org;X-NUM-GUESTS=0:mailto:kim@lgbthistoryfestival.org
@@ -308,7 +332,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART:20150215T194000Z
 DTEND:20150215T204000Z
-DTSTAMP:20150106T225122Z
+DTSTAMP:20150106T232201Z
 UID:5arlt7hs6e91qk4i9he4n7l5nc@google.com
 CREATED:20141226T201924Z
 DESCRIPTION:Join Catherine O’Donnell on a tour of the PHM’s main galleries 
@@ -326,7 +350,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART:20150215T180000Z
 DTEND:20150215T190000Z
-DTSTAMP:20150106T225122Z
+DTSTAMP:20150106T232201Z
 UID:ki263mi5fkl2edi1vf57cfurb0@google.com
 ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=kim@lg
  bthistoryfestival.org;X-NUM-GUESTS=0:mailto:kim@lgbthistoryfestival.org
@@ -346,7 +370,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART:20150215T121000Z
 DTEND:20150215T125000Z
-DTSTAMP:20150106T225122Z
+DTSTAMP:20150106T232201Z
 UID:28hlep3bop73dghqde7hjo3444@google.com
 ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=kim@lg
  bthistoryfestival.org;X-NUM-GUESTS=0:mailto:kim@lgbthistoryfestival.org
@@ -367,7 +391,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART:20150215T110000Z
 DTEND:20150215T120000Z
-DTSTAMP:20150106T225122Z
+DTSTAMP:20150106T232201Z
 UID:7o8ar10lb6i1bnk2q6boff46ug@google.com
 CREATED:20141226T200232Z
 DESCRIPTION:
@@ -381,7 +405,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART:20150215T200000Z
 DTEND:20150215T210000Z
-DTSTAMP:20150106T225122Z
+DTSTAMP:20150106T232201Z
 UID:0vnfsdjti2ekrueoo1nn5fqtsc@google.com
 ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=kim@lg
  bthistoryfestival.org;X-NUM-GUESTS=0:mailto:kim@lgbthistoryfestival.org
@@ -398,7 +422,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART:20150215T203000Z
 DTEND:20150215T210000Z
-DTSTAMP:20150106T225122Z
+DTSTAMP:20150106T232201Z
 UID:hj0cq2ivihpalkqj694gf99288@google.com
 ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=kim@lg
  bthistoryfestival.org;X-NUM-GUESTS=0:mailto:kim@lgbthistoryfestival.org
@@ -425,7 +449,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART:20150215T203000Z
 DTEND:20150215T210000Z
-DTSTAMP:20150106T225122Z
+DTSTAMP:20150106T232201Z
 UID:k5457mnhq24isqp4dc7lf5k84g@google.com
 ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=kim@lg
  bthistoryfestival.org;X-NUM-GUESTS=0:mailto:kim@lgbthistoryfestival.org
@@ -441,31 +465,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART:20150215T195000Z
 DTEND:20150215T202000Z
-DTSTAMP:20150106T225122Z
-UID:20f4bdoc358dav66dbclejjuog@google.com
-ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=kim@lg
- bthistoryfestival.org;X-NUM-GUESTS=0:mailto:kim@lgbthistoryfestival.org
-CREATED:20141223T093138Z
-DESCRIPTION:Many LGBT people like myself run from persecution to seek asylu
- m in countries like UK thinking they'll immediately be safe. But most times
-  seeking asylum makes you enter what feels like another form of persecution
-  with having to prove your sexuality to the immigration system. When I aske
- d for asylum\, on many levels\, it felt like jumping from a frying pan into
-  a fire. In a series of such intrusive and embarrassing questions\, I was a
- sked to prove I was gay. How on earth was I or anybody else supposed to do 
- that?!
-LAST-MODIFIED:20150106T164907Z
-LOCATION:Coal Store
-SEQUENCE:0
-STATUS:CONFIRMED
-SUMMARY:Prossy kakooza The Journey to Freedom. From "You can't be Gay" to "
- Gay? Prove it" 
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-DTSTART:20150215T195000Z
-DTEND:20150215T202000Z
-DTSTAMP:20150106T225122Z
+DTSTAMP:20150106T232201Z
 UID:b2022von6fts2lfjcqa75lmfm0@google.com
 ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=kim@lg
  bthistoryfestival.org;X-NUM-GUESTS=0:mailto:kim@lgbthistoryfestival.org
@@ -481,7 +481,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART:20150215T190000Z
 DTEND:20150215T193000Z
-DTSTAMP:20150106T225122Z
+DTSTAMP:20150106T232201Z
 UID:7ujg8gvrt56j63tfj73gj6kas4@google.com
 ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=kim@lg
  bthistoryfestival.org;X-NUM-GUESTS=0:mailto:kim@lgbthistoryfestival.org
@@ -521,7 +521,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART:20150215T190000Z
 DTEND:20150215T193000Z
-DTSTAMP:20150106T225122Z
+DTSTAMP:20150106T232201Z
 UID:5ip92h26sfn4qm8r0skcdjmegg@google.com
 ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=kim@lg
  bthistoryfestival.org;X-NUM-GUESTS=0:mailto:kim@lgbthistoryfestival.org
@@ -540,7 +540,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART:20150215T172000Z
 DTEND:20150215T175000Z
-DTSTAMP:20150106T225122Z
+DTSTAMP:20150106T232201Z
 UID:glnbvfbjghhdt54vv14ekgdt7g@google.com
 ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=kim@lg
  bthistoryfestival.org;X-NUM-GUESTS=0:mailto:kim@lgbthistoryfestival.org
@@ -558,7 +558,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART:20150215T163000Z
 DTEND:20150215T170000Z
-DTSTAMP:20150106T225122Z
+DTSTAMP:20150106T232201Z
 UID:phu7vurrf0c86gq8rn43mnvnqk@google.com
 ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=kim@lg
  bthistoryfestival.org;X-NUM-GUESTS=0:mailto:kim@lgbthistoryfestival.org
@@ -575,7 +575,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART:20150215T183000Z
 DTEND:20150215T193000Z
-DTSTAMP:20150106T225122Z
+DTSTAMP:20150106T232201Z
 UID:o58e687o3k0odj605pivbsvri0@google.com
 ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=kim@lg
  bthistoryfestival.org;X-NUM-GUESTS=0:mailto:kim@lgbthistoryfestival.org
@@ -592,7 +592,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART:20150214T160000Z
 DTEND:20150214T163000Z
-DTSTAMP:20150106T225122Z
+DTSTAMP:20150106T232201Z
 UID:5vnrpjjarf00mtt263scqcbj8g@google.com
 ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=kim@lg
  bthistoryfestival.org;X-NUM-GUESTS=0:mailto:kim@lgbthistoryfestival.org
@@ -619,7 +619,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART:20150214T160000Z
 DTEND:20150214T163000Z
-DTSTAMP:20150106T225122Z
+DTSTAMP:20150106T232201Z
 UID:65g83ppf4h43148rvtc27ihst0@google.com
 CREATED:20141126T140545Z
 DESCRIPTION:In her talk {Laila El-Metoui} will share her experience of mana
@@ -670,7 +670,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART:20150214T151500Z
 DTEND:20150214T154500Z
-DTSTAMP:20150106T225122Z
+DTSTAMP:20150106T232201Z
 UID:lslnmpua7uu18ufksm3r6ag6dc@google.com
 CREATED:20141126T140517Z
 DESCRIPTION:{David Edgley}: former twink involved in gay rights – now old c
@@ -689,7 +689,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART:20150214T151500Z
 DTEND:20150214T154500Z
-DTSTAMP:20150106T225122Z
+DTSTAMP:20150106T232201Z
 UID:4339p0jqd3bfkip1seqgg88p0o@google.com
 ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=kim@lg
  bthistoryfestival.org;X-NUM-GUESTS=0:mailto:kim@lgbthistoryfestival.org
@@ -708,7 +708,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART:20150214T143000Z
 DTEND:20150214T150000Z
-DTSTAMP:20150106T225122Z
+DTSTAMP:20150106T232201Z
 UID:lied8d2u7mp66tk1jo3m69meb8@google.com
 CREATED:20141126T140451Z
 DESCRIPTION:{Razia Aziz} -- During a half century which has taken me from L
@@ -735,7 +735,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART:20150214T143000Z
 DTEND:20150214T150000Z
-DTSTAMP:20150106T225122Z
+DTSTAMP:20150106T232201Z
 UID:vi1466hk2vkk1fo3tc2c9kam8s@google.com
 ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=kim@lg
  bthistoryfestival.org;X-NUM-GUESTS=0:mailto:kim@lgbthistoryfestival.org
@@ -755,7 +755,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART:20150214T134500Z
 DTEND:20150214T141500Z
-DTSTAMP:20150106T225122Z
+DTSTAMP:20150106T232201Z
 UID:jnfplk6upm6e4e2m3vmpeo3rm8@google.com
 CREATED:20141126T140428Z
 DESCRIPTION:{Dr Sarah Parker} is an Impact Research Fellow in English Studi
@@ -774,7 +774,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART:20150214T130000Z
 DTEND:20150214T133000Z
-DTSTAMP:20150106T225122Z
+DTSTAMP:20150106T232201Z
 UID:10bietmtdr79n84dhsenptvt1c@google.com
 ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=kim@lg
  bthistoryfestival.org;X-NUM-GUESTS=0:mailto:kim@lgbthistoryfestival.org
@@ -793,7 +793,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART:20150214T111500Z
 DTEND:20150214T114500Z
-DTSTAMP:20150106T225122Z
+DTSTAMP:20150106T232201Z
 UID:bgrlhtksii8l63khmi0v2qaock@google.com
 ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=kim@lg
  bthistoryfestival.org;X-NUM-GUESTS=0:mailto:kim@lgbthistoryfestival.org
@@ -810,7 +810,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART:20150214T103000Z
 DTEND:20150214T110000Z
-DTSTAMP:20150106T225122Z
+DTSTAMP:20150106T232201Z
 UID:6a73qulikvaqfv7aouea1k656o@google.com
 CREATED:20141126T135808Z
 DESCRIPTION:{Peter Tatchell} reflects on his experience of greater public u
@@ -842,7 +842,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART:20150214T134500Z
 DTEND:20150214T141500Z
-DTSTAMP:20150106T225122Z
+DTSTAMP:20150106T232201Z
 UID:kkdbaa8u6ef09pk1b0cfe098ic@google.com
 ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=kim@lg
  bthistoryfestival.org;X-NUM-GUESTS=0:mailto:kim@lgbthistoryfestival.org
@@ -864,7 +864,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART:20150214T111500Z
 DTEND:20150214T114500Z
-DTSTAMP:20150106T225122Z
+DTSTAMP:20150106T232201Z
 UID:ultffs4j15hmgi8md4e93tdrcc@google.com
 CREATED:20141126T140219Z
 DESCRIPTION:{Abigail Ward} is a freelance curator\, writer and DJ with over
@@ -886,7 +886,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART:20150214T103000Z
 DTEND:20150214T110000Z
-DTSTAMP:20150106T225122Z
+DTSTAMP:20150106T232201Z
 UID:1tqbp6o5kfe7d7m1ems41u8sjc@google.com
 ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=kim@lg
  bthistoryfestival.org;X-NUM-GUESTS=0:mailto:kim@lgbthistoryfestival.org
@@ -910,7 +910,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART:20150109T100000Z
 DTEND:20150109T120000Z
-DTSTAMP:20150106T225122Z
+DTSTAMP:20150106T232201Z
 UID:j6r03vs7ussib7mcrr9h79b3lc@google.com
 CREATED:20150104T125639Z
 DESCRIPTION:
@@ -924,7 +924,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART:20150214T111500Z
 DTEND:20150214T114500Z
-DTSTAMP:20150106T225122Z
+DTSTAMP:20150106T232201Z
 UID:5s2mvij1nh9l2707ejtihdd9q0@google.com
 ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=kim@lg
  bthistoryfestival.org;X-NUM-GUESTS=0:mailto:kim@lgbthistoryfestival.org
@@ -944,7 +944,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART:20150214T134500Z
 DTEND:20150214T141500Z
-DTSTAMP:20150106T225122Z
+DTSTAMP:20150106T232201Z
 UID:2gv7hbspd8o7ug10krqmk3odm4@google.com
 ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=kim@lg
  bthistoryfestival.org;X-NUM-GUESTS=0:mailto:kim@lgbthistoryfestival.org
@@ -960,7 +960,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART:20150213T170000Z
 DTEND:20150213T180000Z
-DTSTAMP:20150106T225122Z
+DTSTAMP:20150106T232201Z
 UID:nugm31eushk6dql7lr1kkfoheo@google.com
 ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=kim@lg
  bthistoryfestival.org;X-NUM-GUESTS=0:mailto:kim@lgbthistoryfestival.org

@@ -1,6 +1,8 @@
 module CustomHelpers
-  def contrib_linker(contribString)
+  def contrib_linker(contribString, dev=true)
   #Helper turns Contributor name into link for contributor page
+    return contribString if dev # shortcut contributor page linking
+                                # while contributor page index not set up
     if(data.contribs.include?(contribString) && !data.contribs[contribString].hide)
       contrib = data.contribs[contribString]
       """<a href='/speakers/#{contrib.urlname}.html'>#{contribString}</a>"""
