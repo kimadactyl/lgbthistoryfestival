@@ -7,9 +7,76 @@ X-WR-CALNAME:Family Space
 X-WR-TIMEZONE:Europe/London
 X-WR-CALDESC:
 BEGIN:VEVENT
+DTSTART:20150215T110000Z
+DTEND:20150215T120000Z
+DTSTAMP:20150107T191123Z
+UID:qjcbjpsjjuq36is4a9edj09t78@google.com
+CREATED:20150105T164925Z
+DESCRIPTION:Meet Matilda\, a little girl who is given a magic rainbow bag. 
+  Help Matilda solve clues to get to the end of the rainbow and find what sh
+ e’s looking for.  Fun interactive story session with puppets\, song\, dance
+  and a craft activity.  Why not tweet a photo of your finished creation to 
+ us at [@PHMMcr](http://twitter.com/PHMMcr).\n\nFamily Friendly activity\, s
+ uitable for under 5s and their grown ups.\n\n[Booking required via Eventbri
+ te](http://undertherainbowphm.eventbrite.co.uk). In order to keep our event
+ s programme affordable to everyone\, please make a donation\nSuggested dona
+ tion £3\n
+LAST-MODIFIED:20150107T190830Z
+LOCATION:Learning Studio
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:The Little People's History Museum: Under the Rainbow
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20150215T190000Z
+DTEND:20150215T195000Z
+DTSTAMP:20150107T191123Z
+UID:0ai1eove8gtp2cbjfmchefe8qg@google.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Family
+  Space;X-NUM-GUESTS=0:mailto:lgbthistoryfestival.org_0gc2nrd6ls6fjbuuf8icuj
+ u3ag@group.calendar.google.com
+CREATED:20141223T100521Z
+DESCRIPTION:{Stephen Boyce}
+LAST-MODIFIED:20150107T190725Z
+LOCATION:Learning Studio
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Schools OUT: How do do a diversity lesson (part three)
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20150215T150000Z
+DTEND:20150215T155000Z
+DTSTAMP:20150107T191123Z
+UID:uqv32bqnflge6lbdk3po4qgrto@google.com
+CREATED:20150105T165042Z
+DESCRIPTION:{Stephen Boyce}
+LAST-MODIFIED:20150107T190713Z
+LOCATION:Learning Studio
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Schools OUT: How do do a diversity lesson (part two)
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20150215T140000Z
+DTEND:20150215T145000Z
+DTSTAMP:20150107T191123Z
+UID:11cuo7qocop30nk7jcl4kmj52k@google.com
+CREATED:20150105T164947Z
+DESCRIPTION:{Stephen Boyce}
+LAST-MODIFIED:20150107T190707Z
+LOCATION:Learning Studio
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Schools OUT: How to do a diversity lesson (reception to year 6)
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
 DTSTART:20150214T120000Z
 DTEND:20150214T130000Z
-DTSTAMP:20150107T181417Z
+DTSTAMP:20150107T191123Z
 UID:od4n755nomm0heavdeep218vlo@google.com
 ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Family
   Space;X-NUM-GUESTS=0:mailto:lgbthistoryfestival.org_0gc2nrd6ls6fjbuuf8icuj
@@ -26,61 +93,9 @@ SUMMARY:Stephen Boyce: lesson and readings
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
-DTSTART:20150215T140000Z
-DTEND:20150215T145000Z
-DTSTAMP:20150107T181417Z
-UID:11cuo7qocop30nk7jcl4kmj52k@google.com
-CREATED:20150105T164947Z
-DESCRIPTION:{Stephen Boyce}
-LAST-MODIFIED:20150107T161639Z
-LOCATION:
-SEQUENCE:0
-STATUS:CONFIRMED
-SUMMARY:Schools OUT: What is a diversity lesson for young people? Reception
-  to year 6
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-DTSTART:20150215T150000Z
-DTEND:20150215T155000Z
-DTSTAMP:20150107T181417Z
-UID:uqv32bqnflge6lbdk3po4qgrto@google.com
-CREATED:20150105T165042Z
-DESCRIPTION:{Stephen Boyce}
-LAST-MODIFIED:20150107T161630Z
-LOCATION:
-SEQUENCE:0
-STATUS:CONFIRMED
-SUMMARY:Schools OUT: What is a diversity lesson for young people? Reception
-  to year 6
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-DTSTART:20150215T110000Z
-DTEND:20150215T120000Z
-DTSTAMP:20150107T181417Z
-UID:qjcbjpsjjuq36is4a9edj09t78@google.com
-CREATED:20150105T164925Z
-DESCRIPTION:Meet Matilda\, a little girl who is given a magic rainbow bag. 
-  Help Matilda solve clues to get to the end of the rainbow and find what sh
- e’s looking for.  Fun interactive story session with puppets\, song\, dance
-  and a craft activity.  Why not tweet a photo of your finished creation to 
- us at [@PHMMcr](http://twitter.com/PHMMcr).\n\nFamily Friendly activity\, s
- uitable for under 5s and their grown ups.\n\n[Booking required via Eventbri
- te](http://undertherainbowphm.eventbrite.co.uk). In order to keep our event
- s programme affordable to everyone\, please make a donation\nSuggested dona
- tion £3\n
-LAST-MODIFIED:20150107T161602Z
-LOCATION:
-SEQUENCE:0
-STATUS:CONFIRMED
-SUMMARY:The Little People's History Museum: Under the Rainbow
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
 DTSTART:20150214T151500Z
 DTEND:20150214T154500Z
-DTSTAMP:20150107T181417Z
+DTSTAMP:20150107T191123Z
 UID:8v1j88vncf7kjopk32jl9aej5k@google.com
 CREATED:20141126T141852Z
 DESCRIPTION:Stuart Milk will be reading from "The Harvey Milk Story" by Kar
@@ -96,7 +111,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART:20150214T111500Z
 DTEND:20150214T114500Z
-DTSTAMP:20150107T181417Z
+DTSTAMP:20150107T191123Z
 UID:84dfbi3ordnt2jhq6ekfoe9llg@google.com
 CREATED:20141126T141611Z
 DESCRIPTION:
@@ -110,7 +125,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART:20150214T134500Z
 DTEND:20150214T141500Z
-DTSTAMP:20150107T181417Z
+DTSTAMP:20150107T191123Z
 UID:7cmpo76a2eme1d9sb7c861p554@google.com
 CREATED:20141126T141747Z
 DESCRIPTION:
@@ -124,7 +139,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART:20150214T160000Z
 DTEND:20150214T163000Z
-DTSTAMP:20150107T181417Z
+DTSTAMP:20150107T191123Z
 UID:10p12um7sahd92a6jcsorphn78@google.com
 CREATED:20141126T141924Z
 DESCRIPTION:Adam will be reading from:\n"Trumpet" (Jackie Kay)\n\nAdam will
@@ -139,7 +154,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART:20150214T143000Z
 DTEND:20150214T150000Z
-DTSTAMP:20150107T181417Z
+DTSTAMP:20150107T191123Z
 UID:8n7i1shhdjupam07fkg1lrmims@google.com
 CREATED:20141126T141817Z
 DESCRIPTION:Sue will be reading from:\n"Spacegirl Pukes" (Katy Watson)\n"Pu
@@ -154,7 +169,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART:20150214T130000Z
 DTEND:20150214T133000Z
-DTSTAMP:20150107T181417Z
+DTSTAMP:20150107T191123Z
 UID:q1jm6tqb3a20rm86d030o8rdps@google.com
 CREATED:20141126T141639Z
 DESCRIPTION:Catherine will be reading from:\n"My Invented Life" (Lauren Bjo
@@ -170,7 +185,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART:20150214T103000Z
 DTEND:20150214T110000Z
-DTSTAMP:20150107T181417Z
+DTSTAMP:20150107T191123Z
 UID:dsbauu3756djlvchfk13rnjo9o@google.com
 CREATED:20141126T141546Z
 DESCRIPTION:Juno will be reading from: \n"Tyrannosaurus Drip" (Julia Donald

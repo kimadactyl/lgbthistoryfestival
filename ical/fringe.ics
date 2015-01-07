@@ -8,7 +8,7 @@ X-WR-TIMEZONE:UTC
 BEGIN:VEVENT
 DTSTART:20150214T140000Z
 DTEND:20150214T150000Z
-DTSTAMP:20150107T181420Z
+DTSTAMP:20150107T191126Z
 UID:29tipo3tc4c3hg7sds65ra3d60@google.com
 ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Fringe
  ;X-NUM-GUESTS=0:mailto:lgbthistoryfestival.org_75su2ag0c26db2rj16ac8hinrk@g
@@ -21,50 +21,80 @@ DESCRIPTION:{Mike Jackson}\, co-founder with Mark Ashton of Lesbians and Ga
  ks that were formed and the lessons for today's struggles.\n\n[Full informa
  tion on the WCML website.](http://www.wcml.org.uk/events/lgbt-history-month
  -talk--unity-is-strength--lesbians-and-gays-support-the-miners-and-their-la
- sting-links-of-comradeship-with-mining-communities-/)
-LAST-MODIFIED:20150107T175512Z
+ sting-links-of-comradeship-with-mining-communities-/)\n\n * Location: Worki
+ ng Class Movement Library
+LAST-MODIFIED:20150107T185104Z
 LOCATION:Working Class Movement Library\, 51 Crescent\, Salford M5 4WX\, Un
  ited Kingdom
 SEQUENCE:2
 STATUS:CONFIRMED
-SUMMARY:Unity Is Strength: LGSM's lasting comradeship with mining communiti
- es
+SUMMARY:"Unity Is Strength": LGSM's lasting comradeship with mining communi
+ ties
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
-DTSTART:20150210T140000Z
+DTSTART:20150214T134500Z
+DTEND:20150214T154500Z
+DTSTAMP:20150107T191126Z
+UID:1qftul9kd86g2h8a7i3pfdetj4@google.com
+CREATED:20150107T184833Z
+DESCRIPTION:{Emily Crompton} leads a heritage walking trail mapping the pol
+ itical\, economic and social background of how Manchester built Europe’s fi
+ rst Gay Centre.\n \nThis 2 hour walking tour will follow the story of how M
+ anchester became one of the first places to have an entirely publicly funde
+ d\, purpose built centre for the gay community. We will follow the money\, 
+ as it were\, from the Town Hall to Canal Street and then to Sidney Street a
+ nd one of the city’s most diverse urban blocks\, home to an evangelical chu
+ rch and conference centre\, a plethora of fast-food takeaways\, Manchester’
+ s Islamic Centre\, a vegan wholefoods cooperative and the LGBT Centre!\n \n
+ The story is one of unlikely success in the face of public funding cuts\, s
+ ome hostile political foes and an infamous 140 signature petition. It is al
+ so one which perfectly shows the change in public sector funding from the 8
+ 0s to the present day. Above all\, it is a heartening story of community sp
+ irit and perseverance. We will also look forward to the future of the LGBT 
+ Centre.\n \n * Start: Manchester Town Hall main entrance\, Albert Square\n 
+ * Finish: Sidney Street Café with tea and cake\n * Time: Meet 1:45pm for a 
+ 2pm start\n * Contact: Emily Crompton\, Architect at URBED\, 0161 200 5500
+LAST-MODIFIED:20150107T184930Z
+LOCATION:Manchester Town Hall\, Town Hall\, Albert Square\, Manchester M60 
+ 2LA\, United Kingdom
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:"We were born in the 80s": History of the Joyce Layland LGBT Centre
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20150210T134500Z
 DTEND:20150210T160000Z
-DTSTAMP:20150107T181420Z
+DTSTAMP:20150107T191126Z
 UID:c3if5d5c11mfklnt47772okp20@google.com
 ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Fringe
  ;X-NUM-GUESTS=0:mailto:lgbthistoryfestival.org_75su2ag0c26db2rj16ac8hinrk@g
  roup.calendar.google.com
 CREATED:20141222T142311Z
-DESCRIPTION:{Emily Crompton} leads a tour of one of the oldest LGBT centres
-  in the country.
-LAST-MODIFIED:20150107T174507Z
-LOCATION:Joyce Layland LGBT Centre\, 49-51 Sidney St\, Manchester\, M1 7HB
-SEQUENCE:0
+DESCRIPTION:{Emily Crompton} leads a heritage walking trail mapping the pol
+ itical\, economic and social background of how Manchester built Europe’s fi
+ rst Gay Centre.\n \nThis 2 hour walking tour will follow the story of how M
+ anchester became one of the first places to have an entirely publicly funde
+ d\, purpose built centre for the gay community. We will follow the money\, 
+ as it were\, from the Town Hall to Canal Street and then to Sidney Street a
+ nd one of the city’s most diverse urban blocks\, home to an evangelical chu
+ rch and conference centre\, a plethora of fast-food takeaways\, Manchester’
+ s Islamic Centre\, a vegan wholefoods cooperative and the LGBT Centre!\n \n
+ The story is one of unlikely success in the face of public funding cuts\, s
+ ome hostile political foes and an infamous 140 signature petition. It is al
+ so one which perfectly shows the change in public sector funding from the 8
+ 0s to the present day. Above all\, it is a heartening story of community sp
+ irit and perseverance. We will also look forward to the future of the LGBT 
+ Centre.\n \n * Start: Manchester Town Hall main entrance\, Albert Square\n 
+ * Finish: Sidney Street Café with tea and cake\n * Time: Meet 1:45pm for a 
+ 2pm start\n * Contact: Emily Crompton\, Architect at URBED\, 0161 200 5500
+LAST-MODIFIED:20150107T184920Z
+LOCATION:Manchester Town Hall\, Town Hall\, Albert Square\, Manchester M60 
+ 2LA\, United Kingdom
+SEQUENCE:1
 STATUS:CONFIRMED
-SUMMARY:Walking Tour: History of the Joyce Layland LGBT Centre
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-DTSTART:20150214T140000Z
-DTEND:20150214T160000Z
-DTSTAMP:20150107T181420Z
-UID:glg6dkiiilb65uvqlm1k5lc714@google.com
-ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Fringe
- ;X-NUM-GUESTS=0:mailto:lgbthistoryfestival.org_75su2ag0c26db2rj16ac8hinrk@g
- roup.calendar.google.com
-CREATED:20141222T142211Z
-DESCRIPTION:Done by Emily Crompton and culminating in a consultation about 
- the future of the Centre at Sidney St. 
-LAST-MODIFIED:20150105T172135Z
-LOCATION:Joyce Layland LGBT Centre\, 49-51 Sidney St\, Manchester\, M1 7HB
-SEQUENCE:4
-STATUS:CONFIRMED
-SUMMARY:Walking Tour: History of the Joyce Layland LGBT Centre
+SUMMARY:"We were born in the 80s": History of the Joyce Layland LGBT Centre
 TRANSP:OPAQUE
 END:VEVENT
 END:VCALENDAR

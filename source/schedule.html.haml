@@ -5,11 +5,11 @@ title: Schedule
   .row
     .small-12.columns.text-center
       %ul.schedule.key
-        %li.main-festival
+        %li.main-festival.event
           %span.status
             %i.fi-check
           %span Main Festival
-        %li.family-space
+        %li.family-space.event
           %span.status
             %i.fi-check
           %span
@@ -21,19 +21,19 @@ title: Schedule
         -# %span
         -#   Films
         -#   %i.icon-video
-        %li.theatre
+        %li.theatre.event
           %span.status
             %i.fi-check
           %span
             Theatre
             %i.icon-theatre
-        %li.fringe
+        %li.fringe.event
           %span.status
             %i.fi-check
           %span
             Fringe
             %i.icon-map
-        %li.conference
+        %li.conference.event
           %span.status
             %i.fi-x
           %span
@@ -70,7 +70,7 @@ title: Schedule
                 - eventlists = popular.get_events(time)
                 - eventlists.each do |list,events|
                   - events.each do |event|
-                    %li{:class => "#{list.to_s.parameterize} #{'has-description' if event.description.present?}"}
+                    %li{:class => "event #{list.to_s.parameterize} #{'has-description' if event.description.present?}"}
                       - case list.to_s.parameterize
                       - when 'films'
                         %i.icon-video

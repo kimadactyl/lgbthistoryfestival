@@ -9,6 +9,12 @@ $(document).foundation({
   }
 });
 
+// if(Modernizr.svg) {
+//     $('#branding img[src*="png"]').attr('src', function() {
+//         return $(this).attr('src').replace('.png', '.svg');
+//     });
+// }
+
 // Navigation
 // $(window).scroll(function() {
 // // If the current scroll position is more than the branding height minus the nav height,
@@ -129,3 +135,4 @@ $( document ).ready(function() {
   $(".schedule ul.key .conference").toggleClass('disabled');
   checkBlanks();
 });
+

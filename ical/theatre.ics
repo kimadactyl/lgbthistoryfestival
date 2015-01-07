@@ -7,9 +7,30 @@ X-WR-CALNAME:Theatre
 X-WR-TIMEZONE:Europe/London
 X-WR-CALDESC:
 BEGIN:VEVENT
+DTSTART:20150215T120000Z
+DTEND:20150215T123000Z
+DTSTAMP:20150107T191124Z
+UID:862iof4o8l7p2gc4ao6quucqs8@google.com
+CREATED:20150105T165141Z
+DESCRIPTION:In the early 1800s there was a vibrant social and sexual scene 
+ for men which revolved around the house of Isaac Hitchen in Great Sankey ne
+ ar Warrington. Meeting places like this were known as ‘molly’ houses in the
+  parlance of the day. "Isaac Hitchen's House" tells the story of these men\
+ , the investigation\, and the attitudes of the authorities\, in song. Writt
+ en and performed by {Eleanor Levin}\, {Nina George} and {Scott Millington} 
+ of the Grievous Angels as part of Lancaster's 'Documenting Dissent' project
+ .
+LAST-MODIFIED:20150107T190750Z
+LOCATION:Mini Theatre
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Isaac Hitchen's House (A Lancashire Tale) 
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
 DTSTART:20150215T190000Z
 DTEND:20150215T195000Z
-DTSTAMP:20150107T181418Z
+DTSTAMP:20150107T191124Z
 UID:j128lt55rvkosi0osgqofef400@google.com
 ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Theatr
  e;X-NUM-GUESTS=0:mailto:lgbthistoryfestival.org_ijgln6bmp4th9sg6stditdv7ok@
@@ -46,7 +67,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART:20150215T130000Z
 DTEND:20150215T133000Z
-DTSTAMP:20150107T181418Z
+DTSTAMP:20150107T191124Z
 UID:kukvjs19gsfdlc8djgci2jeo9k@google.com
 CREATED:20141127T185951Z
 DESCRIPTION:Experience what it was like to be amongst the 47 prisoners\, as
@@ -64,7 +85,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART:20150214T121500Z
 DTEND:20150214T124500Z
-DTSTAMP:20150107T181418Z
+DTSTAMP:20150107T191124Z
 UID:eskm53mupesptcjep7mrohe4ec@google.com
 ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Theatr
  e;X-NUM-GUESTS=0:mailto:lgbthistoryfestival.org_ijgln6bmp4th9sg6stditdv7ok@
@@ -84,7 +105,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART:20150213T200000Z
 DTEND:20150213T210000Z
-DTSTAMP:20150107T181418Z
+DTSTAMP:20150107T191124Z
 UID:jj8a43h73k6n13rei4c7kb54ms@google.com
 ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Theatr
  e;X-NUM-GUESTS=0:mailto:lgbthistoryfestival.org_ijgln6bmp4th9sg6stditdv7ok@
@@ -99,27 +120,6 @@ LOCATION:Via Fossa\, 30 Canal Street\, Manchester M1 3EZ\, United Kingdom
 SEQUENCE:3
 STATUS:CONFIRMED
 SUMMARY:A Very Victorian Scandal: The Raid
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-DTSTART:20150215T120000Z
-DTEND:20150215T123000Z
-DTSTAMP:20150107T181418Z
-UID:862iof4o8l7p2gc4ao6quucqs8@google.com
-CREATED:20150105T165141Z
-DESCRIPTION:In the early 1800s there was a vibrant social and sexual scene 
- for men which revolved around the house of Isaac Hitchen in Great Sankey ne
- ar Warrington. Meeting places like this were known as ‘molly’ houses in the
-  parlance of the day. "Isaac Hitchen's House" tells the story of these men\
- , the investigation\, and the attitudes of the authorities\, in song. Writt
- en and performed by {Eleanor Levin}\, {Nina George} and {Scott Millington} 
- of the Grievous Angels as part of Lancaster's 'Documenting Dissent' project
- .
-LAST-MODIFIED:20150105T165141Z
-LOCATION:
-SEQUENCE:0
-STATUS:CONFIRMED
-SUMMARY:Isaac Hitchen's House (A Lancashire Tale) 
 TRANSP:OPAQUE
 END:VEVENT
 END:VCALENDAR
