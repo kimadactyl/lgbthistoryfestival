@@ -18,15 +18,21 @@ title: Schedule
         -# %li.films
         -#   %span.status
         -#     %i.fi-check
-          %span
-            Films
-            %i.icon-video
+        -# %span
+        -#   Films
+        -#   %i.icon-video
         %li.theatre
           %span.status
             %i.fi-check
           %span
             Theatre
             %i.icon-theatre
+        %li.fringe
+          %span.status
+            %i.fi-check
+          %span
+            Fringe
+            %i.icon-map
         %li.conference
           %span.status
             %i.fi-x
@@ -41,10 +47,21 @@ title: Schedule
         %label{:for => "s-expanded"}
           <i class="fi-arrows-expand"></i> Expanded
     .small-12.columns
+      %p 
+        All events are free, apart from the academic conference! This means events are first-come, first-served, please arrive in plenty of time to avoid disappointment. More popular events will be ticketed: keep an eye on this page, or our Twitter or Facebook for up-to-the-minute updates.
+      %p 
+        %em Please note times and events are subject to change. Program notes will be updated over the next few weeks.
       %ul.schedule.program
         - days = FestivalCalendar::DAYS
         - days.each do |day, time|
           %h2= day
+          - case day
+          - when 'Saturday'
+            :markdown 
+              All Saturday events are at Manchester Central Library's performance space, apart from <i class="icon-map"></i> Fringe events at the Joyce Layland LGBT Centre and the Working Class movement library. See individual event listings for details, and our [travel page](/travel.html) for venue information.
+          - when 'Sunday'
+            :markdown
+              All Sunday events are at People's History Museum. See our [travel page](/travel.html) for venue information.
           - popular = FestivalCalendar::POPULAR
           - popular.get_start_times(time).each do |time|
             .timegroup
@@ -63,6 +80,8 @@ title: Schedule
                         %i.icon-theatre
                       - when 'conference'
                         %i.icon-book
+                      - when 'fringe'
+                        %i.icon-map
                       %strong
                         = event.summary
                         = ' &hellip;' if event.description.present?

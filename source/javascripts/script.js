@@ -4,28 +4,28 @@ $(document).foundation({
     // FIX THIS! 
     // Should get it from jQuery. For some reason $('#branding').outerHeight() 
     // isn't giving the right height.
-    fixed_top: 115,
+    fixed_top: 0,
     threshold: 0
   }
 });
 
 // Navigation
-$(window).scroll(function() {
-// If the current scroll position is more than the branding height minus the nav height,
-// add the sticky class to branding so we can mess with it, and hide the zigzags
-if ($(window).scrollTop() > $('#branding').height() + 200 - $('nav#primary').height()){  
-    $('body').addClass("sticky");
-    $('#topborder').hide();
-    // $('#branding').hide();
-    // $('#branding').slideDown();
-  }
-  else{
-    $('body').removeClass("sticky");
-    $('#topborder').show();
-    // $('#branding').show();
-    $('section#main #slide-1 .small-12').css('padding-top', 0)
-  }
-});
+// $(window).scroll(function() {
+// // If the current scroll position is more than the branding height minus the nav height,
+// // add the sticky class to branding so we can mess with it, and hide the zigzags
+// if ($(window).scrollTop() > $('#branding').height() + 200 - $('nav#primary').height()){  
+//     $('body').addClass("sticky");
+//     $('#topborder').hide();
+//     // $('#branding').hide();
+//     // $('#branding').slideDown();
+//   }
+//   else{
+//     $('body').removeClass("sticky");
+//     $('#topborder').show();
+//     // $('#branding').show();
+//     $('section#main #slide-1 .small-12').css('padding-top', 0)
+//   }
+// });
 
 // Front page arrows
 $('.arrow').on('click', function(event){
@@ -121,6 +121,7 @@ $( document ).ready(function() {
   toggleProgram($("ul.key .films"), $("ul.program .films"));
   toggleProgram($("ul.key .theatre"), $("ul.program .theatre"));
   toggleProgram($("ul.key .conference"), $("ul.program .conference"));  
+  toggleProgram($("ul.key .fringe"), $("ul.program .fringe"));  
 
   // Hide the conference initially
   $(".schedule ul.program .conference").toggle();

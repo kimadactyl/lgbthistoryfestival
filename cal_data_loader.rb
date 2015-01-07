@@ -12,7 +12,9 @@ CONTRIB_REGEX = /\{[^\{]*\}/
 ICALS = {"main-festival" => "ical/main.ics",
   "family-space" => "ical/family-space.ics",
   "theatre" => "ical/theatre.ics",
-  "conference" => "ical/academic.ics"}
+  "fringe" => "ical/fringe.ics",
+  "conference" => "ical/academic.ics",
+  "fringe" => "ical/fringe.ics"}
 
 CONTRIB_FILE = "data/contribs.yml"
 EVENTS_FILE = "data/events.yml"

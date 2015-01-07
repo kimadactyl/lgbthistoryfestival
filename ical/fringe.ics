@@ -1,0 +1,70 @@
+BEGIN:VCALENDAR
+PRODID:-//Google Inc//Google Calendar 70.9054//EN
+VERSION:2.0
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Fringe
+X-WR-TIMEZONE:UTC
+BEGIN:VEVENT
+DTSTART:20150214T140000Z
+DTEND:20150214T150000Z
+DTSTAMP:20150107T181420Z
+UID:29tipo3tc4c3hg7sds65ra3d60@google.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Fringe
+ ;X-NUM-GUESTS=0:mailto:lgbthistoryfestival.org_75su2ag0c26db2rj16ac8hinrk@g
+ roup.calendar.google.com
+CREATED:20141219T103817Z
+DESCRIPTION:{Mike Jackson}\, co-founder with Mark Ashton of Lesbians and Ga
+ ys Support the Miners (LGSM)\, and {David (Dai) Donovan}\, South Wales NUM 
+ will talk about the activities of the London LGSM and the Neath\, Dulais an
+ d Swansea Valleys Miners' Support Group during the strike\, the lasting lin
+ ks that were formed and the lessons for today's struggles.\n\n[Full informa
+ tion on the WCML website.](http://www.wcml.org.uk/events/lgbt-history-month
+ -talk--unity-is-strength--lesbians-and-gays-support-the-miners-and-their-la
+ sting-links-of-comradeship-with-mining-communities-/)
+LAST-MODIFIED:20150107T175512Z
+LOCATION:Working Class Movement Library\, 51 Crescent\, Salford M5 4WX\, Un
+ ited Kingdom
+SEQUENCE:2
+STATUS:CONFIRMED
+SUMMARY:Unity Is Strength: LGSM's lasting comradeship with mining communiti
+ es
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20150210T140000Z
+DTEND:20150210T160000Z
+DTSTAMP:20150107T181420Z
+UID:c3if5d5c11mfklnt47772okp20@google.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Fringe
+ ;X-NUM-GUESTS=0:mailto:lgbthistoryfestival.org_75su2ag0c26db2rj16ac8hinrk@g
+ roup.calendar.google.com
+CREATED:20141222T142311Z
+DESCRIPTION:{Emily Crompton} leads a tour of one of the oldest LGBT centres
+  in the country.
+LAST-MODIFIED:20150107T174507Z
+LOCATION:Joyce Layland LGBT Centre\, 49-51 Sidney St\, Manchester\, M1 7HB
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Walking Tour: History of the Joyce Layland LGBT Centre
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20150214T140000Z
+DTEND:20150214T160000Z
+DTSTAMP:20150107T181420Z
+UID:glg6dkiiilb65uvqlm1k5lc714@google.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Fringe
+ ;X-NUM-GUESTS=0:mailto:lgbthistoryfestival.org_75su2ag0c26db2rj16ac8hinrk@g
+ roup.calendar.google.com
+CREATED:20141222T142211Z
+DESCRIPTION:Done by Emily Crompton and culminating in a consultation about 
+ the future of the Centre at Sidney St. 
+LAST-MODIFIED:20150105T172135Z
+LOCATION:Joyce Layland LGBT Centre\, 49-51 Sidney St\, Manchester\, M1 7HB
+SEQUENCE:4
+STATUS:CONFIRMED
+SUMMARY:Walking Tour: History of the Joyce Layland LGBT Centre
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR
