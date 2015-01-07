@@ -30,4 +30,4 @@ platforms :mri_18 do
   gem "ruby18_source_location"
 end
 
-gem "middleman-gh-pages", :git => 'https://github.com/mehulkar/middleman-gh-pages.git'
+gem "middleman-gh-pages", :git => 'https://github.com/mehulkar/middleman-gh-pages.git', branch: 'patch-1'

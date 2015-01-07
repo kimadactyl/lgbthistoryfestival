@@ -9,7 +9,8 @@ GIT
 
 GIT
   remote: https://github.com/mehulkar/middleman-gh-pages.git
-  revision: caebeffbf476f3d2d89d188d4fa3935b5f1a8b39
+  revision: c6152fbc2f34cd0747fbebad589ce67d6ac6f04d
+  branch: patch-1
   specs:
     middleman-gh-pages (0.0.3)
       rake (> 0.9.3)
