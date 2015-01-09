@@ -34,7 +34,7 @@ title: What is & How to DO LGBT History?
   .row
     .small-12.columns
       %ul.schedule.program
-        - days = FestivalCalendar::DAYS
+        - days = FestivalCalendar::CONFDAYS
         - days.each do |day, time|
           %h2= day
           - academic = FestivalCalendar::ACADEMIC
@@ -45,7 +45,7 @@ title: What is & How to DO LGBT History?
                 - eventlists = academic.get_events(time)
                 - eventlists.each do |list,events|
                   - events.each do |event|
-                    %li{:class => "#{list.to_s.parameterize} #{'has-description' if event.description.present?}"}
+                    %li{:class => "event #{list.to_s.parameterize} #{'has-description' if event.description.present?}"}
                       %strong
                         = event.summary
                         = ' &hellip;' if event.description.present?
