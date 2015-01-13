@@ -3,5 +3,6 @@
 //= require social-likes/social-likes.min
 //= require jquery.stellar/jquery.stellar.min
 //= require readmore/readmore.min
+//= require remodal/dist/jquery.remodal.min
 
 //= require script
