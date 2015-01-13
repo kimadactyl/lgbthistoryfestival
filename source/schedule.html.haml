@@ -96,7 +96,23 @@ title: Schedule
           %div.remodal(data-remodal-id="#{data.events[event.uid]}")
             %h3
               = event.summary
-            - duration = ((event.dtend - event.dtstart)/60).to_i
-            %em.duration= "(#{duration} mins)"
+
+            %strong
+              = event.dtstart.strftime("%D %H:%M")
+            .duration
+              = list.to_s[2..-3]
+              - case list.to_s.parameterize
+              - when 'films'
+                %i.icon-video
+              - when 'family-space'
+                %i.icon-school
+              - when 'theatre'
+                %i.icon-theatre
+              - when 'conference'
+                %i.icon-book
+              - when 'fringe'
+                %i.icon-map
+              - duration = ((event.dtend - event.dtstart)/60).to_i
+              %em.duration= "(#{duration} mins)"
             %div.description
               = parseEvent(Kramdown::Document.new(event.description).to_html)
