@@ -1,6 +1,9 @@
 ---
 title: Schedule
 ---
+- popular = FestivalCalendar::POPULAR
+- days = FestivalCalendar::DAYS
+
 %section
   .row
     .small-12.columns.text-center
@@ -47,22 +50,20 @@ title: Schedule
         %label{:for => "s-expanded"}
           <i class="fi-arrows-expand"></i> Expanded
     .small-12.columns
-      %p 
+      %p
         All events are free, apart from the academic conference! This means events are first-come, first-served, please arrive in plenty of time to avoid disappointment. More popular events will be ticketed: keep an eye on this page, or our Twitter or Facebook for up-to-the-minute updates.
-      %p 
+      %p
         %em Please note times and events are subject to change. Program notes will be updated over the next few weeks.
       %ul.schedule.program
-        - days = FestivalCalendar::DAYS
         - days.each do |day, time|
           %h2= day
           - case day
           - when 'Saturday'
-            :markdown 
+            :markdown
               All Saturday events are at Manchester Central Library's performance space, apart from <i class="icon-map"></i> Fringe events at the Joyce Layland LGBT Centre and the Working Class movement library. See individual event listings for details, and our [travel page](/travel.html) for venue information.
           - when 'Sunday'
             :markdown
               All Sunday events are at People's History Museum. See our [travel page](/travel.html) for venue information.
-          - popular = FestivalCalendar::POPULAR
           - popular.get_start_times(time).each do |time|
             .timegroup
               %h3.time= time.dtstart.strftime("%H:%M")
@@ -70,22 +71,23 @@ title: Schedule
                 - eventlists = popular.get_events(time)
                 - eventlists.each do |list,events|
                   - events.each do |event|
-                    %li{:class => "event #{list.to_s.parameterize} #{'has-description' if event.description.present?}"}
-                      - case list.to_s.parameterize
-                      - when 'films'
-                        %i.icon-video
-                      - when 'family-space'
-                        %i.icon-school
-                      - when 'theatre'
-                        %i.icon-theatre
-                      - when 'conference'
-                        %i.icon-book
-                      - when 'fringe'
-                        %i.icon-map
-                      %strong
-                        = event.summary
-                        = ' &hellip;' if event.description.present?
-                      - duration = ((event.dtend - event.dtstart)/60).to_i
-                      %em.duration= "(#{duration} mins)"
-                      %div.description
-                        = parseEvent(Kramdown::Document.new(event.description).to_html)
+                    %a{:"data-remodal-target" => "#{data.events[event.uid]}"}
+                      %li{:class => "event #{list.to_s.parameterize} #{'has-description' if event.description.present?}"}
+                        - case list.to_s.parameterize
+                        - when 'films'
+                          %i.icon-video
+                        - when 'family-space'
+                          %i.icon-school
+                        - when 'theatre'
+                          %i.icon-theatre
+                        - when 'conference'
+                          %i.icon-book
+                        - when 'fringe'
+                          %i.icon-map
+                        %strong
+                          = event.summary
+                          = ' &hellip;' if event.description.present?
+                        - duration = ((event.dtend - event.dtstart)/60).to_i
+                        %em.duration= "(#{duration} mins)"
+                        %div.description
+                          = parseEvent(Kramdown::Document.new(event.description).to_html)
