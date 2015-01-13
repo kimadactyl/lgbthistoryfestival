@@ -86,8 +86,17 @@ title: Schedule
                           %i.icon-map
                         %strong
                           = event.summary
-                          = ' &hellip;' if event.description.present?
-                        - duration = ((event.dtend - event.dtstart)/60).to_i
-                        %em.duration= "(#{duration} mins)"
-                        %div.description
-                          = parseEvent(Kramdown::Document.new(event.description).to_html)
+
+.remodal-bg
+  - days.each do |_, time|
+    - popular.get_start_times(time).each do |time|
+      - eventlists = popular.get_events(time)
+      - eventlists.each do |list, events|
+        - events.each do |event|
+          %div.remodal(data-remodal-id="#{data.events[event.uid]}")
+            %h3
+              = event.summary
+            - duration = ((event.dtend - event.dtstart)/60).to_i
+            %em.duration= "(#{duration} mins)"
+            %div.description
+              = parseEvent(Kramdown::Document.new(event.description).to_html)
