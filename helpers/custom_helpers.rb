@@ -21,6 +21,6 @@ module CustomHelpers
   def contribs_AZ()
     #really just a low functionality stub
     #sort list of contributor data by contributor surname
-    data.contribs.sort_by {|key,_| key.split(" ")[-1].downcase}
+    data.contribs.sort #_by {|key,_| key.split(" ")[-1].downcase}
   end
 end
