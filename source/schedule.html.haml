@@ -3,6 +3,9 @@ title: Schedule
 ---
 %section
   .row
+  = partial 'speakerlist'
+%section
+  .row
     .small-12.columns.text-center
       %ul.schedule.key
         %li.main-festival.event
@@ -47,9 +50,9 @@ title: Schedule
         %label{:for => "s-expanded"}
           <i class="fi-arrows-expand"></i> Expanded
     .small-12.columns
-      %p 
+      %p
         All events are free, apart from the academic conference! This means events are first-come, first-served, please arrive in plenty of time to avoid disappointment. More popular events will be ticketed: keep an eye on this page, or our Twitter or Facebook for up-to-the-minute updates.
-      %p 
+      %p
         %em Please note times and events are subject to change. Program notes will be updated over the next few weeks.
       %ul.schedule.program
         - days = FestivalCalendar::DAYS
@@ -57,7 +60,7 @@ title: Schedule
           %h2= day
           - case day
           - when 'Saturday'
-            :markdown 
+            :markdown
               All Saturday events are at Manchester Central Library's performance space, apart from <i class="icon-map"></i> Fringe events at the Joyce Layland LGBT Centre and the Working Class movement library. See individual event listings for details, and our [travel page](/travel.html) for venue information.
           - when 'Sunday'
             :markdown
