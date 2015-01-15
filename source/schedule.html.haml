@@ -6,9 +6,6 @@ title: Schedule
 
 %section
   .row
-  = partial 'speakerlist'
-%section
-  .row
     .small-12.columns.text-center
       %ul.schedule.key
         %li.main-festival.event
@@ -89,6 +86,8 @@ title: Schedule
                           %i.icon-map
                         %strong
                           = event.summary
+    .small-12.columns.speakerlist
+      = partial 'speakerlist'                          
 
 .remodal-bg
   - days.each do |_, time|

@@ -1,5 +1,11 @@
 <ul>
+  <% imagepath = 'bio-photos/' %>
   <% contribs_AZ.each do |speaker,entry|%>
-  <li id=<%=entry.urlname%>><%= speaker %></li>
+    <li id=<%=entry.urlname%>>
+      <% if File.exist?('./source/images/' + imagepath + entry.urlname.parameterize + '.jpg') %>
+        <%= image_tag(imagepath + entry.urlname.parameterize + '.jpg') %>
+      <% end %>
+      <h5><%= speaker %></h5>
+    </li>
   <% end %>
 </ul>
