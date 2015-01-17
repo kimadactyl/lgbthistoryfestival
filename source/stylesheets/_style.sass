@@ -1,3 +1,12 @@
+.initial_box
+  font-size: 80px
+  background-color: #cccccc
+  height: 150px
+  width: 150px
+  display: block
+  text-align: center
+  line-height: 150px
+  vertical-align: middle
 // Colours and sizes etc
 $red: #ED1C24
 $pink: #EB6D98
@@ -65,7 +74,7 @@ p
   strong
     font-weight: 600
 // Various fancy borders for h3/h2 elements
-@media #{$medium-up}  
+@media #{$medium-up}
   .longborder
     background: url('/images/icons/longborder.svg')
     background-repeat: no-repeat
@@ -73,7 +82,7 @@ p
     margin-bottom: 1em
     padding: 8px 0
 
-@media #{$medium-up}  
+@media #{$medium-up}
   .chevronborder
     // SVG is playing up, not sure why
     background: url('/images/icons/chevronborder.png')
@@ -146,7 +155,7 @@ section#branding
     margin-bottom: 0.6em
   img.strapline
     margin-bottom: 0.5em
-  @media #{$small-only}    
+  @media #{$small-only}
     img.strapline, img.mainlogo
       max-width: 95%
   img
@@ -191,7 +200,7 @@ section#branding
 .sticky.index section#branding
   padding: 0 0 0.75em
 
-@media #{$small-only} 
+@media #{$small-only}
   .sticky section#branding
     display: none
 
@@ -203,7 +212,7 @@ section#branding
     background: black
 
 // Pink triangles at the top
-@media #{$medium-up} 
+@media #{$medium-up}
   body:not(.index) #topborder
     +border-bottom-serrated($jaggies, white)
     z-index: 1000
@@ -221,14 +230,14 @@ nav#primary, nav#mobilenav .left
       padding: 0.25em
       color: black
       text-decoration: none
-      font-size: 130%    
+      font-size: 130%
 
 // Main navigation
 nav#primary
   margin-top: 1em
   li
     margin: 1em 0.25em
-    padding: 0.5em 1em  
+    padding: 0.5em 1em
     display: inline-block
     +scalloped-border(white)
   li:hover
@@ -341,9 +350,9 @@ ul.schedule
       background-color: transparent
       border-color: $deselected
       color: $deselected
-  &.key li, li.has-description:hover   
+  &.key li, li.has-description:hover
     cursor: hand
-    cursor: pointer 
+    cursor: pointer
 
   @media #{$small-only}
     li
@@ -357,7 +366,7 @@ ul.schedule
     .timeblock
       margin-left: 65px
       padding-left: 10px
-      border-left: 1px solid #bbb      
+      border-left: 1px solid #bbb
 
 ul.key
   text-align: center
@@ -511,8 +520,8 @@ body.index section#main
     z-index: -10
     .row
       top: 0
-      margin-top: -$jaggies    
-    @media #{$large-up} 
+      margin-top: -$jaggies
+    @media #{$large-up}
       .titlecontainer
         background-image: url("/images/icons/introborder.svg")
         background-repeat: no-repeat
@@ -533,10 +542,10 @@ body.index section#main
     +border-bottom-serrated($jaggies, $pink)
     h3
       font-size: 210%
-      font-weight: bold 
+      font-weight: bold
       @media #{$small-only}
         font-size: 125%
-        padding: 1em 0.25em 0      
+        padding: 1em 0.25em 0
   section#hosted-at
     text-align: center
     padding-top: 0
