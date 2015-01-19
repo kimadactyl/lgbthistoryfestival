@@ -1,6 +1,8 @@
 ---
 title: Schedule
 ---
+- require 'set'
+
 - popular = FestivalCalendar::POPULAR
 - days = FestivalCalendar::DAYS
 
@@ -72,7 +74,11 @@ title: Schedule
                 - eventlists.each do |list,events|
                   - events.each do |event|
                     %a{:"data-remodal-target" => "#{data.events[event.uid]}"}
-                      %li{:class => "event #{list.to_s.parameterize} #{'has-description' if event.description.present?}"}
+                      - speakers = Set.new();
+                      - data.contribs.each do |_, details|
+                        - if details.events.include? event.uid.to_s
+                          - speakers << details.urlname
+                      %li{:class => "event #{list.to_s.parameterize} #{'has-description' if event.description.present?} #{speakers.to_a.join(" ")}"}
                         - case list.to_s.parameterize
                         - when 'films'
                           %i.icon-video
@@ -87,7 +93,7 @@ title: Schedule
                         %strong
                           = event.summary
     .small-12.columns.speakerlist
-      = partial 'speakerlist'                          
+      = partial 'speakerlist'
 
 .remodal-bg
   - days.each do |_, time|

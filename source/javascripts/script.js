@@ -1,8 +1,8 @@
 $(document).foundation({
   "magellan-expedition": {
     throttle_delay: 50,
-    // FIX THIS! 
-    // Should get it from jQuery. For some reason $('#branding').outerHeight() 
+    // FIX THIS!
+    // Should get it from jQuery. For some reason $('#branding').outerHeight()
     // isn't giving the right height.
     fixed_top: 0,
     threshold: 0
@@ -19,7 +19,7 @@ $(document).foundation({
 // $(window).scroll(function() {
 // // If the current scroll position is more than the branding height minus the nav height,
 // // add the sticky class to branding so we can mess with it, and hide the zigzags
-// if ($(window).scrollTop() > $('#branding').height() + 200 - $('nav#primary').height()){  
+// if ($(window).scrollTop() > $('#branding').height() + 200 - $('nav#primary').height()){
 //     $('body').addClass("sticky");
 //     $('#topborder').hide();
 //     // $('#branding').hide();
@@ -98,6 +98,14 @@ $( document ).ready(function() {
     })
   }
 
+  $("li.bio-boxes").click(function() {
+    var these = $("."+this.id);
+    console.log(these)
+    $(".program li.event").not(these).hide();
+    $(these).show();
+    checkBlanks();
+  })
+
   // Check for click events on expanded/contracted selector
   $("input[name='expanded']").click(function() {
     if($(this).attr("value")=="0"){
@@ -126,8 +134,8 @@ $( document ).ready(function() {
   toggleProgram($("ul.key .family-space"), $("ul.program .family-space"));
   toggleProgram($("ul.key .films"), $("ul.program .films"));
   toggleProgram($("ul.key .theatre"), $("ul.program .theatre"));
-  toggleProgram($("ul.key .conference"), $("ul.program .conference"));  
-  toggleProgram($("ul.key .fringe"), $("ul.program .fringe"));  
+  toggleProgram($("ul.key .conference"), $("ul.program .conference"));
+  toggleProgram($("ul.key .fringe"), $("ul.program .fringe"));
 
   // Hide the conference initially
   $(".schedule ul.program .conference").toggle();
@@ -135,4 +143,3 @@ $( document ).ready(function() {
   $(".schedule ul.key .conference").toggleClass('disabled');
   checkBlanks();
 });
-
