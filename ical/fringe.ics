@@ -6,36 +6,9 @@ METHOD:PUBLISH
 X-WR-CALNAME:Fringe
 X-WR-TIMEZONE:UTC
 BEGIN:VEVENT
-DTSTART:20150209T140000Z
-DTEND:20150209T150000Z
-DTSTAMP:20150109T091502Z
-UID:iedo73v726d2hc7fjfb1dtj0rc@google.com
-CREATED:20150108T150951Z
-DESCRIPTION:{Museum Maketh Man}\nThis tour explores how gender and sexualit
- y is constructed or omitted in Victorian encyclopaedic museums via their di
- splays and associated collections of natural science and human culture. It 
- will reveal the legacy of colonial heteropatriachical thinking and the impl
- ications of this for contemporary LGBTQ audiences.\n\n{Stephen Welsh} has b
- een Curator of Living Cultures at Manchester Museum\, The University of Man
- chester\, since 2007. He is responsible for ensuring access\, both physical
-  and intellectual\, to a collection of over 18\,000 ethnographic objects fr
- om all over the world. His most recent exhibitions include China: Journey t
- o the East\, Breed: The British and their Dogs\, and Warriors of the Plains
- . Previously he was Project Curator at the International Slavery Museum\, N
- ational Museum Liverpool\, from 2005 to 2007. His research interests includ
- e colonialism\, multiculturalism and sexuality.
-LAST-MODIFIED:20150108T151429Z
-LOCATION:The Manchester Museum\, The University Of Manchester\, Oxford Road
- \, Manchester M13 9PL\, United Kingdom
-SEQUENCE:0
-STATUS:CONFIRMED
-SUMMARY:Museum Maketh Man
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
 DTSTART:20150210T100000Z
 DTEND:20150210T110000Z
-DTSTAMP:20150109T091502Z
+DTSTAMP:20150116T144504Z
 UID:6soladig52ft45dbgankqjeue4@google.com
 CREATED:20150108T151252Z
 DESCRIPTION:{Museum Maketh Man}\nThis tour explores how gender and sexualit
@@ -50,8 +23,39 @@ DESCRIPTION:{Museum Maketh Man}\nThis tour explores how gender and sexualit
  o the East\, Breed: The British and their Dogs\, and Warriors of the Plains
  . Previously he was Project Curator at the International Slavery Museum\, N
  ational Museum Liverpool\, from 2005 to 2007. His research interests includ
- e colonialism\, multiculturalism and sexuality.
-LAST-MODIFIED:20150108T151347Z
+ e colonialism\, multiculturalism and sexuality.\n\nPlease note: tours are l
+ imited to 15 people due to space restrictions. Please email stephen.welsh@m
+ anchester.ac.uk to register in advance.
+LAST-MODIFIED:20150113T142432Z
+LOCATION:The Manchester Museum\, The University Of Manchester\, Oxford Road
+ \, Manchester M13 9PL\, United Kingdom
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Museum Maketh Man
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20150209T140000Z
+DTEND:20150209T150000Z
+DTSTAMP:20150116T144504Z
+UID:iedo73v726d2hc7fjfb1dtj0rc@google.com
+CREATED:20150108T150951Z
+DESCRIPTION:{Museum Maketh Man}\nThis tour explores how gender and sexualit
+ y is constructed or omitted in Victorian encyclopaedic museums via their di
+ splays and associated collections of natural science and human culture. It 
+ will reveal the legacy of colonial heteropatriachical thinking and the impl
+ ications of this for contemporary LGBTQ audiences.\n\n{Stephen Welsh} has b
+ een Curator of Living Cultures at Manchester Museum\, The University of Man
+ chester\, since 2007. He is responsible for ensuring access\, both physical
+  and intellectual\, to a collection of over 18\,000 ethnographic objects fr
+ om all over the world. His most recent exhibitions include China: Journey t
+ o the East\, Breed: The British and their Dogs\, and Warriors of the Plains
+ . Previously he was Project Curator at the International Slavery Museum\, N
+ ational Museum Liverpool\, from 2005 to 2007. His research interests includ
+ e colonialism\, multiculturalism and sexuality.\n\nPlease note: tours are l
+ imited to 15 people due to space restrictions. Please email stephen.welsh@m
+ anchester.ac.uk to register in advance. 
+LAST-MODIFIED:20150113T142233Z
 LOCATION:The Manchester Museum\, The University Of Manchester\, Oxford Road
  \, Manchester M13 9PL\, United Kingdom
 SEQUENCE:0
@@ -62,7 +66,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART:20150214T140000Z
 DTEND:20150214T150000Z
-DTSTAMP:20150109T091502Z
+DTSTAMP:20150116T144504Z
 UID:29tipo3tc4c3hg7sds65ra3d60@google.com
 ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Fringe
  ;X-NUM-GUESTS=0:mailto:lgbthistoryfestival.org_75su2ag0c26db2rj16ac8hinrk@g
@@ -89,7 +93,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART:20150214T134500Z
 DTEND:20150214T154500Z
-DTSTAMP:20150109T091502Z
+DTSTAMP:20150116T144504Z
 UID:1qftul9kd86g2h8a7i3pfdetj4@google.com
 CREATED:20150107T184833Z
 DESCRIPTION:{Emily Crompton} leads a heritage walking trail mapping the pol
@@ -120,7 +124,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART:20150210T134500Z
 DTEND:20150210T160000Z
-DTSTAMP:20150109T091502Z
+DTSTAMP:20150116T144504Z
 UID:c3if5d5c11mfklnt47772okp20@google.com
 ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Fringe
  ;X-NUM-GUESTS=0:mailto:lgbthistoryfestival.org_75su2ag0c26db2rj16ac8hinrk@g

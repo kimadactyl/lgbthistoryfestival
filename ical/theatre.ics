@@ -7,9 +7,71 @@ X-WR-CALNAME:Theatre
 X-WR-TIMEZONE:Europe/London
 X-WR-CALDESC:
 BEGIN:VEVENT
+DTSTART:20150215T140000Z
+DTEND:20150215T145000Z
+DTSTAMP:20150116T144503Z
+UID:83lnmitl618t4pvhihbpuq4ac0@google.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Theatr
+ e;X-NUM-GUESTS=0:mailto:lgbthistoryfestival.org_ijgln6bmp4th9sg6stditdv7ok@
+ group.calendar.google.com
+CREATED:20150108T111002Z
+DESCRIPTION:‘All The Nice Girls’ by [Behind The Lines](http://www.behindthe
+ lines.info/) takes an entertaining glimpse at the lives of Gwen Farrar and 
+ Norah Blaney through the eyes of male impersonator Ella Shields. Starting o
+ ut in Lena Ashwell’s concert parties for the troops in WW1 the young Farrar
+  and Blaney quickly adapted their classical ‘cello/piano act into a ‘turn’ 
+ full of repartee and physical humour.\n\nHousehold names in the early 1920s
+ \, Farrar and Blaney had an on and offstage partnership\, singing popular l
+ ove songs of the day to each other in West End Revues and living together o
+ penly. Atthe same time Ella Shields’ Music Hall act was in decline. ‘All Th
+ e Nice Girls’ imagines her fictitious reaction to the younger pair as they 
+ live the starry life of Bright Young Things. Will their relationship surviv
+ e the pressures of the age and the conflicting urges to marry and conform o
+ r to party wildly into oblivion?\n\n{Ali Child} is a writer\, director and 
+ performer. She was a Choral Exhibitioner at Trinity College\, Cambridge\, a
+ ppeared at the Arts Theatre with the Marlowe Society and Cambridge Universi
+ ty Opera Society and  toured for two years with the Footlights Revue. She g
+ raduated with a degree in History and a P.G.C.E. in English and Drama.\n\n{
+ Rosie Wakley} has worked in the theatre in many capacities including Master
+  Carpenter\, Stage Manager and ultimately Production Manager at the Coliseu
+ m for the English National Opera. She has an M.B.A. degree from Lancaster U
+ niversity and performs widely as her alter ego\, lounge singer\, Ronnie Ria
+ lto.\n\n[Kindly sponsored by Foale Consulting Ltd.](http://www.initiative-c
+ onsulting.com/)
+LAST-MODIFIED:20150115T202500Z
+LOCATION:Mini Theatre
+SEQUENCE:1
+STATUS:CONFIRMED
+SUMMARY:All the Nice Girls
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20150215T130000Z
+DTEND:20150215T133000Z
+DTSTAMP:20150116T144503Z
+UID:kukvjs19gsfdlc8djgci2jeo9k@google.com
+CREATED:20141127T185951Z
+DESCRIPTION:It was one of the biggest police raids in Victorian England. It
+  was the UK’s Stonewall. And it happened in 1880! But why was it covered-up
+ ? \n\nExperience what it was like to be amongst the 47 prisoners\, as we re
+ create the infamous trial using immersive theatre. You will watch your fate
+ \, and the fate of the other prisoners\, be decided by the Chief Justice. W
+ ill all of the prisoners maintain their promise to remain silent\, or will 
+ the fear of prison force someone to speak out?\n\nThe concluding part of a 
+ series of performances across Manchester\, the performance will present the
+  court trail of a raid on a Victorian drag ball\, a police conspiracy to ri
+ val Jeremy Kyle!
+LAST-MODIFIED:20150115T202308Z
+LOCATION:Engine Hall
+SEQUENCE:1
+STATUS:CONFIRMED
+SUMMARY:A Very Victorian Scandal: The Trial
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
 DTSTART:20150215T120000Z
 DTEND:20150215T123000Z
-DTSTAMP:20150109T091500Z
+DTSTAMP:20150116T144503Z
 UID:862iof4o8l7p2gc4ao6quucqs8@google.com
 CREATED:20150105T165141Z
 DESCRIPTION:In the early 1800s there was a vibrant social and sexual scene 
@@ -28,64 +90,9 @@ SUMMARY:Isaac Hitchen's House (A Lancashire Tale)
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
-DTSTART:20150215T190000Z
-DTEND:20150215T195000Z
-DTSTAMP:20150109T091500Z
-UID:j128lt55rvkosi0osgqofef400@google.com
-ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Theatr
- e;X-NUM-GUESTS=0:mailto:lgbthistoryfestival.org_ijgln6bmp4th9sg6stditdv7ok@
- group.calendar.google.com
-CREATED:20150106T172848Z
-DESCRIPTION:‘All The Nice Girls’ takes an entertaining glimpse at the lives
-  of Gwen Farrar and Norah Blaney through the eyes of male impersonator Ella
-  Shields. Starting out in Lena Ashwell’s concert parties for the troops in 
- WW1 the young Farrar and Blaney quickly adapted their classical ‘cello/pian
- o act into a ‘turn’ full of repartee and physical humour.\n\nHousehold name
- s in the early 1920s Farrar and Blaney had an on and offstage partnership\,
-  singing popular love songs of the day to each other in West End Revues and
-  living together openly. Atthe same time Ella Shields’ Music Hall act was i
- n decline. ‘All The Nice Girls’ imagines her fictitious reaction to the you
- nger pair as they live the starry life of Bright Young Things. Will their r
- elationship survive the pressures of the age and the conflicting urges to m
- arry and conform or to party wildly into oblivion?\n\nAli Child is a writer
- \, director and performer. She was a Choral Exhibitioner at Trinity College
- \, Cambridge\, appeared at the Arts Theatre with the Marlowe Society and Ca
- mbridge University Opera Society and  toured for two years with the Footlig
- hts Revue. She graduated with a degree in History and a P.G.C.E. in English
-  and Drama.\n\nRosie Wakley has worked in the theatre in many capacities in
- cluding Master Carpenter\, Stage Manager and ultimately Production Manager 
- at the Coliseum for the English National Opera. She has an M.B.A. degree fr
- om Lancaster University and performs widely as her alter ego\, lounge singe
- r\, Ronnie Rialto\n
-LAST-MODIFIED:20150107T181403Z
-LOCATION:Mini Theatre Space
-SEQUENCE:1
-STATUS:CONFIRMED
-SUMMARY:All the Nice Girls
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-DTSTART:20150215T130000Z
-DTEND:20150215T133000Z
-DTSTAMP:20150109T091500Z
-UID:kukvjs19gsfdlc8djgci2jeo9k@google.com
-CREATED:20141127T185951Z
-DESCRIPTION:Experience what it was like to be amongst the 47 prisoners\, as
-  we recreate the infamous trial using immersive theatre. You will watch you
- r fate\, and the fate of the other prisoners\, be decided by the Chief Just
- ice. Will all of the prisoners maintain their promise to remain silent\, or
-  will the fear of prison force someone to speak out?
-LAST-MODIFIED:20150107T162619Z
-LOCATION:Engine Hall
-SEQUENCE:1
-STATUS:CONFIRMED
-SUMMARY:A Very Victorian Scandal: The Trial
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
 DTSTART:20150214T121500Z
 DTEND:20150214T124500Z
-DTSTAMP:20150109T091500Z
+DTSTAMP:20150116T144503Z
 UID:eskm53mupesptcjep7mrohe4ec@google.com
 ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Theatr
  e;X-NUM-GUESTS=0:mailto:lgbthistoryfestival.org_ijgln6bmp4th9sg6stditdv7ok@
@@ -105,7 +112,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART:20150213T200000Z
 DTEND:20150213T210000Z
-DTSTAMP:20150109T091500Z
+DTSTAMP:20150116T144503Z
 UID:jj8a43h73k6n13rei4c7kb54ms@google.com
 ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Theatr
  e;X-NUM-GUESTS=0:mailto:lgbthistoryfestival.org_ijgln6bmp4th9sg6stditdv7ok@
