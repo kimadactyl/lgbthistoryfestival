@@ -7,7 +7,7 @@ module FestivalCalendar
             "Friday" => Time.new(2015,2,13),
             "Saturday" => Time.new(2015,2,14),
             "Sunday" => Time.new(2015,2,15) }
-  CONFDAYS = { 
+  CONFDAYS = {
             "Friday" => Time.new(2015,2,13),
             "Saturday" => Time.new(2015,2,14),
             "Sunday" => Time.new(2015,2,15) }
@@ -53,6 +53,17 @@ module FestivalCalendar
       e
     end
 
+    def get_event_by_uid(uid)
+      @cals.each do |cal|
+        cal.events.each do |event|
+          if event.uid == uid
+            return event
+          end
+        end
+      end
+      return "no such event"
+    end
+
     def [] (key)
       #Skeleton method to index a Calendar sorter by key.
       idx = @idxs.index(key)
@@ -69,6 +80,6 @@ module FestivalCalendar
               "Theatre" => "ical/theatre.ics",
               "Conference" => "ical/academic.ics",
               "Fringe" => "ical/fringe.ics"})
-  
+
   ACADEMIC = CalendarSorter.new({"Conference" => "ical/academic.ics"})
 end
