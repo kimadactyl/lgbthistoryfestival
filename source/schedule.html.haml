@@ -101,7 +101,8 @@ title: Schedule
       - eventlists = popular.get_events(time)
       - eventlists.each do |list, events|
         - events.each do |event|
-          %div.remodal(data-remodal-id="#{data.events[event.uid]}")
+          - friendly_name = data.events[event.uid]
+          %div.remodal(data-remodal-id="#{friendly_name}")
             %h3
               = event.summary
 
@@ -120,6 +121,10 @@ title: Schedule
                 %i.icon-book
               - when 'fringe'
                 %i.icon-map
+              - if data.ticketed[friendly_name]
+                %a(href="#{data.ticketed[friendly_name]}")
+                  %i.icon-ticketed
+                  ticketed
               - duration = ((event.dtend - event.dtstart)/60).to_i
               %em.duration= "(#{duration} mins)"
             %div.description
