@@ -134,10 +134,15 @@ $( document ).ready(function() {
   // Show family events if captured in URL
   var family = window.getParameterByName("family");
   if(family == 1) {
+    // This is absoltely horrible and needs refactoring
     $(".schedule ul.program .event").hide();
     $(".schedule ul.program .family-space").show();
     $(".schedule ul.key li").addClass('disabled');
     $(".schedule ul.key .family-space").removeClass('disabled');
+    $("span.status i").removeClass('fi-check');
+    $("span.status i").addClass("fi-x");
+    $(".family-space span.status i").addClass("fi-check");
+    $(".family-space span.status i").removeClass("fi-x");
     checkBlanks();
   }
 });
