@@ -6,9 +6,137 @@ METHOD:PUBLISH
 X-WR-CALNAME:Main Festival
 X-WR-TIMEZONE:Europe/London
 BEGIN:VEVENT
+DTSTART:20150213T173000Z
+DTEND:20150213T193000Z
+DTSTAMP:20150120T140129Z
+UID:nugm31eushk6dql7lr1kkfoheo@google.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=kim@lg
+ bthistoryfestival.org;X-NUM-GUESTS=0:mailto:kim@lgbthistoryfestival.org
+CREATED:20141211T131848Z
+DESCRIPTION:Civic festival launch\, introduced by the Lord Mayor of Manches
+ ter and {Sue Sanders}\,  co-chair of Schools OUT UK.\n\nThe Campaign for Ho
+ mosexual Equality present The 1st Allan Horsfall Lecture\, presented by Pro
+ f. {Charles Upchurch} (Asst. Professor of British History\, Florida State U
+ niversity). \n\nIn his talk  "Like Sympathetic Ink: Identity and the Early 
+ Nineteenth-Century Attempt to Reform of the British Sodomy Laws"\, Prof. Up
+ church examines some of the earliest attempts to legalise inter-male sex. 
+LAST-MODIFIED:20150120T124803Z
+LOCATION:The Lesbian & Gay Foundation\, 5 Richmond Street\, Manchester\, Ma
+ nchester M1 3HF\, United Kingdom
+SEQUENCE:3
+STATUS:CONFIRMED
+SUMMARY:Festival Launch: The 1st Alan Horsfall Lecture
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20150215T122000Z
+DTEND:20150215T125000Z
+DTSTAMP:20150120T140129Z
+UID:fu6mtj664c27v2j1r6rpd117kg@google.com
+CREATED:20150119T155857Z
+DESCRIPTION:Some of the best LGBT stories from forty years of organising in
+  UNISON\, the public service union\, and its predecessor unions.  The pitch
+ ed battle on the letters page of the union magazine in 1974. How ten years 
+ later\, 70 lesbian and gay union members were accused of running a brothel.
+  Why in the early 90s we negotiated a right of reply for Black lesbians and
+  gay men in The Voice newspaper.  Why we were slated on the pages of Bi Com
+ munity News and what happened next.  How one woman found her voice during a
+  rules debate.  All this and more.  The moral of the story?  We are stronge
+ r together!\n
+LAST-MODIFIED:20150119T155857Z
+LOCATION:Archive space
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Carola Towle:  Am I the only one?  Lone voices to collective action
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VFREEBUSY
+DTSTART:20150215T160000Z
+DTEND:20150215T163000Z
+DTSTAMP:20150120T140129Z
+UID:gf4pua0vdjeaa6rgmabrr3flqo@google.com
+ATTENDEE;X-NUM-GUESTS=0:mailto:kim@lgbthistoryfestival.org
+SUMMARY:Busy
+END:VFREEBUSY
+BEGIN:VEVENT
+DTSTART:20150214T150000Z
+DTEND:20150214T153000Z
+DTSTAMP:20150120T140129Z
+UID:n0givsgeuq7kvbjuvu3njbkm20@google.com
+CREATED:20150116T153344Z
+DESCRIPTION:{Helena Whitbread} will sign copies of The Secret Diaries of Mi
+ ss Anne Lister on our News From Nowhere stall. 
+LAST-MODIFIED:20150116T153344Z
+LOCATION:Shakespeare Hall
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Book Signing: Helena Whitbread
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20150214T140000Z
+DTEND:20150214T143000Z
+DTSTAMP:20150120T140129Z
+UID:g7r5oet636agnell7jchl13bjc@google.com
+CREATED:20150116T153140Z
+DESCRIPTION:{Catherine Hall} will sign copies of Days of Grace\, The Proof 
+ of Love\, and The Repercussions on our News From nowhere book stall. 
+LAST-MODIFIED:20150116T153158Z
+LOCATION:Shakespeare Hall
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Book Signing: Catherine Hall
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20150214T133000Z
+DTEND:20150214T140000Z
+DTSTAMP:20150120T140129Z
+UID:aqkgu2sibq30iq87dj9irf8vmk@google.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=kim@lg
+ bthistoryfestival.org;X-NUM-GUESTS=0:mailto:kim@lgbthistoryfestival.org
+CREATED:20150116T152943Z
+DESCRIPTION:{Peter Scott-Presland} will be signing his book Amiable Warrior
+ s on the news from Nowhere book stall. 
+LAST-MODIFIED:20150116T153005Z
+LOCATION:Shakespeare Hall
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Book Signing: Peter Scott-Presland
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20150214T134500Z
+DTEND:20150214T141500Z
+DTSTAMP:20150120T140129Z
+UID:kkdbaa8u6ef09pk1b0cfe098ic@google.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=kim@lg
+ bthistoryfestival.org;X-NUM-GUESTS=0:mailto:kim@lgbthistoryfestival.org
+CREATED:20141126T141110Z
+DESCRIPTION:{Ross Burgess} worked for many years before retirement as an IT
+  consultant. He lives in Croydon with his husband\, Roger. He founded the T
+ unbridge Wells CHE Group in 1972 and has been involved with LGBT groups eve
+ r since. He was a Trustee of the LGBT Consortium for three years. He contri
+ buted the Croydon chapter of Out of the Shadows\, the history of gay groups
+  in London\, and has helped to edit this and other books\, including Amiabl
+ e Warriors\, which is being launched at this Festival. He has managed vario
+ us websites\, and is the main contributor to the [LGBT History Project](www
+ .lgbthistoryuk.org) which aims to create a comprehensive online encyclopaed
+ ia of LGBT life in the UK from the earliest time to the present day.\n\nIn 
+ hit Talking Head slot Ross will talk a bit about his experience with variou
+ s LGBT groups\, his involvement with CHE and in particular with the Amiable
+  Warriors book as well as the LGBT History Project website \n\n
+LAST-MODIFIED:20150116T145019Z
+LOCATION:Space 2
+SEQUENCE:1
+STATUS:CONFIRMED
+SUMMARY:Ross Burgess: Experiences with CHE
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
 DTSTART:20150215T153000Z
 DTEND:20150215T160000Z
-DTSTAMP:20150116T144501Z
+DTSTAMP:20150120T140129Z
 UID:k5457mnhq24isqp4dc7lf5k84g@google.com
 ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=kim@lg
  bthistoryfestival.org;X-NUM-GUESTS=0:mailto:kim@lgbthistoryfestival.org
@@ -40,7 +168,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART:20150214T111500Z
 DTEND:20150214T114500Z
-DTSTAMP:20150116T144501Z
+DTSTAMP:20150120T140129Z
 UID:bgrlhtksii8l63khmi0v2qaock@google.com
 ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=kim@lg
  bthistoryfestival.org;X-NUM-GUESTS=0:mailto:kim@lgbthistoryfestival.org
@@ -57,7 +185,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART:20150215T145000Z
 DTEND:20150215T152000Z
-DTSTAMP:20150116T144501Z
+DTSTAMP:20150120T140129Z
 UID:20f4bdoc358dav66dbclejjuog@google.com
 ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=kim@lg
  bthistoryfestival.org;X-NUM-GUESTS=0:mailto:kim@lgbthistoryfestival.org
@@ -81,7 +209,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART:20150214T103000Z
 DTEND:20150214T110000Z
-DTSTAMP:20150116T144501Z
+DTSTAMP:20150120T140129Z
 UID:6a73qulikvaqfv7aouea1k656o@google.com
 CREATED:20141126T135808Z
 DESCRIPTION:{Peter Tatchell} tells the inside story of how Dr Vaernet was a
@@ -114,7 +242,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART:20150215T145000Z
 DTEND:20150215T154500Z
-DTSTAMP:20150116T144501Z
+DTSTAMP:20150120T140129Z
 UID:0vnfsdjti2ekrueoo1nn5fqtsc@google.com
 ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=kim@lg
  bthistoryfestival.org;X-NUM-GUESTS=0:mailto:kim@lgbthistoryfestival.org
@@ -136,7 +264,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART:20150215T133000Z
 DTEND:20150215T141500Z
-DTSTAMP:20150116T144501Z
+DTSTAMP:20150120T140129Z
 UID:o58e687o3k0odj605pivbsvri0@google.com
 ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=kim@lg
  bthistoryfestival.org;X-NUM-GUESTS=0:mailto:kim@lgbthistoryfestival.org
@@ -158,7 +286,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART:20150214T130000Z
 DTEND:20150214T133000Z
-DTSTAMP:20150116T144501Z
+DTSTAMP:20150120T140129Z
 UID:10bietmtdr79n84dhsenptvt1c@google.com
 ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=kim@lg
  bthistoryfestival.org;X-NUM-GUESTS=0:mailto:kim@lgbthistoryfestival.org
@@ -213,7 +341,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART:20150215T140000Z
 DTEND:20150215T143000Z
-DTSTAMP:20150116T144501Z
+DTSTAMP:20150120T140129Z
 UID:b2022von6fts2lfjcqa75lmfm0@google.com
 ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=kim@lg
  bthistoryfestival.org;X-NUM-GUESTS=0:mailto:kim@lgbthistoryfestival.org
@@ -231,7 +359,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART:20150214T130000Z
 DTEND:20150214T133000Z
-DTSTAMP:20150116T144501Z
+DTSTAMP:20150120T140129Z
 UID:od7iba0v2r81mbi80dfkqqgp18@google.com
 CREATED:20141126T140306Z
 DESCRIPTION:{Jan Bridget} is a 67 year old lesbian from a poor\, lower clas
@@ -256,7 +384,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART:20150214T111500Z
 DTEND:20150214T114500Z
-DTSTAMP:20150116T144501Z
+DTSTAMP:20150120T140129Z
 UID:5s2mvij1nh9l2707ejtihdd9q0@google.com
 ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=kim@lg
  bthistoryfestival.org;X-NUM-GUESTS=0:mailto:kim@lgbthistoryfestival.org
@@ -286,7 +414,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART:20150215T115000Z
 DTEND:20150215T123000Z
-DTSTAMP:20150116T144501Z
+DTSTAMP:20150120T140129Z
 UID:ijho8rsqpjbnnpj4r73k35dgpc@google.com
 CREATED:20150106T171458Z
 DESCRIPTION:In the early 1800s there was a vibrant social and sexual scene 
@@ -319,18 +447,10 @@ SUMMARY:Documenting Dissent Team: Isaac Hitchen's House (A Lancashire Tale)
   
 TRANSP:OPAQUE
 END:VEVENT
-BEGIN:VFREEBUSY
-DTSTART:20150215T160000Z
-DTEND:20150215T170000Z
-DTSTAMP:20150116T144501Z
-UID:gf4pua0vdjeaa6rgmabrr3flqo@google.com
-ATTENDEE;X-NUM-GUESTS=0:mailto:kim@lgbthistoryfestival.org
-SUMMARY:Busy
-END:VFREEBUSY
 BEGIN:VEVENT
 DTSTART:20150215T153000Z
 DTEND:20150215T160000Z
-DTSTAMP:20150116T144501Z
+DTSTAMP:20150120T140129Z
 UID:hj0cq2ivihpalkqj694gf99288@google.com
 ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=kim@lg
  bthistoryfestival.org;X-NUM-GUESTS=0:mailto:kim@lgbthistoryfestival.org
@@ -361,7 +481,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART:20150215T153000Z
 DTEND:20150215T160000Z
-DTSTAMP:20150116T144501Z
+DTSTAMP:20150120T140129Z
 UID:1q3ql1qapk57jko4jjlki2meq8@google.com
 ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=kim@lg
  bthistoryfestival.org;X-NUM-GUESTS=0:mailto:kim@lgbthistoryfestival.org
@@ -386,7 +506,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART:20150215T145000Z
 DTEND:20150215T151000Z
-DTSTAMP:20150116T144501Z
+DTSTAMP:20150120T140129Z
 UID:6cp3pm2ap1pbegufvk5vvh1q5s@google.com
 ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=kim@lg
  bthistoryfestival.org;X-NUM-GUESTS=0:mailto:kim@lgbthistoryfestival.org
@@ -405,7 +525,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART:20150215T140000Z
 DTEND:20150215T143000Z
-DTSTAMP:20150116T144501Z
+DTSTAMP:20150120T140129Z
 UID:7ujg8gvrt56j63tfj73gj6kas4@google.com
 ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=kim@lg
  bthistoryfestival.org;X-NUM-GUESTS=0:mailto:kim@lgbthistoryfestival.org
@@ -446,7 +566,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART:20150215T140000Z
 DTEND:20150215T143000Z
-DTSTAMP:20150116T144501Z
+DTSTAMP:20150120T140129Z
 UID:5ip92h26sfn4qm8r0skcdjmegg@google.com
 ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=kim@lg
  bthistoryfestival.org;X-NUM-GUESTS=0:mailto:kim@lgbthistoryfestival.org
@@ -464,7 +584,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART:20150215T122000Z
 DTEND:20150215T125000Z
-DTSTAMP:20150116T144501Z
+DTSTAMP:20150120T140129Z
 UID:glnbvfbjghhdt54vv14ekgdt7g@google.com
 ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=kim@lg
  bthistoryfestival.org;X-NUM-GUESTS=0:mailto:kim@lgbthistoryfestival.org
@@ -497,7 +617,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART:20150215T113000Z
 DTEND:20150215T120000Z
-DTSTAMP:20150116T144501Z
+DTSTAMP:20150120T140129Z
 UID:phu7vurrf0c86gq8rn43mnvnqk@google.com
 ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=kim@lg
  bthistoryfestival.org;X-NUM-GUESTS=0:mailto:kim@lgbthistoryfestival.org
@@ -517,7 +637,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART:20150215T113000Z
 DTEND:20150215T120000Z
-DTSTAMP:20150116T144501Z
+DTSTAMP:20150120T140129Z
 UID:7egb3jg34cbnvmm967trpvob88@google.com
 ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=kim@lg
  bthistoryfestival.org;X-NUM-GUESTS=0:mailto:kim@lgbthistoryfestival.org
@@ -551,7 +671,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART:20150214T143000Z
 DTEND:20150214T150000Z
-DTSTAMP:20150116T144501Z
+DTSTAMP:20150120T140129Z
 UID:vi1466hk2vkk1fo3tc2c9kam8s@google.com
 ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=kim@lg
  bthistoryfestival.org;X-NUM-GUESTS=0:mailto:kim@lgbthistoryfestival.org
@@ -580,7 +700,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART:20150214T160000Z
 DTEND:20150214T163000Z
-DTSTAMP:20150116T144501Z
+DTSTAMP:20150120T140129Z
 UID:65g83ppf4h43148rvtc27ihst0@google.com
 CREATED:20141126T140545Z
 DESCRIPTION:In her talk {Laila El-Metoui} will share her experience of mana
@@ -631,7 +751,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART:20150214T151500Z
 DTEND:20150214T154500Z
-DTSTAMP:20150116T144501Z
+DTSTAMP:20150120T140129Z
 UID:4339p0jqd3bfkip1seqgg88p0o@google.com
 ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=kim@lg
  bthistoryfestival.org;X-NUM-GUESTS=0:mailto:kim@lgbthistoryfestival.org
@@ -650,7 +770,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART:20150214T143000Z
 DTEND:20150214T150000Z
-DTSTAMP:20150116T144501Z
+DTSTAMP:20150120T140129Z
 UID:lied8d2u7mp66tk1jo3m69meb8@google.com
 CREATED:20141126T140451Z
 DESCRIPTION:{Razia Aziz} -- During a half century which has taken me from L
@@ -677,7 +797,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART:20150214T103000Z
 DTEND:20150214T110000Z
-DTSTAMP:20150116T144501Z
+DTSTAMP:20150120T140129Z
 UID:1tqbp6o5kfe7d7m1ems41u8sjc@google.com
 ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=kim@lg
  bthistoryfestival.org;X-NUM-GUESTS=0:mailto:kim@lgbthistoryfestival.org
@@ -697,31 +817,9 @@ SUMMARY:Christine Burns MBE: Press For Change & Trans* History
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
-DTSTART:20150213T170000Z
-DTEND:20150213T180000Z
-DTSTAMP:20150116T144501Z
-UID:nugm31eushk6dql7lr1kkfoheo@google.com
-ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=kim@lg
- bthistoryfestival.org;X-NUM-GUESTS=0:mailto:kim@lgbthistoryfestival.org
-CREATED:20141211T131848Z
-DESCRIPTION:Civic launch event\, introduced by the Lord Mayor of Manchester
-  and Sue Sanders\,  co-chair of Schools OUT UK.\n\nThe Campaign for Homosex
- ual Equality present The 1st Alan Horsfall Lecture\, presented by Prof. {Ch
- arles Upchurch} (Asst. Professor of British History\, Florida State Univers
- ity). In his talk  "Like Sympathetic Ink: Identity and the Early Nineteenth
- -Century Attempt to Reform of the British Sodomy Laws"\, Prof. Upchurch exa
- mines some of the earliest attempts to legalise inter-male sex. 
-LAST-MODIFIED:20150107T174907Z
-LOCATION:TBC 
-SEQUENCE:2
-STATUS:CONFIRMED
-SUMMARY:Festival Launch: The 1st Alan Horsfall Lecture
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
 DTSTART:20150214T160000Z
 DTEND:20150214T163000Z
-DTSTAMP:20150116T144501Z
+DTSTAMP:20150120T140129Z
 UID:5vnrpjjarf00mtt263scqcbj8g@google.com
 ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=kim@lg
  bthistoryfestival.org;X-NUM-GUESTS=0:mailto:kim@lgbthistoryfestival.org
@@ -748,7 +846,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART:20150214T151500Z
 DTEND:20150214T154500Z
-DTSTAMP:20150116T144501Z
+DTSTAMP:20150120T140129Z
 UID:lslnmpua7uu18ufksm3r6ag6dc@google.com
 CREATED:20141126T140517Z
 DESCRIPTION:{David Edgley}: former twink involved in gay rights – now old c
@@ -767,7 +865,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART:20150214T134500Z
 DTEND:20150214T141500Z
-DTSTAMP:20150116T144501Z
+DTSTAMP:20150120T140129Z
 UID:jnfplk6upm6e4e2m3vmpeo3rm8@google.com
 CREATED:20141126T140428Z
 DESCRIPTION:{Dr Sarah Parker} is an Impact Research Fellow in English Studi
@@ -784,31 +882,9 @@ SUMMARY:Sarah Parker: After Oscar
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
-DTSTART:20150214T134500Z
-DTEND:20150214T141500Z
-DTSTAMP:20150116T144501Z
-UID:kkdbaa8u6ef09pk1b0cfe098ic@google.com
-ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=kim@lg
- bthistoryfestival.org;X-NUM-GUESTS=0:mailto:kim@lgbthistoryfestival.org
-CREATED:20141126T141110Z
-DESCRIPTION:Writer\, former IT consultant and veteran LGBT activist {Ross B
- urgess} founded the Tunbridge Wells CHE group in 1972. As a  Talking Head h
- e will share his experiences setting up the group\, and talk about the role
-  that CHE played in helping to change attitudes over the last 40 years. Ros
- s is also a regular contributor to LGBT History Project UK and a national e
- xecutive member of CHE. \n\n[See LGBT History Project here]( http://www.lgb
- thistoryuk.org/)
-LAST-MODIFIED:20150106T141153Z
-LOCATION:Space 2
-SEQUENCE:1
-STATUS:CONFIRMED
-SUMMARY:Ross Burgess: Experiences with CHE
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
 DTSTART:20150214T111500Z
 DTEND:20150214T114500Z
-DTSTAMP:20150116T144501Z
+DTSTAMP:20150120T140129Z
 UID:ultffs4j15hmgi8md4e93tdrcc@google.com
 CREATED:20141126T140219Z
 DESCRIPTION:{Abigail Ward} is a freelance curator\, writer and DJ with over
@@ -830,7 +906,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART:20150109T100000Z
 DTEND:20150109T120000Z
-DTSTAMP:20150116T144501Z
+DTSTAMP:20150120T140129Z
 UID:j6r03vs7ussib7mcrr9h79b3lc@google.com
 CREATED:20150104T125639Z
 DESCRIPTION:
@@ -844,7 +920,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART:20150214T134500Z
 DTEND:20150214T141500Z
-DTSTAMP:20150116T144501Z
+DTSTAMP:20150120T140129Z
 UID:2gv7hbspd8o7ug10krqmk3odm4@google.com
 ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=kim@lg
  bthistoryfestival.org;X-NUM-GUESTS=0:mailto:kim@lgbthistoryfestival.org

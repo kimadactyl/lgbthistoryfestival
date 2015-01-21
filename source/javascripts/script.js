@@ -1,3 +1,9 @@
+// if(Modernizr.svg) {
+//     $('#branding img[src*="png"]').attr('src', function() {
+//         return $(this).attr('src').replace('.png', '.svg');
+//     });
+// }
+
 $(document).foundation({
   "magellan-expedition": {
     throttle_delay: 50,
@@ -9,29 +15,12 @@ $(document).foundation({
   }
 });
 
-// if(Modernizr.svg) {
-//     $('#branding img[src*="png"]').attr('src', function() {
-//         return $(this).attr('src').replace('.png', '.svg');
-//     });
-// }
+function getParameterByName(name) {
+    var match = RegExp('[?&]' + name + '=([^&]*)').exec(window.location.search);
+    return match && decodeURIComponent(match[1].replace(/\+/g, ' '));
+}
 
-// Navigation
-// $(window).scroll(function() {
-// // If the current scroll position is more than the branding height minus the nav height,
-// // add the sticky class to branding so we can mess with it, and hide the zigzags
-// if ($(window).scrollTop() > $('#branding').height() + 200 - $('nav#primary').height()){  
-//     $('body').addClass("sticky");
-//     $('#topborder').hide();
-//     // $('#branding').hide();
-//     // $('#branding').slideDown();
-//   }
-//   else{
-//     $('body').removeClass("sticky");
-//     $('#topborder').show();
-//     // $('#branding').show();
-//     $('section#main #slide-1 .small-12').css('padding-top', 0)
-//   }
-// });
+
 
 // Front page arrows
 $('.arrow').on('click', function(event){
@@ -75,11 +64,18 @@ $( document ).ready(function() {
 
   // Check to see if any rows are empty and hide the times
   function checkBlanks(){
-      $(".timegroup").each(function() {
+    $(".timegroup").each(function() {
       if($('.timeblock', this).children(':visible').length == 0) {
         $('h3.time', this).hide();
       } else {
         $('h3.time', this).show();
+      }
+    })
+    $(".schedule h2").each(function() {
+      if($(this).next().height() == 0) {
+        $(this).hide();
+      } else {
+        $(this).show();
       }
     })
   }
@@ -134,5 +130,14 @@ $( document ).ready(function() {
   // Toggle off the conference button
   $(".schedule ul.key .conference").toggleClass('disabled');
   checkBlanks();
-});
 
+  // Show family events if captured in URL
+  var family = window.getParameterByName("family");
+  if(family == 1) {
+    $(".schedule ul.program .event").hide();
+    $(".schedule ul.program .family-space").show();
+    $(".schedule ul.key li").addClass('disabled');
+    $(".schedule ul.key .family-space").removeClass('disabled');
+    checkBlanks();
+  }
+});

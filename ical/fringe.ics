@@ -6,9 +6,36 @@ METHOD:PUBLISH
 X-WR-CALNAME:Fringe
 X-WR-TIMEZONE:UTC
 BEGIN:VEVENT
+DTSTART:20150214T140000Z
+DTEND:20150214T153000Z
+DTSTAMP:20150120T140132Z
+UID:29tipo3tc4c3hg7sds65ra3d60@google.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Fringe
+ ;X-NUM-GUESTS=0:mailto:lgbthistoryfestival.org_75su2ag0c26db2rj16ac8hinrk@g
+ roup.calendar.google.com
+CREATED:20141219T103817Z
+DESCRIPTION:{Mike Jackson}\, co-founder with Mark Ashton of Lesbians and Ga
+ ys Support the Miners (LGSM)\, and {David (Dai) Donovan}\, South Wales NUM 
+ will talk about the activities of the London LGSM and the Neath\, Dulais an
+ d Swansea Valleys Miners' Support Group during the strike\, the lasting lin
+ ks that were formed and the lessons for today's struggles.\n\n[Full informa
+ tion on the WCML website.](http://www.wcml.org.uk/events/lgbt-history-month
+ -talk--unity-is-strength--lesbians-and-gays-support-the-miners-and-their-la
+ sting-links-of-comradeship-with-mining-communities-/)\n\n * Location: Worki
+ ng Class Movement Library
+LAST-MODIFIED:20150119T142301Z
+LOCATION:Working Class Movement Library\, 51 Crescent\, Salford M5 4WX\, Un
+ ited Kingdom
+SEQUENCE:2
+STATUS:CONFIRMED
+SUMMARY:"Unity Is Strength": LGSM's lasting comradeship with mining communi
+ ties
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
 DTSTART:20150210T100000Z
 DTEND:20150210T110000Z
-DTSTAMP:20150116T144504Z
+DTSTAMP:20150120T140132Z
 UID:6soladig52ft45dbgankqjeue4@google.com
 CREATED:20150108T151252Z
 DESCRIPTION:{Museum Maketh Man}\nThis tour explores how gender and sexualit
@@ -37,7 +64,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART:20150209T140000Z
 DTEND:20150209T150000Z
-DTSTAMP:20150116T144504Z
+DTSTAMP:20150120T140132Z
 UID:iedo73v726d2hc7fjfb1dtj0rc@google.com
 CREATED:20150108T150951Z
 DESCRIPTION:{Museum Maketh Man}\nThis tour explores how gender and sexualit
@@ -64,36 +91,9 @@ SUMMARY:Museum Maketh Man
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
-DTSTART:20150214T140000Z
-DTEND:20150214T150000Z
-DTSTAMP:20150116T144504Z
-UID:29tipo3tc4c3hg7sds65ra3d60@google.com
-ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Fringe
- ;X-NUM-GUESTS=0:mailto:lgbthistoryfestival.org_75su2ag0c26db2rj16ac8hinrk@g
- roup.calendar.google.com
-CREATED:20141219T103817Z
-DESCRIPTION:{Mike Jackson}\, co-founder with Mark Ashton of Lesbians and Ga
- ys Support the Miners (LGSM)\, and {David (Dai) Donovan}\, South Wales NUM 
- will talk about the activities of the London LGSM and the Neath\, Dulais an
- d Swansea Valleys Miners' Support Group during the strike\, the lasting lin
- ks that were formed and the lessons for today's struggles.\n\n[Full informa
- tion on the WCML website.](http://www.wcml.org.uk/events/lgbt-history-month
- -talk--unity-is-strength--lesbians-and-gays-support-the-miners-and-their-la
- sting-links-of-comradeship-with-mining-communities-/)\n\n * Location: Worki
- ng Class Movement Library
-LAST-MODIFIED:20150107T185104Z
-LOCATION:Working Class Movement Library\, 51 Crescent\, Salford M5 4WX\, Un
- ited Kingdom
-SEQUENCE:2
-STATUS:CONFIRMED
-SUMMARY:"Unity Is Strength": LGSM's lasting comradeship with mining communi
- ties
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
 DTSTART:20150214T134500Z
 DTEND:20150214T154500Z
-DTSTAMP:20150116T144504Z
+DTSTAMP:20150120T140132Z
 UID:1qftul9kd86g2h8a7i3pfdetj4@google.com
 CREATED:20150107T184833Z
 DESCRIPTION:{Emily Crompton} leads a heritage walking trail mapping the pol
@@ -124,7 +124,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART:20150210T134500Z
 DTEND:20150210T160000Z
-DTSTAMP:20150116T144504Z
+DTSTAMP:20150120T140132Z
 UID:c3if5d5c11mfklnt47772okp20@google.com
 ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Fringe
  ;X-NUM-GUESTS=0:mailto:lgbthistoryfestival.org_75su2ag0c26db2rj16ac8hinrk@g
