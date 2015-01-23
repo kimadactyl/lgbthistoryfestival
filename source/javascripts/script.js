@@ -63,7 +63,7 @@ $( document ).ready(function() {
   // Check to see if any rows are empty and hide the times
   function checkBlanks(){
     $(".timegroup").each(function() {
-      if($('.timeblock', this).children(':visible').length == 0) {
+      if($('.timeblock li', this).children(':visible').length == 0) {
         $('h3.time', this).hide();
       } else {
         $('h3.time', this).show();

@@ -19,8 +19,8 @@ gem "middleman-livereload"
 # Post trimmer
 gem "nokogiri"
 
-# Comments
-gem "disqus"
+# Typographic symbol correction
+gem 'rubypants'
 
 # For faster file watcher updates on Windows:
 gem "wdm", "~> 0.1.0", :platforms => [:mswin, :mingw]

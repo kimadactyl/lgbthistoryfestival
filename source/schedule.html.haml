@@ -6,94 +6,106 @@ title: Schedule
 - popular = FestivalCalendar::POPULAR
 - days = FestivalCalendar::DAYS
 
+
 %section
   .row
     .small-12.columns.text-center
-      %ul.schedule.key
-        %li.main-festival.event
-          %span.status
-            %i.fi-check
-          %span Main Festival
-        %li.family-space.event
-          %span.status
-            %i.fi-check
-          %span
-            Family Space
-            %i.icon-school
-        -# %li.films
-        -#   %span.status
-        -#     %i.fi-check
-        -# %span
-        -#   Films
-        -#   %i.icon-video
-        %li.theatre.event
-          %span.status
-            %i.fi-check
-          %span
-            Theatre
-            %i.icon-theatre
-        %li.fringe.event
-          %span.status
-            %i.fi-check
-          %span
-            Fringe
-            %i.icon-map
-        %li.conference.event
-          %span.status
-            %i.fi-x
-          %span
-            Conference
-            %i.icon-book
-      %form.schedule-type
-        %input{:type => "radio", :name => "expanded", :id => "s-compact", :value => "0", :checked => "checked"}
-        %label{:for => "s-compact"}
-          <i class="fi-arrows-compress"></i> Compact
-        %input{:type => "radio", :name => "expanded", :id => "s-expanded", :value => "1"}
-        %label{:for => "s-expanded"}
-          <i class="fi-arrows-expand"></i> Expanded
-    .small-12.columns
+      %h1 Schedule
+
       %p
         All events are free, apart from the academic conference! This means events are first-come, first-served, please arrive in plenty of time to avoid disappointment. More popular events will be ticketed: keep an eye on this page, or our Twitter or Facebook for up-to-the-minute updates.
       %p
         %em Please note times and events are subject to change. Program notes will be updated over the next few weeks.
+
+      %ul.schedule.key.medium-block-grid-6
+        %li.main-festival.event 
+          %i.icon-festicon
+          %h4 Main Festival
+        %li.family-space.event
+          %i.icon-school
+          %h4 Family Space
+        %li.films
+          %i.icon-video
+          %h4 Films
+        %li.theatre.event
+          %i.icon-theatre
+          %h4 Theatre
+        %li.fringe.event
+          %i.icon-map
+          %h4 Fringe
+        %li.conference.event.disabled
+          %i.icon-book
+          %h4 Conference
+
+    .small-12.columns  
       %ul.schedule.program
         - days.each do |day, time|
           %h2= day
           - case day
+          - when 'Monday'
+            :markdown
+              ### 9th February
+          - when 'Tuesday'
+            :markdown
+              ### 10th February
+          - when 'Wednesday'
+            :markdown
+              ### 11th February
+          - when 'Thursday'
+            :markdown
+              ### 12th February
+          - when 'Friday'
+            :markdown
+              ### 13th February
           - when 'Saturday'
             :markdown
+              ### 14th February
               All Saturday events are at Manchester Central Library's performance space, apart from <i class="icon-map"></i> Fringe events at the Joyce Layland LGBT Centre and the Working Class movement library. See individual event listings for details, and our [travel page](/travel.html) for venue information.
           - when 'Sunday'
             :markdown
+              ### 15th February
               All Sunday events are at People's History Museum. See our [travel page](/travel.html) for venue information.
-          - popular.get_start_times(time).each do |time|
-            .timegroup
-              %h3.time= time.dtstart.strftime("%H:%M")
-              .timeblock
-                - eventlists = popular.get_events(time)
-                - eventlists.each do |list,events|
-                  - events.each do |event|
-                    %a{:"data-remodal-target" => "#{data.events[event.uid]}"}
-                      - speakers = Set.new();
-                      - data.contribs.each do |_, details|
-                        - if details.events.include? event.uid.to_s
-                          - speakers << details.urlname
-                      %li{:class => "event #{list.to_s.parameterize} #{'has-description' if event.description.present?} #{speakers.to_a.join(" ")}"}
-                        - case list.to_s.parameterize
-                        - when 'films'
-                          %i.icon-video
-                        - when 'family-space'
-                          %i.icon-school
-                        - when 'theatre'
-                          %i.icon-theatre
-                        - when 'conference'
-                          %i.icon-book
-                        - when 'fringe'
-                          %i.icon-map
-                        %strong
-                          = event.summary
-    .small-12.columns.speakerlist
-      = partial 'speakerlist'
+          .daygroup
+            - popular.get_start_times(time).each do |time|
+              .timegroup
+                .timecol
+                  %h3.time= time.dtstart.strftime("%H:%M")
+                .timeblock
+                  - eventlists = popular.get_events(time)
+                  - eventlists.each do |list,events|
+                    - events.each_with_index do |event, idx|
+                      %a{:"data-remodal-target" => "#{data.events[event.uid]}"}
+                        - speakers = Set.new();
+                        - data.contribs.each do |_, details|
+                          - if details.events.include? event.uid.to_s
+                            - speakers << details.urlname
+                        %li{:class => "event #{list.to_s.parameterize} #{'has-description' if event.description.present?} #{speakers.to_a.join(" ")}"}
+                          .event-icon
+                            - case list.to_s.parameterize
+                            - when 'films'
+                              %i.icon-video
+                            - when 'family-space'
+                              %i.icon-school
+                            - when 'theatre'
+                              %i.icon-theatre
+                            - when 'conference'
+                              %i.icon-book
+                            - when 'fringe'
+                              %i.icon-map
+                          .event-title
+                            -# If there's a colon, bold the first half and not  second half.
+                            - sections = RubyPants.new(event.summary).to_html.split(":")
+                            - if sections.length > 1
+                              %strong= sections[0] + ":"
+                              = sections[1]
+                            - else
+                              %strong= sections[0]
+                            .location= event.location.split(",").first
+                          .event-meta
+
+
+      -# .small-12.columns.speakerlist
+      -#   = partial 'speakerlist'
 
 .remodal-bg
   - days.each do |_, time|

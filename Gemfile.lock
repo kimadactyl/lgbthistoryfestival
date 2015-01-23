@@ -76,8 +76,6 @@ GEM
       sass (~> 3.2.19)
     compass-import-once (1.0.4)
       sass (>= 3.2, < 3.5)
-    disqus (1.0.4)
-      json
     docile (1.1.5)
     em-websocket (0.5.0)
       eventmachine (>= 0.12.9)
@@ -144,6 +142,7 @@ GEM
       ffi (>= 0.5.0)
     rmagick (2.13.2)
     ruby18_source_location (0.2)
+    rubypants (0.2.0)
     sass (3.2.19)
     sprockets (2.12.1)
       hike (~> 1.2)
@@ -170,7 +169,6 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  disqus
   icalendar
   middleman!
   middleman-blog!
@@ -182,4 +180,5 @@ DEPENDENCIES
   middleman-livereload
   nokogiri
   ruby18_source_location
+  rubypants
   wdm (~> 0.1.0)
