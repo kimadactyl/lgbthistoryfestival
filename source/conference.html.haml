@@ -2,10 +2,16 @@
 title: What is & How to DO LGBT History?
 ---
 
+- extras = {"nugm31eushk6dql7lr1kkfoheo@google.com" => "Main Festival", "kukvjs19gsfdlc8djgci2jeo9k@google.com" => "Theatre", "eskm53mupesptcjep7mrohe4ec@google.com" => "Theatre", "jj8a43h73k6n13rei4c7kb54ms@google.com" => "Theatre"}
+- ex_events = {}
+- extras.each do |uid,list|
+  - ex_events[list] ||= []
+  - ex_events[list] << FestivalCalendar::POPULAR.get_event_by_uid(uid)
+
 %section
   .row
     .small-12.columns
-      %h1 The 2nd What is &amp; How to Do LGBT History Conference 
+      %h1 The 2nd What is &amp; How to Do LGBT History Conference
       %h2 Methods, Subjects, &amp; Approaches
 %section.pink
   .row
@@ -18,15 +24,13 @@ title: What is & How to DO LGBT History?
       %p <i class="fi-ticket"></i> <a href="http://crm.lgbthistoryfestival.org/civicrm/event/info?reset=1&id=2">Go to our registration site to sign up!</a>
       %h3
       %p 
-        <i class="fi-download"></i> <a href="/attachments/academic-programme.pdf">Conference program [pdf]</a>
-        %br 
-        <i class="fi-page"></i> <a href="/attachments/academic-programme.doc">Conference program [doc]</a>
+        <i class="fi-page"></i> <a href="/attachments/academic-programme.docx">Conference program [doc]</a>
 %section
   .row
     .small-12.columns.text-center
       %form.schedule-type
-        %input{:type => "radio", :name => "expanded", :id => "s-compact", :value => "0", :checked => "checked"}      
-        %label{:for => "s-compact"}        
+        %input{:type => "radio", :name => "expanded", :id => "s-compact", :value => "0", :checked => "checked"}
+        %label{:for => "s-compact"}
           <i class="fi-arrows-compress"></i> Compact
         %input{:type => "radio", :name => "expanded", :id => "s-expanded", :value => "1"}
         %label{:for => "s-expanded"}
@@ -38,11 +42,21 @@ title: What is & How to DO LGBT History?
         - days.each do |day, time|
           %h2= day
           - academic = FestivalCalendar::ACADEMIC
-          - academic.get_start_times(time).each do |time|
+          - ac_times = academic.get_start_times(time)
+          - ac_times += ex_events.values.flatten(1).select { |a| a.dtstart.between?(time, time + 24.hours) }
+          - ac_times.uniq! { |x| x.dtstart.to_s}
+          - ac_times.sort! { |a,b| a.dtstart <=> b.dtstart }
+          - ac_times.each do |time|
             .timegroup
               %h3.time= time.dtstart.strftime("%H:%M")
               .timeblock
                 - eventlists = academic.get_events(time)
+
+                // Crowbarring in extra events
+                - ex_events.each do |list, events|
+                  - events.each do |event|
+                    - eventlists[list] ||= []
+                    - eventlists[list] << event if event.dtstart == time.dtstart
                 - eventlists.each do |list,events|
                   - events.each do |event|
                     %li{:class => "event #{list.to_s.parameterize} #{'has-description' if event.description.present?}"}
@@ -73,7 +87,7 @@ title: What is & How to DO LGBT History?
         We are pleased to announce that the conference will be hosted at The LGF Conference Venue, 5 Richmond St, Manchester. [More information about the venue is on the LGF website](http://www.lgf.org.uk/for-professionals/room-hire/).
 
     .medium-4.columns
-      %h3 Academic Patrons 
+      %h3 Academic Patrons
       %h5 (History &amp Archeology)
       :markdown
         * [Harry Cocks](http://www.nottingham.ac.uk/history/people/harry.cocks) (Associate Professor, Faculty of Arts, Nottingham)

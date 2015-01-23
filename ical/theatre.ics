@@ -9,18 +9,32 @@ X-WR-CALDESC:
 BEGIN:VEVENT
 DTSTART:20150215T120000Z
 DTEND:20150215T123000Z
-DTSTAMP:20150109T154021Z
+DTSTAMP:20150123T131456Z
 UID:862iof4o8l7p2gc4ao6quucqs8@google.com
 CREATED:20150105T165141Z
 DESCRIPTION:In the early 1800s there was a vibrant social and sexual scene 
  for men which revolved around the house of Isaac Hitchen in Great Sankey ne
  ar Warrington. Meeting places like this were known as ‘molly’ houses in the
-  parlance of the day. "Isaac Hitchen's House" tells the story of these men\
- , the investigation\, and the attitudes of the authorities\, in song. Writt
- en and performed by {Eleanor Levin}\, {Nina George} and {Scott Millington} 
- of the Grievous Angels as part of Lancaster's 'Documenting Dissent' project
- .
-LAST-MODIFIED:20150107T190750Z
+  parlance of the day. In May of 1806 a large group of the men were arrested
+  following a raid on the house. Some escaped\, but many of them were charge
+ d with ‘sodomy’ or an ‘unnatural crime\,’ which in England carried the deat
+ h penalty from the 1530s until 1861. In September of 1806\, five of the men
+ \, including Hitchen himself\, were sentenced to death by hanging. There is
+  a Preston based LGBT community project named in his memory. \n\n"Isaac Hit
+ chen's House" tells the story of these men\, the investigation\, and the at
+ titudes of the authorities\, in song. Written and performed by {Eleanor Lev
+ in}\, {Nina George} and {Scott Millington} of the Grievous Angels as part o
+ f Lancaster's 'Documenting Dissent' project led by Global Link with gratefu
+ l acknowledgement to Harry Cocks\, Richard Norton and the Lancashire Archiv
+ es.\n \nEleanor\, Nina and Scott’s first musical foray together was in 2005
+  as part of ‘The Mistresses of the Ten Minute Musical’ and led them to be i
+ nstrumental in the foundation of the Grievous Angels\, a solidarity-folk co
+ llective which was based in Lancaster. They are currently working on a proj
+ ect of songs based on Lancaster’s local history\, and developing their own 
+ original works.  \n\n[Website of the song](http://www.documentingdissent.or
+ g.uk/?p=15521)\n[Documenting Dissent's homepage](http://www.documentingdiss
+ ent.org.uk/)\n
+LAST-MODIFIED:20150121T115516Z
 LOCATION:Mini Theatre
 SEQUENCE:0
 STATUS:CONFIRMED
@@ -28,54 +42,17 @@ SUMMARY:Isaac Hitchen's House (A Lancashire Tale)
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
-DTSTART:20150215T190000Z
-DTEND:20150215T195000Z
-DTSTAMP:20150109T154021Z
-UID:j128lt55rvkosi0osgqofef400@google.com
-ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Theatr
- e;X-NUM-GUESTS=0:mailto:lgbthistoryfestival.org_ijgln6bmp4th9sg6stditdv7ok@
- group.calendar.google.com
-CREATED:20150106T172848Z
-DESCRIPTION:‘All The Nice Girls’ takes an entertaining glimpse at the lives
-  of Gwen Farrar and Norah Blaney through the eyes of male impersonator Ella
-  Shields. Starting out in Lena Ashwell’s concert parties for the troops in 
- WW1 the young Farrar and Blaney quickly adapted their classical ‘cello/pian
- o act into a ‘turn’ full of repartee and physical humour.\n\nHousehold name
- s in the early 1920s Farrar and Blaney had an on and offstage partnership\,
-  singing popular love songs of the day to each other in West End Revues and
-  living together openly. Atthe same time Ella Shields’ Music Hall act was i
- n decline. ‘All The Nice Girls’ imagines her fictitious reaction to the you
- nger pair as they live the starry life of Bright Young Things. Will their r
- elationship survive the pressures of the age and the conflicting urges to m
- arry and conform or to party wildly into oblivion?\n\nAli Child is a writer
- \, director and performer. She was a Choral Exhibitioner at Trinity College
- \, Cambridge\, appeared at the Arts Theatre with the Marlowe Society and Ca
- mbridge University Opera Society and  toured for two years with the Footlig
- hts Revue. She graduated with a degree in History and a P.G.C.E. in English
-  and Drama.\n\nRosie Wakley has worked in the theatre in many capacities in
- cluding Master Carpenter\, Stage Manager and ultimately Production Manager 
- at the Coliseum for the English National Opera. She has an M.B.A. degree fr
- om Lancaster University and performs widely as her alter ego\, lounge singe
- r\, Ronnie Rialto\n
-LAST-MODIFIED:20150107T181403Z
-LOCATION:Mini Theatre Space
-SEQUENCE:1
-STATUS:CONFIRMED
-SUMMARY:All the Nice Girls
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
 DTSTART:20150215T130000Z
-DTEND:20150215T133000Z
-DTSTAMP:20150109T154021Z
+DTEND:20150215T140000Z
+DTSTAMP:20150123T131456Z
 UID:kukvjs19gsfdlc8djgci2jeo9k@google.com
 CREATED:20141127T185951Z
-DESCRIPTION:Experience what it was like to be amongst the 47 prisoners\, as
-  we recreate the infamous trial using immersive theatre. You will watch you
- r fate\, and the fate of the other prisoners\, be decided by the Chief Just
- ice. Will all of the prisoners maintain their promise to remain silent\, or
-  will the fear of prison force someone to speak out?
-LAST-MODIFIED:20150107T162619Z
+DESCRIPTION:In the concluding part of the series\, you will discover what h
+ appened to the fancy dress ball attendees. Original newspaper accounts have
+  been used to dramatise the infamous court trial. Will all of the prisoners
+  maintain their vow of silence\, or will the threat of prison force someone
+  to speak out?
+LAST-MODIFIED:20150120T160654Z
 LOCATION:Engine Hall
 SEQUENCE:1
 STATUS:CONFIRMED
@@ -83,43 +60,83 @@ SUMMARY:A Very Victorian Scandal: The Trial
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
-DTSTART:20150214T121500Z
-DTEND:20150214T124500Z
-DTSTAMP:20150109T154021Z
-UID:eskm53mupesptcjep7mrohe4ec@google.com
-ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Theatr
- e;X-NUM-GUESTS=0:mailto:lgbthistoryfestival.org_ijgln6bmp4th9sg6stditdv7ok@
- group.calendar.google.com
-CREATED:20141126T141954Z
-DESCRIPTION:A fresh take on the motives behind the police raid\, in an inti
- mate performance at Manchester Central Library. Secrets and politics combin
- e to make some men\, and ruin others. Caminada courts the press\, but can h
- e keep control of the story?
-LAST-MODIFIED:20150107T162301Z
-LOCATION:Space 2
-SEQUENCE:1
-STATUS:CONFIRMED
-SUMMARY:A Very Victorian Scandal:  Caminada & The Press
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
 DTSTART:20150213T200000Z
 DTEND:20150213T210000Z
-DTSTAMP:20150109T154021Z
+DTSTAMP:20150123T131456Z
 UID:jj8a43h73k6n13rei4c7kb54ms@google.com
 ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Theatr
  e;X-NUM-GUESTS=0:mailto:lgbthistoryfestival.org_ijgln6bmp4th9sg6stditdv7ok@
  group.calendar.google.com
 CREATED:20141126T145152Z
-DESCRIPTION:A living recreation of the fancy dress ball. Mingle with the fa
- ncy dress ball attendees\, learn a little about their lives\, and watch the
- m sing and dance to Music Hall tunes. A Victorian police raid will then rud
- ely interrupt the evening's raucous events.
-LAST-MODIFIED:20150107T162231Z
+DESCRIPTION:In the first of a series of performances across Manchester\, yo
+ u will be invited to a reimagining of the fancy dress ball. Mingle with the
+  fancy-dress ball attendees\, learn a little about their lives\, and watch 
+ them sing and dance to Music Hall songs. Manchester’s finest Victorian poli
+ ce officers will rudely interrupt the evening's proceedings.
+LAST-MODIFIED:20150120T111800Z
 LOCATION:Via Fossa\, 30 Canal Street\, Manchester M1 3EZ\, United Kingdom
 SEQUENCE:3
 STATUS:CONFIRMED
 SUMMARY:A Very Victorian Scandal: The Raid
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20150214T121500Z
+DTEND:20150214T124500Z
+DTSTAMP:20150123T131456Z
+UID:eskm53mupesptcjep7mrohe4ec@google.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Theatr
+ e;X-NUM-GUESTS=0:mailto:lgbthistoryfestival.org_ijgln6bmp4th9sg6stditdv7ok@
+ group.calendar.google.com
+CREATED:20141126T141954Z
+DESCRIPTION:An intimate performance at Manchester Central Library takes a f
+ resh look at the motives behind the police raid. Secrets and politics combi
+ ne to make some men\, and ruin others. Detective Caminada courts the press\
+ , but can he keep control of the story?
+LAST-MODIFIED:20150120T105843Z
+LOCATION:Space 2
+SEQUENCE:1
+STATUS:CONFIRMED
+SUMMARY:A Very Victorian Scandal: The Press
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20150215T140000Z
+DTEND:20150215T145000Z
+DTSTAMP:20150123T131456Z
+UID:83lnmitl618t4pvhihbpuq4ac0@google.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Theatr
+ e;X-NUM-GUESTS=0:mailto:lgbthistoryfestival.org_ijgln6bmp4th9sg6stditdv7ok@
+ group.calendar.google.com
+CREATED:20150108T111002Z
+DESCRIPTION:‘All The Nice Girls’ by [Behind The Lines](http://www.behindthe
+ lines.info/) takes an entertaining glimpse at the lives of Gwen Farrar and 
+ Norah Blaney through the eyes of male impersonator Ella Shields. Starting o
+ ut in Lena Ashwell’s concert parties for the troops in WW1 the young Farrar
+  and Blaney quickly adapted their classical ‘cello/piano act into a ‘turn’ 
+ full of repartee and physical humour.\n\nHousehold names in the early 1920s
+ \, Farrar and Blaney had an on and offstage partnership\, singing popular l
+ ove songs of the day to each other in West End Revues and living together o
+ penly. Atthe same time Ella Shields’ Music Hall act was in decline. ‘All Th
+ e Nice Girls’ imagines her fictitious reaction to the younger pair as they 
+ live the starry life of Bright Young Things. Will their relationship surviv
+ e the pressures of the age and the conflicting urges to marry and conform o
+ r to party wildly into oblivion?\n\n{Ali Child} is a writer\, director and 
+ performer. She was a Choral Exhibitioner at Trinity College\, Cambridge\, a
+ ppeared at the Arts Theatre with the Marlowe Society and Cambridge Universi
+ ty Opera Society and  toured for two years with the Footlights Revue. She g
+ raduated with a degree in History and a P.G.C.E. in English and Drama.\n\n{
+ Rosie Wakley} has worked in the theatre in many capacities including Master
+  Carpenter\, Stage Manager and ultimately Production Manager at the Coliseu
+ m for the English National Opera. She has an M.B.A. degree from Lancaster U
+ niversity and performs widely as her alter ego\, lounge singer\, Ronnie Ria
+ lto.\n\n[Kindly sponsored by Foale Consulting Ltd.](http://www.initiative-c
+ onsulting.com/)
+LAST-MODIFIED:20150115T202500Z
+LOCATION:Mini Theatre
+SEQUENCE:1
+STATUS:CONFIRMED
+SUMMARY:All the Nice Girls
 TRANSP:OPAQUE
 END:VEVENT
 END:VCALENDAR
