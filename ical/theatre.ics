@@ -7,9 +7,62 @@ X-WR-CALNAME:Theatre
 X-WR-TIMEZONE:Europe/London
 X-WR-CALDESC:
 BEGIN:VEVENT
+DTSTART:20150215T120000Z
+DTEND:20150215T123000Z
+DTSTAMP:20150121T130726Z
+UID:862iof4o8l7p2gc4ao6quucqs8@google.com
+CREATED:20150105T165141Z
+DESCRIPTION:In the early 1800s there was a vibrant social and sexual scene 
+ for men which revolved around the house of Isaac Hitchen in Great Sankey ne
+ ar Warrington. Meeting places like this were known as ‘molly’ houses in the
+  parlance of the day. In May of 1806 a large group of the men were arrested
+  following a raid on the house. Some escaped\, but many of them were charge
+ d with ‘sodomy’ or an ‘unnatural crime\,’ which in England carried the deat
+ h penalty from the 1530s until 1861. In September of 1806\, five of the men
+ \, including Hitchen himself\, were sentenced to death by hanging. There is
+  a Preston based LGBT community project named in his memory. \n\n"Isaac Hit
+ chen's House" tells the story of these men\, the investigation\, and the at
+ titudes of the authorities\, in song. Written and performed by {Eleanor Lev
+ in}\, {Nina George} and {Scott Millington} of the Grievous Angels as part o
+ f Lancaster's 'Documenting Dissent' project led by Global Link with gratefu
+ l acknowledgement to Harry Cocks\, Richard Norton and the Lancashire Archiv
+ es.\n \nEleanor\, Nina and Scott’s first musical foray together was in 2005
+  as part of ‘The Mistresses of the Ten Minute Musical’ and led them to be i
+ nstrumental in the foundation of the Grievous Angels\, a solidarity-folk co
+ llective which was based in Lancaster. They are currently working on a proj
+ ect of songs based on Lancaster’s local history\, and developing their own 
+ original works.  \n\n[Website of the song](http://www.documentingdissent.or
+ g.uk/?p=15521)\n[Documenting Dissent's homepage](http://www.documentingdiss
+ ent.org.uk/)\n
+LAST-MODIFIED:20150121T115516Z
+LOCATION:Mini Theatre
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Isaac Hitchen's House (A Lancashire Tale) 
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20150215T130000Z
+DTEND:20150215T140000Z
+DTSTAMP:20150121T130726Z
+UID:kukvjs19gsfdlc8djgci2jeo9k@google.com
+CREATED:20141127T185951Z
+DESCRIPTION:In the concluding part of the series\, you will discover what h
+ appened to the fancy dress ball attendees. Original newspaper accounts have
+  been used to dramatise the infamous court trial. Will all of the prisoners
+  maintain their vow of silence\, or will the threat of prison force someone
+  to speak out?
+LAST-MODIFIED:20150120T160654Z
+LOCATION:Engine Hall
+SEQUENCE:1
+STATUS:CONFIRMED
+SUMMARY:A Very Victorian Scandal: The Trial
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
 DTSTART:20150213T200000Z
 DTEND:20150213T210000Z
-DTSTAMP:20150120T140131Z
+DTSTAMP:20150121T130726Z
 UID:jj8a43h73k6n13rei4c7kb54ms@google.com
 ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Theatr
  e;X-NUM-GUESTS=0:mailto:lgbthistoryfestival.org_ijgln6bmp4th9sg6stditdv7ok@
@@ -28,27 +81,9 @@ SUMMARY:A Very Victorian Scandal: The Raid
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
-DTSTART:20150215T130000Z
-DTEND:20150215T140000Z
-DTSTAMP:20150120T140131Z
-UID:kukvjs19gsfdlc8djgci2jeo9k@google.com
-CREATED:20141127T185951Z
-DESCRIPTION:In the concluding part of a series\, you will discover what hap
- pened to the fancy dress ball attendees. Original newspaper accounts have b
- een used to dramatise the infamous court trial. Will all of the prisoners m
- aintain their vow of silence\, or will the threat of prison force someone t
- o speak out?
-LAST-MODIFIED:20150120T111707Z
-LOCATION:Engine Hall
-SEQUENCE:1
-STATUS:CONFIRMED
-SUMMARY:A Very Victorian Scandal: The Trial
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
 DTSTART:20150214T121500Z
 DTEND:20150214T124500Z
-DTSTAMP:20150120T140131Z
+DTSTAMP:20150121T130726Z
 UID:eskm53mupesptcjep7mrohe4ec@google.com
 ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Theatr
  e;X-NUM-GUESTS=0:mailto:lgbthistoryfestival.org_ijgln6bmp4th9sg6stditdv7ok@
@@ -68,7 +103,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART:20150215T140000Z
 DTEND:20150215T145000Z
-DTSTAMP:20150120T140131Z
+DTSTAMP:20150121T130726Z
 UID:83lnmitl618t4pvhihbpuq4ac0@google.com
 ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Theatr
  e;X-NUM-GUESTS=0:mailto:lgbthistoryfestival.org_ijgln6bmp4th9sg6stditdv7ok@
@@ -102,27 +137,6 @@ LOCATION:Mini Theatre
 SEQUENCE:1
 STATUS:CONFIRMED
 SUMMARY:All the Nice Girls
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-DTSTART:20150215T120000Z
-DTEND:20150215T123000Z
-DTSTAMP:20150120T140131Z
-UID:862iof4o8l7p2gc4ao6quucqs8@google.com
-CREATED:20150105T165141Z
-DESCRIPTION:In the early 1800s there was a vibrant social and sexual scene 
- for men which revolved around the house of Isaac Hitchen in Great Sankey ne
- ar Warrington. Meeting places like this were known as ‘molly’ houses in the
-  parlance of the day. "Isaac Hitchen's House" tells the story of these men\
- , the investigation\, and the attitudes of the authorities\, in song. Writt
- en and performed by {Eleanor Levin}\, {Nina George} and {Scott Millington} 
- of the Grievous Angels as part of Lancaster's 'Documenting Dissent' project
- .
-LAST-MODIFIED:20150107T190750Z
-LOCATION:Mini Theatre
-SEQUENCE:0
-STATUS:CONFIRMED
-SUMMARY:Isaac Hitchen's House (A Lancashire Tale) 
 TRANSP:OPAQUE
 END:VEVENT
 END:VCALENDAR
