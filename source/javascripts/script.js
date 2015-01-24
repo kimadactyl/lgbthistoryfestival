@@ -100,4 +100,6 @@ $( document ).ready(function() {
     }
   });
 
+  $("#speakerlist").selectOrDie({placeholderOption:true});
+
 });
