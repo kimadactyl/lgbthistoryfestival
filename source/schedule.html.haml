@@ -13,35 +13,35 @@ title: Schedule
       %h2.longborder Schedule
 
       %p.pinkcaps
-        All events are free, apart from the <a href="/conference.html">academic conference</a>! 
-      %p.pinkcaps 
+        All events are free, apart from the <a href="/conference.html">academic conference</a>!
+      %p.pinkcaps
         Events are first-come, first-served: please arrive in plenty of time to avoid disappointment.
       :markdown
         More popular events will be ticketed: keep an eye on this page, or our [Twitter](http://twitter.com/lgbthistoryfest) or [Facebook](https://www.facebook.com/lgbthistoryfestival) for up-to-the-minute updates.
-      
+
         *Please note times and events are subject to change.*
       .sticky.contain-to-grid
         %ul#key.schedule.medium-block-grid-6{"data-topbar" => "data-topbar"}
-          %li.filter{"data-filter" => ".main-festival"} 
+          %li.filter{"data-filter" => ".main-festival"}
             %i.icon-star
             %h4 Main Festival
-          %li.filter{"data-filter" => ".family-space"} 
+          %li.filter{"data-filter" => ".family-space"}
             %i.icon-school
             %h4 Family Space
-          %li.filter{"data-filter" => ".films"} 
+          %li.filter{"data-filter" => ".films"}
             %i.icon-video
             %h4 Films
-          %li.filter{"data-filter" => ".theatre"} 
+          %li.filter{"data-filter" => ".theatre"}
             %i.icon-theatre
             %h4 Theatre
-          %li.filter{"data-filter" => ".fringe"} 
+          %li.filter{"data-filter" => ".fringe"}
             %i.icon-map
             %h4 Fringe
-          %li.filter{"data-filter" => ".conference"} 
+          %li.filter{"data-filter" => ".conference"}
             %i.icon-book
             %h4 Conference
 
-    .small-12.columns  
+    .small-12.columns
       %ul#program.schedule
         - days.each do |day, time|
           .daytitle
@@ -79,12 +79,13 @@ title: Schedule
                   - eventlists = popular.get_events(time)
                   - eventlists.each do |list,events|
                     - events.each_with_index do |event, idx|
-                      %a{:"data-remodal-target" => "#{data.events[event.uid]}"}
+                      - friendlyname = data.events[event.uid]
+                      %a{:"data-remodal-target" => "#{friendlyname}"}
                         - speakers = Set.new();
                         - data.contribs.each do |_, details|
                           - if details.events.include? event.uid.to_s
                             - speakers << details.urlname
-                        %li{:class => "mix event #{list.to_s.parameterize} #{'has-description' if event.description.present?} #{speakers.to_a.join(" ")}"}
+                        %li{:class => "#{'needsticket' if data.ticketed[friendlyname]} mix event #{list.to_s.parameterize} #{'has-description' if event.description.present?} #{speakers.to_a.join(" ")}"}
                           .event-icon
                             - case list.to_s.parameterize
                             - when 'films'
