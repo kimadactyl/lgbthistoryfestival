@@ -5,6 +5,6 @@
 //= require readmore/readmore.min
 //= require remodal/dist/jquery.remodal.min
 //= require mixitup/src/jquery.mixitup
-//= require SelectOrDie/_src/selectordie.js
+//= require minimalect/jquery.minimalect.js
 
 //= require script

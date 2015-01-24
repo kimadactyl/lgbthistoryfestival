@@ -78,9 +78,9 @@ function checkBlanks(){
   })
 }
 
-function filterBySpeaker(speaker) {
+function filterBySpeaker(value, text) {
   //TODO!
-  alert("TODO: filter " + speaker );
+  alert("TODO: filter\n" + value + "\n" + text);
 }
 
 // Calendar
@@ -105,9 +105,9 @@ $( document ).ready(function() {
     }
   });
 
-  $("#speakerlist").selectOrDie({
-    placeholderOption:true,
-    onChange: function() {filterBySpeaker($(this).val())}
-  })
-
+  $("#speakerlist").minimalect({
+    placeholder: "Filter by speaker:",
+    reset: true,
+    onchange: filterBySpeaker
+  });
 });
