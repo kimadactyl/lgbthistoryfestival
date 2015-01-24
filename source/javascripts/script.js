@@ -78,6 +78,11 @@ function checkBlanks(){
   })
 }
 
+function filterBySpeaker(speaker) {
+  //TODO!
+  alert("TODO: filter " + speaker );
+}
+
 // Calendar
 $( document ).ready(function() {
 
@@ -100,6 +105,9 @@ $( document ).ready(function() {
     }
   });
 
-  $("#speakerlist").selectOrDie({placeholderOption:true});
+  $("#speakerlist").selectOrDie({
+    placeholderOption:true,
+    onChange: function() {filterBySpeaker($(this).val())}
+  })
 
 });

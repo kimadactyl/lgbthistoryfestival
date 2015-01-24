@@ -21,7 +21,6 @@ title: Schedule
 
         *Please note times and events are subject to change.*
 
-      =partial 'speakerlist'
       .sticky.contain-to-grid
         %ul#key.schedule.medium-block-grid-6{"data-topbar" => "data-topbar"}
           %li.filter{"data-filter" => ".main-festival"}
@@ -42,6 +41,8 @@ title: Schedule
           %li.filter{"data-filter" => ".conference"}
             %i.icon-book
             %h4 Conference
+
+      =partial 'speakerlist'
 
     .small-12.columns
       %ul#program.schedule
