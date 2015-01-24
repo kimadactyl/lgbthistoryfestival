@@ -20,55 +20,56 @@ title: Schedule
         More popular events will be ticketed: keep an eye on this page, or our [Twitter](http://twitter.com/lgbthistoryfest) or [Facebook](https://www.facebook.com/lgbthistoryfestival) for up-to-the-minute updates.
       
         *Please note times and events are subject to change.*
-
-      %ul.schedule.key.medium-block-grid-6
-        %li.main-festival.event 
-          %i.icon-star
-          %h4 Main Festival
-        %li.family-space.event
-          %i.icon-school
-          %h4 Family Space
-        %li.films
-          %i.icon-video
-          %h4 Films
-        %li.theatre.event
-          %i.icon-theatre
-          %h4 Theatre
-        %li.fringe.event
-          %i.icon-map
-          %h4 Fringe
-        %li.conference.event.disabled
-          %i.icon-book
-          %h4 Conference
+      .sticky.contain-to-grid
+        %ul#key.schedule.medium-block-grid-6{"data-topbar" => "data-topbar"}
+          %li.filter{"data-filter" => ".main-festival"} 
+            %i.icon-star
+            %h4 Main Festival
+          %li.filter{"data-filter" => ".family-space"} 
+            %i.icon-school
+            %h4 Family Space
+          %li.filter{"data-filter" => ".films"} 
+            %i.icon-video
+            %h4 Films
+          %li.filter{"data-filter" => ".theatre"} 
+            %i.icon-theatre
+            %h4 Theatre
+          %li.filter{"data-filter" => ".fringe"} 
+            %i.icon-map
+            %h4 Fringe
+          %li.filter{"data-filter" => ".conference"} 
+            %i.icon-book
+            %h4 Conference
 
     .small-12.columns  
-      %ul.schedule.program
+      %ul#program.schedule
         - days.each do |day, time|
-          %h2= day
-          - case day
-          - when 'Monday'
-            :markdown
-              ### 9th February
-          - when 'Tuesday'
-            :markdown
-              ### 10th February
-          - when 'Wednesday'
-            :markdown
-              ### 11th February
-          - when 'Thursday'
-            :markdown
-              ### 12th February
-          - when 'Friday'
-            :markdown
-              ### 13th February
-          - when 'Saturday'
-            :markdown
-              ### 14th February
-              All Saturday events are at Manchester Central Library's performance space, apart from <i class="icon-map"></i> Fringe events at the Joyce Layland LGBT Centre and the Working Class movement library. See individual event listings for details, and our [travel page](/travel.html) for venue information.
-          - when 'Sunday'
-            :markdown
-              ### 15th February
-              All Sunday events are at People's History Museum. See our [travel page](/travel.html) for venue information.
+          .daytitle
+            %h2= day
+            - case day
+            - when 'Monday'
+              :markdown
+                ### 9th February
+            - when 'Tuesday'
+              :markdown
+                ### 10th February
+            - when 'Wednesday'
+              :markdown
+                ### 11th February
+            - when 'Thursday'
+              :markdown
+                ### 12th February
+            - when 'Friday'
+              :markdown
+                ### 13th February
+            - when 'Saturday'
+              :markdown
+                ### 14th February
+                All Saturday events are at Manchester Central Library's performance space, apart from <i class="icon-map"></i> Fringe events at the Joyce Layland LGBT Centre and the Working Class movement library. See individual event listings for details, and our [travel page](/travel.html) for venue information.
+            - when 'Sunday'
+              :markdown
+                ### 15th February
+                All Sunday events are at People's History Museum. See our [travel page](/travel.html) for venue information.
           .daygroup
             - popular.get_start_times(time).each do |time|
               .timegroup
@@ -83,7 +84,7 @@ title: Schedule
                         - data.contribs.each do |_, details|
                           - if details.events.include? event.uid.to_s
                             - speakers << details.urlname
-                        %li{:class => "event #{list.to_s.parameterize} #{'has-description' if event.description.present?} #{speakers.to_a.join(" ")}"}
+                        %li{:class => "mix event #{list.to_s.parameterize} #{'has-description' if event.description.present?} #{speakers.to_a.join(" ")}"}
                           .event-icon
                             - case list.to_s.parameterize
                             - when 'films'

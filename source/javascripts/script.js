@@ -69,86 +69,32 @@ $( document ).ready(function() {
         $('h3.time', this).show();
       }
     })
-    $(".schedule h2").each(function() {
-      if($(this).next().height() == 0) {
+    $(".daytitle").each(function() {
+      if($(this).next().children(':visible').length == 0) {
         $(this).hide();
       } else {
         $(this).show();
       }
     })
   }
-  // Wire up buttons to trigger appropriate sections
-  function toggleProgram($trigger, $element){
-    $trigger.click(function(){
-      // Toggle the program boxes
-      $element.toggle();
-      // Toggle the key box
-      $trigger.toggleClass('disabled');
-      // Toggle the on/off icon
-      $('span.status i', $trigger).toggleClass('fi-check');
-      $('span.status i', $trigger).toggleClass('fi-x');
-      // Check for blank time rows
-      checkBlanks();
-    })
-  }
 
-  $("li.bio-boxes").click(function() {
-    var these = $("."+this.id);
-    console.log(these)
-    $(".program li.event").not(these).hide();
-    $(these).show();
-    checkBlanks();
-  })
-
-  // Check for click events on expanded/contracted selector
-  $("input[name='expanded']").click(function() {
-    if($(this).attr("value")=="0"){
-      $("ul.program .description").hide();
-    }
-    if ($(this).attr("value")=="1"){
-      $("ul.program .description").show();
-    }
-  });
-
-  // Click event to expand.
-  $("ul.program li").click(function() {
-    $(this).children(".description").toggle();
-  })
-
-  $("ul.key li").hover(function() {
-    $('span.status i', this).toggleClass('fi-check');
-    $('span.status i', this).toggleClass('fi-x');
-  });
-
-  // Hide the extended defs
-  $("ul.program .description").hide();
-
-  // MAIN SCHEDULE LOGIC
-  toggleProgram($("ul.key .main-festival"), $("ul.program .main-festival"));
-  toggleProgram($("ul.key .family-space"), $("ul.program .family-space"));
-  toggleProgram($("ul.key .films"), $("ul.program .films"));
-  toggleProgram($("ul.key .theatre"), $("ul.program .theatre"));
-  toggleProgram($("ul.key .conference"), $("ul.program .conference"));
-  toggleProgram($("ul.key .fringe"), $("ul.program .fringe"));
-
-  // Hide the conference initially
-  $(".schedule ul.program .conference").toggle();
-  // Toggle off the conference button
-  $(".schedule ul.key .conference").toggleClass('disabled');
   checkBlanks();
 
-  // Show family events if captured in URL
-  var family = window.getParameterByName("family");
-  if(family == 1) {
-    // This is absoltely horrible and needs refactoring
-    $(".schedule ul.program .event").hide();
-    $(".schedule ul.program .family-space").show();
-    $(".schedule ul.key li").addClass('disabled');
-    $(".schedule ul.key .family-space").removeClass('disabled');
-    $("span.status i").removeClass('fi-check');
-    $("span.status i").addClass("fi-x");
-    $(".family-space span.status i").addClass("fi-check");
-    $(".family-space span.status i").removeClass("fi-x");
-    checkBlanks();
-  }
+  $('#program').mixItUp({
+    animation: {
+      enable: false
+    },
+    controls: {
+      toggleFilterButtons: true
+    },
+    callbacks: {
+      onMixEnd: function(state){
+        checkBlanks();
+      }
+    },
+    load: {
+      filter: '.main-festival, .family-space, .films, .theatre, .fringe'
+    }
+  });
+
 });

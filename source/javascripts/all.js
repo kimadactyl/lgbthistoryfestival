@@ -4,5 +4,6 @@
 //= require jquery.stellar/jquery.stellar.min
 //= require readmore/readmore.min
 //= require remodal/dist/jquery.remodal.min
+//= require mixitup/src/jquery.mixitup
 
 //= require script

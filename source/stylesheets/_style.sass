@@ -335,7 +335,7 @@ section#credits
 
 $deselected: #C4C4C4
 
-ul.program
+ul#program
   h2
     text-align: center
     letter-spacing: $pinkspacing
@@ -374,7 +374,7 @@ ul.program
     display: table-cell
   li.event
     width: 100%
-    display: block
+    display: none
     list-style-type: none
     background-color: $grey
     padding: 0.5em 0.5em 0.5em
@@ -395,18 +395,26 @@ ul.program
   .location
     font-size: 90%
     font-style: italic
+  .mix
+    display: none    
 
-ul.key
+ul#key
   text-align: center
   margin: 0 3em
+  background-color: white
   h4
     font-size: 100%
   i
     font-size: 200%
-  li:hover, li.disabled
+  color: $grey
+  h4
     color: $grey
+  .active
+    color: #222
     h4
-      color: $grey
+      color: #222
+.fixed ul#key
+  font-size: 80%
 
 form.schedule-type
   label, input
