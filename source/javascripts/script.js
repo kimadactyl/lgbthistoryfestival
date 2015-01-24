@@ -67,12 +67,13 @@ function checkBlanks(){
     }
   })
   $(".daytitle").each(function() {
-    if($(this).first().next().children(':visible').length == 0) {
+    filter = $(this).next().find(".timeblock").children(':visible')
+    if(filter.length == 0) {
       $(this).hide();
     } else {
       $(this).show();
       // Uncomment to debug filter errors.
-      //console.log($(this).next().children(':visible').html() + "\n\n");
+      // console.log(filter.html() + "\n\n");
     }
   })
 }
