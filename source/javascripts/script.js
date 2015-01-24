@@ -57,26 +57,28 @@ $('.index article').readmore({
   }
 });
 
+// Check to see if any rows are empty and hide the times
+function checkBlanks(){
+  $(".timegroup").each(function() {
+    if($('.timeblock li', this).children(':visible').length == 0) {
+      $('h3.time', this).hide();
+    } else {
+      $('h3.time', this).show();
+    }
+  })
+  $(".daytitle").each(function() {
+    if($(this).first().next().children(':visible').length == 0) {
+      $(this).hide();
+    } else {
+      $(this).show();
+      // Uncomment to debug filter errors.
+      //console.log($(this).next().children(':visible').html() + "\n\n");
+    }
+  })
+}
+
 // Calendar
 $( document ).ready(function() {
-
-  // Check to see if any rows are empty and hide the times
-  function checkBlanks(){
-    $(".timegroup").each(function() {
-      if($('.timeblock li', this).children(':visible').length == 0) {
-        $('h3.time', this).hide();
-      } else {
-        $('h3.time', this).show();
-      }
-    })
-    $(".daytitle").each(function() {
-      if($(this).next().children(':visible').length == 0) {
-        $(this).hide();
-      } else {
-        $(this).show();
-      }
-    })
-  }
 
   checkBlanks();
 
