@@ -1,0 +1,11 @@
+%select.speakerlist
+  - imagepath = 'bio-photos/'
+  - contribs_AZ.each do |speaker,entry|
+    %option{:class => "bio-boxes", :id => entry.urlname}
+      - if File.exist?('./source/images/' + imagepath + entry.urlname.parameterize + '.jpg')
+        = image_tag(imagepath + entry.urlname.parameterize + '.jpg')
+      - else
+        .initial_box
+          = speaker.split[0][0] + speaker.split[-1][0]
+      %h5
+        = speaker
