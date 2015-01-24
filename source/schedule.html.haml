@@ -139,10 +139,10 @@ title: Schedule
                 %i.icon-book
               - when 'fringe'
                 %i.icon-map
-              - if data.ticketed[friendly_name]
-                %a(href="#{data.ticketed[friendly_name]}")
-                  %i.icon-ticketed
-                  ticketed
+              - if ticket = data.ticketed[friendly_name]
+                %a(href="#{ticket.url}")
+                  %i.icon-ticket
+                  %b= ticket.fee
               - duration = ((event.dtend - event.dtstart)/60).to_i
               %em.duration= "(#{duration} mins)"
             %div.description
