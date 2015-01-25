@@ -111,7 +111,7 @@ $( document ).ready(function() {
     }
   });
 
-  $("#speakerlist").data("placeholder","Select a speaker").chosen();
+  $("#speakerlist").data("placeholder","Select a speaker").chosen({allow_single_deselect:true});
 
   $("#speakerlist").change(function() {
     filterBySpeaker($(this).val());
