@@ -81,6 +81,12 @@ function checkBlanks(){
 function filterBySpeaker(select) {
   //TODO!
   console.log(select);
+  var shown = $("li."+select)
+  if (shown.length != 0) {
+    $("li.event").not(shown).hide();
+    shown.show();
+    checkBlanks();
+  }
 }
 
 // Calendar

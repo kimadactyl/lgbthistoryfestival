@@ -3,6 +3,6 @@
   - contribs_AZ.each do |speaker,entry|
   - imagepath = 'images/bio-photos/'
   - filename = imagepath + entry.urlname.parameterize+'.jpg'
-    %option{:class => "bio-boxes", :id => entry.urlname,
+    %option{:class => "bio-boxes", :value => entry.urlname,
             :"data-image" => (imagepath if File.exist? filename)}
       = speaker
