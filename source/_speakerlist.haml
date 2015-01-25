@@ -1,6 +1,5 @@
-%select#speakerlist
-  %option{:id => "placeholder"}
-    Select a speaker
+%select{:id => "speakerlist", :"data-placeholder" => "Select a speaker"}
+  %option
   - contribs_AZ.each do |speaker,entry|
   - imagepath = 'images/bio-photos/'
   - filename = imagepath + entry.urlname.parameterize+'.jpg'

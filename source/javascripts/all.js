@@ -5,6 +5,6 @@
 //= require readmore/readmore.min
 //= require remodal/dist/jquery.remodal.min
 //= require mixitup/src/jquery.mixitup
-//= require minimalect/jquery.minimalect.js
+//= require chosen_v1.3.0/chosen.jquery
 
 //= require script
