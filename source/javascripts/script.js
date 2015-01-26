@@ -4,6 +4,8 @@
 //     });
 // }
 
+var DEFAULT_FILTER = '.main-festival, .family-space, .films, .theatre, .fringe'
+
 $(document).foundation({
   "magellan-expedition": {
     throttle_delay: 50,
@@ -112,9 +114,11 @@ function checkBlanks(){
 function filterBySpeaker(select) {
   //TODO!
   insertParam("speaker",select);
-    //$("li.event").not(shown).hide();
-    //shown.show();
-    //checkBlanks();
+  if(select == ""){
+    $("#program").mixItUp('filter', DEFAULT_FILTER);
+  } else {
+    $("#program").mixItUp('filter', "."+select);
+  }
 }
 
 // Calendar
@@ -135,7 +139,7 @@ $( document ).ready(function() {
       }
     },
     load: {
-      filter: '.main-festival, .family-space, .films, .theatre, .fringe'
+      filter: DEFAULT_FILTER
     }
   });
 
