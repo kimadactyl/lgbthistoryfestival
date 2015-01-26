@@ -20,6 +20,37 @@ function getParameterByName(name) {
     return match && decodeURIComponent(match[1].replace(/\+/g, ' '));
 }
 
+// Adapted from stack overflow
+function insertParam(key, value)
+{
+  key = encodeURI(key); value = encodeURI(value);
+
+  var kvp = document.location.search.substr(1).split('&');
+  var i=kvp.length; var x; while(i--)
+  {
+    x = kvp[i].split('=');
+
+    if (x[0]==key)
+    {
+      x[1] = value;
+      if(value != ""){
+        kvp[i] = x.join('=');
+      } else {
+        // if value is empty, remove key
+        kvp.splice(i,1);
+      }
+      break;
+    }
+  }
+
+  if(i<0) {kvp[kvp.length] = [key,value].join('=');}
+  var path = document.location.pathname;
+  // Not sure if this is the best way or not, but it doesn't force a refresh!
+  var newurl = path + "?" + kvp.join('&'); //slightly faulty, prepends & to searchstring
+  var title = document.title.toString();
+  window.history.replaceState(null, title, newurl)
+}
+
 // Front page arrows
 $('.arrow').on('click', function(event){
   var target = $(this).parent().next();
@@ -80,13 +111,10 @@ function checkBlanks(){
 
 function filterBySpeaker(select) {
   //TODO!
-  console.log(select);
-  var shown = $("li."+select)
-  if (shown.length != 0) {
-    $("li.event").not(shown).hide();
-    shown.show();
-    checkBlanks();
-  }
+  insertParam("speaker",select);
+    //$("li.event").not(shown).hide();
+    //shown.show();
+    //checkBlanks();
 }
 
 // Calendar
@@ -116,5 +144,9 @@ $( document ).ready(function() {
   $("#speakerlist").change(function() {
     filterBySpeaker($(this).val());
   });
+  var speaker = getParameterByName("speaker");
+  if(speaker){
+    $("#speakerlist>option[value="+speaker+"]").attr('selected',true);
+  }
 
 });
