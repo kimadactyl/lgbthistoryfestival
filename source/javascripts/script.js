@@ -22,7 +22,19 @@ function getParameterByName(name) {
     return match && decodeURIComponent(match[1].replace(/\+/g, ' '));
 }
 
-// Adapted from stack overflow
+// alternative params reader, returns associative array of keys and values
+function getSearchParams() {
+  var paramsObj = {};
+  var searchStrs = window.location.search.substr(1).split('&');
+  for (param in searchStrs) {
+    kvp = searchStrs[param].split('=');
+    if (kvp.length != 2) continue; // reject if key-value-pair not a pair!
+    paramsObj[kvp[0]] = kvp[1];
+  }
+  return paramsObj;
+}
+
+// Insert param by name, overriding existing params
 function insertParam(key, value)
 {
   key = encodeURI(key); value = encodeURI(value);
