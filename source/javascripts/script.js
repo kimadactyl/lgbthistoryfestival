@@ -149,8 +149,10 @@ $( document ).ready(function() {
     filterBySpeaker($(this).val());
   });
   var speaker = getParameterByName("speaker");
+  // doesn't work
   if(speaker){
     $("#speakerlist>option[value="+speaker+"]").attr('selected',true);
+    $("#speakerlist").trigger('chosen:updated')
   }
 
 });
