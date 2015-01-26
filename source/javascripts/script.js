@@ -5,6 +5,7 @@
 // }
 
 var DEFAULT_FILTER = '.main-festival, .family-space, .films, .theatre, .fringe'
+var CATEGORIES=['.main-festival', '.family-space', '.films', '.theatre', '.fringe', '.conference']
 
 $(document).foundation({
   "magellan-expedition": {
@@ -133,6 +134,45 @@ function filterBySpeaker(select) {
   }
 }
 
+// get params, combine with defaults, post to mixItUp
+function mixUpParams() {
+  //Handle url-params, apply to filter
+  // Sorry for the spaghetti code
+  var params = getSearchParams();
+
+  // set speakerlist select to match param if any
+  var speaker = params['speaker'];
+  if(speaker){
+    $("#speakerlist>option[value="+speaker+"]").attr('selected',true);
+    $("#speakerlist").trigger('chosen:updated');
+    $("#program").mixItUp('filter','.'+speaker);
+  } else {
+    newfilter = []
+    // load defaults
+    defaults = DEFAULT_FILTER.split(', ');
+    for(item in defaults) {
+      newfilter.push(defaults[item]);
+    }
+
+    for(key in params) {
+      // is key true?
+      x = $.inArray("." + key, newfilter)
+      if(eval(params[key])) {
+        // push it if it's not already there
+        x ? $.noop() : newfilter.push("." + key);
+      } else if (x >= 0){
+        // key false, delete if filtered in
+        newfilter.splice(x,1);
+      }
+    }
+
+    // Dynamic typing is grim, but oh well
+    newfilter = newfilter.join(', ');
+
+    $("#program").mixItUp('filter',newfilter);
+  }
+}
+
 // Calendar
 $( document ).ready(function() {
 
@@ -160,11 +200,6 @@ $( document ).ready(function() {
   $("#speakerlist").change(function() {
     filterBySpeaker($(this).val());
   });
-  var speaker = getParameterByName("speaker");
-  // doesn't work
-  if(speaker){
-    $("#speakerlist>option[value="+speaker+"]").attr('selected',true);
-    $("#speakerlist").trigger('chosen:updated')
-  }
 
+  mixUpParams();
 });
