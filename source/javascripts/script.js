@@ -125,12 +125,15 @@ function checkBlanks(){
 }
 
 function filterBySpeaker(select) {
-  //TODO!
-  insertParam("speaker",select);
-  if(select == ""){
+  var title = document.title.toString();
+  var path = document.location.pathname;
+  if(!select){
     $("#program").mixItUp('filter', DEFAULT_FILTER);
+    window.history.replaceState(null,title, path);
   } else {
-    $("#program").mixItUp('filter', "."+select);
+    var newurl = path + "?" + "speaker=" + select;
+    window.history.replaceState(null, title, newurl);
+    mixUpParams();
   }
 }
 
