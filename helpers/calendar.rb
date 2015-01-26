@@ -79,7 +79,8 @@ module FestivalCalendar
               "Family Space" => "ical/family-space.ics",
               "Theatre" => "ical/theatre.ics",
               "Conference" => "ical/academic.ics",
-              "Fringe" => "ical/fringe.ics"})
+              "Fringe" => "ical/fringe.ics",
+              "Films" => "ical/films.ics"})
 
   ACADEMIC = CalendarSorter.new({"Conference" => "ical/academic.ics"})
 end

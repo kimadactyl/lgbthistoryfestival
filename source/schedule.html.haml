@@ -88,8 +88,8 @@ title: Schedule
                         - data.contribs.each do |_, details|
                           - if details.events.include? event.uid.to_s
                             - speakers << details.urlname
-                        %li{:class => "#{'needsticket' if data.ticketed[friendlyname]} mix event #{list.to_s.parameterize} #{'has-description' if event.description.present?} #{speakers.to_a.join(" ")}"}
-                          .event-icon
+                        %li{:class => "mix event row #{list.to_s.parameterize} #{'has-description' if event.description.present?} #{speakers.to_a.join(" ")}"}
+                          .event-icon.columns.small-1
                             - case list.to_s.parameterize
                             - when 'films'
                               %i.icon-video
@@ -101,7 +101,9 @@ title: Schedule
                               %i.icon-book
                             - when 'fringe'
                               %i.icon-map
-                          .event-title
+                            - else
+                              %p
+                          .event-title.columns.small-9
                             -# If there's a colon, bold the first half and not  second half.
                             - sections = RubyPants.new(event.summary).to_html.split(":")
                             - if sections.length > 1
@@ -110,7 +112,10 @@ title: Schedule
                             - else
                               %strong= sections[0]
                             .location= event.location.split(",").first
-                          .event-meta
+                          .event-meta.columns.small-2
+                            - duration = ((event.dtend - event.dtstart)/60).to_i
+                            %span.duration= "#{duration} mins"
+                            = "<br/><span class='ticket'><i class='needsticket icon-ticket'></i> #{data.ticketed[friendlyname].cost}</span>" if data.ticketed[friendlyname]
 
 
       -# .small-12.columns.speakerlist

@@ -351,52 +351,56 @@ ul#program
     cursor: hand
     cursor: pointer
 
+  // Container element for each seperate day
   .daygroup
     display: table
     border-collapse: seperate
-    border-spacing: 10px 0
+    border-spacing: 0 0.25em
     padding: 0
     width: 100%
+  // Container element for each unique starting time
   .timegroup
     display: table-row
     clear: both
     width: 100%
+  // Container for time in left col
   .timecol
-    display: table-cell
     width: 88px
+    display: table-cell
     background-color: #E4E4E4
-    height: 100%
     vertical-align: middle
-    // Gives impression that bottoms are lined up
-    border-bottom: 10px solid white
+    border-bottom: 8px solid white
+  // Container for set of events within a time
   .timeblock
-    padding: 0
+    padding: 0 0 0 23px
     display: table-cell
   li.event
-    width: 100%
     display: none
     list-style-type: none
     background-color: $grey
-    padding: 0.5em 0.5em 0.5em
-    font-size: 125%
-    margin-bottom: 10px
-    .event-icon, .event-title, .event-meta
-      display: inline-block
-    .event-icon
-      width: 1.75em
-      font-size: 150%
-      vertical-align: top
-  li.event.last
-    margin-bottom: 0
+    font-size: 120%
+    width: 100%
+
   h3
     color: black
     font-size: 110%
     text-align: center
+  .event-icon
+    font-size: 150%
+    vertical-align: top
   .location
     font-size: 90%
     font-style: italic
+  .event-title
+    padding-left: 0
+  .event-meta
+    font-weight: 600
+    text-transform: uppercase
+    text-align: right
+    font-size: 80%
+  // Disable everything before MixItUp re-enables it
   .mix
-    display: none    
+    display: none
 
 ul#key
   text-align: center

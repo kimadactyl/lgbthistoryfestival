@@ -1,2 +1,16 @@
-a-very-victorian-scandal-framing-a-charge: http://crm.lgbthistoryfestival.org/civicrm/event/info?reset=1&id=3
-a-very-victorian-scandal-the-trial: http://crm.lgbthistoryfestival.org/civicrm/event/info?reset=1&id=4
+---
+a-very-victorian-scandal-framing-a-charge: 
+  url: http://crm.lgbthistoryfestival.org/civicrm/event/info?reset=1&id=3
+  cost: free
+a-very-victorian-scandal-the-trial: 
+  url: http://crm.lgbthistoryfestival.org/civicrm/event/info?reset=1&id=4
+  cost: free
+lgbt-history-festival-launch-the-1st-alan:
+  cost: sold out
+museum-maketh-man:
+  cost: free
+museum-maketh-man1: 
+  cost: free
+a-very-victorian-pub-quiz:
+  cost: £12
+  url: http://crm.lgbthistoryfestival.org/civicrm/event/info?reset=1&id=5
