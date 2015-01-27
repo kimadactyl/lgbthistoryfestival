@@ -13,15 +13,19 @@ title: Schedule
       %h2.longborder Schedule
 
       %p.pinkcaps
-        All events are free, apart from the <a href="/conference.html">academic conference</a>!
-      %p.pinkcaps
-        Events are first-come, first-served: please arrive in plenty of time to avoid disappointment.
+        All events are free unless otherwise noted. Non-ticketed events are first-come, first-served: please arrive in plenty of time to avoid disappointment.
+  .row
+    .medium-2.columns
+      %p
+    .small-12.medium-8.text-center.columns
       :markdown
-        More popular events will be ticketed: keep an eye on this page, or our <i class="icon-twitter"/> [Twitter](http://twitter.com/lgbthistoryfest) or <i class="icon-facebook"/> [Facebook](https://www.facebook.com/lgbthistoryfestival) for up-to-the-minute updates.
+        Events which require booking have a <i class="icon-ticket"/> ticket icon &mdash; click on the event for a booking link. Check our [Twitter](http://twitter.com/lgbthistoryfest) or [Facebook](https://www.facebook.com/lgbthistoryfestival) for up-to-the-minute updates
 
         *Please note times and events are subject to change.*
-
-
+    .medium-2.columns
+      %p
+  .row
+    .small-12.text-center
       %ul#key.schedule.medium-block-grid-6.small-block-grid-3
         %li.filter{"data-filter" => ".main-festival"}
           %i.icon-star
@@ -119,12 +123,8 @@ title: Schedule
                             .location= event.location.split(",").first
                           .event-meta
                             - duration = ((event.dtend - event.dtstart)/60).to_i
-                            %span.duration= "#{duration} mins"
-                            = "<br/><span class='ticket'><i class='needsticket icon-ticket'></i> #{data.ticketed[friendlyname].cost}</span>" if data.ticketed[friendlyname]
-
-
-      -# .small-12.columns.speakerlist
-      -#   = partial 'speakerlist'
+                            %div.duration= "#{duration} mins"
+                            = "<div class='ticket'><i class='needsticket icon-ticket'></i> #{data.ticketed[friendlyname].cost}</span>" if data.ticketed[friendlyname]
 
 .remodal-bg
   - days.each do |_, time|
