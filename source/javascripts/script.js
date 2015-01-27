@@ -130,6 +130,10 @@ function filterBySpeaker(select) {
   if(!select){
     $("#program").mixItUp('filter', DEFAULT_FILTER);
     window.history.replaceState(null,title, path);
+    for(item in DEFAULT_FILTER.split(', ')) {
+      var button = DEFAULT_FILTER.split(', ')[item];
+      $("li.filter[data-filter='"+button+"']").addClass('active');
+    }
   } else {
     var newurl = path + "?" + "speaker=" + select;
     window.history.replaceState(null, title, newurl);
