@@ -22,7 +22,7 @@ title: Schedule
         *Please note times and events are subject to change.*
 
       .sticky.contain-to-grid
-        %ul#key.schedule.medium-block-grid-6{"data-topbar" => "data-topbar"}
+        %ul#key.schedule{"data-topbar" => "data-topbar"}
           %li.filter{"data-filter" => ".main-festival"}
             %i.icon-star
             %h4 Main Festival
@@ -41,8 +41,8 @@ title: Schedule
           %li.filter{"data-filter" => ".conference"}
             %i.icon-book
             %h4 Conference
-
-      =partial 'speakerlist'
+          %li.speakers
+            =partial 'speakerlist'
 
     .small-12.columns
       %ul#program.schedule
@@ -129,27 +129,35 @@ title: Schedule
           - friendly_name = data.events[event.uid]
           %div.remodal(data-remodal-id="#{friendly_name}")
             %h3
-              = event.summary
+              -# If there's a colon, bold the first half and not  second half.
+              - sections = RubyPants.new(event.summary).to_html.split(":")
+              - if sections.length > 1
+                %strong= sections[0] + ":"
+                = sections[1]
+              - else
+                %strong= sections[0]
 
-            %strong
-              = event.dtstart.strftime("%D %H:%M")
-            .duration
-              = list.to_s[2..-3]
-              - case list.to_s.parameterize
-              - when 'films'
-                %i.icon-video
-              - when 'family-space'
-                %i.icon-school
-              - when 'theatre'
-                %i.icon-theatre
-              - when 'conference'
-                %i.icon-book
-              - when 'fringe'
-                %i.icon-map
-              - if data.ticketed[friendly_name]
-                %a(href="#{data.ticketed[friendly_name]}")
-                  %i.icon-ticketed
-                  ticketed
+            %h5
+              = event.dtstart.strftime("%H:%M &mdash;") 
+              = event.dtend.strftime("%H:%M, ") 
+              = event.dtstart.strftime("%A %e %B, ")
+              = event.location.split(",").first
+
+            - case list.to_s.parameterize
+            - when 'films'
+              %i.icon-video
+            - when 'family-space'
+              %i.icon-school
+            - when 'theatre'
+              %i.icon-theatre
+            - when 'conference'
+              %i.icon-book
+            - when 'fringe'
+              %i.icon-map
+            - if data.ticketed[friendly_name]
+              %a(href="#{data.ticketed[friendly_name]}")
+                %i.icon-ticketed
+                ticketed
               - duration = ((event.dtend - event.dtstart)/60).to_i
               %em.duration= "(#{duration} mins)"
             %div.description

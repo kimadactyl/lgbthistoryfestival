@@ -372,14 +372,16 @@ ul#program
     list-style-type: none
     background-color: $grey
     font-size: 120%
+    padding: 0.5em
     margin: 0 0 $gridspacing $gridspacing
-  .timeblock li.event:last-child
+  .timeblock a:last-child li.event
     margin-bottom: 0
 
 
   .event-icon
     font-size: 150%
     vertical-align: top
+    width: 2em
   .location
     font-size: 90%
     font-style: italic
@@ -398,6 +400,15 @@ ul#key
   text-align: center
   margin: 0 3em
   background-color: white
+  > li
+    display: inline-block
+    margin: 0.5em
+    list-style-type: none
+  li.speakers
+    vertical-align: top
+    margin-top: 1em
+  .chosen-container, li.speakers
+    width: 25em
   h4
     font-size: 100%
   i
@@ -415,6 +426,18 @@ ul#key
 form.schedule-type
   label, input
     font-size: 125%
+
+// Modals
+.remodal
+  text-align: left
+  h3, h5
+    text-transform: none
+    text-align: center
+    font-weight: normal
+  .description p:first-child
+    font-weight: 600
+
+
 
 // Blogs
 article

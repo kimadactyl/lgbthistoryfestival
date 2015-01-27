@@ -194,7 +194,7 @@ $( document ).ready(function() {
     controls: {
       toggleFilterButtons: true
     },
-    layout {
+    layout: {
       display: 'flex'
     },
     callbacks: {
@@ -203,7 +203,7 @@ $( document ).ready(function() {
       }
     },
     load: {
-      filter: DEFAULT_FILTER
+      filter: 'DEFAULT_FILTER'
     }
   });
 

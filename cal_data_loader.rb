@@ -14,7 +14,7 @@ ICALS = {"main-festival" => "ical/main.ics",
   "theatre" => "ical/theatre.ics",
   "fringe" => "ical/fringe.ics",
   "conference" => "ical/academic.ics",
-  "fringe" => "ical/fringe.ics"}
+  "films" => "ical/films.ics"}
 
 CONTRIB_FILE = "data/contribs.yml"
 EVENTS_FILE = "data/events.yml"

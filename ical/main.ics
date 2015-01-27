@@ -6,9 +6,222 @@ METHOD:PUBLISH
 X-WR-CALNAME:Main Festival
 X-WR-TIMEZONE:Europe/London
 BEGIN:VEVENT
+DTSTART:20150214T151500Z
+DTEND:20150214T154500Z
+DTSTAMP:20150127T124803Z
+UID:4339p0jqd3bfkip1seqgg88p0o@google.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=kim@lg
+ bthistoryfestival.org;X-NUM-GUESTS=0:mailto:kim@lgbthistoryfestival.org
+CREATED:20141126T141355Z
+DESCRIPTION:{Alexander Herrmann} grew up in Pasewalk\, in the former GDR an
+ d will share some of his life story with us about what it was like to grow 
+ up gay in the provinces in the GDR and how things have changed (or not) sin
+ ce unification. 
+LAST-MODIFIED:20150126T232050Z
+LOCATION:Space 3
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Alexander Herrmann: Growing Up Gay in the GDR
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20150214T143000Z
+DTEND:20150214T150000Z
+DTSTAMP:20150127T124803Z
+UID:lied8d2u7mp66tk1jo3m69meb8@google.com
+CREATED:20141126T140451Z
+DESCRIPTION:{Razia Aziz} -- During a half century which has taken me from L
+ agos to London to Brighton to Lewes\, from a girls’ public school to Cambri
+ dge to company director\, from an Indian Muslim heritage to the mixed bless
+ ings of the distinctive UK brand of 21st century diversity\, from an ambiti
+ on to be a professional singer to body work practitioner to Interfaith Mini
+ stry\, I have often pondered upon the meaning and significance of my gender
+  identity and sexuality in pursuit of an answer to the question we all ask 
+ at some point in our life: “What’s it all for?”\n \nThe world continues to 
+ turn\, and attitudes towards gender\, sex and sexuality have undergone a se
+ a change since my own adolescence in the race-and-class-conscious south Lon
+ don of the 1970s. My personal thread of a journey has woven itself both bec
+ ause\, and in spite\, of these epoch-making changes.\n \nAll the while\, Sp
+ irit remains luminous and unchanging\, though my unfolding relationship to 
+ It is the constant and compelling source & destination of my life quest.\n
+LAST-MODIFIED:20150126T232031Z
+LOCATION:Space 3
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Razia Aziz: Spiritual Journeys 
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20150214T103000Z
+DTEND:20150214T110000Z
+DTSTAMP:20150127T124803Z
+UID:6a73qulikvaqfv7aouea1k656o@google.com
+CREATED:20141126T135808Z
+DESCRIPTION:{Peter Tatchell} tells the inside story of how Dr Vaernet was a
+ uthorised by the head of the Gestapo to experiment on gay concentration cam
+ p prisoners to discover a medical means to eradicate homosexuality - and ho
+ w he escaped prosecution for war crimes with the collusion of Danish and Br
+ itish governments. \n\nPeter Tatchell has campaigned for LGBT and other hum
+ an rights since 1967. A pioneer of the London Gay Liberation Front in 1971\
+ , he staged the first gay rights protest in a communist country (East Germa
+ ny\, 1973). He was the defeated Labour candidate in the 1983 Bermondsey by-
+ election – the dirtiest\, most homophobic and violent election in Britain f
+ or 100 years.\n \nIn 1989\, he helped found the AIDS activist group ACT UP 
+ London\, and in 1990 he was a founding member of the LGBT direct action org
+ anisation OutRage! \n \nHe outed 10 anti-gay bishops in 1994\; twice attemp
+ ted a citizen’s arrest of the Zimbabwean dictator Robert Mugabe (1999 and 2
+ 001)\; interrupted the 1998 Easter Sermon of the then anti-equality Archbis
+ hop of Canterbury\, George Carey\; ambushed Tony Blair’s motorcade in prote
+ st at the Iraq war (2003)\; and was beaten by neo-Nazis at the banned Mosco
+ w Pride parade in 2007.\n \nHis inspirations are Mahatma Gandhi\, Sylvia Pa
+ nkhurst\, Martin Luther King and Malcolm X. For more info about Peter’s hum
+ an rights campaigns and to make a donation: [Peter Tatchell Foundation](www
+ .PeterTatchellFoundation.org)\n
+LAST-MODIFIED:20150126T231951Z
+LOCATION:Space 3
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Peter Tatchell: Carl Vaernet -- The Nazi Doctor Who Escaped Justice
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20150215T145000Z
+DTEND:20150215T151000Z
+DTSTAMP:20150127T124803Z
+UID:2pn381o8gk6om6nc1161gfd59c@google.com
+CREATED:20150121T171533Z
+DESCRIPTION:The UK's oldest extant bisexual organisation\, BiPhoria\, is ba
+ sed in Manchester.  Its existence has been at times both thanks to\, and de
+ spite\, the wider LGBT scene and culture in the city - giving Manchester a 
+ reputation as both a centre of bisexual community and of biphobia. Bi Commu
+ nity News editor Jen Yockney explores the group's story\, in the context of
+  Manchester's sometimes LGbt culture\, and the wider bi movement in the UK 
+ since 1981.\n\n\nJen Yockney is one of the most prominent bisexual activist
+ s in the UK\, having worked on giving bi communities support and voice for 
+ the past twenty years. She works across many levels: frontline support at t
+ he UK's oldest bisexual support group\; publications and policy-making\; an
+ d as a mentor reaching out to new volunteers to help bi groups and projects
+  around the country blossom. \n
+LAST-MODIFIED:20150126T231821Z
+LOCATION:Changing Exhibition Space
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Jen Yockney: 21 years and more. BiPhoria and Bisexuality In Manches
+ ter
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20150215T153000Z
+DTEND:20150215T160000Z
+DTSTAMP:20150127T124803Z
+UID:hj0cq2ivihpalkqj694gf99288@google.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=kim@lg
+ bthistoryfestival.org;X-NUM-GUESTS=0:mailto:kim@lgbthistoryfestival.org
+CREATED:20141223T094127Z
+DESCRIPTION:Prof {Alex Sharpe} will be talking about Trans-Cis Sexual Intim
+ acy in circumstances where gender history has not been disclosed. In recent
+  years\, a series of young trans men have been successfully prosecuted for 
+ sexual offences in these circumstances. Several have been imprisoned and al
+ l have been placed on the Sex Offenders Register for Life. \n\nProf Sharpe 
+ works at Keele University. Her research interests lie within the fields of 
+ social and legal theory\, legal history\, and gender\, sexuality and the la
+ w. She has been writing about transgender/law issues for over twenty years.
+  She is the author of Transgender Jurisprudence: Dysphoric Bodies of Law (C
+ avendish\, 2002) and Foucault’s Monsters and the Challenge of Law (Routledg
+ e\, 2010) and over 50 other publications. Prof Sharpe also serves on the In
+ ternational Legal Committee of WPATH (the World Professional Association of
+  Transgender Health)\, a law reform body that makes third party interventio
+ ns in litigation worldwide\, and sits on Amnesty International's Expert Com
+ mittee on the Criminalisation of Sexual and Reproductive Conduct.
+LAST-MODIFIED:20150126T231804Z
+LOCATION:Changing Exhibition Space
+SEQUENCE:1
+STATUS:CONFIRMED
+SUMMARY:Alex Sharpe: Sexual Intimacy\, Gender History and the Criminal Law
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20150215T140000Z
+DTEND:20150215T143000Z
+DTSTAMP:20150127T124803Z
+UID:7ujg8gvrt56j63tfj73gj6kas4@google.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=kim@lg
+ bthistoryfestival.org;X-NUM-GUESTS=0:mailto:kim@lgbthistoryfestival.org
+CREATED:20141223T092837Z
+DESCRIPTION:At the age of twenty-six\, in 1896\, Eva Gore-Booth was sent to
+  recover from illness in the picturesque village of Bordighera in Italy. In
+  the garden\, standing under an olive tree\, she first met a young English 
+ woman\, Esther Roper. The encounter was to change the two women’s lives for
+ ever.  \n\nEva Gore-Booth was the daughter of an Anglo-Irish landlord who o
+ wned one of the largest estates in the West of Ireland. In stark contrast\,
+  Esther Roper was from working class stock. Within months of her return to 
+ Ireland\, Eva made an extraordinary decision in order to be with Esther. In
+  1897\, she rejected her aristocratic lifestyle\, moving from an opulent ma
+ nsion in the beautiful countryside of Sligo to a mid-terrace property in th
+ e smog-bound quarters of industrial Manchester.\n\nThis talk examines the r
+ emarkable thirty-year relationship of Eva and Esther. Once labelled as a pa
+ ir of oddities\, it is now clear that the women were open about their relat
+ ionship\, mixing with an eclectic group of radical gay and lesbian activist
+ s. The couple became formidable political advocates in England often organi
+ sing successful and radical campaigns for social justice. Using recently un
+ covered letters\, diaries and manuscripts\, this story is a fascinating acc
+ ount of two women who refused to comply with the norms of society at the tu
+ rn of the twentieth century.\n\nDr {Sonja Tiernan} is a Lecturer in Modern 
+ History at Liverpool Hope University. She has published widely in the area 
+ of LGBT history including two volumes on the histories of sexuality. Her mo
+ st recent publications include Eva Gore-Booth: an Image of Such Politics (2
+ 012) and The Political Writings of Eva Gore-Booth due for publication in 20
+ 15. Sonja is currently writing the official history of the Marriage Equalit
+ y campaign in Ireland to be published later this year.  \n
+LAST-MODIFIED:20150126T231644Z
+LOCATION:Coal Store
+SEQUENCE:1
+STATUS:CONFIRMED
+SUMMARY:Sonja Tiernan: "Sappho was right". The formidable relationship of E
+ va Gore-Booth and  Esther Roper
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20150215T140000Z
+DTEND:20150215T143000Z
+DTSTAMP:20150127T124803Z
+UID:b2022von6fts2lfjcqa75lmfm0@google.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=kim@lg
+ bthistoryfestival.org;X-NUM-GUESTS=0:mailto:kim@lgbthistoryfestival.org
+CREATED:20141223T094004Z
+DESCRIPTION:Dr {Kate Cook} will speak about her involvement in the 1990s st
+ ruggles to end rape and about the involvement of lesbian feminists in the m
+ ovement against violence against women and girls.  
+LAST-MODIFIED:20150126T231633Z
+LOCATION:Archive Space
+SEQUENCE:2
+STATUS:CONFIRMED
+SUMMARY:Kate Cook: Lesbians and Feminism: Doc Martens Against Rape
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20150214T134500Z
+DTEND:20150214T141500Z
+DTSTAMP:20150127T124803Z
+UID:jnfplk6upm6e4e2m3vmpeo3rm8@google.com
+CREATED:20141126T140428Z
+DESCRIPTION:Dr {Sarah Parker} is an Impact Research Fellow in English Studi
+ es at University of Stirling. \nSarah will talk about Olive Custance\, wife
+  of Lord Alfred Douglas and poet. We will learn more about both Olive and B
+ osie\, their unconventional relationship\, their romances with both men and
+  women and their explorations of the fluidity of gender.\n\n[After Oscar](h
+ ttp://lgbthistoryfestival.org/authors/sarah-parker.html)
+LAST-MODIFIED:20150126T231609Z
+LOCATION:Space 3
+SEQUENCE:3
+STATUS:CONFIRMED
+SUMMARY:Sarah Parker: After Oscar
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
 DTSTART:20150214T160000Z
 DTEND:20150214T163000Z
-DTSTAMP:20150125T142325Z
+DTSTAMP:20150127T124803Z
 UID:65g83ppf4h43148rvtc27ihst0@google.com
 CREATED:20141126T140545Z
 DESCRIPTION:In her talk {Laila El-Metoui} will share her experience of mana
@@ -57,55 +270,9 @@ SUMMARY:Laila El-Metoui: Embedding LGBT lives and Issues in Further Educati
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
-DTSTART:20150214T143000Z
-DTEND:20150214T150000Z
-DTSTAMP:20150125T142325Z
-UID:lied8d2u7mp66tk1jo3m69meb8@google.com
-CREATED:20141126T140451Z
-DESCRIPTION:{Razia Aziz} -- During a half century which has taken me from L
- agos to London to Brighton to Lewes\, from a girls’ public school to Cambri
- dge to company director\, from an Indian Muslim heritage to the mixed bless
- ings of the distinctive UK brand of 21st century diversity\, from an ambiti
- on to be a professional singer to body work practitioner to Interfaith Mini
- stry\, I have often pondered upon the meaning and significance of my gender
-  identity and sexuality in pursuit of an answer to the question we all ask 
- at some point in our life: “What’s it all for?”\n \nThe world continues to 
- turn\, and attitudes towards gender\, sex and sexuality have undergone a se
- a change since my own adolescence in the race-and-class-conscious south Lon
- don of the 1970s. My personal thread of a journey has woven itself both bec
- ause\, and in spite\, of these epoch-making changes.\n \nAll the while\, Sp
- irit remains luminous and unchanging\, though my unfolding relationship to 
- It is the constant and compelling source & destination of my life quest.\n
-LAST-MODIFIED:20150124T210544Z
-LOCATION:Space 3
-SEQUENCE:0
-STATUS:CONFIRMED
-SUMMARY:Razia Aziz: spiritual journeys 
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-DTSTART:20150214T134500Z
-DTEND:20150214T141500Z
-DTSTAMP:20150125T142325Z
-UID:jnfplk6upm6e4e2m3vmpeo3rm8@google.com
-CREATED:20141126T140428Z
-DESCRIPTION:{Dr Sarah Parker} is an Impact Research Fellow in English Studi
- es at University of Stirling. \nSarah will talk about Olive Custance\, wife
-  of Lord Alfred Douglas and poet. We will learn more about both Olive and B
- osie\, their unconventional relationship\, their romances with both men and
-  women and their explorations of the fluidity of gender.\n\n[After Oscar](h
- ttp://lgbthistoryfestival.org/authors/sarah-parker.html)
-LAST-MODIFIED:20150124T210530Z
-LOCATION:Space 3
-SEQUENCE:3
-STATUS:CONFIRMED
-SUMMARY:Sarah Parker: After Oscar
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
 DTSTART:20150214T130000Z
 DTEND:20150214T133000Z
-DTSTAMP:20150125T142325Z
+DTSTAMP:20150127T124803Z
 UID:10bietmtdr79n84dhsenptvt1c@google.com
 ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=kim@lg
  bthistoryfestival.org;X-NUM-GUESTS=0:mailto:kim@lgbthistoryfestival.org
@@ -160,7 +327,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART:20150214T130000Z
 DTEND:20150214T133000Z
-DTSTAMP:20150125T142325Z
+DTSTAMP:20150127T124803Z
 UID:od7iba0v2r81mbi80dfkqqgp18@google.com
 CREATED:20141126T140306Z
 DESCRIPTION:{Jan Bridget} is a 67 year old lesbian from a poor\, lower clas
@@ -183,35 +350,9 @@ SUMMARY:Jan Bridget: Lesbian Information Service
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
-DTSTART:20150215T145000Z
-DTEND:20150215T151000Z
-DTSTAMP:20150125T142325Z
-UID:2pn381o8gk6om6nc1161gfd59c@google.com
-CREATED:20150121T171533Z
-DESCRIPTION:The UK's oldest extant bisexual organisation\, BiPhoria\, is ba
- sed in Manchester.  Its existence has been at times both thanks to\, and de
- spite\, the wider LGBT scene and culture in the city - giving Manchester a 
- reputation as both a centre of bisexual community and of biphobia. Bi Commu
- nity News editor Jen Yockney explores the group's story\, in the context of
-  Manchester's sometimes LGbt culture\, and the wider bi movement in the UK 
- since 1981.\n\n\nJen Yockney is one of the most prominent bisexual activist
- s in the UK\, having worked on giving bi communities support and voice for 
- the past twenty years. She works across many levels: frontline support at t
- he UK's oldest bisexual support group\; publications and policy-making\; an
- d as a mentor reaching out to new volunteers to help bi groups and projects
-  around the country blossom. \n
-LAST-MODIFIED:20150121T171533Z
-LOCATION:Changing Exhibition Space
-SEQUENCE:0
-STATUS:CONFIRMED
-SUMMARY:Jen Yockney 21 years and more: BiPhoria and Bisexuality In Manchest
- er
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
 DTSTART:20150215T160000Z
 DTEND:20150215T163000Z
-DTSTAMP:20150125T142325Z
+DTSTAMP:20150127T124803Z
 UID:ujke558irr8ssie7vn14a0utjk@google.com
 CREATED:20150121T114844Z
 DESCRIPTION:{Stuart Milk}\, nephew of Harvey Milk\, will read from {“The Ha
@@ -231,33 +372,15 @@ END:VEVENT
 BEGIN:VFREEBUSY
 DTSTART:20150215T163000Z
 DTEND:20150215T164500Z
-DTSTAMP:20150125T142325Z
+DTSTAMP:20150127T124803Z
 UID:gf4pua0vdjeaa6rgmabrr3flqo@google.com
 ATTENDEE;X-NUM-GUESTS=0:mailto:kim@lgbthistoryfestival.org
 SUMMARY:Busy
 END:VFREEBUSY
 BEGIN:VEVENT
-DTSTART:20150215T140000Z
-DTEND:20150215T143000Z
-DTSTAMP:20150125T142325Z
-UID:b2022von6fts2lfjcqa75lmfm0@google.com
-ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=kim@lg
- bthistoryfestival.org;X-NUM-GUESTS=0:mailto:kim@lgbthistoryfestival.org
-CREATED:20141223T094004Z
-DESCRIPTION:{Dr Kate Cook} will speak about her involvement in the 1990s st
- ruggles to end rape and about the involvement of lesbian feminists in the m
- ovement against violence against women and girls.  
-LAST-MODIFIED:20150121T112632Z
-LOCATION:Archive Space
-SEQUENCE:2
-STATUS:CONFIRMED
-SUMMARY:Dr. Kate Cook: Lesbians and Feminism: Doc Martens Against Rape
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
 DTSTART:20150213T173000Z
 DTEND:20150213T193000Z
-DTSTAMP:20150125T142325Z
+DTSTAMP:20150127T124803Z
 UID:nugm31eushk6dql7lr1kkfoheo@google.com
 ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=kim@lg
  bthistoryfestival.org;X-NUM-GUESTS=0:mailto:kim@lgbthistoryfestival.org
@@ -280,7 +403,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART:20150215T122000Z
 DTEND:20150215T125000Z
-DTSTAMP:20150125T142325Z
+DTSTAMP:20150127T124803Z
 UID:fu6mtj664c27v2j1r6rpd117kg@google.com
 CREATED:20150119T155857Z
 DESCRIPTION:Some of the best LGBT stories from forty years of organising in
@@ -302,7 +425,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART:20150214T150000Z
 DTEND:20150214T153000Z
-DTSTAMP:20150125T142325Z
+DTSTAMP:20150127T124803Z
 UID:n0givsgeuq7kvbjuvu3njbkm20@google.com
 CREATED:20150116T153344Z
 DESCRIPTION:{Helena Whitbread} will sign copies of The Secret Diaries of Mi
@@ -317,7 +440,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART:20150214T140000Z
 DTEND:20150214T143000Z
-DTSTAMP:20150125T142325Z
+DTSTAMP:20150127T124803Z
 UID:g7r5oet636agnell7jchl13bjc@google.com
 CREATED:20150116T153140Z
 DESCRIPTION:{Catherine Hall} will sign copies of Days of Grace\, The Proof 
@@ -332,7 +455,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART:20150214T133000Z
 DTEND:20150214T140000Z
-DTSTAMP:20150125T142325Z
+DTSTAMP:20150127T124803Z
 UID:aqkgu2sibq30iq87dj9irf8vmk@google.com
 ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=kim@lg
  bthistoryfestival.org;X-NUM-GUESTS=0:mailto:kim@lgbthistoryfestival.org
@@ -349,7 +472,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART:20150214T134500Z
 DTEND:20150214T141500Z
-DTSTAMP:20150125T142325Z
+DTSTAMP:20150127T124803Z
 UID:kkdbaa8u6ef09pk1b0cfe098ic@google.com
 ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=kim@lg
  bthistoryfestival.org;X-NUM-GUESTS=0:mailto:kim@lgbthistoryfestival.org
@@ -377,7 +500,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART:20150215T153000Z
 DTEND:20150215T160000Z
-DTSTAMP:20150125T142325Z
+DTSTAMP:20150127T124803Z
 UID:k5457mnhq24isqp4dc7lf5k84g@google.com
 ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=kim@lg
  bthistoryfestival.org;X-NUM-GUESTS=0:mailto:kim@lgbthistoryfestival.org
@@ -409,7 +532,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART:20150214T111500Z
 DTEND:20150214T114500Z
-DTSTAMP:20150125T142325Z
+DTSTAMP:20150127T124803Z
 UID:bgrlhtksii8l63khmi0v2qaock@google.com
 ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=kim@lg
  bthistoryfestival.org;X-NUM-GUESTS=0:mailto:kim@lgbthistoryfestival.org
@@ -426,7 +549,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART:20150215T145000Z
 DTEND:20150215T152000Z
-DTSTAMP:20150125T142325Z
+DTSTAMP:20150127T124803Z
 UID:20f4bdoc358dav66dbclejjuog@google.com
 ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=kim@lg
  bthistoryfestival.org;X-NUM-GUESTS=0:mailto:kim@lgbthistoryfestival.org
@@ -448,42 +571,9 @@ SUMMARY:Prossy Kakooza: The Journey to Freedom. From "You can't be gay" to
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
-DTSTART:20150214T103000Z
-DTEND:20150214T110000Z
-DTSTAMP:20150125T142325Z
-UID:6a73qulikvaqfv7aouea1k656o@google.com
-CREATED:20141126T135808Z
-DESCRIPTION:{Peter Tatchell} tells the inside story of how Dr Vaernet was a
- uthorised by the head of the Gestapo to experiment on gay concentration cam
- p prisoners to discover a medical means to eradicate homosexuality - and ho
- w he escaped prosecution for war crimes with the collusion of Danish and Br
- itish governments. \n\nPeter Tatchell has campaigned for LGBT and other hum
- an rights since 1967. A pioneer of the London Gay Liberation Front in 1971\
- , he staged the first gay rights protest in a communist country (East Germa
- ny\, 1973). He was the defeated Labour candidate in the 1983 Bermondsey by-
- election – the dirtiest\, most homophobic and violent election in Britain f
- or 100 years.\n \nIn 1989\, he helped found the AIDS activist group ACT UP 
- London\, and in 1990 he was a founding member of the LGBT direct action org
- anisation OutRage! \n \nHe outed 10 anti-gay bishops in 1994\; twice attemp
- ted a citizen’s arrest of the Zimbabwean dictator Robert Mugabe (1999 and 2
- 001)\; interrupted the 1998 Easter Sermon of the then anti-equality Archbis
- hop of Canterbury\, George Carey\; ambushed Tony Blair’s motorcade in prote
- st at the Iraq war (2003)\; and was beaten by neo-Nazis at the banned Mosco
- w Pride parade in 2007.\n \nHis inspirations are Mahatma Gandhi\, Sylvia Pa
- nkhurst\, Martin Luther King and Malcolm X. For more info about Peter’s hum
- an rights campaigns and to make a donation: [Peter Tatchell Foundation](www
- .PeterTatchellFoundation.org)\n
-LAST-MODIFIED:20150113T143735Z
-LOCATION:Space 3
-SEQUENCE:0
-STATUS:CONFIRMED
-SUMMARY:Peter Tatchell: Carl Vaernet - The Nazi doctor who escaped justice
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
 DTSTART:20150215T145000Z
 DTEND:20150215T154500Z
-DTSTAMP:20150125T142325Z
+DTSTAMP:20150127T124803Z
 UID:0vnfsdjti2ekrueoo1nn5fqtsc@google.com
 ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=kim@lg
  bthistoryfestival.org;X-NUM-GUESTS=0:mailto:kim@lgbthistoryfestival.org
@@ -505,7 +595,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART:20150215T133000Z
 DTEND:20150215T141500Z
-DTSTAMP:20150125T142325Z
+DTSTAMP:20150127T124803Z
 UID:o58e687o3k0odj605pivbsvri0@google.com
 ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=kim@lg
  bthistoryfestival.org;X-NUM-GUESTS=0:mailto:kim@lgbthistoryfestival.org
@@ -527,7 +617,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART:20150214T111500Z
 DTEND:20150214T114500Z
-DTSTAMP:20150125T142325Z
+DTSTAMP:20150127T124803Z
 UID:5s2mvij1nh9l2707ejtihdd9q0@google.com
 ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=kim@lg
  bthistoryfestival.org;X-NUM-GUESTS=0:mailto:kim@lgbthistoryfestival.org
@@ -557,38 +647,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART:20150215T153000Z
 DTEND:20150215T160000Z
-DTSTAMP:20150125T142325Z
-UID:hj0cq2ivihpalkqj694gf99288@google.com
-ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=kim@lg
- bthistoryfestival.org;X-NUM-GUESTS=0:mailto:kim@lgbthistoryfestival.org
-CREATED:20141223T094127Z
-DESCRIPTION:{Prof Alex Sharpe} will be talking about Trans-Cis Sexual Intim
- acy in circumstances where gender history has not been disclosed. In recent
-  years\, a series of young trans men have been successfully prosecuted for 
- sexual offences in these circumstances. Several have been imprisoned and al
- l have been placed on the Sex Offenders Register for Life. \n\nProf Sharpe 
- works at Keele University. Her research interests lie within the fields of 
- social and legal theory\, legal history\, and gender\, sexuality and the la
- w. She has been writing about transgender/law issues for over twenty years.
-  She is the author of Transgender Jurisprudence: Dysphoric Bodies of Law (C
- avendish\, 2002) and Foucault’s Monsters and the Challenge of Law (Routledg
- e\, 2010) and over 50 other publications. Prof Sharpe also serves on the In
- ternational Legal Committee of WPATH (the World Professional Association of
-  Transgender Health)\, a law reform body that makes third party interventio
- ns in litigation worldwide\, and sits on Amnesty International's Expert Com
- mittee on the Criminalisation of Sexual and Reproductive Conduct.
-LAST-MODIFIED:20150109T102815Z
-LOCATION:Changing Exhibition Space
-SEQUENCE:1
-STATUS:CONFIRMED
-SUMMARY:Prof Alex Sharpe: Sexual Intimacy\, Gender History and the Criminal
-  Law
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-DTSTART:20150215T153000Z
-DTEND:20150215T160000Z
-DTSTAMP:20150125T142325Z
+DTSTAMP:20150127T124803Z
 UID:1q3ql1qapk57jko4jjlki2meq8@google.com
 ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=kim@lg
  bthistoryfestival.org;X-NUM-GUESTS=0:mailto:kim@lgbthistoryfestival.org
@@ -613,7 +672,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART:20150215T145000Z
 DTEND:20150215T151000Z
-DTSTAMP:20150125T142325Z
+DTSTAMP:20150127T124803Z
 UID:6cp3pm2ap1pbegufvk5vvh1q5s@google.com
 ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=kim@lg
  bthistoryfestival.org;X-NUM-GUESTS=0:mailto:kim@lgbthistoryfestival.org
@@ -630,50 +689,9 @@ SUMMARY:Mike Jackson: Lesbians and Gays Support the Miners
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
-DTSTART:20150215T140000Z
-DTEND:20150215T143000Z
-DTSTAMP:20150125T142325Z
-UID:7ujg8gvrt56j63tfj73gj6kas4@google.com
-ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=kim@lg
- bthistoryfestival.org;X-NUM-GUESTS=0:mailto:kim@lgbthistoryfestival.org
-CREATED:20141223T092837Z
-DESCRIPTION:At the age of twenty-six\, in 1896\, Eva Gore-Booth was sent to
-  recover from illness in the picturesque village of Bordighera in Italy. In
-  the garden\, standing under an olive tree\, she first met a young English 
- woman\, Esther Roper. The encounter was to change the two women’s lives for
- ever.  \n\nEva Gore-Booth was the daughter of an Anglo-Irish landlord who o
- wned one of the largest estates in the West of Ireland. In stark contrast\,
-  Esther Roper was from working class stock. Within months of her return to 
- Ireland\, Eva made an extraordinary decision in order to be with Esther. In
-  1897\, she rejected her aristocratic lifestyle\, moving from an opulent ma
- nsion in the beautiful countryside of Sligo to a mid-terrace property in th
- e smog-bound quarters of industrial Manchester.\n\nThis talk examines the r
- emarkable thirty-year relationship of Eva and Esther. Once labelled as a pa
- ir of oddities\, it is now clear that the women were open about their relat
- ionship\, mixing with an eclectic group of radical gay and lesbian activist
- s. The couple became formidable political advocates in England often organi
- sing successful and radical campaigns for social justice. Using recently un
- covered letters\, diaries and manuscripts\, this story is a fascinating acc
- ount of two women who refused to comply with the norms of society at the tu
- rn of the twentieth century.\n\n{Dr Sonja Tiernan} is a Lecturer in Modern 
- History at Liverpool Hope University. She has published widely in the area 
- of LGBT history including two volumes on the histories of sexuality. Her mo
- st recent publications include Eva Gore-Booth: an Image of Such Politics (2
- 012) and The Political Writings of Eva Gore-Booth due for publication in 20
- 15. Sonja is currently writing the official history of the Marriage Equalit
- y campaign in Ireland to be published later this year.  \n
-LAST-MODIFIED:20150109T102401Z
-LOCATION:Coal Store
-SEQUENCE:1
-STATUS:CONFIRMED
-SUMMARY:Sonja Tiernan: "Sappho was right". The formidable relationship of E
- va Gore-Booth and  Esther Roper
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
 DTSTART:20150215T122000Z
 DTEND:20150215T125000Z
-DTSTAMP:20150125T142325Z
+DTSTAMP:20150127T124803Z
 UID:glnbvfbjghhdt54vv14ekgdt7g@google.com
 ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=kim@lg
  bthistoryfestival.org;X-NUM-GUESTS=0:mailto:kim@lgbthistoryfestival.org
@@ -706,7 +724,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART:20150215T113000Z
 DTEND:20150215T120000Z
-DTSTAMP:20150125T142325Z
+DTSTAMP:20150127T124803Z
 UID:phu7vurrf0c86gq8rn43mnvnqk@google.com
 ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=kim@lg
  bthistoryfestival.org;X-NUM-GUESTS=0:mailto:kim@lgbthistoryfestival.org
@@ -726,7 +744,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART:20150215T113000Z
 DTEND:20150215T120000Z
-DTSTAMP:20150125T142325Z
+DTSTAMP:20150127T124803Z
 UID:7egb3jg34cbnvmm967trpvob88@google.com
 ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=kim@lg
  bthistoryfestival.org;X-NUM-GUESTS=0:mailto:kim@lgbthistoryfestival.org
@@ -760,7 +778,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART:20150214T143000Z
 DTEND:20150214T150000Z
-DTSTAMP:20150125T142325Z
+DTSTAMP:20150127T124803Z
 UID:vi1466hk2vkk1fo3tc2c9kam8s@google.com
 ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=kim@lg
  bthistoryfestival.org;X-NUM-GUESTS=0:mailto:kim@lgbthistoryfestival.org
@@ -787,28 +805,9 @@ SUMMARY:Helena Whitbread: Anne Lister
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
-DTSTART:20150214T151500Z
-DTEND:20150214T154500Z
-DTSTAMP:20150125T142325Z
-UID:4339p0jqd3bfkip1seqgg88p0o@google.com
-ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=kim@lg
- bthistoryfestival.org;X-NUM-GUESTS=0:mailto:kim@lgbthistoryfestival.org
-CREATED:20141126T141355Z
-DESCRIPTION:{Alexander Herrmann} grew up in Pasewalk\, in the former GDR an
- d will share some of his life story with us about what it was like to grow 
- up gay in the provinces in the GDR and how things have changed (or not) sin
- ce unification. 
-LAST-MODIFIED:20150107T175539Z
-LOCATION:Space 3
-SEQUENCE:0
-STATUS:CONFIRMED
-SUMMARY:Alexander Herrmann: growing up gay in the GDR
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
 DTSTART:20150214T103000Z
 DTEND:20150214T110000Z
-DTSTAMP:20150125T142325Z
+DTSTAMP:20150127T124803Z
 UID:1tqbp6o5kfe7d7m1ems41u8sjc@google.com
 ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=kim@lg
  bthistoryfestival.org;X-NUM-GUESTS=0:mailto:kim@lgbthistoryfestival.org
@@ -830,7 +829,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART:20150214T160000Z
 DTEND:20150214T163000Z
-DTSTAMP:20150125T142325Z
+DTSTAMP:20150127T124803Z
 UID:5vnrpjjarf00mtt263scqcbj8g@google.com
 ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=kim@lg
  bthistoryfestival.org;X-NUM-GUESTS=0:mailto:kim@lgbthistoryfestival.org
@@ -857,7 +856,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART:20150214T151500Z
 DTEND:20150214T154500Z
-DTSTAMP:20150125T142325Z
+DTSTAMP:20150127T124803Z
 UID:lslnmpua7uu18ufksm3r6ag6dc@google.com
 CREATED:20141126T140517Z
 DESCRIPTION:{David Edgley}: former twink involved in gay rights – now old c
@@ -876,7 +875,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART:20150214T111500Z
 DTEND:20150214T114500Z
-DTSTAMP:20150125T142325Z
+DTSTAMP:20150127T124803Z
 UID:ultffs4j15hmgi8md4e93tdrcc@google.com
 CREATED:20141126T140219Z
 DESCRIPTION:{Abigail Ward} is a freelance curator\, writer and DJ with over
@@ -898,7 +897,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART:20150109T100000Z
 DTEND:20150109T120000Z
-DTSTAMP:20150125T142325Z
+DTSTAMP:20150127T124803Z
 UID:j6r03vs7ussib7mcrr9h79b3lc@google.com
 CREATED:20150104T125639Z
 DESCRIPTION:
@@ -912,7 +911,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART:20150214T134500Z
 DTEND:20150214T141500Z
-DTSTAMP:20150125T142325Z
+DTSTAMP:20150127T124803Z
 UID:2gv7hbspd8o7ug10krqmk3odm4@google.com
 ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=kim@lg
  bthistoryfestival.org;X-NUM-GUESTS=0:mailto:kim@lgbthistoryfestival.org
