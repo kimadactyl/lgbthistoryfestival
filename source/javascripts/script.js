@@ -163,9 +163,11 @@ function mixUpParams() {
       if(eval(params[key])) {
         // push it if it's not already there
         x ? $.noop() : newfilter.push("." + key);
+        $("li.filter[data-filter='."+key+"']").addClass('active');
       } else if (x >= 0){
         // key false, delete if filtered in
         newfilter.splice(x,1);
+        $("li.filter[data-filter='."+key+"']").removeClass('active');
       }
     }
 
@@ -205,4 +207,13 @@ $( document ).ready(function() {
   });
 
   mixUpParams();
+
+  $(".filter").click(function(){
+    if(!$(this).hasClass("active")){
+      insertParam($(this).attr("data-filter").substr(1),"false");
+    } else {
+      insertParam($(this).attr("data-filter").substr(1),"true");
+    }
+    mixUpParams();
+  });
 });
