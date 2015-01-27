@@ -27,16 +27,9 @@ title: What is & How to DO LGBT History?
         <i class="fi-page"></i> <a href="/attachments/academic-programme.docx">Conference program [doc]</a>
 %section
   .row
-    .small-12.columns.text-center
-      %form.schedule-type
-        %input{:type => "radio", :name => "expanded", :id => "s-compact", :value => "0", :checked => "checked"}
-        %label{:for => "s-compact"}
-          <i class="fi-arrows-compress"></i> Compact
-        %input{:type => "radio", :name => "expanded", :id => "s-expanded", :value => "1"}
-        %label{:for => "s-expanded"}
-          <i class="fi-arrows-expand"></i> Expanded
-  .row
     .small-12.columns
+      %p
+        %strong Please refer to the main schedule page for a neater listing. This page will be updated to reflect the new schedule layout in the next few days.
       %ul.schedule.program
         - days = FestivalCalendar::CONFDAYS
         - days.each do |day, time|

@@ -107,14 +107,14 @@ $('.index article').readmore({
 function checkBlanks(){
   $(".timegroup").each(function() {
     if($('.timeblock li', this).children(':visible').length == 0) {
-      $('h3.time', this).hide();
+      $('.timecol', this).hide();
     } else {
-      $('h3.time', this).show();
+      $('.timecol', this).show();
     }
   })
   $(".daytitle").each(function() {
-    filter = $(this).next().find(".timeblock").children(':visible')
-    if(filter.length == 0) {
+    filter = $(this).next().find("li:visible").length;
+    if(filter == 0) {
       $(this).hide();
     } else {
       $(this).show();
@@ -207,20 +207,20 @@ $( document ).ready(function() {
     }
   });
 
-  $("#speakerlist").data("placeholder","Select a speaker").chosen({allow_single_deselect:true});
+  $("#speakerlist").data("placeholder","Select a speaker").chosen({allow_single_deselect:true, width: "60%"});
 
   $("#speakerlist").change(function() {
     filterBySpeaker($(this).val());
   });
 
-  mixUpParams();
+  // mixUpParams();
 
-  $(".filter").click(function(){
-    if(!$(this).hasClass("active")){
-      insertParam($(this).attr("data-filter").substr(1),"false");
-    } else {
-      insertParam($(this).attr("data-filter").substr(1),"true");
-    }
-    mixUpParams();
-  });
+  // $(".filter").click(function(){
+  //   if(!$(this).hasClass("active")){
+  //     insertParam($(this).attr("data-filter").substr(1),"false");
+  //   } else {
+  //     insertParam($(this).attr("data-filter").substr(1),"true");
+  //   }
+  //   mixUpParams();
+  // });
 });

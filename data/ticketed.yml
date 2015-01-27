@@ -1,11 +1,11 @@
 ---
 a-very-victorian-scandal-framing-a-charge: 
-  url: http://crm.lgbthistoryfestival.org/civicrm/event/info?reset=1&id=3
+  url: "http://crm.lgbthistoryfestival.org/civicrm/event/info?reset=1&id=3"
   cost: free
 a-very-victorian-scandal-the-trial: 
-  url: http://crm.lgbthistoryfestival.org/civicrm/event/info?reset=1&id=4
+  url: "http://crm.lgbthistoryfestival.org/civicrm/event/info?reset=1&id=4"
   cost: free
-lgbt-history-festival-launch-the-1st-alan:
+festival-launch-the-1st-alan-horsfall-lec:
   cost: sold out
 museum-maketh-man:
   cost: free
@@ -13,4 +13,48 @@ museum-maketh-man1:
   cost: free
 a-very-victorian-pub-quiz:
   cost: £12
-  url: http://crm.lgbthistoryfestival.org/civicrm/event/info?reset=1&id=5
+  url: "http://crm.lgbthistoryfestival.org/civicrm/event/info?reset=1&id=5"
+the-little-peoples-history-museum-under-t:
+  cost: free
+  url: "http://www.eventbrite.co.uk/e/the-little-peoples-history-museum-under-the-rainbow-tickets-13286844309"
+panel-1-crimes-and-criminality:
+  url: "http://crm.lgbthistoryfestival.org/civicrm/event/info?reset=1&id=6"
+  cost: £2
+panel-2-looking-back-from-equal-marriage-:
+  url: "http://crm.lgbthistoryfestival.org/civicrm/event/info?reset=1&id=6"
+  cost: £2
+panel-3-using-print-culture-to-understand:
+  url: "http://crm.lgbthistoryfestival.org/civicrm/event/info?reset=1&id=6"
+  cost: £2
+panel-4-workingclass-attitudes-towards-se:
+  url: "http://crm.lgbthistoryfestival.org/civicrm/event/info?reset=1&id=6"
+  cost: £2
+panel-5-oral-testimony-and-reconstructing:
+  url: "http://crm.lgbthistoryfestival.org/civicrm/event/info?reset=1&id=6"
+  cost: £2
+panel-6-what-narratives-can-we-include-in:
+  url: "http://crm.lgbthistoryfestival.org/civicrm/event/info?reset=1&id=6"
+  cost: £2
+panel-7-uncovering-and-undoing-the-politi:
+  url: "http://crm.lgbthistoryfestival.org/civicrm/event/info?reset=1&id=6"
+  cost: £2
+panel-8-nonmetropolitan-readings-of-past-:
+  url: "http://crm.lgbthistoryfestival.org/civicrm/event/info?reset=1&id=6"
+  cost: £2
+how-to-do-lgbt-history-showcase-1:
+  url: "http://crm.lgbthistoryfestival.org/civicrm/event/info?reset=1&id=6"
+  cost: £2
+how-to-do-lgbt-history-showcase-2:
+  url: "http://crm.lgbthistoryfestival.org/civicrm/event/info?reset=1&id=6"
+  cost: £2
+how-to-do-lgbt-history-showcase-3:
+  url: "http://crm.lgbthistoryfestival.org/civicrm/event/info?reset=1&id=6"
+  cost: £2
+vito-2012-dir-jeffrey-schwarz:
+  url: "http://www.eventbrite.co.uk/e/vito-screening-tickets-14726101165?aff=eac2"
+  cost: free
+taxi-zum-klo-1981-dir-frank-ripploh:
+  url: "http://www.eventbrite.co.uk/e/taxi-zum-klo-screening-tickets-14725585623?aff=eac2"
+  cost: free
+
+

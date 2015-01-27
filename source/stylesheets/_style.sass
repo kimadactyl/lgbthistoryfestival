@@ -21,6 +21,9 @@ $films: #F9D9E5
 $theatre: #FFFFFF
 $conference: #FFFFFF
 
+html, body
+  overflow: auto !important
+
 /* border-serrated - a zig zag triangle border with linear gradient */
 =border-top-serrated($size, $color-outer)
   &
@@ -334,8 +337,12 @@ section#credits
 ////////////////////////////////////
 
 $deselected: #C4C4C4
-$gridspacing: 0.75em
+$gridspacing: 10px
+@media #{$small-only}
+  .schedcontainer
+    padding: 0
 ul#program
+  margin: 0 0 5em 0
   h2
     text-align: center
     letter-spacing: $pinkspacing
@@ -359,29 +366,35 @@ ul#program
     display: flex
     clear: both
     width: 100%
-    margin-bottom: $gridspacing
+    padding: 0
+    h3
+      margin: 0
   // Container for time in left col
   .timecol
     background-color: #E4E4E4
     vertical-align: middle
     width: 4em
+    margin: 0 0 $gridspacing
+    position: relative
+    h3
+      position: absolute
+      top: 50%
+      margin-top: -0.75em
+      left: 0
+      right: 0
   .timeblock
     flex-basis: 100%
   li.event
-    display: flex
     list-style-type: none
     background-color: $grey
     font-size: 120%
     padding: 0.5em
     margin: 0 0 $gridspacing $gridspacing
-  .timeblock a:last-child li.event
-    margin-bottom: 0
-
-
   .event-icon
     font-size: 150%
     vertical-align: top
     width: 2em
+    margin-top: 0.25em
   .location
     font-size: 90%
     font-style: italic
@@ -392,30 +405,47 @@ ul#program
     font-weight: 600
     text-transform: uppercase
     text-align: right
+    min-width: 6em
+    font-size: 90%
+    margin-top: 0.15em
+  .daynotes
+    background-color: $pink
+    color: white
+    text-align: center
+    padding: 1em 1em 0.5em
+    margin-bottom: $gridspacing
+    a
+      color: white
+    p
+      font-size: 1.1rem
+  @media #{$small-only}
+    .event-meta 
+      display: none
+    .event-title
+      order: 1
+    .event-icon
+      order: 2
+      width: 3em
+      font-size: 100%
+      text-align: right
   // Disable everything before MixItUp re-enables it
   .mix
     display: none
 
 ul#key
   text-align: center
-  margin: 0 3em
   background-color: white
-  > li
-    display: inline-block
-    margin: 0.5em
-    list-style-type: none
+  color: $grey
   li.speakers
     vertical-align: top
     margin-top: 1em
   .chosen-container, li.speakers
-    width: 25em
+    width: 50%
   h4
     font-size: 100%
+    color: $grey
   i
     font-size: 200%
-  color: $grey
-  h4
-    color: $grey
   .active
     color: #222
     h4
@@ -434,6 +464,8 @@ form.schedule-type
     text-transform: none
     text-align: center
     font-weight: normal
+    a
+      color: $pink
   .description p:first-child
     font-weight: 600
 

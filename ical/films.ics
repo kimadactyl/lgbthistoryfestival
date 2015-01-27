@@ -7,89 +7,84 @@ X-WR-CALNAME:Films
 X-WR-TIMEZONE:Europe/London
 X-WR-CALDESC:
 BEGIN:VEVENT
-DTSTART:20150211T183000Z
-DTEND:20150211T203000Z
-DTSTAMP:20150127T124804Z
-UID:hm36v2ibupt8a3ockd8nmh08o0@google.com
-CREATED:20150124T185423Z
-DESCRIPTION:
-LAST-MODIFIED:20150124T185424Z
-LOCATION:
-SEQUENCE:0
-STATUS:CONFIRMED
-SUMMARY:Vito (2012\, dir. Jeffrey Schwarz)
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-DTSTART:20150212T183000Z
-DTEND:20150212T203000Z
-DTSTAMP:20150127T124804Z
-UID:bp6ejh0913rk66ujnc42horop4@google.com
-CREATED:20141219T191832Z
-DESCRIPTION:
-LAST-MODIFIED:20150124T185349Z
-LOCATION:Taurus\, 1 Canal Street\, Manchester\, Lancashire M1 3HE\, United 
- Kingdom
-SEQUENCE:1
-STATUS:CONFIRMED
-SUMMARY:Taxi zum Klo (1981\, dir Frank Ripploh)
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
 DTSTART:20150213T120000Z
 DTEND:20150213T160000Z
-DTSTAMP:20150127T124804Z
+DTSTAMP:20150127T170619Z
 UID:rfpbt44jeub77352c6aql3grts@google.com
 CREATED:20141219T192009Z
-DESCRIPTION:
-LAST-MODIFIED:20150124T185232Z
+DESCRIPTION:An afternoon of films and A/V presentations on LGBT activism\, 
+ presented by the people who were there.\n\n### 1:45 Pride (2014)\n\n{Mike J
+ ackson} (Lesbians and Gays Support the Miners) introduces a special showing
+  of last year's smash hit Pride\, starting Bill Nighy and Imelda Staunton (
+ 120 mins).\n\n### 1:00 London Rebel Dykes of the 1980s\n\nBefore there were
+  queer activists and Riot Grrls\, there were the Rebel Dykes of London. {Ro
+ se Bush} presents an academic cabaret of female power and political transit
+ ion in the Thatcher years. Talk contains frank references to sex and BDSM c
+ ulture (30 mins).\n\n### 12:30 Out And About (2005)\n\n{Orla Egan} (UCC\, C
+ ork LGBT Community) presents the documentary (produced by Frameworks Films)
+  exploring 30 years of LGBT activism in Cork.  The film is presented as a h
+ istorical walking tour of LGBT Cork and explores key moments in the develop
+ ment of the community.\n\nSidney St. Cafe open as normal serving hot food t
+ hroughout the day.
+LAST-MODIFIED:20150127T165510Z
 LOCATION:Joyce Layland LGBT Centre
 SEQUENCE:1
 STATUS:CONFIRMED
 SUMMARY:Lights\, Camera\, Activism!
 TRANSP:OPAQUE
 END:VEVENT
-BEGIN:VEVENT
-DTSTART:20150214T170000Z
-DTEND:20150214T183000Z
-DTSTAMP:20150127T124804Z
-UID:45kf1p7ao1ao4i2vv1a5f9ce00@google.com
-CREATED:20141226T192328Z
-DESCRIPTION:Showing of Anders als die Andern (1919) starring Conrad Veidt a
- nd Reinhold Schünzel with introduction by Dr {Andrew Moor} (MMU)
-LAST-MODIFIED:20141226T192338Z
-LOCATION:
-SEQUENCE:0
-STATUS:CONFIRMED
-SUMMARY:Anders als die Andern
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-DTSTART:20150212T120000Z
-DTEND:20150212T140000Z
-DTSTAMP:20150127T124804Z
-UID:pkhl8rqfu2u1udmec956ndmlak@google.com
-CREATED:20141219T192627Z
-DESCRIPTION:
-LAST-MODIFIED:20141219T192648Z
-LOCATION:Joyce Layland LGBT Centre
-SEQUENCE:0
-STATUS:CONFIRMED
-SUMMARY:Short Films
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
+BEGIN:VFREEBUSY
 DTSTART:20150214T170000Z
 DTEND:20150214T190000Z
-DTSTAMP:20150127T124804Z
+DTSTAMP:20150127T170619Z
 UID:cet9dcocc97gs2qg6bnjkfn0mc@google.com
-CREATED:20141219T192153Z
-DESCRIPTION:
-LAST-MODIFIED:20141219T192153Z
-LOCATION:Via Fossa\, 30 Canal Street\, Manchester M1 3EZ\, United Kingdom
+ATTENDEE;X-NUM-GUESTS=0:mailto:lgbthistoryfestival.org_qtra32a7f24jpc75ghju
+ ffeops@group.calendar.google.com
+SUMMARY:Busy
+END:VFREEBUSY
+BEGIN:VEVENT
+DTSTART:20150212T183000Z
+DTEND:20150212T203000Z
+DTSTAMP:20150127T170619Z
+UID:bp6ejh0913rk66ujnc42horop4@google.com
+CREATED:20141219T191832Z
+DESCRIPTION:Written and directed by Frank Ripploh\, who also stars in the f
+ ilm\, this very personal – and very graphic – sex comedy follows the consta
+ ntly cruising lifestyle of Frank\, a gay schoolteacher\, and charts his rel
+ ationship with sweet-natured\, domesticated Berndt. \n\nThe screening will 
+ be introduced by Dr {Andrew Moor} of Manchester Metropolitan University\, a
+ nd there will be a post-screening discussion.\n\n[Facebook event page](http
+ s://www.facebook.com/events/1528821410707925/?ref_newsfeed_story_type=regul
+ ar)\n\nEvent in association with MMU's _Seeing Queerly_ program.
+LAST-MODIFIED:20150127T165011Z
+LOCATION:Manchester Metropolitan University Business School\, All Saints Ca
+ mpus\,\, Oxford Road\, Manchester\, United Kingdom
+SEQUENCE:1
+STATUS:CONFIRMED
+SUMMARY:Seeing Queerly: Taxi zum Klo (1981\, dir Frank Ripploh)
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20150211T183000Z
+DTEND:20150211T203000Z
+DTSTAMP:20150127T170619Z
+UID:hm36v2ibupt8a3ockd8nmh08o0@google.com
+CREATED:20150124T185423Z
+DESCRIPTION:A documentary about the man who brought us all out of the ‘Cell
+ uloid Closet’. \n\nDirector Jeffrey Schwarz looks back at Russo’s life as a
+  film fan\, a film critic and latterly as an AIDS activist. In the aftermat
+ h of Stonewall (1969)\, Russo found his voice as an angry critic of LGBT re
+ presentation in the media. Always defiant and eloquent\, this moving and in
+ spiring film tells the story of one of our movement’s most important figure
+ s. \n\nThe screening will be introduced by Dr {Andrew Moor} of Manchester M
+ etropolitan University\, and there will be a post-screening discussion.\n\n
+ Event in association with MMU's _Seeing Queerly_ program.
+LAST-MODIFIED:20150127T164910Z
+LOCATION:Manchester Metropolitan University Business School\, All Saints Ca
+ mpus\,\, Oxford Road\, Manchester\, United Kingdom
 SEQUENCE:0
 STATUS:CONFIRMED
-SUMMARY:Pride (2014\, dir Matthew Warcus)
+SUMMARY:Seeing Queerly: Vito (2012\, dir. Jeffrey Schwarz)
 TRANSP:OPAQUE
 END:VEVENT
 END:VCALENDAR

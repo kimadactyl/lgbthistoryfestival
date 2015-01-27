@@ -6,9 +6,9 @@ METHOD:PUBLISH
 X-WR-CALNAME:Main Festival
 X-WR-TIMEZONE:Europe/London
 BEGIN:VEVENT
-DTSTART:20150214T151500Z
-DTEND:20150214T154500Z
-DTSTAMP:20150127T124803Z
+DTSTART:20150214T144000Z
+DTEND:20150214T151000Z
+DTSTAMP:20150127T170618Z
 UID:4339p0jqd3bfkip1seqgg88p0o@google.com
 ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=kim@lg
  bthistoryfestival.org;X-NUM-GUESTS=0:mailto:kim@lgbthistoryfestival.org
@@ -17,17 +17,17 @@ DESCRIPTION:{Alexander Herrmann} grew up in Pasewalk\, in the former GDR an
  d will share some of his life story with us about what it was like to grow 
  up gay in the provinces in the GDR and how things have changed (or not) sin
  ce unification. 
-LAST-MODIFIED:20150126T232050Z
+LAST-MODIFIED:20150127T165927Z
 LOCATION:Space 3
-SEQUENCE:0
+SEQUENCE:2
 STATUS:CONFIRMED
 SUMMARY:Alexander Herrmann: Growing Up Gay in the GDR
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
-DTSTART:20150214T143000Z
-DTEND:20150214T150000Z
-DTSTAMP:20150127T124803Z
+DTSTART:20150214T152000Z
+DTEND:20150214T155000Z
+DTSTAMP:20150127T170618Z
 UID:lied8d2u7mp66tk1jo3m69meb8@google.com
 CREATED:20141126T140451Z
 DESCRIPTION:{Razia Aziz} -- During a half century which has taken me from L
@@ -44,17 +44,309 @@ DESCRIPTION:{Razia Aziz} -- During a half century which has taken me from L
  ause\, and in spite\, of these epoch-making changes.\n \nAll the while\, Sp
  irit remains luminous and unchanging\, though my unfolding relationship to 
  It is the constant and compelling source & destination of my life quest.\n
-LAST-MODIFIED:20150126T232031Z
+LAST-MODIFIED:20150127T165911Z
 LOCATION:Space 3
-SEQUENCE:0
+SEQUENCE:2
 STATUS:CONFIRMED
 SUMMARY:Razia Aziz: Spiritual Journeys 
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
+DTSTART:20150214T152000Z
+DTEND:20150214T155000Z
+DTSTAMP:20150127T170618Z
+UID:lslnmpua7uu18ufksm3r6ag6dc@google.com
+CREATED:20141126T140517Z
+DESCRIPTION:{David Edgley}: former twink involved in gay rights – now old c
+ odger spending retirement delving into LGBT history and also helping with o
+ ur local LGBT helpline and community newsletter.\n\nDavid will talk about t
+ he many and perhaps surprising LGBT Histories that Nottinghamshire has prod
+ uced.\n\n[Read David's blog article about Queer Notts here.](http://lgbthis
+ toryfestival.org/authors/david-edgley.html)
+LAST-MODIFIED:20150127T163634Z
+LOCATION:Space 2
+SEQUENCE:2
+STATUS:CONFIRMED
+SUMMARY:David Edgley: Queer Nottinghamshire
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20150214T153000Z
+DTEND:20150214T160000Z
+DTSTAMP:20150127T170618Z
+UID:n0givsgeuq7kvbjuvu3njbkm20@google.com
+CREATED:20150116T153344Z
+DESCRIPTION:{Helena Whitbread} will sign copies of The Secret Diaries of Mi
+ ss Anne Lister on our News From Nowhere stall. 
+LAST-MODIFIED:20150127T163542Z
+LOCATION:Shakespeare Hall
+SEQUENCE:1
+STATUS:CONFIRMED
+SUMMARY:Book Signing: Helena Whitbread
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20150214T143000Z
+DTEND:20150214T150000Z
+DTSTAMP:20150127T170618Z
+UID:aqkgu2sibq30iq87dj9irf8vmk@google.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=kim@lg
+ bthistoryfestival.org;X-NUM-GUESTS=0:mailto:kim@lgbthistoryfestival.org
+CREATED:20150116T152943Z
+DESCRIPTION:{Peter Scott-Presland} will be signing his book Amiable Warrior
+ s on the news from Nowhere book stall. 
+LAST-MODIFIED:20150127T163524Z
+LOCATION:Shakespeare Hall
+SEQUENCE:1
+STATUS:CONFIRMED
+SUMMARY:Book Signing: Peter Scott-Presland
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20150214T144000Z
+DTEND:20150214T151000Z
+DTSTAMP:20150127T170618Z
+UID:vi1466hk2vkk1fo3tc2c9kam8s@google.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=kim@lg
+ bthistoryfestival.org;X-NUM-GUESTS=0:mailto:kim@lgbthistoryfestival.org
+CREATED:20141126T141338Z
+DESCRIPTION:{Helena Whitbread} will talk about how it is possible\, through
+  the medium of Anne Lister's journal\, to trace the construction of her own
+  lesbian identity in an era which did not\, or chose not to\, recognise tha
+ t sexual love between women existed or even deemed possible.\n\nHelena gain
+ ed a degree\, as a mature student\, in Politics\, Literature and the Histor
+ y of Ideas from Bradford University followed by a Post-graduate Certificate
+  of Education under the auspices of Leeds University. Since 1983 she has be
+ en studying and editing the Journals of Anne Lister. Her first publication 
+ was I Know my Own Heart\, published by Virago Press in 1988. In 2010 Virago
+  published a revised and expanded version under the title The Secret Diarie
+ s of Miss Anne Lister\, following the film of the same name which BBC2 made
+  in that year. A second book of extracts\, No Priest But Love\, was publish
+ ed by New York University Press in 1992. Since her retirement from teaching
+  Helena has been working on a biography of Anne Lister.
+LAST-MODIFIED:20150127T163427Z
+LOCATION:Space 2
+SEQUENCE:1
+STATUS:CONFIRMED
+SUMMARY:Helena Whitbread: Anne Lister
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20150214T140000Z
+DTEND:20150214T143000Z
+DTSTAMP:20150127T170618Z
+UID:2gv7hbspd8o7ug10krqmk3odm4@google.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=kim@lg
+ bthistoryfestival.org;X-NUM-GUESTS=0:mailto:kim@lgbthistoryfestival.org
+CREATED:20141126T142146Z
+DESCRIPTION:{Sylvia Kölling}
+LAST-MODIFIED:20150127T163330Z
+LOCATION:Archive Tour
+SEQUENCE:2
+STATUS:CONFIRMED
+SUMMARY:Sylvia Kölling: Archive Demonstration 2
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20150214T140000Z
+DTEND:20150214T143000Z
+DTSTAMP:20150127T170618Z
+UID:jnfplk6upm6e4e2m3vmpeo3rm8@google.com
+CREATED:20141126T140428Z
+DESCRIPTION:Dr {Sarah Parker} is an Impact Research Fellow in English Studi
+ es at University of Stirling. \nSarah will talk about Olive Custance\, wife
+  of Lord Alfred Douglas and poet. We will learn more about both Olive and B
+ osie\, their unconventional relationship\, their romances with both men and
+  women and their explorations of the fluidity of gender.\n\n[After Oscar](h
+ ttp://lgbthistoryfestival.org/authors/sarah-parker.html)
+LAST-MODIFIED:20150127T163314Z
+LOCATION:Space 3
+SEQUENCE:4
+STATUS:CONFIRMED
+SUMMARY:Sarah Parker: After Oscar
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20150214T140000Z
+DTEND:20150214T143000Z
+DTSTAMP:20150127T170618Z
+UID:kkdbaa8u6ef09pk1b0cfe098ic@google.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=kim@lg
+ bthistoryfestival.org;X-NUM-GUESTS=0:mailto:kim@lgbthistoryfestival.org
+CREATED:20141126T141110Z
+DESCRIPTION:{Ross Burgess} worked for many years before retirement as an IT
+  consultant. He lives in Croydon with his husband\, Roger. He founded the T
+ unbridge Wells CHE Group in 1972 and has been involved with LGBT groups eve
+ r since. He was a Trustee of the LGBT Consortium for three years. He contri
+ buted the Croydon chapter of Out of the Shadows\, the history of gay groups
+  in London\, and has helped to edit this and other books\, including Amiabl
+ e Warriors\, which is being launched at this Festival. He has managed vario
+ us websites\, and is the main contributor to the [LGBT History Project](www
+ .lgbthistoryuk.org) which aims to create a comprehensive online encyclopaed
+ ia of LGBT life in the UK from the earliest time to the present day.\n\nIn 
+ hit Talking Head slot Ross will talk a bit about his experience with variou
+ s LGBT groups\, his involvement with CHE and in particular with the Amiable
+  Warriors book as well as the LGBT History Project website \n\n
+LAST-MODIFIED:20150127T163303Z
+LOCATION:Space 2
+SEQUENCE:2
+STATUS:CONFIRMED
+SUMMARY:Ross Burgess: Experiences with CHE
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20150214T132000Z
+DTEND:20150214T135000Z
+DTSTAMP:20150127T170618Z
+UID:10bietmtdr79n84dhsenptvt1c@google.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=kim@lg
+ bthistoryfestival.org;X-NUM-GUESTS=0:mailto:kim@lgbthistoryfestival.org
+CREATED:20141126T140816Z
+DESCRIPTION:{Peter Scott-Presland} will read from his forthcoming book\, {A
+ miable Warriors}. \n\nThe Campaign for Homosexual Equality between 1967 and
+  1973 developed a unique approach to the emancipation of homosexuals. The r
+ eason for prejudice was ignorance\, and ignorance would only be dispelled i
+ f heterosexual members of society came to know some real-life homosexuals. 
+  So it was important for people to start coming out.  But they would never 
+ be able to do that until they had discovered some self-awareness and self-c
+ onfidence. In order to do that\, they needed\, in the words of the title of
+  Volume 1 of Amiable Warriors\, A Space to Breathe.  Somewhere they could e
+ xplore what it meant to be gay\, and to gain the acceptance and support of 
+ other homosexuals.  Initially this was going to be through Esquire Clubs\, 
+ but when these proved difficult to get off the ground\, the focus moved to 
+ the idea that any group of gay people can carry around its own 'gay space'\
+ , and local CHE groups were formed across the country - over 100 in total. 
+  The readings will focus on aspects of creating this 'gay space': firstly\,
+  a brief account of trying to get a club off the ground in Burnley\; and th
+ en the antecedents of local groups - Albany Trust discussion groups 1964-67
+  in London\, and heterosexual singles clubs around the country.  Followed b
+ y questions from the audience.\n\nFor forty years {Peter Scott-Presland} ha
+ s been involved in the LGBT rights movement\, as campaigner\, journalist\, 
+ playwright and entertainer ('the Vera Lynn of the homosexual community'\, a
+ s he was described in 1982). The founder director of first Consenting Adult
+ s (1979-86) and then Homo Promos (1988 - present) Theatre Companies\, highl
+ ights of his theatrical career include a series of Heath Plays (1981-85) de
+ signed to be performed at midnight on Midsummer Night near the Hampstead He
+ ath cruising ground\, the controversial 'Leather'\, which a brewery tried t
+ o ban from its pub theatre (Finborough Arms\, 1989)\; and the musical 'La R
+ onde'\, nominated for Best Musical 2012 in the off-West End awards.As a jou
+ rnalist he worked for Gay News\, Gay Times\, Axiom and above all Capital Ga
+ y (1981-88) where he won a reputation as a savagely funny columnist and rev
+ iewer of the contemporary gay scene\, as well as being a reporter.  He is c
+ urrently writing lyrics for the band 'Matyas and the Hybrid Mind'.\n\nHe wa
+ s commissioned in 2010 to write the 'official' history of the Campaign for 
+ Homosexual Equality.  Though lacking formal qualifications as a historian -
+  he has an MA and BLitt from Oxford in English - he does have the advantage
+  of knowing some of the people who were involved in the story he is describ
+ ing.  He has an insider's view of what it was like to set up and run campai
+ gns in the 1970s and 80s\;  and his journalistic abilities can animate a un
+ ique story which has not to this day been told.\n\n[Read exctracts of Amiab
+ le Warriors here](http://www.amiable-warriors.uk/)
+LAST-MODIFIED:20150127T163135Z
+LOCATION:Space 3
+SEQUENCE:1
+STATUS:CONFIRMED
+SUMMARY:Peter Scott Presland: CHE Reading
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20150214T132000Z
+DTEND:20150214T135000Z
+DTSTAMP:20150127T170618Z
+UID:od7iba0v2r81mbi80dfkqqgp18@google.com
+CREATED:20141126T140306Z
+DESCRIPTION:{Jan Bridget} is a 67 year old lesbian from a poor\, lower clas
+ s\, background.  Originally from Lancashire but lived in Calderdale for 25 
+ years.  As a mature student she acquired BA in classical studies at Queen M
+ ary\, London followed by the Diploma in Youth and Community Work at Manches
+ ter Polytechnic.  Set up and jointly ran Lesbian Information Service (1987-
+ 1998) and Gay and Lesbian Youth in Calderdale (1999-2011).\n\nJan will talk
+  about setting up LIS in Leicester in 1987\, some of the challenges they fa
+ ced and how attitudes have changed (or not) in the last 35 years of working
+  for LGBT equality.\n\n[Lesbian Information Service](http://www.lesbianinfo
+ rmationservice.org/)\n[Find out more about Jan's collection at Lancashire A
+ rchives here](http://archivecat.lancashire.gov.uk/calmview/Record.aspx?src=
+ CalmView.Catalog&id=DDX+2891&pos=10)
+LAST-MODIFIED:20150127T163121Z
+LOCATION:Space 2
+SEQUENCE:1
+STATUS:CONFIRMED
+SUMMARY:Jan Bridget: Lesbian Information Service
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20150214T111000Z
+DTEND:20150214T114000Z
+DTSTAMP:20150127T170618Z
+UID:bgrlhtksii8l63khmi0v2qaock@google.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=kim@lg
+ bthistoryfestival.org;X-NUM-GUESTS=0:mailto:kim@lgbthistoryfestival.org
+CREATED:20141126T142055Z
+DESCRIPTION:LGF Chief Executive {Paul Martin} will illustrate some of the h
+ ighlights of the LGF collections now housed at Archives+. 
+LAST-MODIFIED:20150127T163039Z
+LOCATION:Archive Search Room
+SEQUENCE:2
+STATUS:CONFIRMED
+SUMMARY:Paul Martin: Archive Demonstration 1
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20150214T111000Z
+DTEND:20150214T114000Z
+DTSTAMP:20150127T170618Z
+UID:5s2mvij1nh9l2707ejtihdd9q0@google.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=kim@lg
+ bthistoryfestival.org;X-NUM-GUESTS=0:mailto:kim@lgbthistoryfestival.org
+CREATED:20141126T140710Z
+DESCRIPTION:{Julie Parker} will talk about her time as Artistic Director of
+  The Drill Hall\; how things have changed for LGBTQ people in theatre durin
+ g the last 35 years and the fantastic and extraordinary time she has had cr
+ eating and making theatre in and out of The Drill Hall.\n\nJulie trained as
+  an actress at Central School of Speech & Drama in 1970s\; Fellow of the Ro
+ yal Society of Arts\; Original member of First Gay Sweatshop Women’s Compan
+ y touring in the original production of Any Woman Can by Jill Posener. Set 
+ up and ran London’s iconic Drill Hall Theatre from 1981 to 2011\; leading p
+ roducer and promoter of LGBT work in the UK and Internationally during this
+  time\; one of the founders of Stop Clause 28 arts lobby in the 1980s. \n\n
+ Currently she runs Outhouse London with her long -time friend\, co-producer
+  and partner in crime\, Mavis Seaman.  \n \nShe lives in North London with 
+ theatre director Barcy Cogdale\, her fabulous partner of 25 years\, their t
+ hree teenage daughters (Ruby\, Tallulah and Esme) and a collection of ducks
+ \, chickens\, dogs\, cats and bees.\n
+LAST-MODIFIED:20150127T162808Z
+LOCATION:Space 3
+SEQUENCE:2
+STATUS:CONFIRMED
+SUMMARY:Julie Parker: LGBTQ theatre
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20150214T111000Z
+DTEND:20150214T114000Z
+DTSTAMP:20150127T170618Z
+UID:ultffs4j15hmgi8md4e93tdrcc@google.com
+CREATED:20141126T140219Z
+DESCRIPTION:{Abigail Ward} is a freelance curator\, writer and DJ with over
+  fifteen years' experience in the music industry and cultural sector. She h
+ as been running Manchester District Music Archive since 2003. \n\n[Read her
+  Blog Article here](http://lgbthistoryfestival.org/blog/2014/11/20/queer-no
+ ise.html)\n\nIn her talk\, Abigail will be examining three key points in th
+ e city’s LGBT music history: the birth of punk in 1976\; the house music ex
+ plosion of the early 90s\; and the alt-gay scene which developed a decade l
+ ater as a response to the homogeneity of the music on offer on Canal Street
+  - Manchester’s gay village.
+LAST-MODIFIED:20150127T162756Z
+LOCATION:Space 2
+SEQUENCE:3
+STATUS:CONFIRMED
+SUMMARY:Abigail Ward: Queer Noise
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
 DTSTART:20150214T103000Z
 DTEND:20150214T110000Z
-DTSTAMP:20150127T124803Z
+DTSTAMP:20150127T170618Z
 UID:6a73qulikvaqfv7aouea1k656o@google.com
 CREATED:20141126T135808Z
 DESCRIPTION:{Peter Tatchell} tells the inside story of how Dr Vaernet was a
@@ -87,7 +379,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART:20150215T145000Z
 DTEND:20150215T151000Z
-DTSTAMP:20150127T124803Z
+DTSTAMP:20150127T170618Z
 UID:2pn381o8gk6om6nc1161gfd59c@google.com
 CREATED:20150121T171533Z
 DESCRIPTION:The UK's oldest extant bisexual organisation\, BiPhoria\, is ba
@@ -113,7 +405,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART:20150215T153000Z
 DTEND:20150215T160000Z
-DTSTAMP:20150127T124803Z
+DTSTAMP:20150127T170618Z
 UID:hj0cq2ivihpalkqj694gf99288@google.com
 ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=kim@lg
  bthistoryfestival.org;X-NUM-GUESTS=0:mailto:kim@lgbthistoryfestival.org
@@ -143,7 +435,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART:20150215T140000Z
 DTEND:20150215T143000Z
-DTSTAMP:20150127T124803Z
+DTSTAMP:20150127T170618Z
 UID:7ujg8gvrt56j63tfj73gj6kas4@google.com
 ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=kim@lg
  bthistoryfestival.org;X-NUM-GUESTS=0:mailto:kim@lgbthistoryfestival.org
@@ -184,7 +476,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART:20150215T140000Z
 DTEND:20150215T143000Z
-DTSTAMP:20150127T124803Z
+DTSTAMP:20150127T170618Z
 UID:b2022von6fts2lfjcqa75lmfm0@google.com
 ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=kim@lg
  bthistoryfestival.org;X-NUM-GUESTS=0:mailto:kim@lgbthistoryfestival.org
@@ -200,28 +492,9 @@ SUMMARY:Kate Cook: Lesbians and Feminism: Doc Martens Against Rape
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
-DTSTART:20150214T134500Z
-DTEND:20150214T141500Z
-DTSTAMP:20150127T124803Z
-UID:jnfplk6upm6e4e2m3vmpeo3rm8@google.com
-CREATED:20141126T140428Z
-DESCRIPTION:Dr {Sarah Parker} is an Impact Research Fellow in English Studi
- es at University of Stirling. \nSarah will talk about Olive Custance\, wife
-  of Lord Alfred Douglas and poet. We will learn more about both Olive and B
- osie\, their unconventional relationship\, their romances with both men and
-  women and their explorations of the fluidity of gender.\n\n[After Oscar](h
- ttp://lgbthistoryfestival.org/authors/sarah-parker.html)
-LAST-MODIFIED:20150126T231609Z
-LOCATION:Space 3
-SEQUENCE:3
-STATUS:CONFIRMED
-SUMMARY:Sarah Parker: After Oscar
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
 DTSTART:20150214T160000Z
 DTEND:20150214T163000Z
-DTSTAMP:20150127T124803Z
+DTSTAMP:20150127T170618Z
 UID:65g83ppf4h43148rvtc27ihst0@google.com
 CREATED:20141126T140545Z
 DESCRIPTION:In her talk {Laila El-Metoui} will share her experience of mana
@@ -270,89 +543,9 @@ SUMMARY:Laila El-Metoui: Embedding LGBT lives and Issues in Further Educati
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
-DTSTART:20150214T130000Z
-DTEND:20150214T133000Z
-DTSTAMP:20150127T124803Z
-UID:10bietmtdr79n84dhsenptvt1c@google.com
-ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=kim@lg
- bthistoryfestival.org;X-NUM-GUESTS=0:mailto:kim@lgbthistoryfestival.org
-CREATED:20141126T140816Z
-DESCRIPTION:{Peter Scott-Presland} will read from his forthcoming book\, {A
- miable Warriors}. \n\nThe Campaign for Homosexual Equality between 1967 and
-  1973 developed a unique approach to the emancipation of homosexuals. The r
- eason for prejudice was ignorance\, and ignorance would only be dispelled i
- f heterosexual members of society came to know some real-life homosexuals. 
-  So it was important for people to start coming out.  But they would never 
- be able to do that until they had discovered some self-awareness and self-c
- onfidence. In order to do that\, they needed\, in the words of the title of
-  Volume 1 of Amiable Warriors\, A Space to Breathe.  Somewhere they could e
- xplore what it meant to be gay\, and to gain the acceptance and support of 
- other homosexuals.  Initially this was going to be through Esquire Clubs\, 
- but when these proved difficult to get off the ground\, the focus moved to 
- the idea that any group of gay people can carry around its own 'gay space'\
- , and local CHE groups were formed across the country - over 100 in total. 
-  The readings will focus on aspects of creating this 'gay space': firstly\,
-  a brief account of trying to get a club off the ground in Burnley\; and th
- en the antecedents of local groups - Albany Trust discussion groups 1964-67
-  in London\, and heterosexual singles clubs around the country.  Followed b
- y questions from the audience.\n\nFor forty years {Peter Scott-Presland} ha
- s been involved in the LGBT rights movement\, as campaigner\, journalist\, 
- playwright and entertainer ('the Vera Lynn of the homosexual community'\, a
- s he was described in 1982). The founder director of first Consenting Adult
- s (1979-86) and then Homo Promos (1988 - present) Theatre Companies\, highl
- ights of his theatrical career include a series of Heath Plays (1981-85) de
- signed to be performed at midnight on Midsummer Night near the Hampstead He
- ath cruising ground\, the controversial 'Leather'\, which a brewery tried t
- o ban from its pub theatre (Finborough Arms\, 1989)\; and the musical 'La R
- onde'\, nominated for Best Musical 2012 in the off-West End awards.As a jou
- rnalist he worked for Gay News\, Gay Times\, Axiom and above all Capital Ga
- y (1981-88) where he won a reputation as a savagely funny columnist and rev
- iewer of the contemporary gay scene\, as well as being a reporter.  He is c
- urrently writing lyrics for the band 'Matyas and the Hybrid Mind'.\n\nHe wa
- s commissioned in 2010 to write the 'official' history of the Campaign for 
- Homosexual Equality.  Though lacking formal qualifications as a historian -
-  he has an MA and BLitt from Oxford in English - he does have the advantage
-  of knowing some of the people who were involved in the story he is describ
- ing.  He has an insider's view of what it was like to set up and run campai
- gns in the 1970s and 80s\;  and his journalistic abilities can animate a un
- ique story which has not to this day been told.\n\n[Read exctracts of Amiab
- le Warriors here](http://www.amiable-warriors.uk/)
-LAST-MODIFIED:20150124T210518Z
-LOCATION:Space 3
-SEQUENCE:0
-STATUS:CONFIRMED
-SUMMARY:Peter Scott Presland: CHE Reading
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-DTSTART:20150214T130000Z
-DTEND:20150214T133000Z
-DTSTAMP:20150127T124803Z
-UID:od7iba0v2r81mbi80dfkqqgp18@google.com
-CREATED:20141126T140306Z
-DESCRIPTION:{Jan Bridget} is a 67 year old lesbian from a poor\, lower clas
- s\, background.  Originally from Lancashire but lived in Calderdale for 25 
- years.  As a mature student she acquired BA in classical studies at Queen M
- ary\, London followed by the Diploma in Youth and Community Work at Manches
- ter Polytechnic.  Set up and jointly ran Lesbian Information Service (1987-
- 1998) and Gay and Lesbian Youth in Calderdale (1999-2011).\n\nJan will talk
-  about setting up LIS in Leicester in 1987\, some of the challenges they fa
- ced and how attitudes have changed (or not) in the last 35 years of working
-  for LGBT equality.\n\n[Lesbian Information Service](http://www.lesbianinfo
- rmationservice.org/)\n[Find out more about Jan's collection at Lancashire A
- rchives here](http://archivecat.lancashire.gov.uk/calmview/Record.aspx?src=
- CalmView.Catalog&id=DDX+2891&pos=10)
-LAST-MODIFIED:20150124T210505Z
-LOCATION:Space 2
-SEQUENCE:0
-STATUS:CONFIRMED
-SUMMARY:Jan Bridget: Lesbian Information Service
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
 DTSTART:20150215T160000Z
 DTEND:20150215T163000Z
-DTSTAMP:20150127T124803Z
+DTSTAMP:20150127T170618Z
 UID:ujke558irr8ssie7vn14a0utjk@google.com
 CREATED:20150121T114844Z
 DESCRIPTION:{Stuart Milk}\, nephew of Harvey Milk\, will read from {“The Ha
@@ -372,7 +565,7 @@ END:VEVENT
 BEGIN:VFREEBUSY
 DTSTART:20150215T163000Z
 DTEND:20150215T164500Z
-DTSTAMP:20150127T124803Z
+DTSTAMP:20150127T170618Z
 UID:gf4pua0vdjeaa6rgmabrr3flqo@google.com
 ATTENDEE;X-NUM-GUESTS=0:mailto:kim@lgbthistoryfestival.org
 SUMMARY:Busy
@@ -380,7 +573,7 @@ END:VFREEBUSY
 BEGIN:VEVENT
 DTSTART:20150213T173000Z
 DTEND:20150213T193000Z
-DTSTAMP:20150127T124803Z
+DTSTAMP:20150127T170618Z
 UID:nugm31eushk6dql7lr1kkfoheo@google.com
 ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=kim@lg
  bthistoryfestival.org;X-NUM-GUESTS=0:mailto:kim@lgbthistoryfestival.org
@@ -403,7 +596,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART:20150215T122000Z
 DTEND:20150215T125000Z
-DTSTAMP:20150127T124803Z
+DTSTAMP:20150127T170618Z
 UID:fu6mtj664c27v2j1r6rpd117kg@google.com
 CREATED:20150119T155857Z
 DESCRIPTION:Some of the best LGBT stories from forty years of organising in
@@ -423,24 +616,9 @@ SUMMARY:Carola Towle:  Am I the only one?  Lone voices to collective action
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
-DTSTART:20150214T150000Z
-DTEND:20150214T153000Z
-DTSTAMP:20150127T124803Z
-UID:n0givsgeuq7kvbjuvu3njbkm20@google.com
-CREATED:20150116T153344Z
-DESCRIPTION:{Helena Whitbread} will sign copies of The Secret Diaries of Mi
- ss Anne Lister on our News From Nowhere stall. 
-LAST-MODIFIED:20150116T153344Z
-LOCATION:Shakespeare Hall
-SEQUENCE:0
-STATUS:CONFIRMED
-SUMMARY:Book Signing: Helena Whitbread
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
 DTSTART:20150214T140000Z
 DTEND:20150214T143000Z
-DTSTAMP:20150127T124803Z
+DTSTAMP:20150127T170618Z
 UID:g7r5oet636agnell7jchl13bjc@google.com
 CREATED:20150116T153140Z
 DESCRIPTION:{Catherine Hall} will sign copies of Days of Grace\, The Proof 
@@ -453,54 +631,9 @@ SUMMARY:Book Signing: Catherine Hall
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
-DTSTART:20150214T133000Z
-DTEND:20150214T140000Z
-DTSTAMP:20150127T124803Z
-UID:aqkgu2sibq30iq87dj9irf8vmk@google.com
-ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=kim@lg
- bthistoryfestival.org;X-NUM-GUESTS=0:mailto:kim@lgbthistoryfestival.org
-CREATED:20150116T152943Z
-DESCRIPTION:{Peter Scott-Presland} will be signing his book Amiable Warrior
- s on the news from Nowhere book stall. 
-LAST-MODIFIED:20150116T153005Z
-LOCATION:Shakespeare Hall
-SEQUENCE:0
-STATUS:CONFIRMED
-SUMMARY:Book Signing: Peter Scott-Presland
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-DTSTART:20150214T134500Z
-DTEND:20150214T141500Z
-DTSTAMP:20150127T124803Z
-UID:kkdbaa8u6ef09pk1b0cfe098ic@google.com
-ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=kim@lg
- bthistoryfestival.org;X-NUM-GUESTS=0:mailto:kim@lgbthistoryfestival.org
-CREATED:20141126T141110Z
-DESCRIPTION:{Ross Burgess} worked for many years before retirement as an IT
-  consultant. He lives in Croydon with his husband\, Roger. He founded the T
- unbridge Wells CHE Group in 1972 and has been involved with LGBT groups eve
- r since. He was a Trustee of the LGBT Consortium for three years. He contri
- buted the Croydon chapter of Out of the Shadows\, the history of gay groups
-  in London\, and has helped to edit this and other books\, including Amiabl
- e Warriors\, which is being launched at this Festival. He has managed vario
- us websites\, and is the main contributor to the [LGBT History Project](www
- .lgbthistoryuk.org) which aims to create a comprehensive online encyclopaed
- ia of LGBT life in the UK from the earliest time to the present day.\n\nIn 
- hit Talking Head slot Ross will talk a bit about his experience with variou
- s LGBT groups\, his involvement with CHE and in particular with the Amiable
-  Warriors book as well as the LGBT History Project website \n\n
-LAST-MODIFIED:20150116T145019Z
-LOCATION:Space 2
-SEQUENCE:1
-STATUS:CONFIRMED
-SUMMARY:Ross Burgess: Experiences with CHE
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
 DTSTART:20150215T153000Z
 DTEND:20150215T160000Z
-DTSTAMP:20150127T124803Z
+DTSTAMP:20150127T170618Z
 UID:k5457mnhq24isqp4dc7lf5k84g@google.com
 ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=kim@lg
  bthistoryfestival.org;X-NUM-GUESTS=0:mailto:kim@lgbthistoryfestival.org
@@ -530,26 +663,9 @@ SUMMARY:Linda Bellos: Contemporary Pioneer for Equality
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
-DTSTART:20150214T111500Z
-DTEND:20150214T114500Z
-DTSTAMP:20150127T124803Z
-UID:bgrlhtksii8l63khmi0v2qaock@google.com
-ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=kim@lg
- bthistoryfestival.org;X-NUM-GUESTS=0:mailto:kim@lgbthistoryfestival.org
-CREATED:20141126T142055Z
-DESCRIPTION:LGF Chief Executive {Paul Martin} will illustrate some of the h
- ighlights of the LGF collections now housed at Archives+. 
-LAST-MODIFIED:20150115T204249Z
-LOCATION:Archive Search Room
-SEQUENCE:1
-STATUS:CONFIRMED
-SUMMARY:Paul Martin: Archive Demonstration 1
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
 DTSTART:20150215T145000Z
 DTEND:20150215T152000Z
-DTSTAMP:20150127T124803Z
+DTSTAMP:20150127T170618Z
 UID:20f4bdoc358dav66dbclejjuog@google.com
 ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=kim@lg
  bthistoryfestival.org;X-NUM-GUESTS=0:mailto:kim@lgbthistoryfestival.org
@@ -573,7 +689,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART:20150215T145000Z
 DTEND:20150215T154500Z
-DTSTAMP:20150127T124803Z
+DTSTAMP:20150127T170618Z
 UID:0vnfsdjti2ekrueoo1nn5fqtsc@google.com
 ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=kim@lg
  bthistoryfestival.org;X-NUM-GUESTS=0:mailto:kim@lgbthistoryfestival.org
@@ -595,7 +711,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART:20150215T133000Z
 DTEND:20150215T141500Z
-DTSTAMP:20150127T124803Z
+DTSTAMP:20150127T170618Z
 UID:o58e687o3k0odj605pivbsvri0@google.com
 ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=kim@lg
  bthistoryfestival.org;X-NUM-GUESTS=0:mailto:kim@lgbthistoryfestival.org
@@ -615,39 +731,9 @@ SUMMARY:LGBT History Tour
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
-DTSTART:20150214T111500Z
-DTEND:20150214T114500Z
-DTSTAMP:20150127T124803Z
-UID:5s2mvij1nh9l2707ejtihdd9q0@google.com
-ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=kim@lg
- bthistoryfestival.org;X-NUM-GUESTS=0:mailto:kim@lgbthistoryfestival.org
-CREATED:20141126T140710Z
-DESCRIPTION:{Julie Parker} will talk about her time as Artistic Director of
-  The Drill Hall\; how things have changed for LGBTQ people in theatre durin
- g the last 35 years and the fantastic and extraordinary time she has had cr
- eating and making theatre in and out of The Drill Hall.\n\nJulie trained as
-  an actress at Central School of Speech & Drama in 1970s\; Fellow of the Ro
- yal Society of Arts\; Original member of First Gay Sweatshop Women’s Compan
- y touring in the original production of Any Woman Can by Jill Posener. Set 
- up and ran London’s iconic Drill Hall Theatre from 1981 to 2011\; leading p
- roducer and promoter of LGBT work in the UK and Internationally during this
-  time\; one of the founders of Stop Clause 28 arts lobby in the 1980s. \n\n
- Currently she runs Outhouse London with her long -time friend\, co-producer
-  and partner in crime\, Mavis Seaman.  \n \nShe lives in North London with 
- theatre director Barcy Cogdale\, her fabulous partner of 25 years\, their t
- hree teenage daughters (Ruby\, Tallulah and Esme) and a collection of ducks
- \, chickens\, dogs\, cats and bees.\n
-LAST-MODIFIED:20150110T113131Z
-LOCATION:Space 3
-SEQUENCE:1
-STATUS:CONFIRMED
-SUMMARY:Julie Parker: LGBTQ theatre
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
 DTSTART:20150215T153000Z
 DTEND:20150215T160000Z
-DTSTAMP:20150127T124803Z
+DTSTAMP:20150127T170618Z
 UID:1q3ql1qapk57jko4jjlki2meq8@google.com
 ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=kim@lg
  bthistoryfestival.org;X-NUM-GUESTS=0:mailto:kim@lgbthistoryfestival.org
@@ -672,7 +758,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART:20150215T145000Z
 DTEND:20150215T151000Z
-DTSTAMP:20150127T124803Z
+DTSTAMP:20150127T170618Z
 UID:6cp3pm2ap1pbegufvk5vvh1q5s@google.com
 ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=kim@lg
  bthistoryfestival.org;X-NUM-GUESTS=0:mailto:kim@lgbthistoryfestival.org
@@ -691,7 +777,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART:20150215T122000Z
 DTEND:20150215T125000Z
-DTSTAMP:20150127T124803Z
+DTSTAMP:20150127T170618Z
 UID:glnbvfbjghhdt54vv14ekgdt7g@google.com
 ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=kim@lg
  bthistoryfestival.org;X-NUM-GUESTS=0:mailto:kim@lgbthistoryfestival.org
@@ -724,7 +810,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART:20150215T113000Z
 DTEND:20150215T120000Z
-DTSTAMP:20150127T124803Z
+DTSTAMP:20150127T170618Z
 UID:phu7vurrf0c86gq8rn43mnvnqk@google.com
 ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=kim@lg
  bthistoryfestival.org;X-NUM-GUESTS=0:mailto:kim@lgbthistoryfestival.org
@@ -744,7 +830,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART:20150215T113000Z
 DTEND:20150215T120000Z
-DTSTAMP:20150127T124803Z
+DTSTAMP:20150127T170618Z
 UID:7egb3jg34cbnvmm967trpvob88@google.com
 ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=kim@lg
  bthistoryfestival.org;X-NUM-GUESTS=0:mailto:kim@lgbthistoryfestival.org
@@ -776,38 +862,9 @@ SUMMARY:Sheila Standard: Greenham Common Women’s Peace Camp 1984
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
-DTSTART:20150214T143000Z
-DTEND:20150214T150000Z
-DTSTAMP:20150127T124803Z
-UID:vi1466hk2vkk1fo3tc2c9kam8s@google.com
-ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=kim@lg
- bthistoryfestival.org;X-NUM-GUESTS=0:mailto:kim@lgbthistoryfestival.org
-CREATED:20141126T141338Z
-DESCRIPTION:{Helena Whitbread} will talk about how it is possible\, through
-  the medium of Anne Lister's journal\, to trace the construction of her own
-  lesbian identity in an era which did not\, or chose not to\, recognise tha
- t sexual love between women existed or even deemed possible.\n\nHelena gain
- ed a degree\, as a mature student\, in Politics\, Literature and the Histor
- y of Ideas from Bradford University followed by a Post-graduate Certificate
-  of Education under the auspices of Leeds University. Since 1983 she has be
- en studying and editing the Journals of Anne Lister. Her first publication 
- was I Know my Own Heart\, published by Virago Press in 1988. In 2010 Virago
-  published a revised and expanded version under the title The Secret Diarie
- s of Miss Anne Lister\, following the film of the same name which BBC2 made
-  in that year. A second book of extracts\, No Priest But Love\, was publish
- ed by New York University Press in 1992. Since her retirement from teaching
-  Helena has been working on a biography of Anne Lister.
-LAST-MODIFIED:20150108T114532Z
-LOCATION:Space 2
-SEQUENCE:0
-STATUS:CONFIRMED
-SUMMARY:Helena Whitbread: Anne Lister
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
 DTSTART:20150214T103000Z
 DTEND:20150214T110000Z
-DTSTAMP:20150127T124803Z
+DTSTAMP:20150127T170618Z
 UID:1tqbp6o5kfe7d7m1ems41u8sjc@google.com
 ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=kim@lg
  bthistoryfestival.org;X-NUM-GUESTS=0:mailto:kim@lgbthistoryfestival.org
@@ -829,7 +886,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART:20150214T160000Z
 DTEND:20150214T163000Z
-DTSTAMP:20150127T124803Z
+DTSTAMP:20150127T170618Z
 UID:5vnrpjjarf00mtt263scqcbj8g@google.com
 ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=kim@lg
  bthistoryfestival.org;X-NUM-GUESTS=0:mailto:kim@lgbthistoryfestival.org
@@ -854,50 +911,9 @@ SUMMARY:Geoff Hardy: Rainbow Shropshire
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
-DTSTART:20150214T151500Z
-DTEND:20150214T154500Z
-DTSTAMP:20150127T124803Z
-UID:lslnmpua7uu18ufksm3r6ag6dc@google.com
-CREATED:20141126T140517Z
-DESCRIPTION:{David Edgley}: former twink involved in gay rights – now old c
- odger spending retirement delving into LGBT history and also helping with o
- ur local LGBT helpline and community newsletter.\n\nDavid will talk about t
- he many and perhaps surprising LGBT Histories that Nottinghamshire has prod
- uced.\n\n[Read David's blog article about Queer Notts here.](http://lgbthis
- toryfestival.org/authors/david-edgley.html)
-LAST-MODIFIED:20150106T144730Z
-LOCATION:Space 2
-SEQUENCE:1
-STATUS:CONFIRMED
-SUMMARY:David Edgley: Queer Nottinghamshire
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-DTSTART:20150214T111500Z
-DTEND:20150214T114500Z
-DTSTAMP:20150127T124803Z
-UID:ultffs4j15hmgi8md4e93tdrcc@google.com
-CREATED:20141126T140219Z
-DESCRIPTION:{Abigail Ward} is a freelance curator\, writer and DJ with over
-  fifteen years' experience in the music industry and cultural sector. She h
- as been running Manchester District Music Archive since 2003. \n\n[Read her
-  Blog Article here](http://lgbthistoryfestival.org/blog/2014/11/20/queer-no
- ise.html)\n\nIn her talk\, Abigail will be examining three key points in th
- e city’s LGBT music history: the birth of punk in 1976\; the house music ex
- plosion of the early 90s\; and the alt-gay scene which developed a decade l
- ater as a response to the homogeneity of the music on offer on Canal Street
-  - Manchester’s gay village.
-LAST-MODIFIED:20150105T163356Z
-LOCATION:Space 2
-SEQUENCE:2
-STATUS:CONFIRMED
-SUMMARY:Abigail Ward: Queer Noise
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
 DTSTART:20150109T100000Z
 DTEND:20150109T120000Z
-DTSTAMP:20150127T124803Z
+DTSTAMP:20150127T170618Z
 UID:j6r03vs7ussib7mcrr9h79b3lc@google.com
 CREATED:20150104T125639Z
 DESCRIPTION:
@@ -906,22 +922,6 @@ LOCATION:
 SEQUENCE:0
 STATUS:CONFIRMED
 SUMMARY:RDK meeting
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-DTSTART:20150214T134500Z
-DTEND:20150214T141500Z
-DTSTAMP:20150127T124803Z
-UID:2gv7hbspd8o7ug10krqmk3odm4@google.com
-ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=kim@lg
- bthistoryfestival.org;X-NUM-GUESTS=0:mailto:kim@lgbthistoryfestival.org
-CREATED:20141126T142146Z
-DESCRIPTION:{Sylvia Kölling}
-LAST-MODIFIED:20141226T194500Z
-LOCATION:Archive Tour
-SEQUENCE:1
-STATUS:CONFIRMED
-SUMMARY:Sylvia Kölling: Archive Demonstration 2
 TRANSP:OPAQUE
 END:VEVENT
 END:VCALENDAR
