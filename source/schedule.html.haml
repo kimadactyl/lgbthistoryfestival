@@ -17,34 +17,33 @@ title: Schedule
       %p.pinkcaps
         Events are first-come, first-served: please arrive in plenty of time to avoid disappointment.
       :markdown
-        More popular events will be ticketed: keep an eye on this page, or our [Twitter](http://twitter.com/lgbthistoryfest) or [Facebook](https://www.facebook.com/lgbthistoryfestival) for up-to-the-minute updates.
+        More popular events will be ticketed: keep an eye on this page, or our <i class="icon-twitter"/> [Twitter](http://twitter.com/lgbthistoryfest) or <i class="icon-facebook"/> [Facebook](https://www.facebook.com/lgbthistoryfestival) for up-to-the-minute updates.
 
         *Please note times and events are subject to change.*
 
-      .sticky.contain-to-grid
-        %ul#key.schedule{"data-topbar" => "data-topbar"}
-          %li.filter{"data-filter" => ".main-festival"}
-            %i.icon-star
-            %h4 Main Festival
-          %li.filter{"data-filter" => ".family-space"}
-            %i.icon-school
-            %h4 Family Space
-          %li.filter{"data-filter" => ".films"}
-            %i.icon-video
-            %h4 Films
-          %li.filter{"data-filter" => ".theatre"}
-            %i.icon-theatre
-            %h4 Theatre
-          %li.filter{"data-filter" => ".fringe"}
-            %i.icon-map
-            %h4 Fringe
-          %li.filter{"data-filter" => ".conference"}
-            %i.icon-book
-            %h4 Conference
-          %li.speakers
-            =partial 'speakerlist'
 
-    .small-12.columns
+      %ul#key.schedule.medium-block-grid-6.small-block-grid-3
+        %li.filter{"data-filter" => ".main-festival"}
+          %i.icon-star
+          %h4 Main Festival
+        %li.filter{"data-filter" => ".family-space"}
+          %i.icon-school
+          %h4 Family Space
+        %li.filter{"data-filter" => ".films"}
+          %i.icon-video
+          %h4 Films
+        %li.filter{"data-filter" => ".theatre"}
+          %i.icon-theatre
+          %h4 Theatre
+        %li.filter{"data-filter" => ".fringe"}
+          %i.icon-map
+          %h4 Fringe
+        %li.filter{"data-filter" => ".conference"}
+          %i.icon-book
+          %h4 Conference
+      =partial 'speakerlist'
+
+    .small-12.columns.schedcontainer
       %ul#program.schedule
         - days.each do |day, time|
           .daytitle
@@ -66,55 +65,62 @@ title: Schedule
               :markdown
                 ### 13th February
             - when 'Saturday'
-              :markdown
-                ### 14th February
-                All Saturday events are at Manchester Central Library's performance space, apart from <i class="icon-map"></i> Fringe events at the Joyce Layland LGBT Centre and the Working Class movement library. See individual event listings for details, and our [travel page](/travel.html) for venue information.
+              %h3 14th February
+              .daynotes
+                :markdown
+                  All Saturday events are at Manchester Central Library's performance space, apart from <i class="icon-map"></i> Fringe events at the Joyce Layland LGBT Centre and the Working Class movement library. See individual event listings for details, and our [travel page](/travel.html) for venue information.
+
+                  <i class="icon-facebook"/>[Facebook event page](https://www.facebook.com/events/430094297142000/)
             - when 'Sunday'
-              :markdown
-                ### 15th February
-                All Sunday events are at People's History Museum. See our [travel page](/travel.html) for venue information.
-          - popular.get_start_times(time).each do |time|
-            .timegroup
-              .timecol
-                %h3.time= time.dtstart.strftime("%H:%M")
-              .timeblock
-                - eventlists = popular.get_events(time)
-                - eventlists.each do |list,events|
-                  - events.each_with_index do |event, idx|
-                    - friendlyname = data.events[event.uid]
-                    %a{:"data-remodal-target" => "#{friendlyname}"}
-                      - speakers = Set.new();
-                      - data.contribs.each do |_, details|
-                        - if details.events.include? event.uid.to_s
-                          - speakers << details.urlname
-                      %li{:class => "mix event #{list.to_s.parameterize} #{'has-description' if event.description.present?} #{speakers.to_a.join(" ")}"}
-                        .event-icon
-                          - case list.to_s.parameterize
-                          - when 'films'
-                            %i.icon-video
-                          - when 'family-space'
-                            %i.icon-school
-                          - when 'theatre'
-                            %i.icon-theatre
-                          - when 'conference'
-                            %i.icon-book
-                          - when 'fringe'
-                            %i.icon-map
-                          - else
-                            %p
-                        .event-title
-                          -# If there's a colon, bold the first half and not  second half.
-                          - sections = RubyPants.new(event.summary).to_html.split(":")
-                          - if sections.length > 1
-                            %strong= sections[0] + ":"
-                            = sections[1]
-                          - else
-                            %strong= sections[0]
-                          .location= event.location.split(",").first
-                        .event-meta
-                          - duration = ((event.dtend - event.dtstart)/60).to_i
-                          %span.duration= "#{duration} mins"
-                          = "<br/><span class='ticket'><i class='needsticket icon-ticket'></i> #{data.ticketed[friendlyname].cost}</span>" if data.ticketed[friendlyname]
+              %h3 15th February
+              .daynotes
+                :markdown
+                  All Sunday events are at People's History Museum. See our [travel page](/travel.html) for venue information.
+
+                  <i class="icon-facebook"/>[Facebook event page](https://www.facebook.com/events/328947467315710/)
+          .dayevents
+            - popular.get_start_times(time).each do |time|
+              .timegroup
+                .timecol
+                  %h3.time= time.dtstart.strftime("%H:%M")
+                .timeblock
+                  - eventlists = popular.get_events(time)
+                  - eventlists.each do |list,events|
+                    - events.each_with_index do |event, idx|
+                      - friendlyname = data.events[event.uid]
+                      %a{:"data-remodal-target" => "#{friendlyname}"}
+                        - speakers = Set.new();
+                        - data.contribs.each do |_, details|
+                          - if details.events.include? event.uid.to_s
+                            - speakers << details.urlname
+                        %li{:class => "mix event #{list.to_s.parameterize} #{'has-description' if event.description.present?} #{speakers.to_a.join(" ")}"}
+                          .event-icon
+                            - case list.to_s.parameterize
+                            - when 'films'
+                              %i.icon-video
+                            - when 'family-space'
+                              %i.icon-school
+                            - when 'theatre'
+                              %i.icon-theatre
+                            - when 'conference'
+                              %i.icon-book
+                            - when 'fringe'
+                              %i.icon-map
+                            - else
+                              %p
+                          .event-title
+                            -# If there's a colon, bold the first half and not  second half.
+                            - sections = RubyPants.new(event.summary).to_html.split(":")
+                            - if sections.length > 1
+                              %strong= sections[0] + ":"
+                              = sections[1]
+                            - else
+                              %strong= sections[0]
+                            .location= event.location.split(",").first
+                          .event-meta
+                            - duration = ((event.dtend - event.dtstart)/60).to_i
+                            %span.duration= "#{duration} mins"
+                            = "<br/><span class='ticket'><i class='needsticket icon-ticket'></i> #{data.ticketed[friendlyname].cost}</span>" if data.ticketed[friendlyname]
 
 
       -# .small-12.columns.speakerlist
@@ -143,22 +149,40 @@ title: Schedule
               = event.dtstart.strftime("%A %e %B, ")
               = event.location.split(",").first
 
-            - case list.to_s.parameterize
-            - when 'films'
-              %i.icon-video
-            - when 'family-space'
-              %i.icon-school
-            - when 'theatre'
-              %i.icon-theatre
-            - when 'conference'
-              %i.icon-book
-            - when 'fringe'
-              %i.icon-map
-            - if data.ticketed[friendly_name]
-              %a(href="#{data.ticketed[friendly_name]}")
-                %i.icon-ticketed
-                ticketed
-              - duration = ((event.dtend - event.dtstart)/60).to_i
-              %em.duration= "(#{duration} mins)"
+            %h5                
+              - ticketed = data.ticketed[friendly_name]
+
+              - if (list.to_s.parameterize == "conference")
+                // If it's the conference, then show conference link
+                = link_to "http://crm.lgbthistoryfestival.org/civicrm/event/info?reset=1&id=2" do
+                  %i.icon-ticket                  
+                  Conference ticket
+              - if (ticketed && list.to_s.parameterize == "conference")
+                // If there's a single event ticket for the conference, show them that too
+                = link_to ticketed.url do
+                  %i.icon-ticket
+                  Single event ticket
+                  = ticketed.cost    
+              - elsif (ticketed)
+                // Otherwise, if there are tickets...
+                -if (ticketed.cost == "free")
+                  // Do this if it's free
+                  = link_to ticketed.url do
+                    %i.icon-ticket
+                    Free ticket required
+                - elsif (ticketed.cost == "sold out")
+                  // This if sold out
+                  %i.icon-ticket
+                  SOLD OUT
+                - elsif (ticketed.cost)
+                  // This if they can pay
+                  = link_to ticketed.url do
+                    %i.icon-ticket 
+                    Ticket required:
+                    = ticketed.cost
+              - else
+                // Else they can come with no ticket
+                = "Free &mdash; no ticket required"
+
             %div.description
               = parseEvent(Kramdown::Document.new(event.description).to_html)
