@@ -334,7 +334,7 @@ section#credits
 ////////////////////////////////////
 
 $deselected: #C4C4C4
-
+$gridspacing: 0.75em
 ul#program
   h2
     text-align: center
@@ -344,47 +344,39 @@ ul#program
     padding-bottom: 0
   h2 + h3
     margin-bottom: 2em
-  clear: left
+  h3
+    color: black
+    font-size: 110%
+    text-align: center    
   .timeblock > a
     text-decoration: none
   &.key li, li.has-description:hover
     cursor: hand
     cursor: pointer
 
-  // Container element for each seperate day
-  .daygroup
-    display: table
-    border-collapse: seperate
-    border-spacing: 0 0.25em
-    padding: 0
-    width: 100%
   // Container element for each unique starting time
   .timegroup
-    display: table-row
+    display: flex
     clear: both
     width: 100%
+    margin-bottom: $gridspacing
   // Container for time in left col
   .timecol
-    width: 88px
-    display: table-cell
     background-color: #E4E4E4
     vertical-align: middle
-    border-bottom: 8px solid white
-  // Container for set of events within a time
+    width: 4em
   .timeblock
-    padding: 0 0 0 23px
-    display: table-cell
+    flex-basis: 100%
   li.event
-    display: none
+    display: flex
     list-style-type: none
     background-color: $grey
     font-size: 120%
-    width: 100%
+    margin: 0 0 $gridspacing $gridspacing
+  .timeblock li.event:last-child
+    margin-bottom: 0
 
-  h3
-    color: black
-    font-size: 110%
-    text-align: center
+
   .event-icon
     font-size: 150%
     vertical-align: top
@@ -393,11 +385,11 @@ ul#program
     font-style: italic
   .event-title
     padding-left: 0
+    flex-grow: 10
   .event-meta
     font-weight: 600
     text-transform: uppercase
     text-align: right
-    font-size: 80%
   // Disable everything before MixItUp re-enables it
   .mix
     display: none

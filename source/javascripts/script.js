@@ -194,6 +194,9 @@ $( document ).ready(function() {
     controls: {
       toggleFilterButtons: true
     },
+    layout {
+      display: 'flex'
+    },
     callbacks: {
       onMixEnd: function(state){
         checkBlanks();
