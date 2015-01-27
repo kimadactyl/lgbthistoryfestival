@@ -203,7 +203,7 @@ $( document ).ready(function() {
       }
     },
     load: {
-      filter: 'DEFAULT_FILTER'
+      filter: DEFAULT_FILTER
     }
   });
 
