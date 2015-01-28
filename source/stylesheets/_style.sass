@@ -360,9 +360,10 @@ ul#program
   &.key li, li.has-description:hover
     cursor: hand
     cursor: pointer
-
   // Container element for each unique starting time
   .timegroup
+    display: -webkit-box
+    display: -webkit-flex
     display: flex
     clear: both
     width: 100%
@@ -385,6 +386,9 @@ ul#program
   .timeblock
     flex-basis: 100%
   li.event
+    display: -webkit-box
+    display: -webkit-flex
+    display: flex
     list-style-type: none
     background-color: $grey
     font-size: 120%
@@ -428,9 +432,18 @@ ul#program
       width: 3em
       font-size: 100%
       text-align: right
-  // Disable everything before MixItUp re-enables it
-  .mix
+.controls
+  display: none
+.nocontrols
+  display: block
+.flexbox 
+  ul#program li.mix.event
     display: none
+  .controls
+    display: block    
+  .nocontrols
+    display: none
+
 
 ul#key
   text-align: center

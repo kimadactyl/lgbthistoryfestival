@@ -22,10 +22,13 @@ title: Schedule
         Events which require booking have a <i class="icon-ticket"/> ticket icon &mdash; click on the event for a booking link. Check our [Twitter](http://twitter.com/lgbthistoryfest) or [Facebook](https://www.facebook.com/lgbthistoryfestival) for up-to-the-minute updates
 
         *Please note times and events are subject to change.*
+      .nocontrols
+        :markdown
+          **Apologies, your browser does not support features needed for filtering controls, and schedule output is currently suboptimal.** We're working on it: in the mean time, please try a modern, non-iOS browser for best support.
     .medium-2.columns
       %p
   .row
-    .small-12.text-center
+    .small-12.text-center.controls
       %ul#key.schedule.medium-block-grid-6.small-block-grid-3
         %li.filter{"data-filter" => ".main-festival"}
           %i.icon-star
@@ -46,6 +49,7 @@ title: Schedule
           %i.icon-book
           %h4 Conference
       =partial 'speakerlist'
+
 
     .small-12.columns.schedcontainer
       %ul#program.schedule
@@ -124,7 +128,7 @@ title: Schedule
                           .event-meta
                             - duration = ((event.dtend - event.dtstart)/60).to_i
                             %div.duration= "#{duration} mins"
-                            = "<div class='ticket'><i class='needsticket icon-ticket'></i> #{data.ticketed[friendlyname].cost}</span>" if data.ticketed[friendlyname]
+                            = "<div class='ticket'><i class='needsticket icon-ticket'></i> #{data.ticketed[friendlyname].cost}</div>" if data.ticketed[friendlyname]
 
 .remodal-bg
   - days.each do |_, time|
