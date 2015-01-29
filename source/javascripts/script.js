@@ -220,14 +220,14 @@ $( document ).ready(function() {
     filterBySpeaker($(this).val());
   });
 
-  // mixUpParams();
+  mixUpParams();
 
-  // $(".filter").click(function(){
-  //   if(!$(this).hasClass("active")){
-  //     insertParam($(this).attr("data-filter").substr(1),"false");
-  //   } else {
-  //     insertParam($(this).attr("data-filter").substr(1),"true");
-  //   }
-  //   mixUpParams();
-  // });
+  $(".filter").click(function(){
+    if(!$(this).hasClass("active")){
+      insertParam($(this).attr("data-filter").substr(1),"false");
+    } else {
+      insertParam($(this).attr("data-filter").substr(1),"true");
+    }
+    mixUpParams();
+  });
 });
