@@ -182,6 +182,10 @@ function mixUpParams() {
   }
 }
 
+function addProperFlex(){
+  $("li.event").css("display", "-webkit-flex");
+  $("li.event").css("display", "flex");
+}
 // Calendar
 $( document ).ready(function() {
 
@@ -200,6 +204,9 @@ $( document ).ready(function() {
     callbacks: {
       onMixEnd: function(state){
         checkBlanks();
+      },
+      onMixStart: function(state){
+        addProperFlex();
       }
     },
     load: {
