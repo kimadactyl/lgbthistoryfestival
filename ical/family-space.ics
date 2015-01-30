@@ -7,30 +7,72 @@ X-WR-CALNAME:Family Space
 X-WR-TIMEZONE:Europe/London
 X-WR-CALDESC:
 BEGIN:VEVENT
-DTSTART:20150214T152000Z
-DTEND:20150214T155000Z
-DTSTAMP:20150127T170619Z
-UID:8v1j88vncf7kjopk32jl9aej5k@google.com
-CREATED:20141126T141852Z
-DESCRIPTION:Stuart Milk will be reading from "The Harvey Milk Story" by Kar
- i Krakow\, a children's book on his uncle\, the first openly gay person to 
- be elected to public office in California.
-LAST-MODIFIED:20150127T163609Z
-LOCATION:Space 1
-SEQUENCE:4
+DTSTART:20150215T150000Z
+DTEND:20150215T155000Z
+DTSTAMP:20150130T165236Z
+UID:uqv32bqnflge6lbdk3po4qgrto@google.com
+CREATED:20150105T165042Z
+DESCRIPTION:**Different & Diverse**\n\n{Stephen Boyce} uses "Max Champion o
+ f the World" and "Made by Raffi" to acknowledge and celebrate how wonderful
+ \, unique and different each individual child is and how important that div
+ ersity is.\n\nAimed at children under 11 and those who support them.
+LAST-MODIFIED:20150130T165230Z
+LOCATION:Learning Studio
+SEQUENCE:0
 STATUS:CONFIRMED
-SUMMARY:Stuart Milk: Readings on Harvey Milk
+SUMMARY:Stephen Boyce: How do do a diversity lesson (part two)
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20150215T140000Z
+DTEND:20150215T145000Z
+DTSTAMP:20150130T165236Z
+UID:11cuo7qocop30nk7jcl4kmj52k@google.com
+CREATED:20150105T164947Z
+DESCRIPTION:**Feelings and Friends**\n\nUsing the wonderful story of "Hello
+ \, Sailor" and "The Great Big Book of Feelings" {Stephen Boyce} will explor
+ e the world of emotional intelligence for and with children.\n\nAimed at ch
+ ildren under 11 and those who support them.
+LAST-MODIFIED:20150130T165218Z
+LOCATION:Learning Studio
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Stephen Boyce: How to do a diversity lesson (part one)
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20150214T160000Z
+DTEND:20150214T163000Z
+DTSTAMP:20150130T165236Z
+UID:10p12um7sahd92a6jcsorphn78@google.com
+CREATED:20141126T141924Z
+DESCRIPTION:{Adam Lowe} is a writer\, publisher and performer\, and the cur
+ rent LGBT History Month Poet Laureate. He founded non-profit writer develop
+ ment programme Young Enigma\, supporting young and emerging writers who ide
+ ntify as LGBT. \n\nHe also runs Dog Horn Publishing\, producing cutting edg
+ e books\, and Vada Magazine\, an alternative LGBT magazine for the discerni
+ ng reader. His solo show 'Ecstasies' toured Manchester\, Leeds and Brighton
+ \, and he has performed across the world - most recently in Chicago at the 
+ Mixed Roots showcase at the Critical Mixed Race Studies conference at DePau
+ l University.\n\nAdam will be reading from "Trumpet" (Jackie Kay)\n\nAdam w
+ ill also read from his own poetry.
+LAST-MODIFIED:20150130T165147Z
+LOCATION:Space 1
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Adam Lowe: Young Adult Readings
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
 DTSTART:20150214T144000Z
 DTEND:20150214T151000Z
-DTSTAMP:20150127T170619Z
+DTSTAMP:20150130T165236Z
 UID:8n7i1shhdjupam07fkg1lrmims@google.com
 CREATED:20141126T141817Z
-DESCRIPTION:Sue will be reading from:\n"Spacegirl Pukes" (Katy Watson)\n"Pu
- gdog" (Andrea U'Ren)\n"The Sissy Duckling" (Harvey Fierstein)
-LAST-MODIFIED:20150127T163347Z
+DESCRIPTION:{Sue Sanders} will be reading from:\n\n * "Spacegirl Pukes" (Ka
+ ty Watson)\n * "Pugdog" (Andrea U'Ren)\n * "The Sissy Duckling" (Harvey Fie
+ rstein)
+LAST-MODIFIED:20150130T165125Z
 LOCATION:Space 1
 SEQUENCE:1
 STATUS:CONFIRMED
@@ -38,29 +80,15 @@ SUMMARY:Sue Sanders: Young Children's Readings
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
-DTSTART:20150214T140000Z
-DTEND:20150214T143000Z
-DTSTAMP:20150127T170619Z
-UID:7cmpo76a2eme1d9sb7c861p554@google.com
-CREATED:20141126T141747Z
-DESCRIPTION:
-LAST-MODIFIED:20150127T163252Z
-LOCATION:Space 1
-SEQUENCE:2
-STATUS:CONFIRMED
-SUMMARY:Dan Smith: LGBT History Lesson
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
 DTSTART:20150214T132000Z
 DTEND:20150214T135000Z
-DTSTAMP:20150127T170619Z
+DTSTAMP:20150130T165236Z
 UID:q1jm6tqb3a20rm86d030o8rdps@google.com
 CREATED:20141126T141639Z
-DESCRIPTION:Catherine will be reading from:\n"My Invented Life" (Lauren Bjo
- rkman)\n"Beautiful Music for Ugly Children" (Kirstin Cronn-Mills)\n"The Rep
- ercussions" (Catherine Hall)
-LAST-MODIFIED:20150127T163103Z
+DESCRIPTION:{Catherine Hall} will be reading from:\n\n * "My Invented Life"
+  (Lauren Bjorkman)\n * "Beautiful Music for Ugly Children" (Kirstin Cronn-M
+ ills)\n * "The Repercussions" (Catherine Hall)
+LAST-MODIFIED:20150130T165110Z
 LOCATION:Space 1
 SEQUENCE:1
 STATUS:CONFIRMED
@@ -68,13 +96,61 @@ SUMMARY:Catherine Hall: Young Adult Reading
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
+DTSTART:20150214T103000Z
+DTEND:20150214T110000Z
+DTSTAMP:20150130T165236Z
+UID:dsbauu3756djlvchfk13rnjo9o@google.com
+CREATED:20141126T141546Z
+DESCRIPTION:{Juno Roche} will be reading from: \n\n * "Tyrannosaurus Drip" 
+ (Julia Donaldson)\n * "Who Are You Stripy Horse?" (Jim Helmore)\n * "The Pa
+ per Dolls" (Julia Donaldson)
+LAST-MODIFIED:20150130T165047Z
+LOCATION:Space 1
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Juno Roche: Young Children's Reading
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20150214T152000Z
+DTEND:20150214T155000Z
+DTSTAMP:20150130T165236Z
+UID:8v1j88vncf7kjopk32jl9aej5k@google.com
+CREATED:20141126T141852Z
+DESCRIPTION:{Stuart Milk} will be reading from "The Harvey Milk Story" by K
+ ari Krakow\, a children's book on his uncle\, the first openly gay person t
+ o be elected to public office in California.
+LAST-MODIFIED:20150129T145008Z
+LOCATION:Space 1
+SEQUENCE:4
+STATUS:CONFIRMED
+SUMMARY:Stuart Milk: Readings on Harvey Milk
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20150214T140000Z
+DTEND:20150214T143000Z
+DTSTAMP:20150130T165236Z
+UID:7cmpo76a2eme1d9sb7c861p554@google.com
+CREATED:20141126T141747Z
+DESCRIPTION:{Dan Smith} will deliver an LGBT History lesson for secondary s
+ chool children and young adults.
+LAST-MODIFIED:20150129T144941Z
+LOCATION:Space 1
+SEQUENCE:2
+STATUS:CONFIRMED
+SUMMARY:Dan Smith: LGBT History Lesson
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
 DTSTART:20150214T111000Z
 DTEND:20150214T114000Z
-DTSTAMP:20150127T170619Z
+DTSTAMP:20150130T165236Z
 UID:84dfbi3ordnt2jhq6ekfoe9llg@google.com
 CREATED:20141126T141611Z
-DESCRIPTION:
-LAST-MODIFIED:20150127T162743Z
+DESCRIPTION:{Stephen Boyce} will be delivering a diversity lesson for young
+ er children.
+LAST-MODIFIED:20150129T144830Z
 LOCATION:Space 1
 SEQUENCE:1
 STATUS:CONFIRMED
@@ -84,16 +160,16 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART:20150214T120000Z
 DTEND:20150214T130000Z
-DTSTAMP:20150127T170619Z
+DTSTAMP:20150130T165236Z
 UID:od4n755nomm0heavdeep218vlo@google.com
 ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Family
   Space;X-NUM-GUESTS=0:mailto:lgbthistoryfestival.org_0gc2nrd6ls6fjbuuf8icuj
  u3ag@group.calendar.google.com
 CREATED:20150101T120333Z
-DESCRIPTION:Stephen will be reading from: \n\n * "Boy in the Dress" (David 
- Walliams)\n * "King & King & Family" (Linda de Han)\n * "Kipper's Book of C
- olours" (Mick Inkpen)
-LAST-MODIFIED:20150126T231933Z
+DESCRIPTION:{Stephen Boyce} will be reading from: \n\n * "Boy in the Dress"
+  (David Walliams)\n * "King & King & Family" (Linda de Han)\n * "Kipper's B
+ ook of Colours" (Mick Inkpen)
+LAST-MODIFIED:20150129T144752Z
 LOCATION:Space 1
 SEQUENCE:0
 STATUS:CONFIRMED
@@ -101,82 +177,9 @@ SUMMARY:Stephen Boyce: Lesson and Readings
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
-DTSTART:20150214T160000Z
-DTEND:20150214T163000Z
-DTSTAMP:20150127T170619Z
-UID:10p12um7sahd92a6jcsorphn78@google.com
-CREATED:20141126T141924Z
-DESCRIPTION:{Adam Lowe} is a writer\, publisher and performer\, and the cur
- rent LGBT History Month Poet Laureate. He founded non-profit writer develop
- ment programme Young Enigma\, supporting young and emerging writers who ide
- ntify as LGBT. He also runs Dog Horn Publishing\, producing cutting edge bo
- oks\, and Vada Magazine\, an alternative LGBT magazine for the discerning r
- eader. His solo show 'Ecstasies' toured Manchester\, Leeds and Brighton\, a
- nd he has performed across the world - most recently in Chicago at the Mixe
- d Roots showcase at the Critical Mixed Race Studies conference at DePaul Un
- iversity.\n\nAdam will be reading from:\n"Trumpet" (Jackie Kay)\n\nAdam wil
- l also read from his own poetry.
-LAST-MODIFIED:20150124T210412Z
-LOCATION:Space 1
-SEQUENCE:0
-STATUS:CONFIRMED
-SUMMARY:Adam Lowe: Young Adult Readings
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-DTSTART:20150214T103000Z
-DTEND:20150214T110000Z
-DTSTAMP:20150127T170619Z
-UID:dsbauu3756djlvchfk13rnjo9o@google.com
-CREATED:20141126T141546Z
-DESCRIPTION:Juno will be reading from: \n"Tyrannosaurus Drip" (Julia Donald
- son)\n"Who Are You Stripy Horse?" (Jim Helmore)\n"The Paper Dolls" (Julia D
- onaldson)
-LAST-MODIFIED:20150124T210202Z
-LOCATION:Space 1
-SEQUENCE:0
-STATUS:CONFIRMED
-SUMMARY:Juno Roche: Young Children's Reading
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-DTSTART:20150215T140000Z
-DTEND:20150215T145000Z
-DTSTAMP:20150127T170619Z
-UID:11cuo7qocop30nk7jcl4kmj52k@google.com
-CREATED:20150105T164947Z
-DESCRIPTION:**Feelings and Friends**\n\nUsing the wonderful story of "Hello
- \, Sailor" and "The Great Big Book of Feelings" we shall explore the world 
- of emotional intelligence for and with children.\n\nAimed at children under
-  11 and those who support them.
-LAST-MODIFIED:20150115T203344Z
-LOCATION:Learning Studio
-SEQUENCE:0
-STATUS:CONFIRMED
-SUMMARY:Stephen Boyce: How to do a diversity lesson (part one)
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-DTSTART:20150215T150000Z
-DTEND:20150215T155000Z
-DTSTAMP:20150127T170619Z
-UID:uqv32bqnflge6lbdk3po4qgrto@google.com
-CREATED:20150105T165042Z
-DESCRIPTION:**Different & Diverse**\n\nWorkshop uses "Max Champion of the W
- orld" and "Made by Raffi" to acknowledge and celebrate how wonderful\, uniq
- ue and different each individual child is and how important that diversity 
- is.\n\nAimed at children under 11 and those who support them.
-LAST-MODIFIED:20150115T203328Z
-LOCATION:Learning Studio
-SEQUENCE:0
-STATUS:CONFIRMED
-SUMMARY:Stephen Boyce: How do do a diversity lesson (part two)
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
 DTSTART:20150215T110000Z
 DTEND:20150215T120000Z
-DTSTAMP:20150127T170619Z
+DTSTAMP:20150130T165236Z
 UID:qjcbjpsjjuq36is4a9edj09t78@google.com
 CREATED:20150105T164925Z
 DESCRIPTION:Meet Matilda\, a little girl who is given a magic rainbow bag. 
