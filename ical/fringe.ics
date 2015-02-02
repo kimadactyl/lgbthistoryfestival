@@ -6,9 +6,28 @@ METHOD:PUBLISH
 X-WR-CALNAME:Fringe
 X-WR-TIMEZONE:UTC
 BEGIN:VEVENT
+DTSTART:20150210T200000Z
+DTEND:20150210T210000Z
+DTSTAMP:20150202T182844Z
+UID:5k21nc22decrs7n14p48k40h2o@google.com
+CREATED:20150124T184940Z
+DESCRIPTION:Do you know what a 'pose plastique' is?  It's got nothing to do
+  with rubber.\n\nThe First National LGBT History Festival invites you to a 
+ pub quiz like no other: a historical sex quiz. LGBT Historian\, {Jeff Evans
+ }\, will be delving into the steamy history of sex to find questions that b
+ oth challenge and offend. Quiz master supremo\, and star of Away from Home\
+ , {Rob Ward}\, will be asking the questions at Via on Canal Street.
+LAST-MODIFIED:20150202T135952Z
+LOCATION:Via Fossa\, 30 Canal Street\, Manchester M1 3EZ\, United Kingdom
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:A Very Victorian Pub Quiz
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
 DTSTART:20150210T100000Z
 DTEND:20150210T110000Z
-DTSTAMP:20150130T165237Z
+DTSTAMP:20150202T182844Z
 UID:6soladig52ft45dbgankqjeue4@google.com
 CREATED:20150108T151252Z
 DESCRIPTION:This tour explores how gender and sexuality is constructed or o
@@ -36,7 +55,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART:20150209T140000Z
 DTEND:20150209T150000Z
-DTSTAMP:20150130T165237Z
+DTSTAMP:20150202T182844Z
 UID:iedo73v726d2hc7fjfb1dtj0rc@google.com
 CREATED:20150108T150951Z
 DESCRIPTION:This tour explores how gender and sexuality is constructed or o
@@ -62,28 +81,9 @@ SUMMARY:Museum Maketh Man
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
-DTSTART:20150210T200000Z
-DTEND:20150210T230000Z
-DTSTAMP:20150130T165237Z
-UID:5k21nc22decrs7n14p48k40h2o@google.com
-CREATED:20150124T184940Z
-DESCRIPTION:Do you know what a 'pose plastique' is?  It's got nothing to do
-  with rubber.\n\nThe First National LGBT History Festival invites you to a 
- pub quiz like no other: a historical sex quiz. LGBT Historian\, {Jeff Evans
- }\, will be delving into the steamy history of sex to find questions that b
- oth challenge and offend. Quiz master supremo\, and star of Away from Home\
- , {Rob Ward}\, will be asking the questions at Via on Canal Street.
-LAST-MODIFIED:20150124T185014Z
-LOCATION:Via Fossa\, 30 Canal Street\, Manchester M1 3EZ\, United Kingdom
-SEQUENCE:0
-STATUS:CONFIRMED
-SUMMARY:A Very Victorian Pub Quiz
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
 DTSTART:20150214T140000Z
 DTEND:20150214T153000Z
-DTSTAMP:20150130T165237Z
+DTSTAMP:20150202T182844Z
 UID:29tipo3tc4c3hg7sds65ra3d60@google.com
 ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Fringe
  ;X-NUM-GUESTS=0:mailto:lgbthistoryfestival.org_75su2ag0c26db2rj16ac8hinrk@g
@@ -110,7 +110,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART:20150214T134500Z
 DTEND:20150214T154500Z
-DTSTAMP:20150130T165237Z
+DTSTAMP:20150202T182844Z
 UID:1qftul9kd86g2h8a7i3pfdetj4@google.com
 CREATED:20150107T184833Z
 DESCRIPTION:{Emily Crompton} leads a heritage walking trail mapping the pol
@@ -141,7 +141,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART:20150210T134500Z
 DTEND:20150210T160000Z
-DTSTAMP:20150130T165237Z
+DTSTAMP:20150202T182844Z
 UID:c3if5d5c11mfklnt47772okp20@google.com
 ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Fringe
  ;X-NUM-GUESTS=0:mailto:lgbthistoryfestival.org_75su2ag0c26db2rj16ac8hinrk@g

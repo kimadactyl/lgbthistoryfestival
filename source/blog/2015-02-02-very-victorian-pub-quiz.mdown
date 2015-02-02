@@ -1,0 +1,25 @@
+---
+title: "A Very Victorian Pub Quiz"
+authors: Festival Team
+tags: Press Release
+hero: "/images/blog/avvs-pq/hero.jpg"
+teaser: 
+  - "Do you know what a 'pose plastique' is?  It's got nothing to do with rubber&hellip;"
+  - "The First National Festival of LGBT History invites you to a pub quiz like no other: a historical sex quiz. LGBT Historian, Jeff Evans, will be delving into the steamy history of sex to find questions that both challenge and offend."
+
+---
+
+_Do you know what a 'pose plastique' is?  It's got nothing to do with rubber._
+
+The First National Festival of LGBT History invites you to a pub quiz like no other: a historical sex quiz. LGBT Historian Jeff Evans will be delving into the steamy history of sex to find questions that both challenge and offend. 
+
+Quiz master supremo, and award-winning actor of Away from Home, **Rob Ward**, will be asking the questions. The prize will be a signed script from _Cucumber_ and _Queer as Folk_ writer **Russell T Davies**. 
+
+The quiz is at 8pm on Tuesday 10th Febuary at Polari (underneath Via on Canal Street), and is the official fundraiser for #AVVS. [Tickets cost £5](http://crm.lgbthistoryfestival.org/civicrm/event/info?reset=1&id=5), and include a complimentary drink and nibbles on arrival.
+
+Test your knowledge with some sample questions, and share it with your friends?
+
+[Book tickets for the event here.](http://crm.lgbthistoryfestival.org/civicrm/event/info?reset=1&id=5)
+
+<div class="quizz-container" data-width="100%" data-height="auto" data-quiz="37578"></div>
+<script src="//dcc4iyjchzom0.cloudfront.net/widget/loader.js" async></script>
