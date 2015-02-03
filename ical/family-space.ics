@@ -7,9 +7,50 @@ X-WR-CALNAME:Family Space
 X-WR-TIMEZONE:Europe/London
 X-WR-CALDESC:
 BEGIN:VEVENT
+DTSTART:20150214T120000Z
+DTEND:20150214T130000Z
+DTSTAMP:20150202T182843Z
+UID:od4n755nomm0heavdeep218vlo@google.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Family
+  Space;X-NUM-GUESTS=0:mailto:lgbthistoryfestival.org_0gc2nrd6ls6fjbuuf8icuj
+ u3ag@group.calendar.google.com
+CREATED:20150101T120333Z
+DESCRIPTION:{Stephen Boyce} will be delivering a diversity lesson aimed at 
+ children under 11 and those who support them.\n\nFamilies\, Frocks\, and Pe
+ nguins-- \n\nUsing four fantastic books we will discover a wealth of divers
+ e families and what makes them so important to each and everyone of us. The
+  books are: \n \n* "Boy in the Dress" (David Walliams)\n* "And Tango Makes 
+ Three" (Peter Parnell & Justin Richardson)\n* "Welcome to the Family" (Mary
+  Hoffman & Ros Asquith)\n* "The Great Big Book of Families" (Mary Hoffman &
+  Ros Asquith)
+LAST-MODIFIED:20150131T150724Z
+LOCATION:Space 1
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Stephen Boyce: Lesson and Readings
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+DTSTART:20150214T111000Z
+DTEND:20150214T114000Z
+DTSTAMP:20150202T182843Z
+UID:84dfbi3ordnt2jhq6ekfoe9llg@google.com
+CREATED:20141126T141611Z
+DESCRIPTION:{Stephen Boyce} will be delivering a diversity lesson for young
+ er children.\n\nAimed specifically at children under 6 and those who suppor
+ t them.\nCOLOURS\, come along and listen to Mike Inkpen’s book brought to l
+ ife with games and ideas from the Schools Out Classroom.
+LAST-MODIFIED:20150131T144845Z
+LOCATION:Space 1
+SEQUENCE:1
+STATUS:CONFIRMED
+SUMMARY:Stephen Boyce: Diversity Lesson 1: Colours
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
 DTSTART:20150215T150000Z
 DTEND:20150215T155000Z
-DTSTAMP:20150130T165236Z
+DTSTAMP:20150202T182843Z
 UID:uqv32bqnflge6lbdk3po4qgrto@google.com
 CREATED:20150105T165042Z
 DESCRIPTION:**Different & Diverse**\n\n{Stephen Boyce} uses "Max Champion o
@@ -26,7 +67,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART:20150215T140000Z
 DTEND:20150215T145000Z
-DTSTAMP:20150130T165236Z
+DTSTAMP:20150202T182843Z
 UID:11cuo7qocop30nk7jcl4kmj52k@google.com
 CREATED:20150105T164947Z
 DESCRIPTION:**Feelings and Friends**\n\nUsing the wonderful story of "Hello
@@ -43,7 +84,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART:20150214T160000Z
 DTEND:20150214T163000Z
-DTSTAMP:20150130T165236Z
+DTSTAMP:20150202T182843Z
 UID:10p12um7sahd92a6jcsorphn78@google.com
 CREATED:20141126T141924Z
 DESCRIPTION:{Adam Lowe} is a writer\, publisher and performer\, and the cur
@@ -66,7 +107,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART:20150214T144000Z
 DTEND:20150214T151000Z
-DTSTAMP:20150130T165236Z
+DTSTAMP:20150202T182843Z
 UID:8n7i1shhdjupam07fkg1lrmims@google.com
 CREATED:20141126T141817Z
 DESCRIPTION:{Sue Sanders} will be reading from:\n\n * "Spacegirl Pukes" (Ka
@@ -82,7 +123,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART:20150214T132000Z
 DTEND:20150214T135000Z
-DTSTAMP:20150130T165236Z
+DTSTAMP:20150202T182843Z
 UID:q1jm6tqb3a20rm86d030o8rdps@google.com
 CREATED:20141126T141639Z
 DESCRIPTION:{Catherine Hall} will be reading from:\n\n * "My Invented Life"
@@ -98,7 +139,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART:20150214T103000Z
 DTEND:20150214T110000Z
-DTSTAMP:20150130T165236Z
+DTSTAMP:20150202T182843Z
 UID:dsbauu3756djlvchfk13rnjo9o@google.com
 CREATED:20141126T141546Z
 DESCRIPTION:{Juno Roche} will be reading from: \n\n * "Tyrannosaurus Drip" 
@@ -114,7 +155,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART:20150214T152000Z
 DTEND:20150214T155000Z
-DTSTAMP:20150130T165236Z
+DTSTAMP:20150202T182843Z
 UID:8v1j88vncf7kjopk32jl9aej5k@google.com
 CREATED:20141126T141852Z
 DESCRIPTION:{Stuart Milk} will be reading from "The Harvey Milk Story" by K
@@ -130,7 +171,7 @@ END:VEVENT
 BEGIN:VEVENT
 DTSTART:20150214T140000Z
 DTEND:20150214T143000Z
-DTSTAMP:20150130T165236Z
+DTSTAMP:20150202T182843Z
 UID:7cmpo76a2eme1d9sb7c861p554@google.com
 CREATED:20141126T141747Z
 DESCRIPTION:{Dan Smith} will deliver an LGBT History lesson for secondary s
@@ -143,43 +184,9 @@ SUMMARY:Dan Smith: LGBT History Lesson
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
-DTSTART:20150214T111000Z
-DTEND:20150214T114000Z
-DTSTAMP:20150130T165236Z
-UID:84dfbi3ordnt2jhq6ekfoe9llg@google.com
-CREATED:20141126T141611Z
-DESCRIPTION:{Stephen Boyce} will be delivering a diversity lesson for young
- er children.
-LAST-MODIFIED:20150129T144830Z
-LOCATION:Space 1
-SEQUENCE:1
-STATUS:CONFIRMED
-SUMMARY:Stephen Boyce: Diversity Lesson 1
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
-DTSTART:20150214T120000Z
-DTEND:20150214T130000Z
-DTSTAMP:20150130T165236Z
-UID:od4n755nomm0heavdeep218vlo@google.com
-ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;CN=Family
-  Space;X-NUM-GUESTS=0:mailto:lgbthistoryfestival.org_0gc2nrd6ls6fjbuuf8icuj
- u3ag@group.calendar.google.com
-CREATED:20150101T120333Z
-DESCRIPTION:{Stephen Boyce} will be reading from: \n\n * "Boy in the Dress"
-  (David Walliams)\n * "King & King & Family" (Linda de Han)\n * "Kipper's B
- ook of Colours" (Mick Inkpen)
-LAST-MODIFIED:20150129T144752Z
-LOCATION:Space 1
-SEQUENCE:0
-STATUS:CONFIRMED
-SUMMARY:Stephen Boyce: Lesson and Readings
-TRANSP:OPAQUE
-END:VEVENT
-BEGIN:VEVENT
 DTSTART:20150215T110000Z
 DTEND:20150215T120000Z
-DTSTAMP:20150130T165236Z
+DTSTAMP:20150202T182843Z
 UID:qjcbjpsjjuq36is4a9edj09t78@google.com
 CREATED:20150105T164925Z
 DESCRIPTION:Meet Matilda\, a little girl who is given a magic rainbow bag. 

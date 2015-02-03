@@ -8,11 +8,13 @@ a-very-victorian-scandal-the-trial:
 festival-launch-the-1st-alan-horsfall-lec:
   cost: sold out
 museum-maketh-man:
+  url: "http://crm.lgbthistoryfestival.org/civicrm/event/info?reset=1&id=8"
   cost: free
 museum-maketh-man1: 
+  url: "http://crm.lgbthistoryfestival.org/civicrm/event/info?reset=1&id=7"
   cost: free
 a-very-victorian-pub-quiz:
-  cost: £12
+  cost: £5
   url: "http://crm.lgbthistoryfestival.org/civicrm/event/info?reset=1&id=5"
 the-little-peoples-history-museum-under-t:
   cost: free

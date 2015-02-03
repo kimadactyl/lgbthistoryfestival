@@ -184,7 +184,7 @@ title: Schedule
                     %i.icon-ticket 
                     Ticket required:
                     = ticketed.cost
-              - else
+              - elsif(list.to_s.parameterize != "conference")
                 // Else they can come with no ticket
                 = "Free &mdash; no ticket required"
 
