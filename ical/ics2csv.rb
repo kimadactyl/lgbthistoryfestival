@@ -37,6 +37,7 @@ def main
     puts "Usage: ics2csv.rb [icalfile(s)]..."
   else
     csv = File.open("./"+DEFAULT_OUTFILE, 'wb')
+    init_outfile csv
     ARGV.each do |filename|
       cal = Icalendar.parse(open(filename)).first
       cal.events.each do |event|
