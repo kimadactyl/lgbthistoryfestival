@@ -1,9 +1,0 @@
-- film = data.films.fetch(day)
-%h3
-  = film.title
-  - if (film.details)
-    %span.details= "(" + film.details.to_s + ")"
-:markdown
-  #{film.description}
-
-  _Starts #{film.time} at #{film.location}_

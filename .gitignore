@@ -18,3 +18,7 @@
 
 # Ignore .DS_store file
 .DS_Store
+
+# Ignore sync files
+sync-dev.sh
+sync-live.sh
