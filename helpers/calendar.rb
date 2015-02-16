@@ -2,7 +2,9 @@ require 'icalendar'
 module FestivalCalendar
   # Constant, accessible from any page/layout as FestivalCalendar::DAYS
   # "Thursday" => Time.new(2015,2,12),
-  DAYS = {  
+  DAYS = {  "Monday" => Time.new(2015,2,9),
+            "Tuesday" => Time.new(2015,2,10),
+            "Wednesday" => Time.new(2015,2,11),
             "Thursday" => Time.new(2015,2,12),
             "Friday" => Time.new(2015,2,13),
             "Saturday" => Time.new(2015,2,14),
