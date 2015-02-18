@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html class='no-js' lang='en'>
+  <head>
+    <meta charset='utf-8'>
+    <meta content='width=device-width, initial-scale=1.0' name='viewport'>
+    <!-- Facebook info -->
+    <meta content='First National Festival of LGBT History' property='og:site_name'>
+    <meta property='og:title'>
+    <meta content='http://lgbthistoryfestival.org/images/wide-logo.png' property='og:image'>
+    <!-- Use title if it's in the page YAML frontmatter -->
+    <title>The First National Festival of LGBT History</title>
+    <!-- Fonts -->
+    <script src='//use.typekit.net/cou1fvf.js' type='text/javascript'></script>
+    <script>
+      try{Typekit.load();}catch(e){}
+    </script>
+    <link href="../../stylesheets/app.css" rel="stylesheet" type="text/css" />
+    <script src="../../javascripts/libs.js" type="text/javascript"></script>
+  </head>
+  <body class='bower_components bower_components_panelsnap bower_components_panelsnap_README'>
+    <div class='sticky show-for-small contain-to-grid'>
+      <nav class='top-bar' data-topbar='data-topbar' id='mobilenav' role='navigation'>
+        <ul class='title-area'>
+          <li class='name'>
+            <h1></h1>
+          </li>
+          <li class='toggle-topbar menu-icon'>
+            <a href="#"><span>Menu</span></a>
+          </li>
+        </ul>
+        <section class='top-bar-section block-grid-1'>
+          <ul class='left'>
+            <li class=''><a class="" href="/">Home</a></li>
+            <li class=''><a class="" href="/schedule.html">Schedule</a></li>
+            <li class=''><a class="" href="/travel.html">Travel</a></li>
+            <li class=''><a class="" href="/blog.html">Blog</a></li>
+            <li class=''><a class="" href="/conference.html">Academic</a></li>
+            <li class=''><a class="" href="/about-us.html">About</a></li>
+            <li class=''><a class="" href="/contact.html">Contact</a></li>
+          </ul>
+        </section>
+      </nav>
+    </div>
+    <section id='branding'>
+      <a href="/"><h1>
+        <img alt="The First National Festival of LGBT History" width="375" height="150" class="mainlogo" src="../../images/logo.png" />
+        <img alt="Hosted by the City of Manchester" width="492" height="82" class="strapline" src="../../images/strapline.png" />
+      </h1>
+      </a>
+      <nav class='hide-for-small' id='primary'>
+        <ul>
+          <span class='navleft'>
+            <li class=''><a class="" href="/schedule.html">Schedule</a></li>
+            <li class=''><a class="" href="/travel.html">Travel</a></li>
+            <li class=''><a class="" href="/blog.html">Blog</a></li>
+          </span>
+          <span class='navright'>
+            <li class=''><a class="" href="/conference.html">Academic</a></li>
+            <li class=''><a class="" href="/about-us.html">About</a></li>
+            <li class=''><a class="" href="/contact.html">Contact</a></li>
+          </span>
+        </ul>
+      </nav>
+      <div id='topborder'></div>
+    </section>
+    <section id='main' role='content'>
+      <h1 id="jquerypanelsnap-build-statushttpstravis-ciorgguidoboumanjquery-panelsnappnghttpstravis-ciorgguidoboumanjquery-panelsnap">jQuery.panelSnap <a href="https://travis-ci.org/guidobouman/jquery-panelsnap"><img alt="Build Status" src="https://travis-ci.org/guidobouman/jquery-panelsnap.png" /></a></h1>
+      <p>A jQuery plugin that provides snapping functionality to a set of panels within your interface. Based on <a href="https://github.com/guidobouman/jquery-plugin-boilerplate">jQuery Plugin Boilerplate</a></p>
+      
+      <h1 id="demo">Demo</h1>
+      <p>Check out the homepage at <a href="http://guidobouman.github.io/jquery-panelsnap">http://guidobouman.github.io/jquery-panelsnap</a> or the demos folder for a working demo that explains most of the features present in the plugin.</p>
+      
+      <h1 id="usage">Usage</h1>
+      <p>## The Basics
+      The most basic setup will bind to body and snap all sections.</p>
+      
+      <p>Javascript:
+      ```html
+      &lt;!doctype html&gt;</p>
+      <html>
+        <head>
+          <script src="/path/to/jquery.js"></script>
+          <script src="/path/to/jquery.panelSnap.js"></script>
+          <script>
+            jQuery(function($) {
+              $('body').panelSnap();
+            });
+          </script>
+        </head>
+        <body>
+          <section>
+            ...
+          </section>
+          <section>
+            ...
+          </section>
+          <section>
+            ...
+          </section>
+        </body>
+      </html>
+      <p>```</p>
+      
+      <h2 id="options">Options</h2>
+      <p>The following is a list of available options. The values are their defaults within the plugin.
+      ```javascript
+      var options = {
+        $menu: false,
+        menuSelector: 'a',
+        panelSelector: 'section',
+        namespace: '.panelSnap',
+        onSnapStart: function(){},
+        onSnapFinish: function(){},
+        onActivate: function(){},
+        directionThreshold: 50,
+        slideSpeed: 200
+      };</p>
+      
+      <p>$('.panel_container').panelSnap(options);
+      ```</p>
+      
+      <p><code>$menu</code>:
+      jQuery DOM object referencing a menu that contains menu items.</p>
+      
+      <p><code>menuSelector</code>:
+      A string containing the css selector to menu items (scoped within the menu).</p>
+      
+      <p><code>panelSelector</code>:
+      A string containg the css selector to panels (scoped within the container).</p>
+      
+      <p><code>namespace</code>:
+      A string containing the jQuery event namespace that's being used.</p>
+      
+      <p><code>onSnapStart</code>:
+      A callback function that is being fired before a panel is being snapped.</p>
+      
+      <p><code>onSnapFinish</code>:
+      A callback function that is being fired after a panel was snapped.</p>
+      
+      <p><code>onActivate</code>:
+      A callback function that is being fired after a panel was activated. (This callback will ALWAYS fire, where onSnapStart &amp; onStapFinish only fire before and after the plugin is actually snapping (animating) towards a panel.)</p>
+      
+      <p><code>directionThreshold</code>:
+      An integer specifying the amount of pixels required to scroll before the plugin detects a direction and snaps to the next panel.</p>
+      
+      <p><code>slideSpeed</code>:
+      The ammount of miliseconds in which the plugin snaps to the desired panel.</p>
+      
+      <h2 id="attaching-a-menu">Attaching a menu</h2>
+      
+      <p>```html
+      &lt;!doctype html&gt;</p>
+      <html>
+        <head>
+          <script src="/path/to/jquery.js"></script>
+          <script src="/path/to/jquery.panelSnap.js"></script>
+          <script>
+            jQuery(function($) {
+              var options = {
+                $menu: $('header .menu')
+              };
+              
+              $('.panel_container').panelSnap(options);
+            });
+          </script>
+        </head>
+        <body>
+          <header>
+            <div class="menu">
+              <a href="/first" data-panel="first">First</a>
+              <a href="/second" data-panel="second">Second</a>
+              <a href="/third" data-panel="third">Third</a>
+            </div>
+          </header>
+          <div class="panel_container">
+            <section data-panel="first">
+              ...
+            </section>
+            <section data-panel="second">
+              ...
+            </section>
+            <section data-panel="third">
+              ...
+            </section>
+          </div>
+        </body>
+      </html>
+      <p>```</p>
+      
+      <p>Note the <code>data-panel</code> attributes on the links and the panels. This way the plugin knows which link matches to which panel.</p>
+      
+      <h1 id="events">Events</h1>
+      <p>The plugin emits the following events on the container object in the <code>panelsnap</code> namespace:</p>
+      
+      <p><code>panelsnap:start</code>:
+      Fired before a panel is being snapped.</p>
+      
+      <p><code>panelsnap:finish</code>:
+      Fired after a panel was snapped.</p>
+      
+      <p><code>panelsnap:activate</code>:
+      Fired after a panel was activated. (This callback will ALWAYS fire when switching to a panel, where onSnapStart &amp; onStapFinish only fire before and after the plugin is actually snapping (animating) towards a panel.)</p>
+    </section>
+    <section id='footer' role='footer'>
+      <div id='partners'>
+        <div class='row'>
+          <ul class='large-block-grid-6 medium-block-grid-6 small-block-grid-3 partners'>
+            <li>
+              <a href="http://lgbthistorymonth.org.uk/"><img alt="" width="350" height="350" src="../../images/partners/logo1_lgbthistmonth.png" />
+              </a>
+            </li>
+            <li>
+              <a href="http://lgf.org.uk"><img alt="" width="350" height="350" src="../../images/partners/logo2_lgf.png" />
+              </a>
+            </li>
+            <li>
+              <a href="http://mmu.ac.uk"><img alt="" width="350" height="350" src="../../images/partners/logo3_mmu.png" />
+              </a>
+            </li>
+            <li>
+              <a href="http://www.phm.org.uk/"><img alt="" width="350" height="350" src="../../images/partners/logo4_PHM.png" />
+              </a>
+            </li>
+            <li>
+              <a href="http://www.schools-out.org.uk/"><img alt="" width="350" height="350" src="../../images/partners/logo5_schoolsout.png" />
+              </a>
+            </li>
+            <li>
+              <a href="http://www.archivesplus.org/"><img alt="" width="350" height="350" src="../../images/partners/logo6_mcc.png" />
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div id='supporters'>
+        <div class='row'>
+          <ul class='large-block-grid-8 medium-block-grid-8 small-block-grid-4 text-center partners'>
+            <li>
+              <a href="http://www.brittenpears.org/"><img alt="" width="200" height="200" src="../../images/supporters/1-bpf.png" />
+              </a>
+            </li>
+            <li>
+              <a href="http://www.artscouncil.org.uk/"><img alt="" width="200" height="200" src="../../images/supporters/2-artscouncil.png" />
+              </a>
+            </li>
+            <li>
+              <a href="https://www.atl.org.uk/"><img alt="" width="200" height="200" src="../../images/supporters/3-ATL.png" />
+              </a>
+            </li>
+            <li>
+              <a href="http://www.c-h-e.org.uk/"><img alt="" width="200" height="200" src="../../images/supporters/4-che.png" />
+              </a>
+            </li>
+            <li>
+              <a href="http://milkfoundation.org/"><img alt="" width="200" height="200" src="../../images/supporters/5-milkfoundation.png" />
+              </a>
+            </li>
+            <li>
+              <a href="http://www.hlf.org.uk/"><img alt="" width="200" height="200" src="../../images/supporters/6-hlf.png" />
+              </a>
+            </li>
+            <li>
+              <a href="http://www.lgbtyouthnorthwest.org.uk/"><img alt="" width="200" height="200" src="../../images/supporters/7-lgbtyouth.png" />
+              </a>
+            </li>
+            <li>
+              <a href="http://www.alliscalm.net/"><img alt="" width="200" height="200" src="../../images/supporters/8-kim.png" />
+              </a>
+            </li>
+            <li>
+              <a href="http://www.marketingmanchester.com/"><img alt="" width="200" height="200" src="../../images/supporters/9-MM.png" />
+              </a>
+            </li>
+            <li>
+              <a href="http://studiosquid.co.uk/"><img alt="" width="200" height="200" src="../../images/supporters/10-squid.png" />
+              </a>
+            </li>
+            <li>
+              <a href="http://www.unison.org.uk/"><img alt="" width="200" height="200" src="../../images/supporters/11-unison.png" />
+              </a>
+            </li>
+            <li>
+              <a href="http://initiative-consulting.com/"><img alt="" width="200" height="200" src="../../images/supporters/12-foaleconsult.png" />
+              </a>
+            </li>
+            <li>
+              <a href="https://www.dlapiper.com/en/uk/"><img alt="" width="200" height="200" src="../../images/supporters/13-dlapiper.png" />
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <section class='pink' id='credits' role='credits'>
+      <div class='row'>
+        <div class='columns medium-2 small-1'>
+          <p></p>
+        </div>
+        <div class='columns medium-8 small-10'>
+          <h6 id="lgbt-history-festival">© 2014 LGBT History Festival</h6>
+          
+          <p><strong>Part of Schools OUT UK, Registered Charity #1156352 in England and Wales.</strong></p>
+          
+          <hr />
+          
+          <p>Uncovering &amp; celebrating our <strong>past</strong> to enlighten our <strong>present</strong> &amp; thereby guiding our creation of a more inclusive &amp; equitable <strong>future</strong>.</p>
+          
+          <hr />
+          
+          <p>LGBT History Festival website created with love by <a href="http://alliscalm.net">Kim Foale</a> and <a href="http://studiosquid.co.uk/">Squid</a>.</p>
+        </div>
+        <div class='columns medium-2 small-1'>
+          <p></p>
+        </div>
+      </div>
+    </section>
+    <script src="../../javascripts/all.js" type="text/javascript"></script>
+    <script type="text/javascript">
+      var _gaq = _gaq || [];
+      _gaq.push(["_setAccount", "UA-53451502-1"]);
+      _gaq.push(["_trackPageview"]);
+      (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? '//ssl' : '//www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
+    </script>
+  </body>
+</html>

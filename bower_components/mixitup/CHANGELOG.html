@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html class='no-js' lang='en'>
+  <head>
+    <meta charset='utf-8'>
+    <meta content='width=device-width, initial-scale=1.0' name='viewport'>
+    <!-- Facebook info -->
+    <meta content='First National Festival of LGBT History' property='og:site_name'>
+    <meta property='og:title'>
+    <meta content='http://lgbthistoryfestival.org/images/wide-logo.png' property='og:image'>
+    <!-- Use title if it's in the page YAML frontmatter -->
+    <title>The First National Festival of LGBT History</title>
+    <!-- Fonts -->
+    <script src='//use.typekit.net/cou1fvf.js' type='text/javascript'></script>
+    <script>
+      try{Typekit.load();}catch(e){}
+    </script>
+    <link href="../../stylesheets/app.css" rel="stylesheet" type="text/css" />
+    <script src="../../javascripts/libs.js" type="text/javascript"></script>
+  </head>
+  <body class='bower_components bower_components_mixitup bower_components_mixitup_CHANGELOG'>
+    <div class='sticky show-for-small contain-to-grid'>
+      <nav class='top-bar' data-topbar='data-topbar' id='mobilenav' role='navigation'>
+        <ul class='title-area'>
+          <li class='name'>
+            <h1></h1>
+          </li>
+          <li class='toggle-topbar menu-icon'>
+            <a href="#"><span>Menu</span></a>
+          </li>
+        </ul>
+        <section class='top-bar-section block-grid-1'>
+          <ul class='left'>
+            <li class=''><a class="" href="/">Home</a></li>
+            <li class=''><a class="" href="/schedule.html">Schedule</a></li>
+            <li class=''><a class="" href="/travel.html">Travel</a></li>
+            <li class=''><a class="" href="/blog.html">Blog</a></li>
+            <li class=''><a class="" href="/conference.html">Academic</a></li>
+            <li class=''><a class="" href="/about-us.html">About</a></li>
+            <li class=''><a class="" href="/contact.html">Contact</a></li>
+          </ul>
+        </section>
+      </nav>
+    </div>
+    <section id='branding'>
+      <a href="/"><h1>
+        <img alt="The First National Festival of LGBT History" width="375" height="150" class="mainlogo" src="../../images/logo.png" />
+        <img alt="Hosted by the City of Manchester" width="492" height="82" class="strapline" src="../../images/strapline.png" />
+      </h1>
+      </a>
+      <nav class='hide-for-small' id='primary'>
+        <ul>
+          <span class='navleft'>
+            <li class=''><a class="" href="/schedule.html">Schedule</a></li>
+            <li class=''><a class="" href="/travel.html">Travel</a></li>
+            <li class=''><a class="" href="/blog.html">Blog</a></li>
+          </span>
+          <span class='navright'>
+            <li class=''><a class="" href="/conference.html">Academic</a></li>
+            <li class=''><a class="" href="/about-us.html">About</a></li>
+            <li class=''><a class="" href="/contact.html">Contact</a></li>
+          </span>
+        </ul>
+      </nav>
+      <div id='topborder'></div>
+    </section>
+    <section id='main' role='content'>
+      <h1 id="mixitup-changelog">MixItUp ChangeLog</h1>
+      
+      <h2 id="section">2.1.7</h2>
+      <ul>
+        <li>Fixed removeStyle jQuery method to account for camel-cased style properties in firefox, affecting animateResizeTargets.</li>
+        <li>Replaced all == with ===</li>
+        <li>Ensure there are targets before before calling nextElementSibling in _printSort method</li>
+        <li>Removed some messy whitespace</li>
+      </ul>
+      
+      <h2 id="section-1">2.1.6</h2>
+      <ul>
+        <li>Replaced occurences of .nodeValue with .value to remove deprecation warning in latest Chrome</li>
+        <li>Removed miscellaneous trailing whitespace characters</li>
+      </ul>
+      
+      <h2 id="section-2">2.1.5</h2>
+      <ul>
+        <li>Fixed mis-naming issue preventing user-defined staggerSequence function from being called.</li>
+        <li>Fixed issue where filter-in animations broke if 'fade' effect was not present</li>
+      </ul>
+      
+      <h2 id="section-3">2.1.4</h2>
+      <ul>
+        <li>Made new sorting order available to futureState object during mixStart event</li>
+        <li>Made new display value available to futureState object during mixStart event</li>
+      </ul>
+      
+      <h2 id="section-4">2.1.3</h2>
+      <ul>
+        <li>Fixed scrolling issues when container height reduces document height past current scroll positiong</li>
+        <li>Added _isElement() helper for IE8 to test HTMLElement, fixing _parseInsertArgs bug in IE8</li>
+      </ul>
+      
+      <h2 id="section-5">2.1.2</h2>
+      <ul>
+        <li>Added <code>forceRefresh</code> method enabling on-demand re-synthesis of HTML5 data attributes to dataset properties for IE10 and below.</li>
+      </ul>
+      
+      <h2 id="section-6">2.1.1</h2>
+      <ul>
+        <li>Fixed issue from 2.0.5 preventing _buildState action hook from modifying state object, affected pagination extension.</li>
+      </ul>
+      
+      <h2 id="section-7">2.1.0</h2>
+      <ul>
+        <li>Fixed issue preventing clickable controls from controlling multiple instantiations simultaneously.</li>
+        <li>Fixed issue when using insert/append/prepend method on an empty container</li>
+        <li>Added new static API methods for extending $.MixItUp prototype, and hooking actions and filters.</li>
+      </ul>
+      
+      <h2 id="section-8">2.0.6</h2>
+      <ul>
+        <li>Retain scroll position if container height change decreases document height while filtering out targets. </li>
+        <li>Fixed animation bug when sorting by 'default:desc'.</li>
+      </ul>
+      
+      <h2 id="section-9">2.0.5</h2>
+      <ul>
+        <li>Added a 'futureState' object as the second parameter for the <code>onMixStart</code> callback and <code>'mixStart'</code> event.</li>
+      </ul>
+      
+      <h2 id="section-10">2.0.4</h2>
+      <ul>
+        <li>Fixed issue with <code>controls.toggleFilterButtons</code> where <code>'none'</code> was included in toggleArray. Various toggle logic related improvements.</li>
+      </ul>
+      
+      <h2 id="section-11">2.0.3</h2>
+      <ul>
+        <li>Fixed <code>_updateControls()</code> bug when <code>controls.toggleFilterButtons</code> is set to <code>true</code></li>
+      </ul>
+      
+      <h2 id="section-12">2.0.2</h2>
+      <ul>
+        <li>Fixed <code>controls.toggleFilterButtons</code> config option</li>
+      </ul>
+      
+      <h2 id="section-13">2.0.1</h2>
+      <ul>
+        <li>Fixed some IE8 issues.</li>
+      </ul>
+      
+      <h2 id="section-14">2.0.0</h2>
+      <ul>
+        <li>Complete rewrite. See <a href="docs/version-1-migration.md">Version 1 Migration Guide</a> for more information.</li>
+      </ul>
+    </section>
+    <section id='footer' role='footer'>
+      <div id='partners'>
+        <div class='row'>
+          <ul class='large-block-grid-6 medium-block-grid-6 small-block-grid-3 partners'>
+            <li>
+              <a href="http://lgbthistorymonth.org.uk/"><img alt="" width="350" height="350" src="../../images/partners/logo1_lgbthistmonth.png" />
+              </a>
+            </li>
+            <li>
+              <a href="http://lgf.org.uk"><img alt="" width="350" height="350" src="../../images/partners/logo2_lgf.png" />
+              </a>
+            </li>
+            <li>
+              <a href="http://mmu.ac.uk"><img alt="" width="350" height="350" src="../../images/partners/logo3_mmu.png" />
+              </a>
+            </li>
+            <li>
+              <a href="http://www.phm.org.uk/"><img alt="" width="350" height="350" src="../../images/partners/logo4_PHM.png" />
+              </a>
+            </li>
+            <li>
+              <a href="http://www.schools-out.org.uk/"><img alt="" width="350" height="350" src="../../images/partners/logo5_schoolsout.png" />
+              </a>
+            </li>
+            <li>
+              <a href="http://www.archivesplus.org/"><img alt="" width="350" height="350" src="../../images/partners/logo6_mcc.png" />
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div id='supporters'>
+        <div class='row'>
+          <ul class='large-block-grid-8 medium-block-grid-8 small-block-grid-4 text-center partners'>
+            <li>
+              <a href="http://www.brittenpears.org/"><img alt="" width="200" height="200" src="../../images/supporters/1-bpf.png" />
+              </a>
+            </li>
+            <li>
+              <a href="http://www.artscouncil.org.uk/"><img alt="" width="200" height="200" src="../../images/supporters/2-artscouncil.png" />
+              </a>
+            </li>
+            <li>
+              <a href="https://www.atl.org.uk/"><img alt="" width="200" height="200" src="../../images/supporters/3-ATL.png" />
+              </a>
+            </li>
+            <li>
+              <a href="http://www.c-h-e.org.uk/"><img alt="" width="200" height="200" src="../../images/supporters/4-che.png" />
+              </a>
+            </li>
+            <li>
+              <a href="http://milkfoundation.org/"><img alt="" width="200" height="200" src="../../images/supporters/5-milkfoundation.png" />
+              </a>
+            </li>
+            <li>
+              <a href="http://www.hlf.org.uk/"><img alt="" width="200" height="200" src="../../images/supporters/6-hlf.png" />
+              </a>
+            </li>
+            <li>
+              <a href="http://www.lgbtyouthnorthwest.org.uk/"><img alt="" width="200" height="200" src="../../images/supporters/7-lgbtyouth.png" />
+              </a>
+            </li>
+            <li>
+              <a href="http://www.alliscalm.net/"><img alt="" width="200" height="200" src="../../images/supporters/8-kim.png" />
+              </a>
+            </li>
+            <li>
+              <a href="http://www.marketingmanchester.com/"><img alt="" width="200" height="200" src="../../images/supporters/9-MM.png" />
+              </a>
+            </li>
+            <li>
+              <a href="http://studiosquid.co.uk/"><img alt="" width="200" height="200" src="../../images/supporters/10-squid.png" />
+              </a>
+            </li>
+            <li>
+              <a href="http://www.unison.org.uk/"><img alt="" width="200" height="200" src="../../images/supporters/11-unison.png" />
+              </a>
+            </li>
+            <li>
+              <a href="http://initiative-consulting.com/"><img alt="" width="200" height="200" src="../../images/supporters/12-foaleconsult.png" />
+              </a>
+            </li>
+            <li>
+              <a href="https://www.dlapiper.com/en/uk/"><img alt="" width="200" height="200" src="../../images/supporters/13-dlapiper.png" />
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <section class='pink' id='credits' role='credits'>
+      <div class='row'>
+        <div class='columns medium-2 small-1'>
+          <p></p>
+        </div>
+        <div class='columns medium-8 small-10'>
+          <h6 id="lgbt-history-festival">© 2014 LGBT History Festival</h6>
+          
+          <p><strong>Part of Schools OUT UK, Registered Charity #1156352 in England and Wales.</strong></p>
+          
+          <hr />
+          
+          <p>Uncovering &amp; celebrating our <strong>past</strong> to enlighten our <strong>present</strong> &amp; thereby guiding our creation of a more inclusive &amp; equitable <strong>future</strong>.</p>
+          
+          <hr />
+          
+          <p>LGBT History Festival website created with love by <a href="http://alliscalm.net">Kim Foale</a> and <a href="http://studiosquid.co.uk/">Squid</a>.</p>
+        </div>
+        <div class='columns medium-2 small-1'>
+          <p></p>
+        </div>
+      </div>
+    </section>
+    <script src="../../javascripts/all.js" type="text/javascript"></script>
+    <script type="text/javascript">
+      var _gaq = _gaq || [];
+      _gaq.push(["_setAccount", "UA-53451502-1"]);
+      _gaq.push(["_trackPageview"]);
+      (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? '//ssl' : '//www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
+    </script>
+  </body>
+</html>

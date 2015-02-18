@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html class='no-js' lang='en'>
+  <head>
+    <meta charset='utf-8'>
+    <meta content='width=device-width, initial-scale=1.0' name='viewport'>
+    <!-- Facebook info -->
+    <meta content='First National Festival of LGBT History' property='og:site_name'>
+    <meta property='og:title'>
+    <meta content='http://lgbthistoryfestival.org/images/wide-logo.png' property='og:image'>
+    <!-- Use title if it's in the page YAML frontmatter -->
+    <title>The First National Festival of LGBT History</title>
+    <!-- Fonts -->
+    <script src='//use.typekit.net/cou1fvf.js' type='text/javascript'></script>
+    <script>
+      try{Typekit.load();}catch(e){}
+    </script>
+    <link href="../../../../../stylesheets/app.css" rel="stylesheet" type="text/css" />
+    <script src="../../../../../javascripts/libs.js" type="text/javascript"></script>
+  </head>
+  <body class='bower_components bower_components_jquery bower_components_jquery_source bower_components_jquery_source_bower_components bower_components_jquery_source_bower_components_jquery bower_components_jquery_source_bower_components_jquery_CONTRIBUTING'>
+    <div class='sticky show-for-small contain-to-grid'>
+      <nav class='top-bar' data-topbar='data-topbar' id='mobilenav' role='navigation'>
+        <ul class='title-area'>
+          <li class='name'>
+            <h1></h1>
+          </li>
+          <li class='toggle-topbar menu-icon'>
+            <a href="#"><span>Menu</span></a>
+          </li>
+        </ul>
+        <section class='top-bar-section block-grid-1'>
+          <ul class='left'>
+            <li class=''><a class="" href="/">Home</a></li>
+            <li class=''><a class="" href="/schedule.html">Schedule</a></li>
+            <li class=''><a class="" href="/travel.html">Travel</a></li>
+            <li class=''><a class="" href="/blog.html">Blog</a></li>
+            <li class=''><a class="" href="/conference.html">Academic</a></li>
+            <li class=''><a class="" href="/about-us.html">About</a></li>
+            <li class=''><a class="" href="/contact.html">Contact</a></li>
+          </ul>
+        </section>
+      </nav>
+    </div>
+    <section id='branding'>
+      <a href="/"><h1>
+        <img alt="The First National Festival of LGBT History" width="375" height="150" class="mainlogo" src="../../../../../images/logo.png" />
+        <img alt="Hosted by the City of Manchester" width="492" height="82" class="strapline" src="../../../../../images/strapline.png" />
+      </h1>
+      </a>
+      <nav class='hide-for-small' id='primary'>
+        <ul>
+          <span class='navleft'>
+            <li class=''><a class="" href="/schedule.html">Schedule</a></li>
+            <li class=''><a class="" href="/travel.html">Travel</a></li>
+            <li class=''><a class="" href="/blog.html">Blog</a></li>
+          </span>
+          <span class='navright'>
+            <li class=''><a class="" href="/conference.html">Academic</a></li>
+            <li class=''><a class="" href="/about-us.html">About</a></li>
+            <li class=''><a class="" href="/contact.html">Contact</a></li>
+          </span>
+        </ul>
+      </nav>
+      <div id='topborder'></div>
+    </section>
+    <section id='main' role='content'>
+      <h1 id="contributing-to-jquery">Contributing to jQuery</h1>
+      
+      <ol>
+        <li><a href="#getting-involved">Getting Involved</a></li>
+        <li><a href="#discussion">Discussion</a></li>
+        <li><a href="#how-to-report-bugs">How To Report Bugs</a></li>
+        <li><a href="#jquery-core-style-guide">Core Style Guide</a></li>
+        <li><a href="#tips-for-bug-patching">Tips For Bug Patching</a></li>
+      </ol>
+      
+      <h2 id="getting-involved">Getting Involved</h2>
+      
+      <p>There are a number of ways to get involved with the development of jQuery core. Even if you've never contributed code to an Open Source project before, we're always looking for help identifying bugs, writing and reducing test cases and documentation.</p>
+      
+      <p>This is the best way to contribute to jQuery core. Please read through the full guide detailing <a href="#how-to-report-bugs">How to Report Bugs</a>.</p>
+      
+      <h2 id="discussion">Discussion</h2>
+      
+      <h3 id="forum-and-irc">Forum and IRC</h3>
+      
+      <p>The jQuery core development team frequently tracks posts on the <a href="http://forum.jquery.com/developing-jquery-core">jQuery Development Forum</a>. If you have longer posts or questions please feel free to post them there. If you think you've found a bug please <a href="#how-to-report-bugs">file it in the bug tracker</a>.</p>
+      
+      <p>Additionally most of the jQuery core development team can be found in the <a href="http://webchat.freenode.net/?channels=jquery-dev">#jquery-dev</a> IRC channel on irc.freenode.net.</p>
+      
+      <h3 id="weekly-status-meetings">Weekly Status Meetings</h3>
+      
+      <p>Every week (unless otherwise noted) the jQuery core dev team has a meeting to discuss the progress of current work and to bring forward possible new blocker bugs for discussion.</p>
+      
+      <p>The meeting is held in the <a href="http://webchat.freenode.net/?channels=jquery-meeting">#jquery-meeting</a> IRC channel on irc.freenode.net at <a href="http://www.timeanddate.com/worldclock/fixedtime.html?month=1&amp;day=17&amp;year=2011&amp;hour=12&amp;min=0&amp;sec=0&amp;p1=43">Noon EST</a> on Mondays.</p>
+      
+      <p><a href="https://docs.google.com/document/d/1MrLFvoxW7GMlH9KK-bwypn77cC98jUnz7sMW1rg_TP4/edit?hl=en">Past Meeting Notes</a></p>
+      
+      <h2 id="how-to-report-bugs">How to Report Bugs</h2>
+      
+      <h3 id="make-sure-it-is-a-jquery-bug">Make sure it is a jQuery bug</h3>
+      
+      <p>Many bugs reported to our bug tracker are actually bugs in user code, not in jQuery code. Keep in mind that just because your code throws an error and the console points to a line number inside of jQuery, this does <em>not</em> mean the bug is a jQuery bug; more often than not, these errors result from providing incorrect arguments when calling a jQuery function.</p>
+      
+      <p>If you are new to jQuery, it is usually a much better idea to ask for help first in the <a href="http://forum.jquery.com/using-jquery">Using jQuery Forum</a> or the <a href="http://webchat.freenode.net/?channels=%23jquery">jQuery IRC channel</a>. You will get much quicker support, and you will help avoid tying up the jQuery team with invalid bug reports. These same resources can also be useful if you want to confirm that your bug is indeed a bug in jQuery before filing any tickets.</p>
+      
+      <h3 id="disable-any-browser-extensions">Disable any browser extensions</h3>
+      
+      <p>Make sure you have reproduced the bug with all browser extensions and add-ons disabled, as these can sometimes cause things to break in interesting and unpredictable ways. Try using incognito, stealth or anonymous browsing modes.</p>
+      
+      <h3 id="try-the-latest-version-of-jquery">Try the latest version of jQuery</h3>
+      
+      <p>Bugs in old versions of jQuery may have already been fixed. In order to avoid reporting known issues, make sure you are always testing against the <a href="http://code.jquery.com/jquery.js">latest build</a>.</p>
+      
+      <h3 id="try-an-older-version-of-jquery">Try an older version of jQuery</h3>
+      
+      <p>Sometimes, bugs are introduced in newer versions of jQuery that do not exist in previous versions. When possible, it can be useful to try testing with an older release.</p>
+      
+      <h3 id="reduce-reduce-reduce">Reduce, reduce, reduce!</h3>
+      
+      <p>When you are experiencing a problem, the most useful thing you can possibly do is to <a href="http://webkit.org/quality/reduction.html">reduce your code</a> to the bare minimum required to reproduce the issue. This makes it <em>much</em> easier to isolate and fix the offending code. Bugs that are reported without reduced test cases take on average 9001% longer to fix than bugs that are submitted with them, so you really should try to do this if at all possible.</p>
+      
+      <h2 id="jquery-core-style-guide">jQuery Core Style Guide</h2>
+      
+      <p>See: <a href="http://docs.jquery.com/JQuery_Core_Style_Guidelines">jQuery Core Style Guide</a></p>
+      
+      <h2 id="tips-for-bug-patching">Tips For Bug Patching</h2>
+      
+      <h3 id="environment-localhost-w-php-node--grunt">Environment: localhost w/ PHP, Node &amp; Grunt</h3>
+      
+      <p>Starting in jQuery 1.8, a newly overhauled development workflow has been introduced. In this new system, we rely on node &amp; gruntjs to automate the building and validation of source code—while you write code.</p>
+      
+      <p>The Ajax tests still depend on PHP running locally*, so make sure you have the following installed:</p>
+      
+      <ul>
+        <li>Some kind of localhost server program that supports PHP (any will do)</li>
+        <li>Node.js</li>
+        <li>NPM (comes with the latest version of Node.js)</li>
+        <li>Grunt (install with: <code>npm install grunt -g</code></li>
+      </ul>
+      
+      <p>Maintaining a list of platform specific instructions is outside of the scope of this document and there is plenty of existing documentation for the above technologies.</p>
+      
+      <ul>
+        <li>The PHP dependency will soon be shed in favor of an all-node solution.</li>
+      </ul>
+      
+      <h3 id="build-a-local-copy-of-jquery">Build a Local Copy of jQuery</h3>
+      
+      <p>Create a fork of the jQuery repo on github at http://github.com/jquery/jquery</p>
+      
+      <p>Change directory to your web root directory, whatever that might be:</p>
+      
+      <p><code>bash
+      $ cd /path/to/your/www/root/
+      </code></p>
+      
+      <p>Clone your jQuery fork to work locally</p>
+      
+      <p><code>bash
+      $ git clone git@github.com:username/jquery.git
+      </code></p>
+      
+      <p>Change directory to the newly created dir jquery/</p>
+      
+      <p><code>bash
+      $ cd jquery
+      </code></p>
+      
+      <p>Add the jQuery master as a remote. I label mine "upstream"</p>
+      
+      <p><code>bash
+      $ git remote add upstream git://github.com/jquery/jquery.git
+      </code></p>
+      
+      <p>Get in the habit of pulling in the "upstream" master to stay up to date as jQuery receives new commits</p>
+      
+      <p><code>bash
+      $ git pull upstream master
+      </code></p>
+      
+      <p>Run the Grunt tools:</p>
+      
+      <p><code>bash
+      $ grunt &amp;&amp; grunt watch
+      </code></p>
+      
+      <p>Now open the jQuery test suite in a browser at http://localhost/test. If there is a port, be sure to include it.</p>
+      
+      <p>Success! You just built and tested jQuery!</p>
+      
+      <h3 id="fix-a-bug-from-a-ticket-filed-at-bugsjquerycom">Fix a bug from a ticket filed at bugs.jquery.com:</h3>
+      
+      <p><strong>NEVER write your patches to the master branch</strong> - it gets messy (I say this from experience!)</p>
+      
+      <p><strong>ALWAYS USE A "TOPIC" BRANCH!</strong> Like so (#### = the ticket #)…</p>
+      
+      <p>Make sure you start with your up-to-date master:</p>
+      
+      <p><code>bash
+      $ git checkout master
+      </code></p>
+      
+      <p>Create and checkout a new branch that includes the ticket #</p>
+      
+      <p>```bash
+      $ git checkout -b bug_####</p>
+      
+      <h1 id="explanation-this-useful-command-will">( Explanation: this useful command will:</h1>
+      <p># "checkout" a "-b" (branch) by the name of "bug_####"
+      # or create it if it doesn't exist )
+      ```</p>
+      
+      <p>Now you're on branch: bug_####</p>
+      
+      <p>Determine the module/file you'll be working in…</p>
+      
+      <p>Open up the corresponding /test/unit/?????.js and add the initial failing unit tests. This may seem awkward at first, but in the long run it will make sense. To truly and efficiently patch a bug, you need to be working against that bug.</p>
+      
+      <p>Next, open the module files and make your changes</p>
+      
+      <p>Run http://localhost/test –&gt; <strong>ALL TESTS MUST PASS</strong></p>
+      
+      <p>Once you're satisfied with your patch…</p>
+      
+      <p>Stage the files to be tracked:</p>
+      
+      <p><code>bash
+      $ git add filename
+      # (you can use "git status" to list the files you've changed)
+      </code></p>
+      
+      <p>( I recommend NEVER, EVER using "git add . " )</p>
+      
+      <p>Once you've staged all of your changed files, go ahead and commit them</p>
+      
+      <p><code>bash
+      $ git commit -m "Brief description of fix. Fixes #0000"
+      </code></p>
+      
+      <p>For a multiple line commit message, leave off the <code>-m "description"</code>.</p>
+      
+      <p>You will then be led into vi (or the text editor that you have set up) to complete your commit message.</p>
+      
+      <p>Then, push your branch with the bug fix commits to your github fork</p>
+      
+      <p><code>bash
+      $ git push origin -u bug_####
+      </code></p>
+      
+      <p>Before you tackle your next bug patch, return to the master:</p>
+      
+      <p><code>bash
+      $ git checkout master
+      </code></p>
+      
+      <h3 id="test-suite-tips">Test Suite Tips…</h3>
+      
+      <p>During the process of writing your patch, you will run the test suite MANY times. You can speed up the process by narrowing the running test suite down to the module you are testing by either double clicking the title of the test or appending it to the url. The following examples assume you're working on a local repo, hosted on your localhost server.</p>
+      
+      <p>Example:</p>
+      
+      <p>http://localhost/test/?filter=css</p>
+      
+      <p>This will only run the "css" module tests. This will significantly speed up your development and debugging.</p>
+      
+      <p><strong>ALWAYS RUN THE FULL SUITE BEFORE COMMITTING AND PUSHING A PATCH!</strong></p>
+      
+      <h3 id="jquery-supports-the-following-browsers">jQuery supports the following browsers:</h3>
+      
+      <ul>
+        <li>Chrome Current-1</li>
+        <li>Safari Current-1</li>
+        <li>Firefox Current-1</li>
+        <li>IE 6+</li>
+        <li>Opera Current-1</li>
+      </ul>
+    </section>
+    <section id='footer' role='footer'>
+      <div id='partners'>
+        <div class='row'>
+          <ul class='large-block-grid-6 medium-block-grid-6 small-block-grid-3 partners'>
+            <li>
+              <a href="http://lgbthistorymonth.org.uk/"><img alt="" width="350" height="350" src="../../../../../images/partners/logo1_lgbthistmonth.png" />
+              </a>
+            </li>
+            <li>
+              <a href="http://lgf.org.uk"><img alt="" width="350" height="350" src="../../../../../images/partners/logo2_lgf.png" />
+              </a>
+            </li>
+            <li>
+              <a href="http://mmu.ac.uk"><img alt="" width="350" height="350" src="../../../../../images/partners/logo3_mmu.png" />
+              </a>
+            </li>
+            <li>
+              <a href="http://www.phm.org.uk/"><img alt="" width="350" height="350" src="../../../../../images/partners/logo4_PHM.png" />
+              </a>
+            </li>
+            <li>
+              <a href="http://www.schools-out.org.uk/"><img alt="" width="350" height="350" src="../../../../../images/partners/logo5_schoolsout.png" />
+              </a>
+            </li>
+            <li>
+              <a href="http://www.archivesplus.org/"><img alt="" width="350" height="350" src="../../../../../images/partners/logo6_mcc.png" />
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div id='supporters'>
+        <div class='row'>
+          <ul class='large-block-grid-8 medium-block-grid-8 small-block-grid-4 text-center partners'>
+            <li>
+              <a href="http://www.brittenpears.org/"><img alt="" width="200" height="200" src="../../../../../images/supporters/1-bpf.png" />
+              </a>
+            </li>
+            <li>
+              <a href="http://www.artscouncil.org.uk/"><img alt="" width="200" height="200" src="../../../../../images/supporters/2-artscouncil.png" />
+              </a>
+            </li>
+            <li>
+              <a href="https://www.atl.org.uk/"><img alt="" width="200" height="200" src="../../../../../images/supporters/3-ATL.png" />
+              </a>
+            </li>
+            <li>
+              <a href="http://www.c-h-e.org.uk/"><img alt="" width="200" height="200" src="../../../../../images/supporters/4-che.png" />
+              </a>
+            </li>
+            <li>
+              <a href="http://milkfoundation.org/"><img alt="" width="200" height="200" src="../../../../../images/supporters/5-milkfoundation.png" />
+              </a>
+            </li>
+            <li>
+              <a href="http://www.hlf.org.uk/"><img alt="" width="200" height="200" src="../../../../../images/supporters/6-hlf.png" />
+              </a>
+            </li>
+            <li>
+              <a href="http://www.lgbtyouthnorthwest.org.uk/"><img alt="" width="200" height="200" src="../../../../../images/supporters/7-lgbtyouth.png" />
+              </a>
+            </li>
+            <li>
+              <a href="http://www.alliscalm.net/"><img alt="" width="200" height="200" src="../../../../../images/supporters/8-kim.png" />
+              </a>
+            </li>
+            <li>
+              <a href="http://www.marketingmanchester.com/"><img alt="" width="200" height="200" src="../../../../../images/supporters/9-MM.png" />
+              </a>
+            </li>
+            <li>
+              <a href="http://studiosquid.co.uk/"><img alt="" width="200" height="200" src="../../../../../images/supporters/10-squid.png" />
+              </a>
+            </li>
+            <li>
+              <a href="http://www.unison.org.uk/"><img alt="" width="200" height="200" src="../../../../../images/supporters/11-unison.png" />
+              </a>
+            </li>
+            <li>
+              <a href="http://initiative-consulting.com/"><img alt="" width="200" height="200" src="../../../../../images/supporters/12-foaleconsult.png" />
+              </a>
+            </li>
+            <li>
+              <a href="https://www.dlapiper.com/en/uk/"><img alt="" width="200" height="200" src="../../../../../images/supporters/13-dlapiper.png" />
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <section class='pink' id='credits' role='credits'>
+      <div class='row'>
+        <div class='columns medium-2 small-1'>
+          <p></p>
+        </div>
+        <div class='columns medium-8 small-10'>
+          <h6 id="lgbt-history-festival">© 2014 LGBT History Festival</h6>
+          
+          <p><strong>Part of Schools OUT UK, Registered Charity #1156352 in England and Wales.</strong></p>
+          
+          <hr />
+          
+          <p>Uncovering &amp; celebrating our <strong>past</strong> to enlighten our <strong>present</strong> &amp; thereby guiding our creation of a more inclusive &amp; equitable <strong>future</strong>.</p>
+          
+          <hr />
+          
+          <p>LGBT History Festival website created with love by <a href="http://alliscalm.net">Kim Foale</a> and <a href="http://studiosquid.co.uk/">Squid</a>.</p>
+        </div>
+        <div class='columns medium-2 small-1'>
+          <p></p>
+        </div>
+      </div>
+    </section>
+    <script src="../../../../../javascripts/all.js" type="text/javascript"></script>
+    <script type="text/javascript">
+      var _gaq = _gaq || [];
+      _gaq.push(["_setAccount", "UA-53451502-1"]);
+      _gaq.push(["_trackPageview"]);
+      (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? '//ssl' : '//www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
+    </script>
+  </body>
+</html>

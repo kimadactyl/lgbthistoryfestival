@@ -1,0 +1,571 @@
+<!DOCTYPE html>
+<html class='no-js' lang='en'>
+  <head>
+    <meta charset='utf-8'>
+    <meta content='width=device-width, initial-scale=1.0' name='viewport'>
+    <!-- Facebook info -->
+    <meta content='First National Festival of LGBT History' property='og:site_name'>
+    <meta property='og:title'>
+    <meta content='http://lgbthistoryfestival.org/images/wide-logo.png' property='og:image'>
+    <!-- Use title if it's in the page YAML frontmatter -->
+    <title>The First National Festival of LGBT History</title>
+    <!-- Fonts -->
+    <script src='//use.typekit.net/cou1fvf.js' type='text/javascript'></script>
+    <script>
+      try{Typekit.load();}catch(e){}
+    </script>
+    <link href="../../../../../stylesheets/app.css" rel="stylesheet" type="text/css" />
+    <script src="../../../../../javascripts/libs.js" type="text/javascript"></script>
+  </head>
+  <body class='bower_components bower_components_jquery bower_components_jquery_source bower_components_jquery_source_bower_components bower_components_jquery_source_bower_components_jquery bower_components_jquery_source_bower_components_jquery_README'>
+    <div class='sticky show-for-small contain-to-grid'>
+      <nav class='top-bar' data-topbar='data-topbar' id='mobilenav' role='navigation'>
+        <ul class='title-area'>
+          <li class='name'>
+            <h1></h1>
+          </li>
+          <li class='toggle-topbar menu-icon'>
+            <a href="#"><span>Menu</span></a>
+          </li>
+        </ul>
+        <section class='top-bar-section block-grid-1'>
+          <ul class='left'>
+            <li class=''><a class="" href="/">Home</a></li>
+            <li class=''><a class="" href="/schedule.html">Schedule</a></li>
+            <li class=''><a class="" href="/travel.html">Travel</a></li>
+            <li class=''><a class="" href="/blog.html">Blog</a></li>
+            <li class=''><a class="" href="/conference.html">Academic</a></li>
+            <li class=''><a class="" href="/about-us.html">About</a></li>
+            <li class=''><a class="" href="/contact.html">Contact</a></li>
+          </ul>
+        </section>
+      </nav>
+    </div>
+    <section id='branding'>
+      <a href="/"><h1>
+        <img alt="The First National Festival of LGBT History" width="375" height="150" class="mainlogo" src="../../../../../images/logo.png" />
+        <img alt="Hosted by the City of Manchester" width="492" height="82" class="strapline" src="../../../../../images/strapline.png" />
+      </h1>
+      </a>
+      <nav class='hide-for-small' id='primary'>
+        <ul>
+          <span class='navleft'>
+            <li class=''><a class="" href="/schedule.html">Schedule</a></li>
+            <li class=''><a class="" href="/travel.html">Travel</a></li>
+            <li class=''><a class="" href="/blog.html">Blog</a></li>
+          </span>
+          <span class='navright'>
+            <li class=''><a class="" href="/conference.html">Academic</a></li>
+            <li class=''><a class="" href="/about-us.html">About</a></li>
+            <li class=''><a class="" href="/contact.html">Contact</a></li>
+          </span>
+        </ul>
+      </nav>
+      <div id='topborder'></div>
+    </section>
+    <section id='main' role='content'>
+      <h1 id="jqueryhttpjquerycom---new-wave-javascript"><a href="http://jquery.com/">jQuery</a> - New Wave JavaScript</h1>
+      
+      <h2 id="contribution-guides">Contribution Guides</h2>
+      
+      <p>In the spirit of open source software development, jQuery always encourages community code contribution. To help you get started and before you jump into writing code, be sure to read these important contribution guidelines thoroughly:</p>
+      
+      <ol>
+        <li><a href="http://docs.jquery.com/Getting_Involved">Getting Involved</a></li>
+        <li><a href="http://docs.jquery.com/JQuery_Core_Style_Guidelines">Core Style Guide</a></li>
+        <li><a href="http://docs.jquery.com/Tips_for_jQuery_Bug_Patching">Tips For Bug Patching</a></li>
+      </ol>
+      
+      <h2 id="what-you-need-to-build-your-own-jquery">What you need to build your own jQuery</h2>
+      
+      <p>In order to build jQuery, you need to have Node.js/npm latest and git 1.7 or later.
+      (Earlier versions might work OK, but are not tested.)</p>
+      
+      <p>Windows users have two options:</p>
+      
+      <ol>
+        <li>Install <a href="https://code.google.com/p/msysgit/">msysgit</a> (Full installer for official Git) and a
+      <a href="http://nodejs.org">binary version of Node.js</a>. Make sure all two packages are installed to the same
+      location (by default, this is C:\Program Files\Git).</li>
+        <li>Install <a href="http://cygwin.com/">Cygwin</a> (make sure you install the git and which packages), and
+      a <a href="http://nodejs.org/">binary version of Node.js</a>.</li>
+      </ol>
+      
+      <p>Mac OS users should install Xcode (comes on your Mac OS install DVD, or downloadable from
+      <a href="http://developer.apple.com/technologies/xcode.html">Apple's Xcode site</a>) and
+      <a href="http://mxcl.github.com/homebrew/">Homebrew</a>. Once Homebrew is installed, run <code>brew install git</code> to install git,
+      and <code>brew install node</code> to install Node.js.</p>
+      
+      <p>Linux/BSD users should use their appropriate package managers to install git and Node.js, or build from source
+      if you swing that way. Easy-peasy.</p>
+      
+      <h2 id="how-to-build-your-own-jquery">How to build your own jQuery</h2>
+      
+      <p>First, clone a copy of the main jQuery git repo by running:</p>
+      
+      <p><code>bash
+      git clone git://github.com/jquery/jquery.git
+      </code></p>
+      
+      <p>Install the grunt-cli package so that you will have the correct version of grunt available from any project that needs it. This should be done as a global install:</p>
+      
+      <p><code>bash
+      npm install -g grunt-cli
+      </code></p>
+      
+      <p>Enter the jquery directory and install the Node dependencies, this time <em>without</em> specifying a global install:</p>
+      
+      <p><code>bash
+      cd jquery &amp;&amp; npm install
+      </code></p>
+      
+      <p>Make sure you have <code>grunt</code> installed by testing:</p>
+      
+      <p><code>bash
+      grunt -version
+      </code></p>
+      
+      <p>Then, to get a complete, minified (w/ Uglify.js), linted (w/ JSHint) version of jQuery, type the following:</p>
+      
+      <p><code>bash
+      grunt
+      </code></p>
+      
+      <p>The built version of jQuery will be put in the <code>dist/</code> subdirectory, along with the minified copy and associated map file.</p>
+      
+      <h3 id="modules">Modules</h3>
+      
+      <p>Special builds can be created that exclude subsets of jQuery functionality.
+      This allows for smaller custom builds when the builder is certain that those parts of jQuery are not being used.
+      For example, an app that only used JSONP for <code>$.ajax()</code> and did not need to calculate offsets or positions of elements could exclude the offset and ajax/xhr modules. The current modules that can be excluded are:</p>
+      
+      <ul>
+        <li><strong>ajax</strong>: All AJAX functionality: <code>$.ajax()</code>, <code>$.get()</code>, <code>$.post()</code>, <code>$.ajaxSetup()</code>, <code>.load()</code>, transports, and ajax event shorthands such as <code>.ajaxStart()</code>.</li>
+        <li><strong>ajax/xhr</strong>: The XMLHTTPRequest AJAX transport only.</li>
+        <li><strong>ajax/script</strong>: The <code>&lt;script&gt;</code> AJAX transport only; used to retrieve scripts.</li>
+        <li><strong>ajax/jsonp</strong>: The JSONP AJAX transport only; depends on the ajax/script transport.</li>
+        <li><strong>css</strong>: The <code>.css()</code> method plus non-animated <code>.show()</code>, <code>.hide()</code> and <code>.toggle()</code>.</li>
+        <li><strong>deprecated</strong>: Methods documented as deprecated but not yet removed; currently only <code>.andSelf()</code>.</li>
+        <li><strong>dimensions</strong>: The <code>.width()</code> and <code>.height()</code> methods, including <code>inner-</code> and <code>outer-</code> variations.</li>
+        <li><strong>effects</strong>: The <code>.animate()</code> method and its shorthands such as <code>.slideUp()</code> or <code>.hide("slow")</code>. </li>
+        <li><strong>event-alias</strong>: All event attaching/triggering shorthands like <code>.click()</code> or <code>.mouseover()</code>.</li>
+        <li><strong>offset</strong>: The <code>.offset()</code>, <code>.position()</code>, <code>.offsetParent()</code>, <code>.scrollLeft()</code>, and <code>.scrollTop()</code> methods.</li>
+        <li><strong>wrap</strong>: The <code>.wrap()</code>, <code>.wrapAll()</code>, <code>.wrapInner()</code>, and <code>.unwrap()</code> methods.</li>
+      </ul>
+      
+      <p>The grunt build process is aware of dependencies across modules. If you explicitly remove a module, its dependent modules will be removed as well. For example, excluding the css module also excludes effects, since the effects module uses <code>.css()</code> to animate CSS properties. These dependencies are listed in Gruntfile.js and the build process shows a message for each dependent module it excludes.</p>
+      
+      <p>To create a custom build of the latest stable version, first check out the version:</p>
+      
+      <p><code>bash
+      git pull; git checkout $(git describe --abbrev=0 --tags)
+      </code></p>
+      
+      <p>Then, make sure all Node dependencies are installed and all Git submodules are checked out:</p>
+      
+      <p><code>bash
+      npm install &amp;&amp; grunt
+      </code></p>
+      
+      <p>Create the custom build, use the <code>grunt custom</code> option, listing the modules to be excluded. Examples:</p>
+      
+      <p>Exclude all <strong>ajax</strong> functionality:</p>
+      
+      <p><code>bash
+      grunt custom:-ajax
+      </code></p>
+      
+      <p>Exclude <strong>css</strong>, <strong>effects</strong>, <strong>offset</strong>, <strong>dimensions</strong>, and <strong>position</strong>. Excluding <strong>css</strong> automatically excludes its dependent modules:</p>
+      
+      <p><code>bash
+      grunt custom:-css,-position
+      </code></p>
+      
+      <p>Exclude <strong>all</strong> optional modules:</p>
+      
+      <p><code>bash
+      grunt custom:-ajax,-css,-deprecated,-dimensions,-effects,-event-alias,-offset,-wrap
+      </code></p>
+      
+      <p>For questions or requests regarding custom builds, please start a thread on the <a href="https://forum.jquery.com/developing-jquery-core">Developing jQuery Core</a> section of the forum. Due to the combinatorics and custom nature of these builds, they are not regularly tested in jQuery's unit test process.</p>
+      
+      <h2 id="running-the-unit-tests">Running the Unit Tests</h2>
+      
+      <p>Start grunt to auto-build jQuery as you work:</p>
+      
+      <p><code>bash
+      cd jquery &amp;&amp; grunt watch
+      </code></p>
+      
+      <p>Run the unit tests with a local server that supports PHP. Ensure that you run the site from the root directory, not the "test" directory. No database is required. Pre-configured php local servers are available for Windows and Mac. Here are some options:</p>
+      
+      <ul>
+        <li>Windows: <a href="http://www.wampserver.com/en/">WAMP download</a></li>
+        <li>Mac: <a href="http://www.mamp.info/en/index.html">MAMP download</a></li>
+        <li>Linux: <a href="https://www.linux.com/learn/tutorials/288158-easy-lamp-server-installation">Setting up LAMP</a></li>
+        <li><a href="http://code.google.com/p/mongoose/">Mongoose (most platforms)</a></li>
+      </ul>
+      
+      <h2 id="building-to-a-different-directory">Building to a different directory</h2>
+      
+      <p>To copy the built jQuery files from <code>/dist</code> to another directory:</p>
+      
+      <p><code>bash
+      grunt &amp;&amp; grunt dist:/path/to/special/location/
+      </code>
+      With this example, the output files would be:</p>
+      
+      <p><code>bash
+      /path/to/special/location/jquery.js
+      /path/to/special/location/jquery.min.js
+      </code></p>
+      
+      <p>To add a permanent copy destination, create a file in <code>dist/</code> called ".destination.json". Inside the file, paste and customize the following:</p>
+      
+      <p>```json</p>
+      
+      <p>{
+        "/Absolute/path/to/other/destination": true
+      }
+      ```</p>
+      
+      <p>Additionally, both methods can be combined.</p>
+      
+      <h2 id="updating-submodules">Updating Submodules</h2>
+      
+      <p>Update the submodules to what is probably the latest upstream code.</p>
+      
+      <p><code>bash
+      grunt update_submodules
+      </code></p>
+      
+      <p>Note: This task will also be run any time the default <code>grunt</code> command is used.</p>
+      
+      <h2 id="essential-git">Essential Git</h2>
+      
+      <p>As the source code is handled by the version control system Git, it's useful to know some features used.</p>
+      
+      <h3 id="submodules">Submodules</h3>
+      
+      <p>The repository uses submodules, which normally are handled directly by the <code>grunt update_submodules</code> command, but sometimes you want to
+      be able to work with them manually.</p>
+      
+      <p>Following are the steps to manually get the submodules:</p>
+      
+      <p><code>bash
+      git clone https://github.com/jquery/jquery.git
+      cd jquery
+      git submodule init
+      git submodule update
+      </code></p>
+      
+      <p>Or:</p>
+      
+      <p><code>bash
+      git clone https://github.com/jquery/jquery.git
+      cd jquery
+      git submodule update --init
+      </code></p>
+      
+      <p>Or:</p>
+      
+      <p><code>bash
+      git clone --recursive https://github.com/jquery/jquery.git
+      cd jquery
+      </code></p>
+      
+      <p>If you want to work inside a submodule, it is possible, but first you need to checkout a branch:</p>
+      
+      <p><code>bash
+      cd src/sizzle
+      git checkout master
+      </code></p>
+      
+      <p>After you've committed your changes to the submodule, you'll update the jquery project to point to the new commit,
+      but remember to push the submodule changes before pushing the new jquery commit:</p>
+      
+      <p><code>bash
+      cd src/sizzle
+      git push origin master
+      cd ..
+      git add src/sizzle
+      git commit
+      </code></p>
+      
+      <h3 id="cleaning">cleaning</h3>
+      
+      <p>If you want to purge your working directory back to the status of upstream, following commands can be used (remember everything you've worked on is gone after these):</p>
+      
+      <p><code>bash
+      git reset --hard upstream/master
+      git clean -fdx
+      </code></p>
+      
+      <h3 id="rebasing">rebasing</h3>
+      
+      <p>For feature/topic branches, you should always used the <code>--rebase</code> flag to <code>git pull</code>, or if you are usually handling many temporary "to be in a github pull request" branches, run following to automate this:</p>
+      
+      <p><code>bash
+      git config branch.autosetuprebase local
+      </code>
+      (see <code>man git-config</code> for more information)</p>
+      
+      <h3 id="handling-merge-conflicts">handling merge conflicts</h3>
+      
+      <p>If you're getting merge conflicts when merging, instead of editing the conflicted files manually, you can use the feature
+      <code>git mergetool</code>. Even though the default tool <code>xxdiff</code> looks awful/old, it's rather useful.</p>
+      
+      <p>Following are some commands that can be used there:</p>
+      
+      <ul>
+        <li><code>Ctrl + Alt + M</code> - automerge as much as possible</li>
+        <li><code>b</code> - jump to next merge conflict</li>
+        <li><code>s</code> - change the order of the conflicted lines</li>
+        <li><code>u</code> - undo an merge</li>
+        <li><code>left mouse button</code> - mark a block to be the winner</li>
+        <li><code>middle mouse button</code> - mark a line to be the winner</li>
+        <li><code>Ctrl + S</code> - save</li>
+        <li><code>Ctrl + Q</code> - quit</li>
+      </ul>
+      
+      <h2 id="qunithttpdocsjquerycomqunit-reference"><a href="http://docs.jquery.com/QUnit">QUnit</a> Reference</h2>
+      
+      <h3 id="test-methods">Test methods</h3>
+      
+      <p><code>js
+      expect( numAssertions );
+      stop();
+      start();
+      </code></p>
+      
+      <p>note: QUnit's eventual addition of an argument to stop/start is ignored in this test suite so that start and stop can be passed as callbacks without worrying about their parameters</p>
+      
+      <h3 id="test-assertions">Test assertions</h3>
+      
+      <p><code>js
+      ok( value, [message] );
+      equal( actual, expected, [message] );
+      notEqual( actual, expected, [message] );
+      deepEqual( actual, expected, [message] );
+      notDeepEqual( actual, expected, [message] );
+      strictEqual( actual, expected, [message] );
+      notStrictEqual( actual, expected, [message] );
+      raises( block, [expected], [message] );
+      </code></p>
+      
+      <h2 id="test-suite-convenience-methods-reference-see-testdatatestinitjshttpsgithubcomjqueryjqueryblobmastertestdatatestinitjs">Test Suite Convenience Methods Reference (See <a href="https://github.com/jquery/jquery/blob/master/test/data/testinit.js">test/data/testinit.js</a>)</h2>
+      
+      <h3 id="returns-an-array-of-elements-with-the-given-ids">Returns an array of elements with the given IDs</h3>
+      
+      <p><code>js
+      q( ... );
+      </code></p>
+      
+      <p>Example:</p>
+      
+      <p>```js
+      q("main", "foo", "bar");</p>
+      
+      <p>=&gt; [ div#main, span#foo, input#bar ]
+      ```</p>
+      
+      <h3 id="asserts-that-a-selection-matches-the-given-ids">Asserts that a selection matches the given IDs</h3>
+      
+      <p><code>js
+      t( testName, selector, [ "array", "of", "ids" ] );
+      </code></p>
+      
+      <p>Example:</p>
+      
+      <p><code>js
+      t("Check for something", "//[a]", ["foo", "baar"]);
+      </code></p>
+      
+      <h3 id="fires-a-native-dom-event-without-going-through-jquery">Fires a native DOM event without going through jQuery</h3>
+      
+      <p><code>js
+      fireNative( node, eventType )
+      </code></p>
+      
+      <p>Example:</p>
+      
+      <p><code>js
+      fireNative( jQuery("#elem")[0], "click" );
+      </code></p>
+      
+      <h3 id="add-random-number-to-url-to-stop-caching">Add random number to url to stop caching</h3>
+      
+      <p><code>js
+      url( "some/url.php" );
+      </code></p>
+      
+      <p>Example:</p>
+      
+      <p>```js
+      url("data/test.html");</p>
+      
+      <p>=&gt; "data/test.html?10538358428943"</p>
+      
+      <p>url("data/test.php?foo=bar");</p>
+      
+      <p>=&gt; "data/test.php?foo=bar&amp;10538358345554"
+      ```</p>
+      
+      <h3 id="load-tests-in-an-iframe">Load tests in an iframe</h3>
+      
+      <p>Loads a given page constructing a url with fileName: <code>"./data/" + fileName + ".html"</code>
+      and fires the given callback on jQuery ready (using the jQuery loading from that page)
+      and passes the iFrame's jQuery to the callback.</p>
+      
+      <p><code>js
+      testIframe( fileName, testName, callback );
+      </code></p>
+      
+      <p>Callback arguments:</p>
+      
+      <p><code>js
+      callback( jQueryFromIFrame, iFrameWindow, iFrameDocument );
+      </code></p>
+      
+      <h3 id="load-tests-in-an-iframe-windowiframecallback">Load tests in an iframe (window.iframeCallback)</h3>
+      
+      <p>Loads a given page constructing a url with fileName: <code>"./data/" + fileName + ".html"</code>
+      The given callback is fired when window.iframeCallback is called by the page
+      The arguments passed to the callback are the same as the
+      arguments passed to window.iframeCallback, whatever that may be</p>
+      
+      <p><code>js
+      testIframeWithCallback( testName, fileName, callback );
+      </code></p>
+      
+      <h2 id="questions">Questions?</h2>
+      
+      <p>If you have any questions, please feel free to ask on the
+      <a href="http://forum.jquery.com/developing-jquery-core">Developing jQuery Core forum</a> or in #jquery on irc.freenode.net.</p>
+    </section>
+    <section id='footer' role='footer'>
+      <div id='partners'>
+        <div class='row'>
+          <ul class='large-block-grid-6 medium-block-grid-6 small-block-grid-3 partners'>
+            <li>
+              <a href="http://lgbthistorymonth.org.uk/"><img alt="" width="350" height="350" src="../../../../../images/partners/logo1_lgbthistmonth.png" />
+              </a>
+            </li>
+            <li>
+              <a href="http://lgf.org.uk"><img alt="" width="350" height="350" src="../../../../../images/partners/logo2_lgf.png" />
+              </a>
+            </li>
+            <li>
+              <a href="http://mmu.ac.uk"><img alt="" width="350" height="350" src="../../../../../images/partners/logo3_mmu.png" />
+              </a>
+            </li>
+            <li>
+              <a href="http://www.phm.org.uk/"><img alt="" width="350" height="350" src="../../../../../images/partners/logo4_PHM.png" />
+              </a>
+            </li>
+            <li>
+              <a href="http://www.schools-out.org.uk/"><img alt="" width="350" height="350" src="../../../../../images/partners/logo5_schoolsout.png" />
+              </a>
+            </li>
+            <li>
+              <a href="http://www.archivesplus.org/"><img alt="" width="350" height="350" src="../../../../../images/partners/logo6_mcc.png" />
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div id='supporters'>
+        <div class='row'>
+          <ul class='large-block-grid-8 medium-block-grid-8 small-block-grid-4 text-center partners'>
+            <li>
+              <a href="http://www.brittenpears.org/"><img alt="" width="200" height="200" src="../../../../../images/supporters/1-bpf.png" />
+              </a>
+            </li>
+            <li>
+              <a href="http://www.artscouncil.org.uk/"><img alt="" width="200" height="200" src="../../../../../images/supporters/2-artscouncil.png" />
+              </a>
+            </li>
+            <li>
+              <a href="https://www.atl.org.uk/"><img alt="" width="200" height="200" src="../../../../../images/supporters/3-ATL.png" />
+              </a>
+            </li>
+            <li>
+              <a href="http://www.c-h-e.org.uk/"><img alt="" width="200" height="200" src="../../../../../images/supporters/4-che.png" />
+              </a>
+            </li>
+            <li>
+              <a href="http://milkfoundation.org/"><img alt="" width="200" height="200" src="../../../../../images/supporters/5-milkfoundation.png" />
+              </a>
+            </li>
+            <li>
+              <a href="http://www.hlf.org.uk/"><img alt="" width="200" height="200" src="../../../../../images/supporters/6-hlf.png" />
+              </a>
+            </li>
+            <li>
+              <a href="http://www.lgbtyouthnorthwest.org.uk/"><img alt="" width="200" height="200" src="../../../../../images/supporters/7-lgbtyouth.png" />
+              </a>
+            </li>
+            <li>
+              <a href="http://www.alliscalm.net/"><img alt="" width="200" height="200" src="../../../../../images/supporters/8-kim.png" />
+              </a>
+            </li>
+            <li>
+              <a href="http://www.marketingmanchester.com/"><img alt="" width="200" height="200" src="../../../../../images/supporters/9-MM.png" />
+              </a>
+            </li>
+            <li>
+              <a href="http://studiosquid.co.uk/"><img alt="" width="200" height="200" src="../../../../../images/supporters/10-squid.png" />
+              </a>
+            </li>
+            <li>
+              <a href="http://www.unison.org.uk/"><img alt="" width="200" height="200" src="../../../../../images/supporters/11-unison.png" />
+              </a>
+            </li>
+            <li>
+              <a href="http://initiative-consulting.com/"><img alt="" width="200" height="200" src="../../../../../images/supporters/12-foaleconsult.png" />
+              </a>
+            </li>
+            <li>
+              <a href="https://www.dlapiper.com/en/uk/"><img alt="" width="200" height="200" src="../../../../../images/supporters/13-dlapiper.png" />
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <section class='pink' id='credits' role='credits'>
+      <div class='row'>
+        <div class='columns medium-2 small-1'>
+          <p></p>
+        </div>
+        <div class='columns medium-8 small-10'>
+          <h6 id="lgbt-history-festival">© 2014 LGBT History Festival</h6>
+          
+          <p><strong>Part of Schools OUT UK, Registered Charity #1156352 in England and Wales.</strong></p>
+          
+          <hr />
+          
+          <p>Uncovering &amp; celebrating our <strong>past</strong> to enlighten our <strong>present</strong> &amp; thereby guiding our creation of a more inclusive &amp; equitable <strong>future</strong>.</p>
+          
+          <hr />
+          
+          <p>LGBT History Festival website created with love by <a href="http://alliscalm.net">Kim Foale</a> and <a href="http://studiosquid.co.uk/">Squid</a>.</p>
+        </div>
+        <div class='columns medium-2 small-1'>
+          <p></p>
+        </div>
+      </div>
+    </section>
+    <script src="../../../../../javascripts/all.js" type="text/javascript"></script>
+    <script type="text/javascript">
+      var _gaq = _gaq || [];
+      _gaq.push(["_setAccount", "UA-53451502-1"]);
+      _gaq.push(["_trackPageview"]);
+      (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? '//ssl' : '//www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
+    </script>
+  </body>
+</html>

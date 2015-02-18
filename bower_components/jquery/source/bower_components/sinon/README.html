@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html class='no-js' lang='en'>
+  <head>
+    <meta charset='utf-8'>
+    <meta content='width=device-width, initial-scale=1.0' name='viewport'>
+    <!-- Facebook info -->
+    <meta content='First National Festival of LGBT History' property='og:site_name'>
+    <meta property='og:title'>
+    <meta content='http://lgbthistoryfestival.org/images/wide-logo.png' property='og:image'>
+    <!-- Use title if it's in the page YAML frontmatter -->
+    <title>The First National Festival of LGBT History</title>
+    <!-- Fonts -->
+    <script src='//use.typekit.net/cou1fvf.js' type='text/javascript'></script>
+    <script>
+      try{Typekit.load();}catch(e){}
+    </script>
+    <link href="../../../../../stylesheets/app.css" rel="stylesheet" type="text/css" />
+    <script src="../../../../../javascripts/libs.js" type="text/javascript"></script>
+  </head>
+  <body class='bower_components bower_components_jquery bower_components_jquery_source bower_components_jquery_source_bower_components bower_components_jquery_source_bower_components_sinon bower_components_jquery_source_bower_components_sinon_README'>
+    <div class='sticky show-for-small contain-to-grid'>
+      <nav class='top-bar' data-topbar='data-topbar' id='mobilenav' role='navigation'>
+        <ul class='title-area'>
+          <li class='name'>
+            <h1></h1>
+          </li>
+          <li class='toggle-topbar menu-icon'>
+            <a href="#"><span>Menu</span></a>
+          </li>
+        </ul>
+        <section class='top-bar-section block-grid-1'>
+          <ul class='left'>
+            <li class=''><a class="" href="/">Home</a></li>
+            <li class=''><a class="" href="/schedule.html">Schedule</a></li>
+            <li class=''><a class="" href="/travel.html">Travel</a></li>
+            <li class=''><a class="" href="/blog.html">Blog</a></li>
+            <li class=''><a class="" href="/conference.html">Academic</a></li>
+            <li class=''><a class="" href="/about-us.html">About</a></li>
+            <li class=''><a class="" href="/contact.html">Contact</a></li>
+          </ul>
+        </section>
+      </nav>
+    </div>
+    <section id='branding'>
+      <a href="/"><h1>
+        <img alt="The First National Festival of LGBT History" width="375" height="150" class="mainlogo" src="../../../../../images/logo.png" />
+        <img alt="Hosted by the City of Manchester" width="492" height="82" class="strapline" src="../../../../../images/strapline.png" />
+      </h1>
+      </a>
+      <nav class='hide-for-small' id='primary'>
+        <ul>
+          <span class='navleft'>
+            <li class=''><a class="" href="/schedule.html">Schedule</a></li>
+            <li class=''><a class="" href="/travel.html">Travel</a></li>
+            <li class=''><a class="" href="/blog.html">Blog</a></li>
+          </span>
+          <span class='navright'>
+            <li class=''><a class="" href="/conference.html">Academic</a></li>
+            <li class=''><a class="" href="/about-us.html">About</a></li>
+            <li class=''><a class="" href="/contact.html">Contact</a></li>
+          </span>
+        </ul>
+      </nav>
+      <div id='topborder'></div>
+    </section>
+    <section id='main' role='content'>
+      <h1 id="sinonjs">Sinon.JS</h1>
+      
+      <p><a href="http://travis-ci.org/cjohansen/Sinon.JS"><img alt="Build status" src="https://secure.travis-ci.org/cjohansen/Sinon.JS.png?branch=master" /></a></p>
+      
+      <p>Standalone and test framework agnostic JavaScript test spies, stubs and mocks.</p>
+      
+      <h2 id="installation">Installation</h2>
+      
+      <p>via <a href="http://github.com/isaacs/npm">npm (node package manager)</a></p>
+      
+      <pre><code>$ npm install sinon
+      </code></pre>
+      
+      <p>via <a href="https://www.nuget.org/packages/SinonJS">NuGet (package manager for Microsoft development platform)</a></p>
+      
+      <pre><code>Install-Package SinonJS
+      </code></pre>
+      
+      <p>or install via git by cloning the repository and including sinon.js
+      in your project, as you would any other third party library.</p>
+      
+      <p>Don't forget to include the parts of Sinon.JS that you want to use as well
+      (i.e. spy.js).</p>
+      
+      <h2 id="usage">Usage</h2>
+      
+      <p>See the <a href="http://sinonjs.org/">sinon project homepage</a></p>
+      
+      <h2 id="goals">Goals</h2>
+      
+      <ul>
+        <li>No global pollution</li>
+        <li>Easy to use</li>
+        <li>Require minimal “integration”</li>
+        <li>Easy to embed seamlessly with any testing framework</li>
+        <li>Easily fake any interface</li>
+        <li>Ship with ready-to-use fakes for XMLHttpRequest, timers and more</li>
+      </ul>
+      
+      <h2 id="contribute">Contribute?</h2>
+      
+      <p>Pick <a href="http://github.com/cjohansen/Sinon.JS/issues">an issue</a> to fix, or pitch
+      new features. To avoid wasting your time, please ask for feedback on feature
+      suggestions either with <a href="http://github.com/cjohansen/Sinon.JS/issues/new">an issue</a>
+      or on <a href="http://groups.google.com/group/sinonjs">the mailing list</a>.</p>
+      
+      <h2 id="run-the-tests">Run the tests</h2>
+      
+      <p>The Sinon.JS developer environment requires Node/NPM. Please make sure you have
+      Node installed, and install Sinon's dependencies:</p>
+      
+      <pre><code>$ npm install
+      </code></pre>
+      
+      <h3 id="on-node">On Node</h3>
+      
+      <pre><code>$ npm test
+      </code></pre>
+      
+      <h3 id="in-the-browser">In the browser</h3>
+      
+      <p>Open <code>test/sinon.html</code> in a browser. To test against a built distribution, first
+      make sure you have a build (requires <a href="https://www.ruby-lang.org/en/">Ruby</a> and <a href="http://rubygems.org/gems/juicer">Juicer</a>):</p>
+      
+      <pre><code>$ ./build
+      </code></pre>
+      
+      <p>Then open <code>test/sinon-dist.html</code> in a browser.</p>
+      
+      <p>If the build script is unable to find Juicer, try</p>
+      
+      <pre><code>$ ruby -rubygems build
+      </code></pre>
+      
+      <p>Some tests needs working XHR to pass. To run the tests over an HTTP server, run</p>
+      
+      <pre><code>$ node_modules/http-server/bin/http-server
+      </code></pre>
+      
+      <p>Then open <a href="http://localhost:8080/test/sinon.html">localhost:8080/test/sinon.html</a>
+      in a browser.</p>
+      
+      <h3 id="on-rhino">On Rhino</h3>
+      
+      <p>The Rhino tests are currently out of commission (pending update after switch to
+      Buster.JS for tests).</p>
+    </section>
+    <section id='footer' role='footer'>
+      <div id='partners'>
+        <div class='row'>
+          <ul class='large-block-grid-6 medium-block-grid-6 small-block-grid-3 partners'>
+            <li>
+              <a href="http://lgbthistorymonth.org.uk/"><img alt="" width="350" height="350" src="../../../../../images/partners/logo1_lgbthistmonth.png" />
+              </a>
+            </li>
+            <li>
+              <a href="http://lgf.org.uk"><img alt="" width="350" height="350" src="../../../../../images/partners/logo2_lgf.png" />
+              </a>
+            </li>
+            <li>
+              <a href="http://mmu.ac.uk"><img alt="" width="350" height="350" src="../../../../../images/partners/logo3_mmu.png" />
+              </a>
+            </li>
+            <li>
+              <a href="http://www.phm.org.uk/"><img alt="" width="350" height="350" src="../../../../../images/partners/logo4_PHM.png" />
+              </a>
+            </li>
+            <li>
+              <a href="http://www.schools-out.org.uk/"><img alt="" width="350" height="350" src="../../../../../images/partners/logo5_schoolsout.png" />
+              </a>
+            </li>
+            <li>
+              <a href="http://www.archivesplus.org/"><img alt="" width="350" height="350" src="../../../../../images/partners/logo6_mcc.png" />
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div id='supporters'>
+        <div class='row'>
+          <ul class='large-block-grid-8 medium-block-grid-8 small-block-grid-4 text-center partners'>
+            <li>
+              <a href="http://www.brittenpears.org/"><img alt="" width="200" height="200" src="../../../../../images/supporters/1-bpf.png" />
+              </a>
+            </li>
+            <li>
+              <a href="http://www.artscouncil.org.uk/"><img alt="" width="200" height="200" src="../../../../../images/supporters/2-artscouncil.png" />
+              </a>
+            </li>
+            <li>
+              <a href="https://www.atl.org.uk/"><img alt="" width="200" height="200" src="../../../../../images/supporters/3-ATL.png" />
+              </a>
+            </li>
+            <li>
+              <a href="http://www.c-h-e.org.uk/"><img alt="" width="200" height="200" src="../../../../../images/supporters/4-che.png" />
+              </a>
+            </li>
+            <li>
+              <a href="http://milkfoundation.org/"><img alt="" width="200" height="200" src="../../../../../images/supporters/5-milkfoundation.png" />
+              </a>
+            </li>
+            <li>
+              <a href="http://www.hlf.org.uk/"><img alt="" width="200" height="200" src="../../../../../images/supporters/6-hlf.png" />
+              </a>
+            </li>
+            <li>
+              <a href="http://www.lgbtyouthnorthwest.org.uk/"><img alt="" width="200" height="200" src="../../../../../images/supporters/7-lgbtyouth.png" />
+              </a>
+            </li>
+            <li>
+              <a href="http://www.alliscalm.net/"><img alt="" width="200" height="200" src="../../../../../images/supporters/8-kim.png" />
+              </a>
+            </li>
+            <li>
+              <a href="http://www.marketingmanchester.com/"><img alt="" width="200" height="200" src="../../../../../images/supporters/9-MM.png" />
+              </a>
+            </li>
+            <li>
+              <a href="http://studiosquid.co.uk/"><img alt="" width="200" height="200" src="../../../../../images/supporters/10-squid.png" />
+              </a>
+            </li>
+            <li>
+              <a href="http://www.unison.org.uk/"><img alt="" width="200" height="200" src="../../../../../images/supporters/11-unison.png" />
+              </a>
+            </li>
+            <li>
+              <a href="http://initiative-consulting.com/"><img alt="" width="200" height="200" src="../../../../../images/supporters/12-foaleconsult.png" />
+              </a>
+            </li>
+            <li>
+              <a href="https://www.dlapiper.com/en/uk/"><img alt="" width="200" height="200" src="../../../../../images/supporters/13-dlapiper.png" />
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <section class='pink' id='credits' role='credits'>
+      <div class='row'>
+        <div class='columns medium-2 small-1'>
+          <p></p>
+        </div>
+        <div class='columns medium-8 small-10'>
+          <h6 id="lgbt-history-festival">© 2014 LGBT History Festival</h6>
+          
+          <p><strong>Part of Schools OUT UK, Registered Charity #1156352 in England and Wales.</strong></p>
+          
+          <hr />
+          
+          <p>Uncovering &amp; celebrating our <strong>past</strong> to enlighten our <strong>present</strong> &amp; thereby guiding our creation of a more inclusive &amp; equitable <strong>future</strong>.</p>
+          
+          <hr />
+          
+          <p>LGBT History Festival website created with love by <a href="http://alliscalm.net">Kim Foale</a> and <a href="http://studiosquid.co.uk/">Squid</a>.</p>
+        </div>
+        <div class='columns medium-2 small-1'>
+          <p></p>
+        </div>
+      </div>
+    </section>
+    <script src="../../../../../javascripts/all.js" type="text/javascript"></script>
+    <script type="text/javascript">
+      var _gaq = _gaq || [];
+      _gaq.push(["_setAccount", "UA-53451502-1"]);
+      _gaq.push(["_trackPageview"]);
+      (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? '//ssl' : '//www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
+    </script>
+  </body>
+</html>

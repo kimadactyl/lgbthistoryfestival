@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html class='no-js' lang='en'>
+  <head>
+    <meta charset='utf-8'>
+    <meta content='width=device-width, initial-scale=1.0' name='viewport'>
+    <!-- Facebook info -->
+    <meta content='First National Festival of LGBT History' property='og:site_name'>
+    <meta property='og:title'>
+    <meta content='http://lgbthistoryfestival.org/images/wide-logo.png' property='og:image'>
+    <!-- Use title if it's in the page YAML frontmatter -->
+    <title>The First National Festival of LGBT History</title>
+    <!-- Fonts -->
+    <script src='//use.typekit.net/cou1fvf.js' type='text/javascript'></script>
+    <script>
+      try{Typekit.load();}catch(e){}
+    </script>
+    <link href="../../stylesheets/app.css" rel="stylesheet" type="text/css" />
+    <script src="../../javascripts/libs.js" type="text/javascript"></script>
+  </head>
+  <body class='bower_components bower_components_jquery-placeholder bower_components_jquery-placeholder_README'>
+    <div class='sticky show-for-small contain-to-grid'>
+      <nav class='top-bar' data-topbar='data-topbar' id='mobilenav' role='navigation'>
+        <ul class='title-area'>
+          <li class='name'>
+            <h1></h1>
+          </li>
+          <li class='toggle-topbar menu-icon'>
+            <a href="#"><span>Menu</span></a>
+          </li>
+        </ul>
+        <section class='top-bar-section block-grid-1'>
+          <ul class='left'>
+            <li class=''><a class="" href="/">Home</a></li>
+            <li class=''><a class="" href="/schedule.html">Schedule</a></li>
+            <li class=''><a class="" href="/travel.html">Travel</a></li>
+            <li class=''><a class="" href="/blog.html">Blog</a></li>
+            <li class=''><a class="" href="/conference.html">Academic</a></li>
+            <li class=''><a class="" href="/about-us.html">About</a></li>
+            <li class=''><a class="" href="/contact.html">Contact</a></li>
+          </ul>
+        </section>
+      </nav>
+    </div>
+    <section id='branding'>
+      <a href="/"><h1>
+        <img alt="The First National Festival of LGBT History" width="375" height="150" class="mainlogo" src="../../images/logo.png" />
+        <img alt="Hosted by the City of Manchester" width="492" height="82" class="strapline" src="../../images/strapline.png" />
+      </h1>
+      </a>
+      <nav class='hide-for-small' id='primary'>
+        <ul>
+          <span class='navleft'>
+            <li class=''><a class="" href="/schedule.html">Schedule</a></li>
+            <li class=''><a class="" href="/travel.html">Travel</a></li>
+            <li class=''><a class="" href="/blog.html">Blog</a></li>
+          </span>
+          <span class='navright'>
+            <li class=''><a class="" href="/conference.html">Academic</a></li>
+            <li class=''><a class="" href="/about-us.html">About</a></li>
+            <li class=''><a class="" href="/contact.html">Contact</a></li>
+          </span>
+        </ul>
+      </nav>
+      <div id='topborder'></div>
+    </section>
+    <section id='main' role='content'>
+      <h1 id="html5-placeholder-jquery-plugin">HTML5 Placeholder jQuery Plugin</h1>
+      
+      <h2 id="demo--examples">Demo &amp; Examples</h2>
+      
+      <p><a href="http://mathiasbynens.be/demo/placeholder">http://mathiasbynens.be/demo/placeholder</a></p>
+      
+      <h2 id="example-usage">Example Usage</h2>
+      
+      <h3 id="html">HTML</h3>
+      
+      <p><code>html
+      &lt;input type="text" name="name" placeholder="e.g. John Doe"&gt;
+      &lt;input type="email" name="email" placeholder="e.g. address@example.ext"&gt;
+      &lt;input type="url" name="url" placeholder="e.g. http://mathiasbynens.be/"&gt;
+      &lt;input type="tel" name="tel" placeholder="e.g. +32 472 77 69 88"&gt;
+      &lt;input type="password" name="password" placeholder="e.g. h4x0rpr00fz"&gt;
+      &lt;input type="search" name="search" placeholder="Search this site…"&gt;
+      &lt;textarea name="message" placeholder="Your message goes here"&gt;&lt;/textarea&gt;
+      </code></p>
+      
+      <h3 id="jquery">jQuery</h3>
+      
+      <p>Use the plugin as follows:</p>
+      
+      <p><code>js
+      $('input, textarea').placeholder();
+      </code></p>
+      
+      <p>You’ll still be able to use <code>jQuery#val()</code> to get and set the input values. If the element is currently showing a placeholder, <code>.val()</code> will return an empty string instead of the placeholder text, just like it does in browsers with a native <code>@placeholder</code> implementation. Calling <code>.val('')</code> to set an element’s value to the empty string will result in the placeholder text (re)appearing.</p>
+      
+      <h3 id="css">CSS</h3>
+      
+      <p>The plugin automatically adds <code>class="placeholder"</code> to the elements who are currently showing their placeholder text. You can use this to style placeholder text differently:</p>
+      
+      <p><code>css
+      input, textarea { color: #000; }
+      .placeholder { color: #aaa; }
+      </code></p>
+      
+      <p>I’d suggest sticking to the <code>#aaa</code> color for placeholder text, as it’s the default in most browsers that support <code>@placeholder</code>. If you really want to, though, you can <a href="http://stackoverflow.com/questions/2610497/change-an-inputs-html5-placeholder-color-with-css/2610741#2610741">style the placeholder text in some of the browsers that natively support it</a>.</p>
+      
+      <h2 id="installation">Installation</h2>
+      
+      <p>You can install jquery-placeholder by using <a href="http://bower.io">Bower</a>.</p>
+      
+      <p><code>bash
+      bower install jquery-placeholder
+      </code></p>
+      
+      <h2 id="notes">Notes</h2>
+      
+      <ul>
+        <li>Requires jQuery 1.6+. For an older version of this plugin that works under jQuery 1.4.2+, see <a href="https://github.com/mathiasbynens/jquery-placeholder/tree/v1.8.7">v1.8.7</a>.</li>
+        <li>Works in all A-grade browsers, including IE6.</li>
+        <li>Automatically checks if the browser natively supports the HTML5 <code>placeholder</code> attribute for <code>input</code> and <code>textarea</code> elements. If this is the case, the plugin won’t do anything. If <code>@placeholder</code> is only supported for <code>input</code> elements, the plugin will leave those alone and apply to <code>textarea</code>s exclusively. (This is the case for Safari 4, Opera 11.00, and possibly other browsers.)</li>
+        <li>Caches the results of its two feature tests in <code>jQuery.fn.placeholder.input</code> and <code>jQuery.fn.placeholder.textarea</code>. For example, if <code>@placeholder</code> is natively supported for <code>input</code> elements, <code>jQuery.fn.placeholder.input</code> will be <code>true</code>. After loading the plugin, you can re-use these properties in your own code.</li>
+        <li>
+          <p>Makes sure it never causes duplicate IDs in your DOM, even in browsers that need an extra <code>input</code> element to fake <code>@placeholder</code> for password inputs. This means you can safely do stuff like:</p>
+      
+          <p><code>html
+        &lt;label for="bar"&gt;Example label&lt;/label&gt;
+        &lt;input type="password" placeholder="foo" id="bar"&gt;
+       </code></p>
+      
+          <p>And the <code>&lt;label&gt;</code> will always point to the <code>&lt;input&gt;</code> element you’d expect. Also, all CSS styles based on the ID will just work™.</p>
+        </li>
+      </ul>
+      
+      <h2 id="license">License</h2>
+      
+      <p>This plugin is available under <a href="http://mths.be/mit">the MIT license</a>.</p>
+      
+      <h2 id="thanks-to">Thanks to…</h2>
+      
+      <ul>
+        <li><a href="http://paulirish.com/">Paul Irish</a> for his inspiring snippet in <a href="http://jquery14.com/day-05/jquery-1-4-hawtness-1-with-paul-irish">jQuery 1.4 Hawtness #1</a></li>
+        <li>everyone from <a href="http://webchat.freenode.net/?channels=jquery">#jquery</a> for the tips, ideas and patches</li>
+        <li>temp01 for his major contributions</li>
+        <li>anyone who <a href="https://github.com/mathiasbynens/jquery-placeholder/contributors">contributed a patch</a> or <a href="https://github.com/mathiasbynens/jquery-placeholder/issues">made a helpful suggestion</a></li>
+      </ul>
+      
+      <p><em>– <a href="http://mathiasbynens.be/">Mathias</a></em></p>
+    </section>
+    <section id='footer' role='footer'>
+      <div id='partners'>
+        <div class='row'>
+          <ul class='large-block-grid-6 medium-block-grid-6 small-block-grid-3 partners'>
+            <li>
+              <a href="http://lgbthistorymonth.org.uk/"><img alt="" width="350" height="350" src="../../images/partners/logo1_lgbthistmonth.png" />
+              </a>
+            </li>
+            <li>
+              <a href="http://lgf.org.uk"><img alt="" width="350" height="350" src="../../images/partners/logo2_lgf.png" />
+              </a>
+            </li>
+            <li>
+              <a href="http://mmu.ac.uk"><img alt="" width="350" height="350" src="../../images/partners/logo3_mmu.png" />
+              </a>
+            </li>
+            <li>
+              <a href="http://www.phm.org.uk/"><img alt="" width="350" height="350" src="../../images/partners/logo4_PHM.png" />
+              </a>
+            </li>
+            <li>
+              <a href="http://www.schools-out.org.uk/"><img alt="" width="350" height="350" src="../../images/partners/logo5_schoolsout.png" />
+              </a>
+            </li>
+            <li>
+              <a href="http://www.archivesplus.org/"><img alt="" width="350" height="350" src="../../images/partners/logo6_mcc.png" />
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div id='supporters'>
+        <div class='row'>
+          <ul class='large-block-grid-8 medium-block-grid-8 small-block-grid-4 text-center partners'>
+            <li>
+              <a href="http://www.brittenpears.org/"><img alt="" width="200" height="200" src="../../images/supporters/1-bpf.png" />
+              </a>
+            </li>
+            <li>
+              <a href="http://www.artscouncil.org.uk/"><img alt="" width="200" height="200" src="../../images/supporters/2-artscouncil.png" />
+              </a>
+            </li>
+            <li>
+              <a href="https://www.atl.org.uk/"><img alt="" width="200" height="200" src="../../images/supporters/3-ATL.png" />
+              </a>
+            </li>
+            <li>
+              <a href="http://www.c-h-e.org.uk/"><img alt="" width="200" height="200" src="../../images/supporters/4-che.png" />
+              </a>
+            </li>
+            <li>
+              <a href="http://milkfoundation.org/"><img alt="" width="200" height="200" src="../../images/supporters/5-milkfoundation.png" />
+              </a>
+            </li>
+            <li>
+              <a href="http://www.hlf.org.uk/"><img alt="" width="200" height="200" src="../../images/supporters/6-hlf.png" />
+              </a>
+            </li>
+            <li>
+              <a href="http://www.lgbtyouthnorthwest.org.uk/"><img alt="" width="200" height="200" src="../../images/supporters/7-lgbtyouth.png" />
+              </a>
+            </li>
+            <li>
+              <a href="http://www.alliscalm.net/"><img alt="" width="200" height="200" src="../../images/supporters/8-kim.png" />
+              </a>
+            </li>
+            <li>
+              <a href="http://www.marketingmanchester.com/"><img alt="" width="200" height="200" src="../../images/supporters/9-MM.png" />
+              </a>
+            </li>
+            <li>
+              <a href="http://studiosquid.co.uk/"><img alt="" width="200" height="200" src="../../images/supporters/10-squid.png" />
+              </a>
+            </li>
+            <li>
+              <a href="http://www.unison.org.uk/"><img alt="" width="200" height="200" src="../../images/supporters/11-unison.png" />
+              </a>
+            </li>
+            <li>
+              <a href="http://initiative-consulting.com/"><img alt="" width="200" height="200" src="../../images/supporters/12-foaleconsult.png" />
+              </a>
+            </li>
+            <li>
+              <a href="https://www.dlapiper.com/en/uk/"><img alt="" width="200" height="200" src="../../images/supporters/13-dlapiper.png" />
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <section class='pink' id='credits' role='credits'>
+      <div class='row'>
+        <div class='columns medium-2 small-1'>
+          <p></p>
+        </div>
+        <div class='columns medium-8 small-10'>
+          <h6 id="lgbt-history-festival">© 2014 LGBT History Festival</h6>
+          
+          <p><strong>Part of Schools OUT UK, Registered Charity #1156352 in England and Wales.</strong></p>
+          
+          <hr />
+          
+          <p>Uncovering &amp; celebrating our <strong>past</strong> to enlighten our <strong>present</strong> &amp; thereby guiding our creation of a more inclusive &amp; equitable <strong>future</strong>.</p>
+          
+          <hr />
+          
+          <p>LGBT History Festival website created with love by <a href="http://alliscalm.net">Kim Foale</a> and <a href="http://studiosquid.co.uk/">Squid</a>.</p>
+        </div>
+        <div class='columns medium-2 small-1'>
+          <p></p>
+        </div>
+      </div>
+    </section>
+    <script src="../../javascripts/all.js" type="text/javascript"></script>
+    <script type="text/javascript">
+      var _gaq = _gaq || [];
+      _gaq.push(["_setAccount", "UA-53451502-1"]);
+      _gaq.push(["_trackPageview"]);
+      (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? '//ssl' : '//www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
+    </script>
+  </body>
+</html>
